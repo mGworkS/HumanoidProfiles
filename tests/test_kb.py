@@ -12,7 +12,8 @@ import kb
 
 class KnowledgeTests(unittest.TestCase):
  def test_valid_seed(self):
-  self.assertEqual(kb.validate(),5)
+  self.assertEqual(kb.validate(),len(kb.load()[2]))
+  self.assertGreater(kb.validate(),5)
  def test_announced_offer_is_not_procurement(self):
   data=kb.load()[2]['agility_digit5'][1]
   self.assertEqual(kb.procurement_offers(data,date(2026,10,29),'EU','unternehmen'),[])
@@ -70,5 +71,31 @@ class KnowledgeTests(unittest.TestCase):
   kb.generate();kb.check_links()
   before=(kb.ROOT/'README.md').read_bytes();kb.generate()
   self.assertEqual(before,(kb.ROOT/'README.md').read_bytes())
+
+ def test_import_coverage_and_existing_ids(self):
+  manifest=json.loads((kb.ROOT/'recherche/importe/zuordnung_20261029.json').read_text())
+  known=json.loads((kb.ROOT/'recherche/importe/bestand_20261029.json').read_text())
+  added=json.loads((kb.ROOT/'recherche/importe/ergaenzungen_20261029.json').read_text())
+  expected={'B'+r['id'] for r in known}|{f'N{i:02}.{j:02}' for i,r in enumerate(added,1) for j,_ in enumerate(r['models'],1)}
+  rows=manifest['positions'];self.assertEqual(len(rows),len(expected))
+  self.assertEqual({p['origin'] for p in rows},expected)
+  targets=[rid for p in rows for rid in p['target_ids']]
+  self.assertEqual(len(targets),len(set(targets)))
+  self.assertEqual(set(targets),set(kb.load()[2]))
+  self.assertTrue(set(manifest['preserved_seed_ids']).issubset(targets))
+ def test_imports_do_not_invent_facts_or_offers(self):
+  manifest=json.loads((kb.ROOT/'recherche/importe/zuordnung_20261029.json').read_text())
+  robots=kb.load()[2]
+  for rid in manifest['created_ids']:
+   meta,data,body=robots[rid]
+   self.assertEqual(meta['maintenance']['status'],'erfasst')
+   self.assertIsNone(meta['maintenance']['reviewed_at'])
+   self.assertFalse(data['offers'])
+   self.assertTrue(all(c['value'] is None for c in data['claims']))
+ def test_same_name_different_manufacturers_remain_distinct(self):
+  robots=kb.load()[2]
+  g1=[m for m,d,b in robots.values() if m['name']=='G1']
+  self.assertEqual(len(g1),3)
+  self.assertEqual(len({m['manufacturer_id'] for m in g1}),3)
 
 if __name__=='__main__':unittest.main()

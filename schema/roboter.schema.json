@@ -171,12 +171,26 @@
       "type": "object",
       "properties": {
         "last_search": {
-          "type": "string",
-          "format": "date"
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "reviewed_at": {
-          "type": "string",
-          "format": "date"
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "next_review": {
           "type": "string",

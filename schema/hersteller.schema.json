@@ -22,7 +22,10 @@
       "uniqueItems": true
     },
     "website": {
-      "type": "string",
+      "type": [
+        "string",
+        "null"
+      ],
       "format": "uri"
     },
     "organisationstyp": {

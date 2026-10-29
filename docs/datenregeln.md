@@ -41,3 +41,9 @@ Branche, Aufgabe und Umgebung haben getrennte Tags. Neue Tags sind willkommen, a
 ## Medien
 
 Metadaten für Fotos, Renderings, Videos, Logos und PDFs enthalten Quelle, Modellbezug, Rechte, Version, Sprache und gegebenenfalls lokalen Pfad sowie SHA256. Rechte unbekannt: nur verlinken. Große Binärdateien erst nach bewusster Entscheidung über Git LFS oder externe Ablage aufnehmen.
+
+## Übernommene Recherchebestände
+
+access_method bestandsverweis kennzeichnet einen gespeicherten Quellenlink, der beim Import nicht erneut geöffnet wurde. accessed_at ist hier das Datum der Sichtung des Bestandsverweises. Das ist keine Bestätigung der aktuellen Webseite. Profile mit maintenance.status erfasst können reviewed_at und last_search als null führen. Identität, Bauform und redaktionelle Tags stammen aus dem Bestand und sind noch zu prüfen. Importnotizen sind keine belegten technischen Aussagen.
+
+Herstellerzuordnung kann bei Forschungsprojekten eine beteiligte Organisation oder Gruppe bezeichnen. Eine noch ungeklärte Website bleibt null. Familien und Entwicklungsprogramme werden in Zählungen separat ausgewiesen.

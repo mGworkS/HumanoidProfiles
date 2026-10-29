@@ -1,6 +1,6 @@
 # Architektur 1.0
 
-Die Wissensbasis ist branchenoffen und erfasst humanoide Modelle, relevante Varianten, Forschungsplattformen, Programme und historische Systeme. Die fünf Startprofile sind ein geprüfter Strukturpilot, keine vollständige Inventarmigration.
+Die Wissensbasis ist branchenoffen und erfasst humanoide Modelle, relevante Varianten, Forschungsplattformen, Programme und historische Systeme. Der ursprüngliche Bestand und alle zusätzlichen Namenspositionen sind importiert. Fünf Startprofile sind teilweise quellengeprüft; neue Profile sind als erfasst markiert.
 
 ## Kanonische Dateien
 

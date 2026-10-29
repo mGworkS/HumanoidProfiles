@@ -8,7 +8,16 @@ Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden e
 
 ## Erfasstes Portfolio
 
+* [G1](../../roboter/unitree_g1/README.md)
+* [G1 EDU](../../roboter/unitree_g1_edu/README.md)
+* [G1 Plus](../../roboter/unitree_g1_plus/README.md)
 * [H1](../../roboter/unitree_h1/README.md)
+* [H1 2](../../roboter/unitree_h1_2/README.md)
+* [H2](../../roboter/unitree_h2/README.md)
+* [H2 EDU](../../roboter/unitree_h2_edu/README.md)
+* [H2 Plus](../../roboter/unitree_h2_plus/README.md)
+* [H2 X](../../roboter/unitree_h2_x/README.md)
+* [R1 Familie](../../roboter/unitree_r1_familie/README.md)
 
 ## Quellen
 

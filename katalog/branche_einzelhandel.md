@@ -4,6 +4,6 @@
 
 Kategorien sind keine Eignungszusage. Historische Einordnung und Beschaffbarkeit werden getrennt behandelt.
 
-| Modell | Einordnung | Prüfumfang |
-| --- | --- | --- |
-| [Pepper · klassische Plattform](../roboter/pepper_classic/README.md) | historisch_relevant | teilweise_geprueft |
+| Modell | Eintragstyp | Einordnung | Prüfumfang |
+| --- | --- | --- | --- |
+| [Pepper · klassische Plattform](../roboter/pepper_classic/README.md) | modell | historisch_relevant | teilweise_geprueft |

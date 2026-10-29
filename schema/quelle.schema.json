@@ -44,7 +44,8 @@
       "enum": [
         "direkt",
         "suchindex",
-        "lokale_kopie"
+        "lokale_kopie",
+        "bestandsverweis"
       ]
     },
     "rights": {

@@ -9,6 +9,7 @@ Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden e
 ## Erfasstes Portfolio
 
 * [Digit 5](../../roboter/agility_digit5/README.md)
+* [Digit Generation 4](../../roboter/agility_robotics_digit_generation_4/README.md)
 
 ## Quellen
 

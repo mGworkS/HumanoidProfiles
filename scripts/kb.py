@@ -47,9 +47,9 @@ def load(root=ROOT):
 def validate(root=ROOT):
     sources, orgs, robots, metrics, axes = load(root)
     errors = []
+    validators = {p.name.split('.')[0]: Draft202012Validator(json.loads(p.read_text()), format_checker=FormatChecker()) for p in (root/'schema').glob('*.schema.json')}
     def check(kind, value, label):
-        schema = json.loads((root/f'schema/{kind}.schema.json').read_text())
-        for error in Draft202012Validator(schema, format_checker=FormatChecker()).iter_errors(value):
+        for error in validators[kind].iter_errors(value):
             errors.append(f'{label}: {list(error.path)}: {error.message}')
     def refs(ids, label):
         for sid in ids:
@@ -148,7 +148,7 @@ def generate(root=ROOT):
     for rid,(meta,data,body) in robots.items():
         claims=active_claims(data)
         text=generated+f'# {meta["name"]}\n\n'+body.split('## Einordnung\n\n',1)[-1].split('\n\n## Offene',1)[0]+'\n\n'
-        text+=f'**Hersteller:** [{orgs[meta["manufacturer_id"]]["name"]}](../../hersteller/{meta["manufacturer_id"]}/README.md)  \n**Bauform:** {meta["form"]}  \n**Einordnung:** {meta["classification"]["value"]}  \n**Begründung:** {meta["classification"]["reason"]}  \n**Geltungsbereich:** {meta["scope"]}  \n**Prüfumfang:** {meta["maintenance"]["status"]}, {meta["maintenance"]["reviewed_at"]}\n\n'
+        text+=f'**Hersteller:** [{orgs[meta["manufacturer_id"]]["name"]}](../../hersteller/{meta["manufacturer_id"]}/README.md)  \n**Bauform:** {meta["form"]}  \n**Einordnung:** {meta["classification"]["value"]}  \n**Begründung:** {meta["classification"]["reason"]}  \n**Geltungsbereich:** {meta["scope"]}  \n**Prüfumfang:** {meta["maintenance"]["status"]}, {meta["maintenance"]["reviewed_at"] or 'noch nicht fachlich geprüft'}\n\n'
         text+='**Tags:** '+', '.join(axes[t['axis']][t['id']]['label']+' ('+t['basis']+')' for t in meta['tags'])+'\n\n'
         text+='## Steckbrief\n\n| Merkmal | Angabe | Nachweisstand |\n| --- | --- | --- |\n'
         for key,spec in metrics.items():
@@ -160,7 +160,7 @@ def generate(root=ROOT):
                 anchor=c['id'].replace('_','-')
                 text+=f'| {spec["label"]} | {esc(val)} | [{c["status"]} / {c["evidence"]}](#{anchor}) |\n'
         text+='\n## Beschaffung und Geschäftsmodell\n\n'
-        if not data['offers']: text+='Kein konkretes aktuelles Angebot in diesem Startbestand bestätigt. Das ist kein Nachweis der Nichtverfügbarkeit. Preis, Abo, RaaS und Integrationsleistungen bleiben offen.\n'
+        if not data['offers']: text+='Kein konkretes aktuelles Angebot in diesem Bestand bestätigt. Das ist kein Nachweis der Nichtverfügbarkeit. Preis, Abo, RaaS und Integrationsleistungen bleiben offen.\n'
         for o in data['offers']:
             text+=f'* **{o["mode"]}, {o["status"]}:** {o["configuration"]}. Regionen: {", ".join(o["regions"])}. Abrechnung: {o["billing"]}. Abo: {o["subscription"]}. Geprüft: {o["checked_at"]}. Quellen: '+', '.join(f'[{sid}](../../quellen/{sid}.md)' for sid in o['source_ids'])+'\n'
         questions=body.split('## Offene Entscheidungsfragen\n\n',1)[-1].split('\n## Pflege',1)[0]
@@ -191,6 +191,7 @@ def generate(root=ROOT):
     groups={'gesamtbestand':('Gesamter erfasster Bestand',list(robots)),
             'entwicklungspipeline':('Entwicklungspipeline',[r for r,(m,d,b) in robots.items() if m['classification']['value']=='pipeline']),
             'historie':('Historie und frühere Generationen',[r for r,(m,d,b) in robots.items() if m['classification']['value'].startswith('historisch') or m['classification']['value']=='fruehere_generation']),
+            'ungeprueft':('Erfasste Profile mit offener Prüfung',[r for r,(m,d,b) in robots.items() if m['maintenance']['status']=='erfasst']),
             'gegenwaertig':('Gegenwärtige Plattformen',[r for r,(m,d,b) in robots.items() if m['classification']['value']=='gegenwaertig'])}
     for axis,tags in axes.items():
         for tid,tag in tags.items():
@@ -200,22 +201,26 @@ def generate(root=ROOT):
     for p in (root/'katalog').glob('*.md') if (root/'katalog').exists() else []:
         if p.stem not in groups and p.read_text().startswith('<!-- AUTOMATISCH'): p.unlink()
     for key,(title,ids) in groups.items():
-        text=generated+f'# {title}\n\nKategorien sind keine Eignungszusage. Historische Einordnung und Beschaffbarkeit werden getrennt behandelt.\n\n| Modell | Einordnung | Prüfumfang |\n| --- | --- | --- |\n'
+        text=generated+f'# {title}\n\nKategorien sind keine Eignungszusage. Historische Einordnung und Beschaffbarkeit werden getrennt behandelt.\n\n| Modell | Eintragstyp | Einordnung | Prüfumfang |\n| --- | --- | --- | --- |\n'
         for rid in ids:
-            m=robots[rid][0];text+=f'| [{m["name"]}](../roboter/{rid}/README.md) | {m["classification"]["value"]} | {m["maintenance"]["status"]} |\n'
+            m=robots[rid][0];text+=f'| [{m["name"]}](../roboter/{rid}/README.md) | {m["entity_type"]} | {m["classification"]["value"]} | {m["maintenance"]["status"]} |\n'
         if key=='entwicklungspipeline':
             text+='\n## Offene Termine\n\n'
             for rid in ids:
                 for e in robots[rid][1]['events']:
                     if e['status']=='angekuendigt':text+=f'* {robots[rid][0]["name"]}: {e["date"]}, {e["description"]}\n'
         write(root,f'katalog/{key}.md',text)
-    text=generated+'# HumanoidProfiles\n\nQuellenbasierte Wissensbasis für humanoide Roboter. Für Menschen lesbar und für strukturierte Auswahl sowie RAG exportierbar. Branchen, Aufgaben und Umgebungen sind erweiterbare Tags.\n\n**Startbestand:** fünf Modelle, teilweise geprüft. Keine Vollständigkeitsbehauptung und keine pauschale Kaufempfehlung. Herstellerangaben, Ankündigungen und unabhängige Nachweise bleiben unterscheidbar.\n\n## Einstieg\n\n'
-    for key in ['gegenwaertig','entwicklungspipeline']:
+    from collections import Counter
+    counts=Counter(m['entity_type'] for m,d,b in robots.values())
+    count_text=', '.join(f'{n} {kind}' for kind,n in sorted(counts.items()))
+    text=generated+'# HumanoidProfiles\n\nQuellenbasierte Wissensbasis für humanoide Roboter. Für Menschen lesbar und für strukturierte Auswahl sowie RAG exportierbar. Branchen, Aufgaben und Umgebungen sind erweiterbare Tags.\n\n**Erfasster Bestand:** INVENTORY_COUNT Profile. INVENTORY_TYPES. Der Großteil wurde aus vorhandenen Listen übernommen und ist noch fachlich zu prüfen. Keine Vollständigkeitsbehauptung und keine pauschale Kaufempfehlung. Herstellerangaben, Ankündigungen und unabhängige Nachweise bleiben unterscheidbar.\n\n## Einstieg\n\n'
+    text=text.replace('INVENTORY_COUNT',str(len(robots))).replace('INVENTORY_TYPES',count_text)
+    for key in ['gegenwaertig','entwicklungspipeline','ungeprueft']:
         text+=f'* [{groups[key][0]}](katalog/{key}.md)\n'
     text+='\n## Branchen, Aufgaben und Umgebungen\n\n'
     for key,(title,ids) in groups.items():
-        if key not in ['gesamtbestand','entwicklungspipeline','historie','gegenwaertig']: text+=f'* [{title}](katalog/{key}.md) ({key.split("_")[0]})\n'
-    text+='\n## Historie und vollständiger erfasster Bestand\n\n* [Historie und frühere Generationen](katalog/historie.md)\n* [Alle erfassten Modelle](katalog/gesamtbestand.md)\n\n## Pflegen und erweitern\n\n* [Architektur und Dateistruktur](docs/architektur.md)\n* [Datenregeln](docs/datenregeln.md)\n* [Pflege und neue Recherche](docs/pflegeprozess.md)\n* [Vollständiges Merkmalsverzeichnis](schema/merkmale.yaml)\n* [Vorlagen](vorlagen/README.md)\n* [Recherchekandidaten](recherche/kandidaten/README.md)\n* [RAG und Auswahlregeln](docs/rag.md)\n* [Änderungen](CHANGELOG.md)\n\n## Lokal ausführen\n\n```sh\npython -m pip install -r requirements.txt\npython scripts/kb.py validate\npython scripts/kb.py build\npython -m unittest discover -s tests -v\npython scripts/kb.py export\npython scripts/kb.py query --mode procurement --region EU --audience unternehmen\n```\n\n`export/` ist abgeleitet und wird nicht versioniert. `README.md`, die Kataloge und die Modellansichten sind automatisch erzeugt. Es läuft noch kein gehostetes RAG System und keine automatische Webrecherche.\n'
+        if key not in ['gesamtbestand','entwicklungspipeline','historie','gegenwaertig','ungeprueft']: text+=f'* [{title}](katalog/{key}.md) ({key.split("_")[0]})\n'
+    text+='\n## Historie und vollständiger erfasster Bestand\n\n* [Historie und frühere Generationen](katalog/historie.md)\n* [Alle erfassten Modelle](katalog/gesamtbestand.md)\n\n## Pflegen und erweitern\n\n* [Architektur und Dateistruktur](docs/architektur.md)\n* [Datenregeln](docs/datenregeln.md)\n* [Pflege und neue Recherche](docs/pflegeprozess.md)\n* [Vollständiges Merkmalsverzeichnis](schema/merkmale.yaml)\n* [Vorlagen](vorlagen/README.md)\n* [Vollständiger Importnachweis](recherche/importe/README.md)\n* [Recherchekandidaten](recherche/kandidaten/README.md)\n* [RAG und Auswahlregeln](docs/rag.md)\n* [Änderungen](CHANGELOG.md)\n\n## Lokal ausführen\n\n```sh\npython -m pip install -r requirements.txt\npython scripts/kb.py validate\npython scripts/kb.py build\npython -m unittest discover -s tests -v\npython scripts/kb.py export\npython scripts/kb.py query --mode procurement --region EU --audience unternehmen\n```\n\n`export/` ist abgeleitet und wird nicht versioniert. `README.md`, die Kataloge und die Modellansichten sind automatisch erzeugt. Es läuft noch kein gehostetes RAG System und keine automatische Webrecherche.\n'
     write(root,'README.md',text)
 
 def export(root=ROOT, commit=None):
@@ -226,14 +231,14 @@ def export(root=ROOT, commit=None):
         except subprocess.CalledProcessError: commit='uncommitted'
     index=[];chunks=[]
     for rid,(m,d,body) in robots.items():
-        meta={'robot_id':rid,'name':m['name'],'manufacturer_id':m['manufacturer_id'],'classification':m['classification']['value'],'form':m['form'],'tags':m['tags'],'scope':m['scope'],'commit':commit,'source_path':f'roboter/{rid}/fakten.yaml'}
+        meta={'robot_id':rid,'name':m['name'],'manufacturer_id':m['manufacturer_id'],'entity_type':m['entity_type'],'review_status':m['maintenance']['status'],'classification':m['classification']['value'],'form':m['form'],'tags':m['tags'],'scope':m['scope'],'commit':commit,'source_path':f'roboter/{rid}/fakten.yaml'}
         index.append({**meta,'claims':active_claims(d),'offers':d['offers'],'events':d['events']})
         for c in active_claims(d):
             text=f'{m["name"]}. Geltungsbereich: {m["scope"]} {metrics[c["key"]]["label"]}: {display(c)}. Status: {c["status"]}; Evidenz: {c["evidence"]}. Bedingungen: '+json.dumps(c['context'],ensure_ascii=False)
             chunks.append({**meta,'chunk_id':rid+':claim:'+c['id'],'kind':'claim','text':text,'claim':c,'source_ids':[s['source_id'] for s in c['sources']],'sources':[sources[s['source_id']] for s in c['sources']]})
         for kind,items in [('offer',d['offers']),('event',d['events'])]:
             for item in items: chunks.append({**meta,'chunk_id':rid+':'+kind+':'+item['id'],'kind':kind,'text':json.dumps(item,ensure_ascii=False),'record':item,'source_ids':item['source_ids'],'sources':[sources[s] for s in item['source_ids']]})
-        chunks.append({**meta,'chunk_id':rid+':editorial','kind':'editorial','source_path':f'roboter/{rid}/profil.md','text':body,'source_ids':m['classification']['source_ids'],'notice':'Redaktionelle Einordnung und offene Fragen; Fakten über Aussagebelege prüfen.'})
+        chunks.append({**meta,'chunk_id':rid+':editorial','kind':'editorial','source_path':f'roboter/{rid}/profil.md','text':body,'source_ids':m['classification']['source_ids'],'notice':'Redaktionelle Einordnung, Bestandsimport oder offene Fragen; keine aktuelle Verifikation ohne Aussagebeleg.','sources':[sources[s] for s in m['classification']['source_ids']]})
     write(root,'export/robots.json',json.dumps(index,ensure_ascii=False,indent=2))
     write(root,'export/chunks.jsonl','\n'.join(json.dumps(c,ensure_ascii=False) for c in chunks))
     manifest={'schema_version':'1.0','commit':commit,'chunk_ids':[c['chunk_id'] for c in chunks],'content_hashes':{c['chunk_id']:hashlib.sha256(json.dumps(c,sort_keys=True,ensure_ascii=False).encode()).hexdigest() for c in chunks}}

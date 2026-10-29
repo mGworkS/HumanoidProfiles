@@ -1,0 +1,2664 @@
+{
+  "import_date": "2026-10-29",
+  "source_documents": [
+    {
+      "filename": "01-Humanoide_Roboter_Uebersicht_A3_Querformat_2026_10_29_123420_CET.docx",
+      "sha256": "474d89586d25096784325adcf6a9acbf71adf2a866a0caf301258a7ec6da6385"
+    },
+    {
+      "filename": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+      "sha256": "d2cb853e85a072b7d9c42cef3438c531ae171dab5405ef9cae629c282f0e2584"
+    },
+    {
+      "filename": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+      "sha256": "2345f7a1bcba5ab008c54065851e07ad40251f2b5c582ce6fcc3888d77313dda"
+    },
+    {
+      "filename": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+      "sha256": "75538ded18da11d02022b7f021db0b0f314a40139760762c93b13f2bee192fae"
+    }
+  ],
+  "source_rows": 152,
+  "source_name_positions": 234,
+  "positions": [
+    {
+      "origin": "B17",
+      "original_name": "Digit Generation 4",
+      "manufacturer": "Agility Robotics",
+      "target_ids": [
+        "agility_robotics_digit_generation_4"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b17"
+    },
+    {
+      "origin": "B18",
+      "original_name": "Digit 5",
+      "manufacturer": "Agility Robotics",
+      "target_ids": [
+        "agility_digit5"
+      ],
+      "decision": "Bestehendes Profil wiederverwendet; ASIMO Bezug anhand der ursprünglichen Spezifikationsquelle 2011.",
+      "source_id": "src_import_b18"
+    },
+    {
+      "origin": "B10",
+      "original_name": "HMND 01 Alpha Wheeled",
+      "manufacturer": "Humanoid",
+      "target_ids": [
+        "humanoid_hmnd_01_alpha_wheeled"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b10"
+    },
+    {
+      "origin": "B26",
+      "original_name": "Reflex Robot",
+      "manufacturer": "Reflex Robotics",
+      "target_ids": [
+        "reflex_robotics_reflex_robot"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b26"
+    },
+    {
+      "origin": "B42",
+      "original_name": "G2",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_g2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b42"
+    },
+    {
+      "origin": "B41",
+      "original_name": "G1",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_g1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b41"
+    },
+    {
+      "origin": "B57",
+      "original_name": "G1",
+      "manufacturer": "Galbot",
+      "target_ids": [
+        "galbot_g1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b57"
+    },
+    {
+      "origin": "B40",
+      "original_name": "Walker S2",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_walker_s2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b40"
+    },
+    {
+      "origin": "B21",
+      "original_name": "Figure 03",
+      "manufacturer": "Figure",
+      "target_ids": [
+        "figure_figure_03"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b21"
+    },
+    {
+      "origin": "B19",
+      "original_name": "Atlas",
+      "manufacturer": "Boston Dynamics",
+      "target_ids": [
+        "boston_dynamics_atlas"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b19"
+    },
+    {
+      "origin": "B12",
+      "original_name": "RoBee R",
+      "manufacturer": "Oversonic",
+      "target_ids": [
+        "oversonic_robee_r"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b12"
+    },
+    {
+      "origin": "B09",
+      "original_name": "AEON",
+      "manufacturer": "Hexagon Robotics",
+      "target_ids": [
+        "hexagon_robotics_aeon"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b09"
+    },
+    {
+      "origin": "B16",
+      "original_name": "Calvin 40",
+      "manufacturer": "Wandercraft",
+      "target_ids": [
+        "wandercraft_calvin_40"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b16"
+    },
+    {
+      "origin": "B22",
+      "original_name": "Apollo",
+      "manufacturer": "Apptronik",
+      "target_ids": [
+        "apptronik_apollo"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b22"
+    },
+    {
+      "origin": "B23",
+      "original_name": "Apollo 2",
+      "manufacturer": "Apptronik",
+      "target_ids": [
+        "apptronik_apollo_2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b23"
+    },
+    {
+      "origin": "B29",
+      "original_name": "MenteeBot V3",
+      "manufacturer": "Mentee Robotics",
+      "target_ids": [
+        "mentee_robotics_menteebot_v3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b29"
+    },
+    {
+      "origin": "B04",
+      "original_name": "Agile ONE",
+      "manufacturer": "Agile Robots",
+      "target_ids": [
+        "agile_robots_agile_one"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b04"
+    },
+    {
+      "origin": "B01",
+      "original_name": "WORKMATE",
+      "manufacturer": "IONO",
+      "target_ids": [
+        "iono_workmate"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b01"
+    },
+    {
+      "origin": "B06",
+      "original_name": "Iggy Rob",
+      "manufacturer": "igus",
+      "target_ids": [
+        "igus_iggy_rob"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b06"
+    },
+    {
+      "origin": "B02",
+      "original_name": "4NE1 Gen 4",
+      "manufacturer": "NEURA Robotics",
+      "target_ids": [
+        "neura_robotics_r_4ne1_gen_4"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b02"
+    },
+    {
+      "origin": "B56A",
+      "original_name": "K2 zweibeinig",
+      "manufacturer": "Kepler Robotics",
+      "target_ids": [
+        "kepler_robotics_k2_zweibeinig"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b56a"
+    },
+    {
+      "origin": "B56B",
+      "original_name": "K2 rollend",
+      "manufacturer": "Kepler Robotics",
+      "target_ids": [
+        "kepler_robotics_k2_rollend"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b56b"
+    },
+    {
+      "origin": "B24",
+      "original_name": "Optimus",
+      "manufacturer": "Tesla",
+      "target_ids": [
+        "tesla_optimus"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b24"
+    },
+    {
+      "origin": "B20",
+      "original_name": "Figure 02",
+      "manufacturer": "Figure",
+      "target_ids": [
+        "figure_figure_02"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b20"
+    },
+    {
+      "origin": "B25",
+      "original_name": "Phoenix und aktuelle Roadmap",
+      "manufacturer": "Sanctuary AI",
+      "target_ids": [
+        "sanctuary_ai_phoenix_und_aktuelle_roadmap"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b25"
+    },
+    {
+      "origin": "B08",
+      "original_name": "Reachy 2",
+      "manufacturer": "Pollen Robotics",
+      "target_ids": [
+        "pollen_robotics_reachy_2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b08"
+    },
+    {
+      "origin": "B67",
+      "original_name": "TIAGo Pro",
+      "manufacturer": "PAL Robotics",
+      "target_ids": [
+        "pal_robotics_tiago_pro"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b67"
+    },
+    {
+      "origin": "B51",
+      "original_name": "RB Y1",
+      "manufacturer": "Rainbow Robotics",
+      "target_ids": [
+        "rainbow_robotics_rb_y1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b51"
+    },
+    {
+      "origin": "B50",
+      "original_name": "AI Worker SG2",
+      "manufacturer": "ROBOTIS",
+      "target_ids": [
+        "robotis_ai_worker_sg2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b50"
+    },
+    {
+      "origin": "B58",
+      "original_name": "R1 Pro 2026",
+      "manufacturer": "Galaxea Dynamics",
+      "target_ids": [
+        "galaxea_dynamics_r1_pro_2026"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b58"
+    },
+    {
+      "origin": "B59",
+      "original_name": "S1",
+      "manufacturer": "Astribot",
+      "target_ids": [
+        "astribot_s1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b59"
+    },
+    {
+      "origin": "B35",
+      "original_name": "H2 Plus",
+      "manufacturer": "Unitree",
+      "target_ids": [
+        "unitree_h2_plus"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b35"
+    },
+    {
+      "origin": "B05",
+      "original_name": "Agile ONE SN",
+      "manufacturer": "Agile Robots",
+      "target_ids": [
+        "agile_robots_agile_one_sn"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b05"
+    },
+    {
+      "origin": "B34",
+      "original_name": "H2 und H2 EDU",
+      "manufacturer": "Unitree",
+      "target_ids": [
+        "unitree_h2",
+        "unitree_h2_edu"
+      ],
+      "decision": "Zwei explizit genannte Ausführungen getrennt erfasst",
+      "source_id": "src_import_b34"
+    },
+    {
+      "origin": "B33A",
+      "original_name": "H1",
+      "manufacturer": "Unitree",
+      "target_ids": [
+        "unitree_h1"
+      ],
+      "decision": "Bestehendes Profil wiederverwendet; ASIMO Bezug anhand der ursprünglichen Spezifikationsquelle 2011.",
+      "source_id": "src_import_b33a"
+    },
+    {
+      "origin": "B33B",
+      "original_name": "H1 2",
+      "manufacturer": "Unitree",
+      "target_ids": [
+        "unitree_h1_2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b33b"
+    },
+    {
+      "origin": "B55",
+      "original_name": "ATOM Max",
+      "manufacturer": "DOBOT",
+      "target_ids": [
+        "dobot_atom_max"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b55"
+    },
+    {
+      "origin": "B62",
+      "original_name": "L7",
+      "manufacturer": "ROBOTERA",
+      "target_ids": [
+        "robotera_l7"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b62"
+    },
+    {
+      "origin": "B49",
+      "original_name": "Oli EDU",
+      "manufacturer": "LimX Dynamics",
+      "target_ids": [
+        "limx_dynamics_oli_edu"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b49"
+    },
+    {
+      "origin": "B47",
+      "original_name": "GR 2",
+      "manufacturer": "Fourier",
+      "target_ids": [
+        "fourier_gr_2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b47"
+    },
+    {
+      "origin": "B07",
+      "original_name": "TALOS",
+      "manufacturer": "PAL Robotics",
+      "target_ids": [
+        "pal_robotics_talos"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b07"
+    },
+    {
+      "origin": "B39",
+      "original_name": "T2",
+      "manufacturer": "Booster Robotics",
+      "target_ids": [
+        "booster_robotics_t2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b39"
+    },
+    {
+      "origin": "B38",
+      "original_name": "T1",
+      "manufacturer": "Booster Robotics",
+      "target_ids": [
+        "booster_robotics_t1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b38"
+    },
+    {
+      "origin": "B45",
+      "original_name": "X1",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_x1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b45"
+    },
+    {
+      "origin": "B64",
+      "original_name": "TianGong 3",
+      "manufacturer": "X Humanoid",
+      "target_ids": [
+        "x_humanoid_tiangong_3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b64"
+    },
+    {
+      "origin": "B63",
+      "original_name": "North",
+      "manufacturer": "Sharpa",
+      "target_ids": [
+        "sharpa_north"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b63"
+    },
+    {
+      "origin": "B53",
+      "original_name": "T800",
+      "manufacturer": "ENGINEAI",
+      "target_ids": [
+        "engineai_t800"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b53"
+    },
+    {
+      "origin": "B31",
+      "original_name": "G1 und G1 EDU",
+      "manufacturer": "Unitree",
+      "target_ids": [
+        "unitree_g1",
+        "unitree_g1_edu"
+      ],
+      "decision": "Zwei explizit genannte Ausführungen getrennt erfasst",
+      "source_id": "src_import_b31"
+    },
+    {
+      "origin": "B32",
+      "original_name": "G1 Plus",
+      "manufacturer": "Unitree",
+      "target_ids": [
+        "unitree_g1_plus"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b32"
+    },
+    {
+      "origin": "B30",
+      "original_name": "R1 Familie",
+      "manufacturer": "Unitree",
+      "target_ids": [
+        "unitree_r1_familie"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b30"
+    },
+    {
+      "origin": "B03",
+      "original_name": "4NE1 Mini",
+      "manufacturer": "NEURA Robotics",
+      "target_ids": [
+        "neura_robotics_r_4ne1_mini"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b03"
+    },
+    {
+      "origin": "B37",
+      "original_name": "K1",
+      "manufacturer": "Booster Robotics",
+      "target_ids": [
+        "booster_robotics_k1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b37"
+    },
+    {
+      "origin": "B27",
+      "original_name": "Sprout Creator Edition",
+      "manufacturer": "Fauna Robotics",
+      "target_ids": [
+        "fauna_robotics_sprout_creator_edition"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b27"
+    },
+    {
+      "origin": "B52",
+      "original_name": "PM01",
+      "manufacturer": "ENGINEAI",
+      "target_ids": [
+        "engineai_pm01"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b52"
+    },
+    {
+      "origin": "B60",
+      "original_name": "N2",
+      "manufacturer": "Noetix Robotics",
+      "target_ids": [
+        "noetix_robotics_n2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b60"
+    },
+    {
+      "origin": "B61",
+      "original_name": "Bumi",
+      "manufacturer": "Noetix Robotics",
+      "target_ids": [
+        "noetix_robotics_bumi"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b61"
+    },
+    {
+      "origin": "B65",
+      "original_name": "Kaleido",
+      "manufacturer": "Kawasaki Robotics",
+      "target_ids": [
+        "kawasaki_robotics_kaleido"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b65"
+    },
+    {
+      "origin": "B13",
+      "original_name": "NEO",
+      "manufacturer": "1X",
+      "target_ids": [
+        "r_1x_neo"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b13"
+    },
+    {
+      "origin": "B28",
+      "original_name": "Memo",
+      "manufacturer": "Sunday Robotics",
+      "target_ids": [
+        "sunday_robotics_memo"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b28"
+    },
+    {
+      "origin": "B66",
+      "original_name": "CLOiD",
+      "manufacturer": "LG Electronics",
+      "target_ids": [
+        "lg_electronics_cloid"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b66"
+    },
+    {
+      "origin": "B11",
+      "original_name": "HMND 01 Alpha Bipedal",
+      "manufacturer": "Humanoid",
+      "target_ids": [
+        "humanoid_hmnd_01_alpha_bipedal"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b11"
+    },
+    {
+      "origin": "B15",
+      "original_name": "Mirokaï",
+      "manufacturer": "Enchanted Tools",
+      "target_ids": [
+        "enchanted_tools_mirokai"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b15"
+    },
+    {
+      "origin": "B48",
+      "original_name": "GR 3",
+      "manufacturer": "Fourier",
+      "target_ids": [
+        "fourier_gr_3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b48"
+    },
+    {
+      "origin": "B14",
+      "original_name": "Ameca",
+      "manufacturer": "Engineered Arts",
+      "target_ids": [
+        "engineered_arts_ameca"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b14"
+    },
+    {
+      "origin": "B43A",
+      "original_name": "A2 Ultra",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_a2_ultra"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b43a"
+    },
+    {
+      "origin": "B43B",
+      "original_name": "A2 Lite",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_a2_lite"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b43b"
+    },
+    {
+      "origin": "B44",
+      "original_name": "A3",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_a3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b44"
+    },
+    {
+      "origin": "B46A",
+      "original_name": "X2",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_x2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b46a"
+    },
+    {
+      "origin": "B46B",
+      "original_name": "X2 Ultra",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_x2_ultra"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b46b"
+    },
+    {
+      "origin": "B54",
+      "original_name": "IRON",
+      "manufacturer": "XPENG",
+      "target_ids": [
+        "xpeng_iron"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b54"
+    },
+    {
+      "origin": "B36",
+      "original_name": "H2 X",
+      "manufacturer": "Unitree",
+      "target_ids": [
+        "unitree_h2_x"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_b36"
+    },
+    {
+      "origin": "N01.01",
+      "original_name": "DR01",
+      "manufacturer": "DEEP Robotics",
+      "target_ids": [
+        "deep_robotics_dr01"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n01"
+    },
+    {
+      "origin": "N01.02",
+      "original_name": "DR02",
+      "manufacturer": "DEEP Robotics",
+      "target_ids": [
+        "deep_dr02"
+      ],
+      "decision": "Bestehendes Profil wiederverwendet; ASIMO Bezug anhand der ursprünglichen Spezifikationsquelle 2011.",
+      "source_id": "src_import_n01"
+    },
+    {
+      "origin": "N01.03",
+      "original_name": "DR02 Pro",
+      "manufacturer": "DEEP Robotics",
+      "target_ids": [
+        "deep_robotics_dr02_pro"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n01"
+    },
+    {
+      "origin": "N02.01",
+      "original_name": "Adam",
+      "manufacturer": "PNDbotics",
+      "target_ids": [
+        "pndbotics_adam"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n02"
+    },
+    {
+      "origin": "N03.01",
+      "original_name": "CASBOT 01",
+      "manufacturer": "CASBOT",
+      "target_ids": [
+        "casbot_casbot_01"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n03"
+    },
+    {
+      "origin": "N03.02",
+      "original_name": "CASBOT 02",
+      "manufacturer": "CASBOT",
+      "target_ids": [
+        "casbot_casbot_02"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n03"
+    },
+    {
+      "origin": "N03.03",
+      "original_name": "CASBOT W1",
+      "manufacturer": "CASBOT",
+      "target_ids": [
+        "casbot_casbot_w1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n03"
+    },
+    {
+      "origin": "N04.01",
+      "original_name": "W1 Pro",
+      "manufacturer": "DexForce",
+      "target_ids": [
+        "dexforce_w1_pro"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n04"
+    },
+    {
+      "origin": "N04.02",
+      "original_name": "W1 Core",
+      "manufacturer": "DexForce",
+      "target_ids": [
+        "dexforce_w1_core"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n04"
+    },
+    {
+      "origin": "N05.01",
+      "original_name": "Q5",
+      "manufacturer": "ROBOTERA",
+      "target_ids": [
+        "robotera_q5"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n05"
+    },
+    {
+      "origin": "N05.02",
+      "original_name": "M7",
+      "manufacturer": "ROBOTERA",
+      "target_ids": [
+        "robotera_m7"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n05"
+    },
+    {
+      "origin": "N06.01",
+      "original_name": "STAR1",
+      "manufacturer": "ROBOTERA",
+      "target_ids": [
+        "robotera_star1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n06"
+    },
+    {
+      "origin": "N07.01",
+      "original_name": "Walker S",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_walker_s"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n07"
+    },
+    {
+      "origin": "N07.02",
+      "original_name": "Walker S1",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_walker_s1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n07"
+    },
+    {
+      "origin": "N08.01",
+      "original_name": "Walker X",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_walker_x"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n08"
+    },
+    {
+      "origin": "N08.02",
+      "original_name": "Walker C",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_walker_c"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n08"
+    },
+    {
+      "origin": "N08.03",
+      "original_name": "Walker C1",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_walker_c1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n08"
+    },
+    {
+      "origin": "N08.04",
+      "original_name": "Walker Tienkung",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_walker_tienkung"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n08"
+    },
+    {
+      "origin": "N08.05",
+      "original_name": "Yanshee",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_yanshee"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n08"
+    },
+    {
+      "origin": "N09.01",
+      "original_name": "Cruzr 1S",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_cruzr_1s"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n09"
+    },
+    {
+      "origin": "N09.02",
+      "original_name": "Cruzr Y1",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_cruzr_y1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n09"
+    },
+    {
+      "origin": "N09.03",
+      "original_name": "Cruzr S2",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_cruzr_s2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n09"
+    },
+    {
+      "origin": "N10.01",
+      "original_name": "EVE",
+      "manufacturer": "1X",
+      "target_ids": [
+        "r_1x_eve"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n10"
+    },
+    {
+      "origin": "N10.02",
+      "original_name": "NEO Beta",
+      "manufacturer": "1X",
+      "target_ids": [
+        "r_1x_neo_beta"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n10"
+    },
+    {
+      "origin": "N10.03",
+      "original_name": "NEO Gamma",
+      "manufacturer": "1X",
+      "target_ids": [
+        "r_1x_neo_gamma"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n10"
+    },
+    {
+      "origin": "N11.01",
+      "original_name": "KUAVO 4Pro",
+      "manufacturer": "Leju Robotics",
+      "target_ids": [
+        "leju_robotics_kuavo_4pro"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n11"
+    },
+    {
+      "origin": "N11.02",
+      "original_name": "KUAVO 5",
+      "manufacturer": "Leju Robotics",
+      "target_ids": [
+        "leju_robotics_kuavo_5"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n11"
+    },
+    {
+      "origin": "N11.03",
+      "original_name": "KUAVO 5-W",
+      "manufacturer": "Leju Robotics",
+      "target_ids": [
+        "leju_robotics_kuavo_5_w"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n11"
+    },
+    {
+      "origin": "N11.04",
+      "original_name": "ROBAN 2",
+      "manufacturer": "Leju Robotics",
+      "target_ids": [
+        "leju_robotics_roban_2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n11"
+    },
+    {
+      "origin": "N11.05",
+      "original_name": "AELOS PRO3",
+      "manufacturer": "Leju Robotics",
+      "target_ids": [
+        "leju_robotics_aelos_pro3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n11"
+    },
+    {
+      "origin": "N11.06",
+      "original_name": "AELOS LITE",
+      "manufacturer": "Leju Robotics",
+      "target_ids": [
+        "leju_robotics_aelos_lite"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n11"
+    },
+    {
+      "origin": "N11.07",
+      "original_name": "AELOS PRO",
+      "manufacturer": "Leju Robotics",
+      "target_ids": [
+        "leju_robotics_aelos_pro"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n11"
+    },
+    {
+      "origin": "N11.08",
+      "original_name": "AELOS SMART",
+      "manufacturer": "Leju Robotics",
+      "target_ids": [
+        "leju_robotics_aelos_smart"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n11"
+    },
+    {
+      "origin": "N12.01",
+      "original_name": "MagicBot Gen1",
+      "manufacturer": "MagicLab",
+      "target_ids": [
+        "magiclab_magicbot_gen1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n12"
+    },
+    {
+      "origin": "N13.01",
+      "original_name": "MagicBot X1",
+      "manufacturer": "MagicLab",
+      "target_ids": [
+        "magiclab_magicbot_x1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n13"
+    },
+    {
+      "origin": "N13.02",
+      "original_name": "MagicBot Z1",
+      "manufacturer": "MagicLab",
+      "target_ids": [
+        "magiclab_magicbot_z1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n13"
+    },
+    {
+      "origin": "N14.01",
+      "original_name": "PUDU D9",
+      "manufacturer": "PUDU Robotics",
+      "target_ids": [
+        "pudu_robotics_pudu_d9"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n14"
+    },
+    {
+      "origin": "N14.02",
+      "original_name": "PUDU D7",
+      "manufacturer": "PUDU Robotics",
+      "target_ids": [
+        "pudu_robotics_pudu_d7"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n14"
+    },
+    {
+      "origin": "N14.03",
+      "original_name": "FlashBot Arm",
+      "manufacturer": "PUDU Robotics",
+      "target_ids": [
+        "pudu_robotics_flashbot_arm"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n14"
+    },
+    {
+      "origin": "N15.01",
+      "original_name": "ALICE 3",
+      "manufacturer": "AeiROBOT",
+      "target_ids": [
+        "aeirobot_alice_3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n15"
+    },
+    {
+      "origin": "N16.01",
+      "original_name": "ALICE 4",
+      "manufacturer": "AeiROBOT",
+      "target_ids": [
+        "aeirobot_alice_4"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n16"
+    },
+    {
+      "origin": "N16.02",
+      "original_name": "ALICE 5",
+      "manufacturer": "AeiROBOT",
+      "target_ids": [
+        "aeirobot_alice_5"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n16"
+    },
+    {
+      "origin": "N16.03",
+      "original_name": "ALICE M1",
+      "manufacturer": "AeiROBOT",
+      "target_ids": [
+        "aeirobot_alice_m1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n16"
+    },
+    {
+      "origin": "N17.01",
+      "original_name": "AI Sapiens K0",
+      "manufacturer": "ROBOTIS",
+      "target_ids": [
+        "robotis_ai_sapiens_k0"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n17"
+    },
+    {
+      "origin": "N18.01",
+      "original_name": "ROBOTIS OP3",
+      "manufacturer": "ROBOTIS",
+      "target_ids": [
+        "robotis_robotis_op3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n18"
+    },
+    {
+      "origin": "N18.02",
+      "original_name": "THORMANG3",
+      "manufacturer": "ROBOTIS",
+      "target_ids": [
+        "robotis_thormang3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n18"
+    },
+    {
+      "origin": "N19.01",
+      "original_name": "LUS2",
+      "manufacturer": "Lumos Robotics",
+      "target_ids": [
+        "lumos_robotics_lus2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n19"
+    },
+    {
+      "origin": "N19.02",
+      "original_name": "NIX1",
+      "manufacturer": "Lumos Robotics",
+      "target_ids": [
+        "lumos_robotics_nix1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n19"
+    },
+    {
+      "origin": "N20.01",
+      "original_name": "Luna",
+      "manufacturer": "LimX Dynamics",
+      "target_ids": [
+        "limx_dynamics_luna"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n20"
+    },
+    {
+      "origin": "N21.01",
+      "original_name": "CL-1",
+      "manufacturer": "LimX Dynamics",
+      "target_ids": [
+        "limx_dynamics_cl_1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n21"
+    },
+    {
+      "origin": "N22.01",
+      "original_name": "TRON 1",
+      "manufacturer": "LimX Dynamics",
+      "target_ids": [
+        "limx_dynamics_tron_1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n22"
+    },
+    {
+      "origin": "N22.02",
+      "original_name": "TRON 2",
+      "manufacturer": "LimX Dynamics",
+      "target_ids": [
+        "limx_dynamics_tron_2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n22"
+    },
+    {
+      "origin": "N23.01",
+      "original_name": "SE01",
+      "manufacturer": "ENGINEAI",
+      "target_ids": [
+        "engineai_se01"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n23"
+    },
+    {
+      "origin": "N24.01",
+      "original_name": "SA01",
+      "manufacturer": "ENGINEAI",
+      "target_ids": [
+        "engineai_sa01"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n24"
+    },
+    {
+      "origin": "N25.01",
+      "original_name": "GR-1",
+      "manufacturer": "Fourier",
+      "target_ids": [
+        "fourier_gr_1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n25"
+    },
+    {
+      "origin": "N26.01",
+      "original_name": "RealBot-01",
+      "manufacturer": "RealMan",
+      "target_ids": [
+        "realman_realbot_01"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n26"
+    },
+    {
+      "origin": "N27.01",
+      "original_name": "Dex",
+      "manufacturer": "Richtech Robotics",
+      "target_ids": [
+        "richtech_robotics_dex"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n27"
+    },
+    {
+      "origin": "N28.01",
+      "original_name": "ATOM D",
+      "manufacturer": "DOBOT",
+      "target_ids": [
+        "dobot_atom_d"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n28"
+    },
+    {
+      "origin": "N29.01",
+      "original_name": "REEM-C",
+      "manufacturer": "PAL Robotics",
+      "target_ids": [
+        "pal_robotics_reem_c"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n29"
+    },
+    {
+      "origin": "N30.01",
+      "original_name": "Abi",
+      "manufacturer": "Andromeda Robotics",
+      "target_ids": [
+        "andromeda_robotics_abi"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n30"
+    },
+    {
+      "origin": "N31.01",
+      "original_name": "XMAN-R1",
+      "manufacturer": "KEENON Robotics",
+      "target_ids": [
+        "keenon_robotics_xman_r1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n31"
+    },
+    {
+      "origin": "N32.01",
+      "original_name": "Sophia",
+      "manufacturer": "Hanson Robotics",
+      "target_ids": [
+        "hanson_robotics_sophia"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n32"
+    },
+    {
+      "origin": "N32.02",
+      "original_name": "Han",
+      "manufacturer": "Hanson Robotics",
+      "target_ids": [
+        "hanson_robotics_han"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n32"
+    },
+    {
+      "origin": "N32.03",
+      "original_name": "Little Sophia",
+      "manufacturer": "Hanson Robotics",
+      "target_ids": [
+        "hanson_robotics_little_sophia"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n32"
+    },
+    {
+      "origin": "N33.01",
+      "original_name": "Grace",
+      "manufacturer": "Hanson Robotics und Awakening Health",
+      "target_ids": [
+        "hanson_robotics_und_awakening_health_grace"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n33"
+    },
+    {
+      "origin": "N34.01",
+      "original_name": "Mesmer",
+      "manufacturer": "Engineered Arts",
+      "target_ids": [
+        "engineered_arts_mesmer"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n34"
+    },
+    {
+      "origin": "N34.02",
+      "original_name": "Ameca Desktop",
+      "manufacturer": "Engineered Arts",
+      "target_ids": [
+        "engineered_arts_ameca_desktop"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n34"
+    },
+    {
+      "origin": "N34.03",
+      "original_name": "Ami Desktop",
+      "manufacturer": "Engineered Arts",
+      "target_ids": [
+        "engineered_arts_ami_desktop"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n34"
+    },
+    {
+      "origin": "N34.04",
+      "original_name": "Azi Desktop",
+      "manufacturer": "Engineered Arts",
+      "target_ids": [
+        "engineered_arts_azi_desktop"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n34"
+    },
+    {
+      "origin": "N35.01",
+      "original_name": "RoboThespian",
+      "manufacturer": "Engineered Arts",
+      "target_ids": [
+        "engineered_arts_robothespian"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n35"
+    },
+    {
+      "origin": "N36.01",
+      "original_name": "NAO",
+      "manufacturer": "SoftBank Robotics und Aldebaran",
+      "target_ids": [
+        "softbank_robotics_nao"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n36"
+    },
+    {
+      "origin": "N36.02",
+      "original_name": "Pepper",
+      "manufacturer": "SoftBank Robotics und Aldebaran",
+      "target_ids": [
+        "pepper_classic"
+      ],
+      "decision": "Bestehendes Profil wiederverwendet; ASIMO Bezug anhand der ursprünglichen Spezifikationsquelle 2011.",
+      "source_id": "src_import_n36"
+    },
+    {
+      "origin": "N37.01",
+      "original_name": "RoBoHoN",
+      "manufacturer": "Sharp",
+      "target_ids": [
+        "sharp_robohon"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n37"
+    },
+    {
+      "origin": "N38.01",
+      "original_name": "iCub",
+      "manufacturer": "IIT",
+      "target_ids": [
+        "iit_icub"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n38"
+    },
+    {
+      "origin": "N38.02",
+      "original_name": "iCub3",
+      "manufacturer": "IIT",
+      "target_ids": [
+        "iit_icub3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n38"
+    },
+    {
+      "origin": "N38.03",
+      "original_name": "ergoCub",
+      "manufacturer": "IIT",
+      "target_ids": [
+        "iit_ergocub"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n38"
+    },
+    {
+      "origin": "N38.04",
+      "original_name": "R1",
+      "manufacturer": "IIT",
+      "target_ids": [
+        "iit_r1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n38"
+    },
+    {
+      "origin": "N39.01",
+      "original_name": "TORO",
+      "manufacturer": "DLR",
+      "target_ids": [
+        "dlr_toro"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n39"
+    },
+    {
+      "origin": "N39.02",
+      "original_name": "Rollin’ Justin",
+      "manufacturer": "DLR",
+      "target_ids": [
+        "dlr_rollin_justin"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n39"
+    },
+    {
+      "origin": "N39.03",
+      "original_name": "Agile Justin",
+      "manufacturer": "DLR",
+      "target_ids": [
+        "dlr_agile_justin"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n39"
+    },
+    {
+      "origin": "N39.04",
+      "original_name": "David / neoDavid",
+      "manufacturer": "DLR",
+      "target_ids": [
+        "dlr_david_neodavid"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n39"
+    },
+    {
+      "origin": "N39.05",
+      "original_name": "SpaceJustin",
+      "manufacturer": "DLR",
+      "target_ids": [
+        "dlr_spacejustin"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n39"
+    },
+    {
+      "origin": "N40.01",
+      "original_name": "HRP-5P",
+      "manufacturer": "AIST und KAWADA",
+      "target_ids": [
+        "aist_und_kawada_hrp_5p"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n40"
+    },
+    {
+      "origin": "N41.01",
+      "original_name": "HRP-4CR",
+      "manufacturer": "CNRS AIST JRL und Partner",
+      "target_ids": [
+        "cnrs_aist_jrl_und_partner_hrp_4cr"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n41"
+    },
+    {
+      "origin": "N41.02",
+      "original_name": "RHP Friends",
+      "manufacturer": "CNRS AIST JRL und Partner",
+      "target_ids": [
+        "cnrs_aist_jrl_und_partner_rhp_friends"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n41"
+    },
+    {
+      "origin": "N41.03",
+      "original_name": "CALL-M",
+      "manufacturer": "CNRS AIST JRL und Partner",
+      "target_ids": [
+        "cnrs_aist_jrl_und_partner_call_m"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n41"
+    },
+    {
+      "origin": "N42.01",
+      "original_name": "Valkyrie / R5",
+      "manufacturer": "NASA und Partner",
+      "target_ids": [
+        "nasa_und_partner_valkyrie_r5"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n42"
+    },
+    {
+      "origin": "N42.02",
+      "original_name": "Robonaut 2",
+      "manufacturer": "NASA und Partner",
+      "target_ids": [
+        "nasa_und_partner_robonaut_2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n42"
+    },
+    {
+      "origin": "N43.01",
+      "original_name": "T-HR3",
+      "manufacturer": "Toyota",
+      "target_ids": [
+        "toyota_t_hr3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n43"
+    },
+    {
+      "origin": "N44.01",
+      "original_name": "ASIMO",
+      "manufacturer": "Honda",
+      "target_ids": [
+        "honda_asimo_2011"
+      ],
+      "decision": "Bestehendes Profil wiederverwendet; ASIMO Bezug anhand der ursprünglichen Spezifikationsquelle 2011.",
+      "source_id": "src_import_n44"
+    },
+    {
+      "origin": "N45.01",
+      "original_name": "Berkeley Humanoid Lite",
+      "manufacturer": "UC Berkeley",
+      "target_ids": [
+        "uc_berkeley_berkeley_humanoid_lite"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n45"
+    },
+    {
+      "origin": "N46.01",
+      "original_name": "ToddlerBot",
+      "manufacturer": "Stanford University",
+      "target_ids": [
+        "stanford_university_toddlerbot"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n46"
+    },
+    {
+      "origin": "N47.01",
+      "original_name": "Care-O-bot 4",
+      "manufacturer": "Fraunhofer IPA und Partner",
+      "target_ids": [
+        "fraunhofer_ipa_und_partner_care_o_bot_4"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n47"
+    },
+    {
+      "origin": "N48.01",
+      "original_name": "ARMAR-6",
+      "manufacturer": "KIT",
+      "target_ids": [
+        "kit_armar_6"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n48"
+    },
+    {
+      "origin": "N48.02",
+      "original_name": "ARMAR-7",
+      "manufacturer": "KIT",
+      "target_ids": [
+        "kit_armar_7"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n48"
+    },
+    {
+      "origin": "N49.01",
+      "original_name": "NimbRo-OP2",
+      "manufacturer": "Universität Bonn und igus",
+      "target_ids": [
+        "universitat_bonn_und_igus_nimbro_op2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n49"
+    },
+    {
+      "origin": "N49.02",
+      "original_name": "NimbRo-OP2X",
+      "manufacturer": "Universität Bonn und igus",
+      "target_ids": [
+        "universitat_bonn_und_igus_nimbro_op2x"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n49"
+    },
+    {
+      "origin": "N49.03",
+      "original_name": "igus Humanoid Open Platform",
+      "manufacturer": "Universität Bonn und igus",
+      "target_ids": [
+        "universitat_bonn_und_igus_igus_humanoid_open_platform"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n49"
+    },
+    {
+      "origin": "N50.01",
+      "original_name": "T140A",
+      "manufacturer": "Ti5ROBOT",
+      "target_ids": [
+        "ti5robot_t140a"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n50"
+    },
+    {
+      "origin": "N50.02",
+      "original_name": "T170A",
+      "manufacturer": "Ti5ROBOT",
+      "target_ids": [
+        "ti5robot_t170a"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n50"
+    },
+    {
+      "origin": "N50.03",
+      "original_name": "T170A V2",
+      "manufacturer": "Ti5ROBOT",
+      "target_ids": [
+        "ti5robot_t170a_v2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n50"
+    },
+    {
+      "origin": "N50.04",
+      "original_name": "T170C",
+      "manufacturer": "Ti5ROBOT",
+      "target_ids": [
+        "ti5robot_t170c"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n50"
+    },
+    {
+      "origin": "N50.05",
+      "original_name": "T170D",
+      "manufacturer": "Ti5ROBOT",
+      "target_ids": [
+        "ti5robot_t170d"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n50"
+    },
+    {
+      "origin": "N50.06",
+      "original_name": "T230C",
+      "manufacturer": "Ti5ROBOT",
+      "target_ids": [
+        "ti5robot_t230c"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n50"
+    },
+    {
+      "origin": "N51.01",
+      "original_name": "Hi",
+      "manufacturer": "High Torque Robotics",
+      "target_ids": [
+        "high_torque_robotics_hi"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n51"
+    },
+    {
+      "origin": "N52.01",
+      "original_name": "DRC-HUBO",
+      "manufacturer": "Rainbow Robotics",
+      "target_ids": [
+        "rainbow_robotics_drc_hubo"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n52"
+    },
+    {
+      "origin": "N53.01",
+      "original_name": "Elixis",
+      "manufacturer": "Addverb",
+      "target_ids": [
+        "addverb_elixis"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n53"
+    },
+    {
+      "origin": "N54.01",
+      "original_name": "G-Bot",
+      "manufacturer": "Genrobotics",
+      "target_ids": [
+        "genrobotics_g_bot"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n54"
+    },
+    {
+      "origin": "N54.02",
+      "original_name": "GenBot",
+      "manufacturer": "Genrobotics",
+      "target_ids": [
+        "genrobotics_genbot"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n54"
+    },
+    {
+      "origin": "N55.01",
+      "original_name": "AIDOL Walking Robot",
+      "manufacturer": "AIDOL",
+      "target_ids": [
+        "aidol_aidol_walking_robot"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n55"
+    },
+    {
+      "origin": "N55.02",
+      "original_name": "AIDOL Desktop",
+      "manufacturer": "AIDOL",
+      "target_ids": [
+        "aidol_aidol_desktop"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n55"
+    },
+    {
+      "origin": "N56.01",
+      "original_name": "Surena IV",
+      "manufacturer": "Universität Teheran CAST",
+      "target_ids": [
+        "universitat_teheran_cast_surena_iv"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n56"
+    },
+    {
+      "origin": "N56.02",
+      "original_name": "Mini Surena",
+      "manufacturer": "Universität Teheran CAST",
+      "target_ids": [
+        "universitat_teheran_cast_mini_surena"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n56"
+    },
+    {
+      "origin": "N57.01",
+      "original_name": "AlphaBot 2",
+      "manufacturer": "AI² Robotics",
+      "target_ids": [
+        "ai2_robotics_alphabot_2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n57"
+    },
+    {
+      "origin": "N58.01",
+      "original_name": "Moz1",
+      "manufacturer": "Spirit AI",
+      "target_ids": [
+        "spirit_ai_moz1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n58"
+    },
+    {
+      "origin": "N59.01",
+      "original_name": "Mornine",
+      "manufacturer": "AiMOGA und Chery",
+      "target_ids": [
+        "aimoga_und_chery_mornine"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n59"
+    },
+    {
+      "origin": "N59.02",
+      "original_name": "Mobo",
+      "manufacturer": "AiMOGA und Chery",
+      "target_ids": [
+        "aimoga_und_chery_mobo"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n59"
+    },
+    {
+      "origin": "N59.03",
+      "original_name": "R001",
+      "manufacturer": "AiMOGA und Chery",
+      "target_ids": [
+        "aimoga_und_chery_r001"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n59"
+    },
+    {
+      "origin": "N59.04",
+      "original_name": "RN001",
+      "manufacturer": "AiMOGA und Chery",
+      "target_ids": [
+        "aimoga_und_chery_rn001"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n59"
+    },
+    {
+      "origin": "N60.01",
+      "original_name": "Z1 Familie",
+      "manufacturer": "Zerith",
+      "target_ids": [
+        "zerith_z1_familie"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n60"
+    },
+    {
+      "origin": "N60.02",
+      "original_name": "H Familie",
+      "manufacturer": "Zerith",
+      "target_ids": [
+        "zerith_h_familie"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n60"
+    },
+    {
+      "origin": "N61.01",
+      "original_name": "R1",
+      "manufacturer": "Galaxea Dynamics",
+      "target_ids": [
+        "galaxea_dynamics_r1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n61"
+    },
+    {
+      "origin": "N61.02",
+      "original_name": "R1 Lite",
+      "manufacturer": "Galaxea Dynamics",
+      "target_ids": [
+        "galaxea_dynamics_r1_lite"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n61"
+    },
+    {
+      "origin": "N62.01",
+      "original_name": "aeo",
+      "manufacturer": "Aeolus Robotics",
+      "target_ids": [
+        "aeolus_robotics_aeo"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n62"
+    },
+    {
+      "origin": "N63.01",
+      "original_name": "Beomni V1",
+      "manufacturer": "Beyond Imagination",
+      "target_ids": [
+        "beyond_imagination_beomni_v1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n63"
+    },
+    {
+      "origin": "N63.02",
+      "original_name": "Beomni V2",
+      "manufacturer": "Beyond Imagination",
+      "target_ids": [
+        "beyond_imagination_beomni_v2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n63"
+    },
+    {
+      "origin": "N63.03",
+      "original_name": "Beomni V3",
+      "manufacturer": "Beyond Imagination",
+      "target_ids": [
+        "beyond_imagination_beomni_v3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n63"
+    },
+    {
+      "origin": "N63.04",
+      "original_name": "Beyond Mark 1",
+      "manufacturer": "Beyond Imagination",
+      "target_ids": [
+        "beyond_imagination_beyond_mark_1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n63"
+    },
+    {
+      "origin": "N63.05",
+      "original_name": "Beyond Mark 2",
+      "manufacturer": "Beyond Imagination",
+      "target_ids": [
+        "beyond_imagination_beyond_mark_2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n63"
+    },
+    {
+      "origin": "N63.06",
+      "original_name": "Beyond Mark 3",
+      "manufacturer": "Beyond Imagination",
+      "target_ids": [
+        "beyond_imagination_beyond_mark_3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n63"
+    },
+    {
+      "origin": "N64.01",
+      "original_name": "Astra",
+      "manufacturer": "Apptronik",
+      "target_ids": [
+        "apptronik_astra"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n64"
+    },
+    {
+      "origin": "N65.01",
+      "original_name": "Figure 01",
+      "manufacturer": "Figure",
+      "target_ids": [
+        "figure_figure_01"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n65"
+    },
+    {
+      "origin": "N66.01",
+      "original_name": "Atlas hydraulisch",
+      "manufacturer": "Boston Dynamics",
+      "target_ids": [
+        "boston_dynamics_atlas_hydraulisch"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n66"
+    },
+    {
+      "origin": "N67.01",
+      "original_name": "A1",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_a1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n67"
+    },
+    {
+      "origin": "N68.01",
+      "original_name": "A2",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_a2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n68"
+    },
+    {
+      "origin": "N68.02",
+      "original_name": "A2-W",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_a2_w"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n68"
+    },
+    {
+      "origin": "N68.03",
+      "original_name": "G1 MAX",
+      "manufacturer": "AGIBOT",
+      "target_ids": [
+        "agibot_g1_max"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n68"
+    },
+    {
+      "origin": "N69.01",
+      "original_name": "Forerunner K1",
+      "manufacturer": "Kepler Robotics",
+      "target_ids": [
+        "kepler_robotics_forerunner_k1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n69"
+    },
+    {
+      "origin": "N70.01",
+      "original_name": "Nadine",
+      "manufacturer": "NTU Singapore und Partner",
+      "target_ids": [
+        "ntu_singapore_und_partner_nadine"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n70"
+    },
+    {
+      "origin": "N71.01",
+      "original_name": "Industrieplattform ohne hier bestätigten Modellnamen",
+      "manufacturer": "Noble Machines",
+      "target_ids": [
+        "noble_machines_industrieplattform_ohne_hier_bestatigten_modellnamen"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n71"
+    },
+    {
+      "origin": "N72.01",
+      "original_name": "Industriehumanoider ohne hier bestätigten Modellnamen",
+      "manufacturer": "Persona AI",
+      "target_ids": [
+        "persona_ai_industriehumanoider_ohne_hier_bestatigten_modellnamen"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n72"
+    },
+    {
+      "origin": "N73.01",
+      "original_name": "Reachy Mini Lite",
+      "manufacturer": "Pollen Robotics",
+      "target_ids": [
+        "pollen_robotics_reachy_mini_lite"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n73"
+    },
+    {
+      "origin": "N73.02",
+      "original_name": "Reachy Mini Wireless",
+      "manufacturer": "Pollen Robotics",
+      "target_ids": [
+        "pollen_robotics_reachy_mini_wireless"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n73"
+    },
+    {
+      "origin": "N74.01",
+      "original_name": "UWORLD U1 Lite",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_uworld_u1_lite"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n74"
+    },
+    {
+      "origin": "N74.02",
+      "original_name": "UWORLD U1 Pro",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_uworld_u1_pro"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n74"
+    },
+    {
+      "origin": "N74.03",
+      "original_name": "UWORLD U1 Ultra",
+      "manufacturer": "UBTECH",
+      "target_ids": [
+        "ubtech_uworld_u1_ultra"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n74"
+    },
+    {
+      "origin": "N75.01",
+      "original_name": "M1",
+      "manufacturer": "Zeroth Robotics",
+      "target_ids": [
+        "zeroth_robotics_m1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n75"
+    },
+    {
+      "origin": "N75.02",
+      "original_name": "Jupiter",
+      "manufacturer": "Zeroth Robotics",
+      "target_ids": [
+        "zeroth_robotics_jupiter"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n75"
+    },
+    {
+      "origin": "N76.01",
+      "original_name": "QingLoong öffentliche Plattform",
+      "manufacturer": "OpenLoong und Humanoid Robot Shanghai",
+      "target_ids": [
+        "openloong_und_humanoid_robot_shanghai_qingloong_offentliche_plattform"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n76"
+    },
+    {
+      "origin": "N76.02",
+      "original_name": "QingLoong Mini",
+      "manufacturer": "OpenLoong und Humanoid Robot Shanghai",
+      "target_ids": [
+        "openloong_und_humanoid_robot_shanghai_qingloong_mini"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n76"
+    },
+    {
+      "origin": "N77.01",
+      "original_name": "Robbyant R2",
+      "manufacturer": "Robbyant und Ant Lingbo",
+      "target_ids": [
+        "robbyant_und_ant_lingbo_robbyant_r2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n77"
+    },
+    {
+      "origin": "N78.01",
+      "original_name": "Robbyant R1",
+      "manufacturer": "Robbyant und Ant Lingbo",
+      "target_ids": [
+        "robbyant_und_ant_lingbo_robbyant_r1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n78"
+    },
+    {
+      "origin": "N79.01",
+      "original_name": "Origin F1",
+      "manufacturer": "AheadForm",
+      "target_ids": [
+        "aheadform_origin_f1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n79"
+    },
+    {
+      "origin": "N79.02",
+      "original_name": "Origin M1",
+      "manufacturer": "AheadForm",
+      "target_ids": [
+        "aheadform_origin_m1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n79"
+    },
+    {
+      "origin": "N79.03",
+      "original_name": "Elf Xuan",
+      "manufacturer": "AheadForm",
+      "target_ids": [
+        "aheadform_elf_xuan"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n79"
+    },
+    {
+      "origin": "N79.04",
+      "original_name": "Elf Xuan 2.0",
+      "manufacturer": "AheadForm",
+      "target_ids": [
+        "aheadform_elf_xuan_2_0"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n79"
+    },
+    {
+      "origin": "N79.05",
+      "original_name": "Elf Iridium",
+      "manufacturer": "AheadForm",
+      "target_ids": [
+        "aheadform_elf_iridium"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n79"
+    },
+    {
+      "origin": "N79.06",
+      "original_name": "Tang Sanzang",
+      "manufacturer": "AheadForm",
+      "target_ids": [
+        "aheadform_tang_sanzang"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n79"
+    },
+    {
+      "origin": "N79.07",
+      "original_name": "Chappie",
+      "manufacturer": "AheadForm",
+      "target_ids": [
+        "aheadform_chappie"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n79"
+    },
+    {
+      "origin": "N80.01",
+      "original_name": "NAVIAI WA1",
+      "manufacturer": "Zhejiang Humanoid Robot Innovation Center",
+      "target_ids": [
+        "zhejiang_humanoid_robot_innovation_center_naviai_wa1"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n80"
+    },
+    {
+      "origin": "N80.02",
+      "original_name": "NAVIAI WA2",
+      "manufacturer": "Zhejiang Humanoid Robot Innovation Center",
+      "target_ids": [
+        "zhejiang_humanoid_robot_innovation_center_naviai_wa2"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n80"
+    },
+    {
+      "origin": "N80.03",
+      "original_name": "NAVIAI i3",
+      "manufacturer": "Zhejiang Humanoid Robot Innovation Center",
+      "target_ids": [
+        "zhejiang_humanoid_robot_innovation_center_naviai_i3"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n80"
+    },
+    {
+      "origin": "N81.01",
+      "original_name": "Sanbot Elf",
+      "manufacturer": "QIHAN und Sanbot",
+      "target_ids": [
+        "qihan_und_sanbot_sanbot_elf"
+      ],
+      "decision": "Importiert; fachliche Prüfung offen",
+      "source_id": "src_import_n81"
+    }
+  ],
+  "created_ids": [
+    "agility_robotics_digit_generation_4",
+    "humanoid_hmnd_01_alpha_wheeled",
+    "reflex_robotics_reflex_robot",
+    "agibot_g2",
+    "agibot_g1",
+    "galbot_g1",
+    "ubtech_walker_s2",
+    "figure_figure_03",
+    "boston_dynamics_atlas",
+    "oversonic_robee_r",
+    "hexagon_robotics_aeon",
+    "wandercraft_calvin_40",
+    "apptronik_apollo",
+    "apptronik_apollo_2",
+    "mentee_robotics_menteebot_v3",
+    "agile_robots_agile_one",
+    "iono_workmate",
+    "igus_iggy_rob",
+    "neura_robotics_r_4ne1_gen_4",
+    "kepler_robotics_k2_zweibeinig",
+    "kepler_robotics_k2_rollend",
+    "tesla_optimus",
+    "figure_figure_02",
+    "sanctuary_ai_phoenix_und_aktuelle_roadmap",
+    "pollen_robotics_reachy_2",
+    "pal_robotics_tiago_pro",
+    "rainbow_robotics_rb_y1",
+    "robotis_ai_worker_sg2",
+    "galaxea_dynamics_r1_pro_2026",
+    "astribot_s1",
+    "unitree_h2_plus",
+    "agile_robots_agile_one_sn",
+    "unitree_h2",
+    "unitree_h2_edu",
+    "unitree_h1_2",
+    "dobot_atom_max",
+    "robotera_l7",
+    "limx_dynamics_oli_edu",
+    "fourier_gr_2",
+    "pal_robotics_talos",
+    "booster_robotics_t2",
+    "booster_robotics_t1",
+    "agibot_x1",
+    "x_humanoid_tiangong_3",
+    "sharpa_north",
+    "engineai_t800",
+    "unitree_g1",
+    "unitree_g1_edu",
+    "unitree_g1_plus",
+    "unitree_r1_familie",
+    "neura_robotics_r_4ne1_mini",
+    "booster_robotics_k1",
+    "fauna_robotics_sprout_creator_edition",
+    "engineai_pm01",
+    "noetix_robotics_n2",
+    "noetix_robotics_bumi",
+    "kawasaki_robotics_kaleido",
+    "r_1x_neo",
+    "sunday_robotics_memo",
+    "lg_electronics_cloid",
+    "humanoid_hmnd_01_alpha_bipedal",
+    "enchanted_tools_mirokai",
+    "fourier_gr_3",
+    "engineered_arts_ameca",
+    "agibot_a2_ultra",
+    "agibot_a2_lite",
+    "agibot_a3",
+    "agibot_x2",
+    "agibot_x2_ultra",
+    "xpeng_iron",
+    "unitree_h2_x",
+    "deep_robotics_dr01",
+    "deep_robotics_dr02_pro",
+    "pndbotics_adam",
+    "casbot_casbot_01",
+    "casbot_casbot_02",
+    "casbot_casbot_w1",
+    "dexforce_w1_pro",
+    "dexforce_w1_core",
+    "robotera_q5",
+    "robotera_m7",
+    "robotera_star1",
+    "ubtech_walker_s",
+    "ubtech_walker_s1",
+    "ubtech_walker_x",
+    "ubtech_walker_c",
+    "ubtech_walker_c1",
+    "ubtech_walker_tienkung",
+    "ubtech_yanshee",
+    "ubtech_cruzr_1s",
+    "ubtech_cruzr_y1",
+    "ubtech_cruzr_s2",
+    "r_1x_eve",
+    "r_1x_neo_beta",
+    "r_1x_neo_gamma",
+    "leju_robotics_kuavo_4pro",
+    "leju_robotics_kuavo_5",
+    "leju_robotics_kuavo_5_w",
+    "leju_robotics_roban_2",
+    "leju_robotics_aelos_pro3",
+    "leju_robotics_aelos_lite",
+    "leju_robotics_aelos_pro",
+    "leju_robotics_aelos_smart",
+    "magiclab_magicbot_gen1",
+    "magiclab_magicbot_x1",
+    "magiclab_magicbot_z1",
+    "pudu_robotics_pudu_d9",
+    "pudu_robotics_pudu_d7",
+    "pudu_robotics_flashbot_arm",
+    "aeirobot_alice_3",
+    "aeirobot_alice_4",
+    "aeirobot_alice_5",
+    "aeirobot_alice_m1",
+    "robotis_ai_sapiens_k0",
+    "robotis_robotis_op3",
+    "robotis_thormang3",
+    "lumos_robotics_lus2",
+    "lumos_robotics_nix1",
+    "limx_dynamics_luna",
+    "limx_dynamics_cl_1",
+    "limx_dynamics_tron_1",
+    "limx_dynamics_tron_2",
+    "engineai_se01",
+    "engineai_sa01",
+    "fourier_gr_1",
+    "realman_realbot_01",
+    "richtech_robotics_dex",
+    "dobot_atom_d",
+    "pal_robotics_reem_c",
+    "andromeda_robotics_abi",
+    "keenon_robotics_xman_r1",
+    "hanson_robotics_sophia",
+    "hanson_robotics_han",
+    "hanson_robotics_little_sophia",
+    "hanson_robotics_und_awakening_health_grace",
+    "engineered_arts_mesmer",
+    "engineered_arts_ameca_desktop",
+    "engineered_arts_ami_desktop",
+    "engineered_arts_azi_desktop",
+    "engineered_arts_robothespian",
+    "softbank_robotics_nao",
+    "sharp_robohon",
+    "iit_icub",
+    "iit_icub3",
+    "iit_ergocub",
+    "iit_r1",
+    "dlr_toro",
+    "dlr_rollin_justin",
+    "dlr_agile_justin",
+    "dlr_david_neodavid",
+    "dlr_spacejustin",
+    "aist_und_kawada_hrp_5p",
+    "cnrs_aist_jrl_und_partner_hrp_4cr",
+    "cnrs_aist_jrl_und_partner_rhp_friends",
+    "cnrs_aist_jrl_und_partner_call_m",
+    "nasa_und_partner_valkyrie_r5",
+    "nasa_und_partner_robonaut_2",
+    "toyota_t_hr3",
+    "uc_berkeley_berkeley_humanoid_lite",
+    "stanford_university_toddlerbot",
+    "fraunhofer_ipa_und_partner_care_o_bot_4",
+    "kit_armar_6",
+    "kit_armar_7",
+    "universitat_bonn_und_igus_nimbro_op2",
+    "universitat_bonn_und_igus_nimbro_op2x",
+    "universitat_bonn_und_igus_igus_humanoid_open_platform",
+    "ti5robot_t140a",
+    "ti5robot_t170a",
+    "ti5robot_t170a_v2",
+    "ti5robot_t170c",
+    "ti5robot_t170d",
+    "ti5robot_t230c",
+    "high_torque_robotics_hi",
+    "rainbow_robotics_drc_hubo",
+    "addverb_elixis",
+    "genrobotics_g_bot",
+    "genrobotics_genbot",
+    "aidol_aidol_walking_robot",
+    "aidol_aidol_desktop",
+    "universitat_teheran_cast_surena_iv",
+    "universitat_teheran_cast_mini_surena",
+    "ai2_robotics_alphabot_2",
+    "spirit_ai_moz1",
+    "aimoga_und_chery_mornine",
+    "aimoga_und_chery_mobo",
+    "aimoga_und_chery_r001",
+    "aimoga_und_chery_rn001",
+    "zerith_z1_familie",
+    "zerith_h_familie",
+    "galaxea_dynamics_r1",
+    "galaxea_dynamics_r1_lite",
+    "aeolus_robotics_aeo",
+    "beyond_imagination_beomni_v1",
+    "beyond_imagination_beomni_v2",
+    "beyond_imagination_beomni_v3",
+    "beyond_imagination_beyond_mark_1",
+    "beyond_imagination_beyond_mark_2",
+    "beyond_imagination_beyond_mark_3",
+    "apptronik_astra",
+    "figure_figure_01",
+    "boston_dynamics_atlas_hydraulisch",
+    "agibot_a1",
+    "agibot_a2",
+    "agibot_a2_w",
+    "agibot_g1_max",
+    "kepler_robotics_forerunner_k1",
+    "ntu_singapore_und_partner_nadine",
+    "noble_machines_industrieplattform_ohne_hier_bestatigten_modellnamen",
+    "persona_ai_industriehumanoider_ohne_hier_bestatigten_modellnamen",
+    "pollen_robotics_reachy_mini_lite",
+    "pollen_robotics_reachy_mini_wireless",
+    "ubtech_uworld_u1_lite",
+    "ubtech_uworld_u1_pro",
+    "ubtech_uworld_u1_ultra",
+    "zeroth_robotics_m1",
+    "zeroth_robotics_jupiter",
+    "openloong_und_humanoid_robot_shanghai_qingloong_offentliche_plattform",
+    "openloong_und_humanoid_robot_shanghai_qingloong_mini",
+    "robbyant_und_ant_lingbo_robbyant_r2",
+    "robbyant_und_ant_lingbo_robbyant_r1",
+    "aheadform_origin_f1",
+    "aheadform_origin_m1",
+    "aheadform_elf_xuan",
+    "aheadform_elf_xuan_2_0",
+    "aheadform_elf_iridium",
+    "aheadform_tang_sanzang",
+    "aheadform_chappie",
+    "zhejiang_humanoid_robot_innovation_center_naviai_wa1",
+    "zhejiang_humanoid_robot_innovation_center_naviai_wa2",
+    "zhejiang_humanoid_robot_innovation_center_naviai_i3",
+    "qihan_und_sanbot_sanbot_elf"
+  ],
+  "preserved_seed_ids": [
+    "agility_digit5",
+    "deep_dr02",
+    "honda_asimo_2011",
+    "pepper_classic",
+    "unitree_h1"
+  ],
+  "deferred_candidates": [
+    {
+      "id": "konka_1",
+      "name": "Konka 1",
+      "url": "https://news.chengdu.cn/2024/1028/2451256.shtml"
+    },
+    {
+      "id": "sanbot_king_kong",
+      "name": "Sanbot King Kong",
+      "url": "https://www.sanbot.com/brand"
+    },
+    {
+      "id": "sanbot_nano",
+      "name": "Sanbot Nano",
+      "url": "https://www.sanbot.com/brand"
+    },
+    {
+      "id": "daimon_one",
+      "name": "Daimon One",
+      "url": null
+    },
+    {
+      "id": "kai_kaibot",
+      "name": "KAI / KaiBot",
+      "url": "https://www.roboatlas.ai/en-US/companies/kinetixai"
+    },
+    {
+      "id": "tiangong_generations",
+      "name": "Zusätzliche TianGong Generationen",
+      "url": null
+    },
+    {
+      "id": "honda_p1",
+      "name": "Honda P1",
+      "url": null
+    },
+    {
+      "id": "honda_p2",
+      "name": "Honda P2",
+      "url": null
+    },
+    {
+      "id": "honda_p3",
+      "name": "Honda P3",
+      "url": null
+    },
+    {
+      "id": "table_justin",
+      "name": "Table Justin",
+      "url": null
+    },
+    {
+      "id": "moby_alias",
+      "name": "Moby, möglicher Alias",
+      "url": null
+    }
+  ]
+}

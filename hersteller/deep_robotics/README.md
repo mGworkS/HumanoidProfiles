@@ -9,6 +9,8 @@ Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden e
 ## Erfasstes Portfolio
 
 * [DR02](../../roboter/deep_dr02/README.md)
+* [DR01](../../roboter/deep_robotics_dr01/README.md)
+* [DR02 Pro](../../roboter/deep_robotics_dr02_pro/README.md)
 
 ## Quellen
 

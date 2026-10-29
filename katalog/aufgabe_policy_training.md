@@ -4,6 +4,6 @@
 
 Kategorien sind keine Eignungszusage. Historische Einordnung und Beschaffbarkeit werden getrennt behandelt.
 
-| Modell | Einordnung | Prüfumfang |
-| --- | --- | --- |
-| [H1](../roboter/unitree_h1/README.md) | gegenwaertig | teilweise_geprueft |
+| Modell | Eintragstyp | Einordnung | Prüfumfang |
+| --- | --- | --- | --- |
+| [H1](../roboter/unitree_h1/README.md) | modell | gegenwaertig | teilweise_geprueft |

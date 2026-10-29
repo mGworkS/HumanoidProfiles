@@ -4,6 +4,6 @@
 
 Kategorien sind keine Eignungszusage. Historische Einordnung und Beschaffbarkeit werden getrennt behandelt.
 
-| Modell | Einordnung | Prüfumfang |
-| --- | --- | --- |
-| [DR02](../roboter/deep_dr02/README.md) | gegenwaertig | teilweise_geprueft |
+| Modell | Eintragstyp | Einordnung | Prüfumfang |
+| --- | --- | --- | --- |
+| [DR02](../roboter/deep_dr02/README.md) | modell | gegenwaertig | teilweise_geprueft |

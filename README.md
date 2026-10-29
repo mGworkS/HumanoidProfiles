@@ -4,12 +4,13 @@
 
 Quellenbasierte Wissensbasis für humanoide Roboter. Für Menschen lesbar und für strukturierte Auswahl sowie RAG exportierbar. Branchen, Aufgaben und Umgebungen sind erweiterbare Tags.
 
-**Startbestand:** fünf Modelle, teilweise geprüft. Keine Vollständigkeitsbehauptung und keine pauschale Kaufempfehlung. Herstellerangaben, Ankündigungen und unabhängige Nachweise bleiben unterscheidbar.
+**Erfasster Bestand:** 236 Profile. 2 entwicklungsprogramm, 8 familie, 209 modell, 17 variante. Der Großteil wurde aus vorhandenen Listen übernommen und ist noch fachlich zu prüfen. Keine Vollständigkeitsbehauptung und keine pauschale Kaufempfehlung. Herstellerangaben, Ankündigungen und unabhängige Nachweise bleiben unterscheidbar.
 
 ## Einstieg
 
 * [Gegenwärtige Plattformen](katalog/gegenwaertig.md)
 * [Entwicklungspipeline](katalog/entwicklungspipeline.md)
+* [Erfasste Profile mit offener Prüfung](katalog/ungeprueft.md)
 
 ## Branchen, Aufgaben und Umgebungen
 
@@ -19,7 +20,11 @@ Quellenbasierte Wissensbasis für humanoide Roboter. Für Menschen lesbar und f�
 * [Einzelhandel](katalog/branche_einzelhandel.md) (branche)
 * [Bildung](katalog/branche_bildung.md) (branche)
 * [Forschung](katalog/branche_forschung.md) (branche)
+* [Unterhaltung](katalog/branche_unterhaltung.md) (branche)
 * [Service](katalog/branche_service.md) (branche)
+* [Haushalt](katalog/branche_haushalt.md) (branche)
+* [Sicherheit und Rettung](katalog/branche_sicherheit_rettung.md) (branche)
+* [Raumfahrt](katalog/branche_raumfahrt.md) (branche)
 * [Transport](katalog/aufgabe_transport.md) (aufgabe)
 * [Interaktion](katalog/aufgabe_interaktion.md) (aufgabe)
 * [Manipulation](katalog/aufgabe_manipulation.md) (aufgabe)
@@ -41,6 +46,7 @@ Quellenbasierte Wissensbasis für humanoide Roboter. Für Menschen lesbar und f�
 * [Pflege und neue Recherche](docs/pflegeprozess.md)
 * [Vollständiges Merkmalsverzeichnis](schema/merkmale.yaml)
 * [Vorlagen](vorlagen/README.md)
+* [Vollständiger Importnachweis](recherche/importe/README.md)
 * [Recherchekandidaten](recherche/kandidaten/README.md)
 * [RAG und Auswahlregeln](docs/rag.md)
 * [Änderungen](CHANGELOG.md)

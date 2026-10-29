@@ -1,0 +1,641 @@
+[
+  {
+    "id": "17",
+    "model": "Digit Generation 4",
+    "maker": "Agility Robotics",
+    "country": "USA",
+    "use": "Kommerziell integrierte Behälterhandhabung",
+    "url": "https://www.agilityrobotics.com/solutions",
+    "origin": "B"
+  },
+  {
+    "id": "18",
+    "model": "Digit 5",
+    "maker": "Agility Robotics",
+    "country": "USA",
+    "use": "Logistik und Fertigung ab geplanter Einführung 2027",
+    "url": "https://www.agilityrobotics.com/solutions/digit-5",
+    "origin": "B"
+  },
+  {
+    "id": "10",
+    "model": "HMND 01 Alpha Wheeled",
+    "maker": "Humanoid",
+    "country": "Großbritannien",
+    "use": "Behältertransport und Materialfluss",
+    "url": "https://thehumanoid.ai/hmnd-01-alpha-wheeled/",
+    "origin": "B"
+  },
+  {
+    "id": "26",
+    "model": "Reflex Robot",
+    "maker": "Reflex Robotics",
+    "country": "USA",
+    "use": "Wiederkehrende Lageraufgaben mit Fernaufsicht",
+    "url": "https://www.reflexrobotics.com/",
+    "origin": "B"
+  },
+  {
+    "id": "42",
+    "model": "G2",
+    "maker": "AGIBOT",
+    "country": "China",
+    "use": "Kraftgeregelte industrielle Handhabung",
+    "url": "https://www.agibot.com/products/G2",
+    "origin": "B"
+  },
+  {
+    "id": "41",
+    "model": "G1",
+    "maker": "AGIBOT",
+    "country": "China",
+    "use": "Handhabung, Datenerfassung und Industrieentwicklung",
+    "url": "https://www.agibot.com/products/G1",
+    "origin": "B"
+  },
+  {
+    "id": "57",
+    "model": "G1",
+    "maker": "Galbot",
+    "country": "China",
+    "use": "Retail, Lager und industrielle Handhabung",
+    "url": "https://developer.galbot.com/docs/g1/2.2.4/en/g1/",
+    "origin": "B"
+  },
+  {
+    "id": "40",
+    "model": "Walker S2",
+    "maker": "UBTECH",
+    "country": "China",
+    "use": "Industrielle Fertigung und Materialhandling",
+    "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+    "origin": "B"
+  },
+  {
+    "id": "21",
+    "model": "Figure 03",
+    "maker": "Figure",
+    "country": "USA",
+    "use": "Industrielle Sequenzierung; Haushalt zusätzliches Entwicklungsziel",
+    "url": "https://www.figure.ai/figure",
+    "origin": "B"
+  },
+  {
+    "id": "19",
+    "model": "Atlas",
+    "maker": "Boston Dynamics",
+    "country": "USA",
+    "use": "Industrielle Materialhandhabung und Anlagenbedienung",
+    "url": "https://bostondynamics.com/products/atlas/",
+    "origin": "B"
+  },
+  {
+    "id": "12",
+    "model": "RoBee R",
+    "maker": "Oversonic",
+    "country": "Italien",
+    "use": "Industrielle Assistenz und Anlagenintegration",
+    "url": "https://www.oversonicrobotics.com/robee-r/",
+    "origin": "B"
+  },
+  {
+    "id": "09",
+    "model": "AEON",
+    "maker": "Hexagon Robotics",
+    "country": "Schweiz",
+    "use": "Industrielle Inspektion, Vermessung und Handhabung",
+    "url": "https://robotics.hexagon.com/product/",
+    "origin": "B"
+  },
+  {
+    "id": "16",
+    "model": "Calvin 40",
+    "maker": "Wandercraft",
+    "country": "Frankreich",
+    "use": "Schwere repetitive Handhabung in Fertigung und Logistik",
+    "url": "https://en.wandercraft.eu/calvin",
+    "origin": "B"
+  },
+  {
+    "id": "22",
+    "model": "Apollo",
+    "maker": "Apptronik",
+    "country": "USA",
+    "use": "Materialhandling in betreuten Industriepiloten",
+    "url": "https://apptronik.com/news-collection/apptronik-unveils-apollo",
+    "origin": "B"
+  },
+  {
+    "id": "23",
+    "model": "Apollo 2",
+    "maker": "Apptronik",
+    "country": "USA",
+    "use": "Datenerfassung und Entwicklung industrieller Arbeitsabläufe",
+    "url": "https://apptronik.com/apollo/apollo-2",
+    "origin": "B"
+  },
+  {
+    "id": "29",
+    "model": "MenteeBot V3",
+    "maker": "Mentee Robotics",
+    "country": "Israel",
+    "use": "Industrielles Tragen und Materialhandling",
+    "url": "https://www.menteebot.com/bot/",
+    "origin": "B"
+  },
+  {
+    "id": "04",
+    "model": "Agile ONE",
+    "maker": "Agile Robots",
+    "country": "Deutschland",
+    "use": "Materialhandling, Werkzeuggebrauch und Fertigung",
+    "url": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one/",
+    "origin": "B"
+  },
+  {
+    "id": "01",
+    "model": "WORKMATE",
+    "maker": "IONO",
+    "country": "Österreich",
+    "use": "Industrielle Assistenz und Materialhandling",
+    "url": "https://www.iono.tech/",
+    "origin": "B"
+  },
+  {
+    "id": "06",
+    "model": "Iggy Rob",
+    "maker": "igus",
+    "country": "Deutschland",
+    "use": "Teiletransport und einfache Handhabung in Werkshallen",
+    "url": "https://www.igus.eu/product/0-LCA-IROB",
+    "origin": "B"
+  },
+  {
+    "id": "02",
+    "model": "4NE1 Gen 4",
+    "maker": "NEURA Robotics",
+    "country": "Deutschland",
+    "use": "Fertigung und Logistik im Herstellerprojekt",
+    "url": "https://neura-robotics.com/products/4ne1/",
+    "origin": "B"
+  },
+  {
+    "id": "56A",
+    "model": "K2 zweibeinig",
+    "maker": "Kepler Robotics",
+    "country": "China",
+    "use": "Industrielle Handhabung und flexible Automatisierung",
+    "url": "https://gotokepler.com/productDetailK2",
+    "origin": "B"
+  },
+  {
+    "id": "56B",
+    "model": "K2 rollend",
+    "maker": "Kepler Robotics",
+    "country": "China",
+    "use": "Industrielle Handhabung und flexible Automatisierung",
+    "url": "https://gotokepler.com/productDetailK2",
+    "origin": "B"
+  },
+  {
+    "id": "24",
+    "model": "Optimus",
+    "maker": "Tesla",
+    "country": "USA",
+    "use": "Interner Aufbau von Fabrik und Alltagsfähigkeiten",
+    "url": "https://www.tesla.com/SI",
+    "origin": "B"
+  },
+  {
+    "id": "20",
+    "model": "Figure 02",
+    "maker": "Figure",
+    "country": "USA",
+    "use": "Historischer Produktionspilot bei BMW",
+    "url": "https://www.figure.ai/news/f-02-decommission",
+    "origin": "B"
+  },
+  {
+    "id": "25",
+    "model": "Phoenix und aktuelle Roadmap",
+    "maker": "Sanctuary AI",
+    "country": "Kanada",
+    "use": "Historischer Humanoid; heutige Carbon Integration separat",
+    "url": "https://sanctuary.ai/solutions/",
+    "origin": "B"
+  },
+  {
+    "id": "08",
+    "model": "Reachy 2",
+    "maker": "Pollen Robotics",
+    "country": "Frankreich",
+    "use": "Bimanuelles Robot Learning und Teleoperation",
+    "url": "https://pollen-robotics.com/reachy-2/",
+    "origin": "B"
+  },
+  {
+    "id": "67",
+    "model": "TIAGo Pro",
+    "maker": "PAL Robotics",
+    "country": "Spanien",
+    "use": "Mobile Manipulation, HRI und Entwicklung mit ROS 2",
+    "url": "https://pal-robotics.com/robot/tiago-pro/",
+    "origin": "B"
+  },
+  {
+    "id": "51",
+    "model": "RB Y1",
+    "maker": "Rainbow Robotics",
+    "country": "Südkorea",
+    "use": "Mobile Manipulationsforschung und Datenerfassung",
+    "url": "https://rainbow-robotics.com/en/products/rb-y1/",
+    "origin": "B"
+  },
+  {
+    "id": "50",
+    "model": "AI Worker SG2",
+    "maker": "ROBOTIS",
+    "country": "Südkorea",
+    "use": "Lernende industrielle Manipulation als Entwicklerplattform",
+    "url": "https://docs.robotis.com/docs/systems/aiworker/introduction/",
+    "origin": "B"
+  },
+  {
+    "id": "58",
+    "model": "R1 Pro 2026",
+    "maker": "Galaxea Dynamics",
+    "country": "China",
+    "use": "Mobile Manipulationsforschung und Teleoperation",
+    "url": "https://docs.galaxea-dynamics.com/R1Pro/en/docs/2026/",
+    "origin": "B"
+  },
+  {
+    "id": "59",
+    "model": "S1",
+    "maker": "Astribot",
+    "country": "China",
+    "use": "Manipulationsforschung und Entwicklung von Serviceaufgaben",
+    "url": "https://www.astribot.com/en/product/",
+    "origin": "B"
+  },
+  {
+    "id": "35",
+    "model": "H2 Plus",
+    "maker": "Unitree",
+    "country": "China",
+    "use": "NVIDIA Referenzplattform für Robot Learning",
+    "url": "https://www.unitree.com/mobile/H2plus/",
+    "origin": "B"
+  },
+  {
+    "id": "05",
+    "model": "Agile ONE SN",
+    "maker": "Agile Robots",
+    "country": "Deutschland",
+    "use": "Lernen eigener Ganzkörper und Manipulationspolicies",
+    "url": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-sn/",
+    "origin": "B"
+  },
+  {
+    "id": "34",
+    "model": "H2 und H2 EDU",
+    "maker": "Unitree",
+    "country": "China",
+    "use": "Lebensgroße Entwicklungsplattform mit EDU",
+    "url": "https://www.unitree.com/H2/",
+    "origin": "B"
+  },
+  {
+    "id": "33A",
+    "model": "H1",
+    "maker": "Unitree",
+    "country": "China",
+    "use": "Ganzkörperregelung und Manipulationsforschung",
+    "url": "https://www.unitree.com/h1/",
+    "origin": "B"
+  },
+  {
+    "id": "33B",
+    "model": "H1 2",
+    "maker": "Unitree",
+    "country": "China",
+    "use": "Ganzkörperregelung und Manipulationsforschung",
+    "url": "https://www.unitree.com/h1/",
+    "origin": "B"
+  },
+  {
+    "id": "55",
+    "model": "ATOM Max",
+    "maker": "DOBOT",
+    "country": "China",
+    "use": "Robot Learning und industrielle Anwendungsentwicklung",
+    "url": "https://www.dobot-robots.com/products/humanoid-robots/atom.html?lang=cn",
+    "origin": "B"
+  },
+  {
+    "id": "62",
+    "model": "L7",
+    "maker": "ROBOTERA",
+    "country": "China",
+    "use": "Dynamische Ganzkörper und Manipulationsentwicklung",
+    "url": "https://www.robotera.com/en/robotics/L7.html",
+    "origin": "B"
+  },
+  {
+    "id": "49",
+    "model": "Oli EDU",
+    "maker": "LimX Dynamics",
+    "country": "China",
+    "use": "Ganzkörpersteuerung, Teleoperation und Robot Learning",
+    "url": "https://www.limxdynamics.com/en/products/oli",
+    "origin": "B"
+  },
+  {
+    "id": "47",
+    "model": "GR 2",
+    "maker": "Fourier",
+    "country": "China",
+    "use": "Humanoidforschung und Manipulation",
+    "url": "https://support-old.fftai.com/docs/GR-X-Humanoid-Robot/GR2/GR-2_Introduction/",
+    "origin": "B"
+  },
+  {
+    "id": "07",
+    "model": "TALOS",
+    "maker": "PAL Robotics",
+    "country": "Spanien",
+    "use": "Drehmomentregelung und Ganzkörperforschung",
+    "url": "https://pal-robotics.com/robot/talos/",
+    "origin": "B"
+  },
+  {
+    "id": "39",
+    "model": "T2",
+    "maker": "Booster Robotics",
+    "country": "China",
+    "use": "Manipulationsforschung und Entwicklung eigener Policies",
+    "url": "https://www.booster.tech/booster-t2?target=en",
+    "origin": "B"
+  },
+  {
+    "id": "38",
+    "model": "T1",
+    "maker": "Booster Robotics",
+    "country": "China",
+    "use": "Ganzkörperforschung, Fußball und Lehre",
+    "url": "https://docs.booster.tech/docs/product-manual/t1/getting-started/overview/",
+    "origin": "B"
+  },
+  {
+    "id": "45",
+    "model": "X1",
+    "maker": "AGIBOT",
+    "country": "China",
+    "use": "Offene Forschung und Lehre",
+    "url": "https://agibot.com/products/X1",
+    "origin": "B"
+  },
+  {
+    "id": "64",
+    "model": "TianGong 3",
+    "maker": "X Humanoid",
+    "country": "China",
+    "use": "Offene Ganzkörper und Manipulationsentwicklung",
+    "url": "https://www.x-humanoid.com/m/news-view-269.html",
+    "origin": "B"
+  },
+  {
+    "id": "63",
+    "model": "North",
+    "maker": "Sharpa",
+    "country": "Singapur",
+    "use": "Forschung an taktiler zweihändiger Manipulation",
+    "url": "https://www.sharpa.com/pages/north",
+    "origin": "B"
+  },
+  {
+    "id": "53",
+    "model": "T800",
+    "maker": "ENGINEAI",
+    "country": "China",
+    "use": "Lebensgroße Bewegungs und Manipulationsentwicklung",
+    "url": "https://en.engineai.com.cn/product-t800.html",
+    "origin": "B"
+  },
+  {
+    "id": "31",
+    "model": "G1 und G1 EDU",
+    "maker": "Unitree",
+    "country": "China",
+    "use": "Robot Learning und Ganzkörperforschung mit EDU",
+    "url": "https://www.unitree.com/g1/",
+    "origin": "B"
+  },
+  {
+    "id": "32",
+    "model": "G1 Plus",
+    "maker": "Unitree",
+    "country": "China",
+    "use": "Lehre und Robot Learning mit EDU",
+    "url": "https://www.unitree.com/mobile/G1pl/",
+    "origin": "B"
+  },
+  {
+    "id": "30",
+    "model": "R1 Familie",
+    "maker": "Unitree",
+    "country": "China",
+    "use": "Lehre, Bewegung und Forschung mit EDU",
+    "url": "https://www.unitree.com/R1/",
+    "origin": "B"
+  },
+  {
+    "id": "03",
+    "model": "4NE1 Mini",
+    "maker": "NEURA Robotics",
+    "country": "Deutschland",
+    "use": "Lehre, Interaktion und Entwicklung",
+    "url": "https://neura-robotics.com/product/4ne1-mini-reservation/",
+    "origin": "B"
+  },
+  {
+    "id": "37",
+    "model": "K1",
+    "maker": "Booster Robotics",
+    "country": "China",
+    "use": "Lehre, Robotikforschung und Wettbewerbe",
+    "url": "https://www.booster.tech/booster-k1?target=en",
+    "origin": "B"
+  },
+  {
+    "id": "27",
+    "model": "Sprout Creator Edition",
+    "maker": "Fauna Robotics",
+    "country": "USA",
+    "use": "Entwicklerplattform für HRI und Manipulation",
+    "url": "https://faunarobotics.com/product",
+    "origin": "B"
+  },
+  {
+    "id": "52",
+    "model": "PM01",
+    "maker": "ENGINEAI",
+    "country": "China",
+    "use": "Interaktion und Navigationsentwicklung",
+    "url": "https://en.engineai.com.cn/product-pm01.html",
+    "origin": "B"
+  },
+  {
+    "id": "60",
+    "model": "N2",
+    "maker": "Noetix Robotics",
+    "country": "China",
+    "use": "Lehre, dynamische Bewegung und Vorführungen",
+    "url": "https://en.noetixrobotics.com/products-277.html",
+    "origin": "B"
+  },
+  {
+    "id": "61",
+    "model": "Bumi",
+    "maker": "Noetix Robotics",
+    "country": "China",
+    "use": "Lehre, Programmieren und Unterhaltung",
+    "url": "https://www.noetixrobotics.com/en/mobile/detail/Bumi",
+    "origin": "B"
+  },
+  {
+    "id": "65",
+    "model": "Kaleido",
+    "maker": "Kawasaki Robotics",
+    "country": "Japan",
+    "use": "Herstellerforschung für Rettung und Katastrophenumfelder",
+    "url": "https://kawasakirobotics.com/blog/evolution-of-kawasakis-humanoid-robot-challenge/",
+    "origin": "B"
+  },
+  {
+    "id": "13",
+    "model": "NEO",
+    "maker": "1X",
+    "country": "Norwegen und USA",
+    "use": "Hausarbeit und persönliche Assistenz",
+    "url": "https://www.1x.tech/neo",
+    "origin": "B"
+  },
+  {
+    "id": "28",
+    "model": "Memo",
+    "maker": "Sunday Robotics",
+    "country": "USA",
+    "use": "Hausarbeit, Küche und Wäsche im begrenzten Betaprogramm",
+    "url": "https://www.sunday.ai/",
+    "origin": "B"
+  },
+  {
+    "id": "66",
+    "model": "CLOiD",
+    "maker": "LG Electronics",
+    "country": "Südkorea",
+    "use": "Hausarbeit und Einbindung in das LG Zuhause",
+    "url": "https://www.lg.com/at/ueber-lg/presse-medien/lg-cloid/",
+    "origin": "B"
+  },
+  {
+    "id": "11",
+    "model": "HMND 01 Alpha Bipedal",
+    "maker": "Humanoid",
+    "country": "Großbritannien",
+    "use": "Entwicklung für Haushalt und Service",
+    "url": "https://thehumanoid.ai/hmnd-01-alpha-bipedal/",
+    "origin": "B"
+  },
+  {
+    "id": "15",
+    "model": "Mirokaï",
+    "maker": "Enchanted Tools",
+    "country": "Frankreich",
+    "use": "Begleitung, Orientierung und kleine Transporte in Kliniken und Service",
+    "url": "https://enchanted.tools/robot/",
+    "origin": "B"
+  },
+  {
+    "id": "48",
+    "model": "GR 3",
+    "maker": "Fourier",
+    "country": "China",
+    "use": "Soziale Begleitung und Forschung zur Interaktion",
+    "url": "https://support.fftai.com/en/gr3/getting-started/general-information",
+    "origin": "B"
+  },
+  {
+    "id": "14",
+    "model": "Ameca",
+    "maker": "Engineered Arts",
+    "country": "Großbritannien",
+    "use": "Dialoge, Empfang, Veranstaltungen und HRI",
+    "url": "https://www.engineeredarts.com/robot/ameca",
+    "origin": "B"
+  },
+  {
+    "id": "43A",
+    "model": "A2 Ultra",
+    "maker": "AGIBOT",
+    "country": "China",
+    "use": "Empfang, Dialoge und Auftritte",
+    "url": "https://www.agibot.com/products/A2_Ultra",
+    "origin": "B"
+  },
+  {
+    "id": "43B",
+    "model": "A2 Lite",
+    "maker": "AGIBOT",
+    "country": "China",
+    "use": "Empfang, Dialoge und Auftritte",
+    "url": "https://www.agibot.com/products/A2_Ultra",
+    "origin": "B"
+  },
+  {
+    "id": "44",
+    "model": "A3",
+    "maker": "AGIBOT",
+    "country": "China",
+    "use": "Bühne, Tanz, Events und Markenauftritte",
+    "url": "https://www.agibot.com/products/A3",
+    "origin": "B"
+  },
+  {
+    "id": "46A",
+    "model": "X2",
+    "maker": "AGIBOT",
+    "country": "China",
+    "use": "Interaktion und Entertainment; Ultra zusätzlich Entwicklung",
+    "url": "https://www.agibot.com/products/X2",
+    "origin": "B"
+  },
+  {
+    "id": "46B",
+    "model": "X2 Ultra",
+    "maker": "AGIBOT",
+    "country": "China",
+    "use": "Interaktion und Entertainment; Ultra zusätzlich Entwicklung",
+    "url": "https://www.agibot.com/products/X2",
+    "origin": "B"
+  },
+  {
+    "id": "54",
+    "model": "IRON",
+    "maker": "XPENG",
+    "country": "China",
+    "use": "Kommerzielle Service und Empfangsszenarien als Ziel",
+    "url": "https://www.xpeng.com/technology/ai_robot_iron",
+    "origin": "B"
+  },
+  {
+    "id": "36",
+    "model": "H2 X",
+    "maker": "Unitree",
+    "country": "China",
+    "use": "Patrouille, Sicherheitsdienst und Inspektion",
+    "url": "https://www.unitree.com/mobile/H2-X/",
+    "origin": "B"
+  }
+]

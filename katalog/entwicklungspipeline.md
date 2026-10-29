@@ -4,9 +4,9 @@
 
 Kategorien sind keine Eignungszusage. Historische Einordnung und Beschaffbarkeit werden getrennt behandelt.
 
-| Modell | Einordnung | Prüfumfang |
-| --- | --- | --- |
-| [Digit 5](../roboter/agility_digit5/README.md) | pipeline | teilweise_geprueft |
+| Modell | Eintragstyp | Einordnung | Prüfumfang |
+| --- | --- | --- | --- |
+| [Digit 5](../roboter/agility_digit5/README.md) | modell | pipeline | teilweise_geprueft |
 
 ## Offene Termine
 

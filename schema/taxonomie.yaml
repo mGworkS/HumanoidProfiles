@@ -31,6 +31,15 @@ axes:
     bau:
       label: Bau
       aliases: []
+    haushalt:
+      label: Haushalt
+      aliases: []
+    sicherheit_rettung:
+      label: Sicherheit und Rettung
+      aliases: []
+    raumfahrt:
+      label: Raumfahrt
+      aliases: []
   aufgabe:
     transport:
       label: Transport

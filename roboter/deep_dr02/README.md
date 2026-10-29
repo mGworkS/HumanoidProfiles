@@ -47,7 +47,7 @@ Industrielle humanoide Plattform mit Herstellerangaben zum Ganzkörperschutz. Ke
 
 ## Beschaffung und Geschäftsmodell
 
-Kein konkretes aktuelles Angebot in diesem Startbestand bestätigt. Das ist kein Nachweis der Nichtverfügbarkeit. Preis, Abo, RaaS und Integrationsleistungen bleiben offen.
+Kein konkretes aktuelles Angebot in diesem Bestand bestätigt. Das ist kein Nachweis der Nichtverfügbarkeit. Preis, Abo, RaaS und Integrationsleistungen bleiben offen.
 
 ## Offene Entscheidungsfragen
 

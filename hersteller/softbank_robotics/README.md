@@ -9,6 +9,7 @@ Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden e
 ## Erfasstes Portfolio
 
 * [Pepper · klassische Plattform](../../roboter/pepper_classic/README.md)
+* [NAO](../../roboter/softbank_robotics_nao/README.md)
 
 ## Quellen
 

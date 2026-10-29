@@ -1,5 +1,15 @@
-# Noch ungeprüfte Kandidaten
+# Offene Recherchekandidaten
 
-Dieser Bereich enthält noch keine kanonischen Roboterdatensätze. Kandidaten entstehen aus neuen Suchläufen oder offenen Variantenbeziehungen. Die ursprünglichen DOCX Kataloge sind noch nicht vollständig migriert.
+Die Hauptlisten wurden vollständig in Profile überführt. Die folgenden zuvor offenen Hinweise bleiben getrennt, bis Identität, Aliasbezug oder Aufnahmeumfang geklärt sind.
 
-Für die nächste Aufnahme prüfen: DR02 Pro, H1-2, Pepper+ und Digit 4. Die Namen dienen nur der Abgrenzung der Startprofile. Quellenhinweise stehen in den jeweiligen Modellprofilen. Aufnahme erst nach Identitätsprüfung.
+* [Konka 1](konka_1.md)
+* [Sanbot King Kong](sanbot_king_kong.md)
+* [Sanbot Nano](sanbot_nano.md)
+* [Daimon One](daimon_one.md)
+* [KAI / KaiBot](kai_kaibot.md)
+* [Zusätzliche TianGong Generationen](tiangong_generations.md)
+* [Honda P1](honda_p1.md)
+* [Honda P2](honda_p2.md)
+* [Honda P3](honda_p3.md)
+* [Table Justin](table_justin.md)
+* [Moby, möglicher Alias](moby_alias.md)
