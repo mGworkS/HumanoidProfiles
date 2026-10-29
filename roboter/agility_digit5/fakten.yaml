@@ -1,0 +1,388 @@
+schema_version: '1.0'
+robot_id: agility_digit5
+claims:
+- id: lifecycle_first_presented
+  key: lifecycle.first_presented
+  value: '2026-09-15'
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_launch
+    locator: Veröffentlichungsdatum
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_development
+  key: lifecycle.development
+  value: aktiv
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: 'Fußnote: in development'
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_height
+  key: hardware.height
+  value: 1.81
+  unit: m
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_launch
+    locator: Built for Heavier, More Versatile Work
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_mass
+  key: hardware.mass
+  value: 129
+  unit: kg
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_launch
+    locator: Built for Heavier, More Versatile Work
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_two_arms
+  key: hardware.payload_two_arms
+  value: 22.7
+  unit: kg
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_launch
+    locator: 50 lb loads
+  context:
+    scope: Gesamtlast beim Heben; nicht je Arm
+    limit: Vorläufige Herstellerangabe
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_reach
+  key: hardware.reach
+  value: 2.2
+  unit: m
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Reach
+  context:
+    scope: Erreichbare Höhe, keine reine Armlänge
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_runtime
+  key: hardware.runtime
+  value: 90
+  unit: min
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_launch
+    locator: 90-minute runtime
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ecosystem_integration
+  key: ecosystem.integration
+  value: Anbindung an bestehende Lagerautomatisierung geplant
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Integrated
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ecosystem_cloud
+  key: ecosystem.cloud
+  value: Integration mit Agility Arc angekündigt; Pflichtumfang offen
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_launch
+    locator: Smarter Fleets with Agility Arc
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_production
+  key: lifecycle.production
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_support
+  key: lifecycle.support
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_first_delivery
+  key: lifecycle.first_delivery
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_development_end
+  key: lifecycle.development_end
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_production_end
+  key: lifecycle.production_end
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_support_end
+  key: lifecycle.support_end
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_width
+  key: hardware.width
+  value: null
+  unit: m
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_depth
+  key: hardware.depth
+  value: null
+  unit: m
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_arm
+  key: hardware.payload_arm
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_walking
+  key: hardware.payload_walking
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_speed
+  key: hardware.speed
+  value: null
+  unit: m/s
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_battery
+  key: hardware.battery
+  value: null
+  unit: Wh
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: environment_ip
+  key: environment.ip
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: autonomy_scope
+  key: autonomy.scope
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_sdk
+  key: openness.sdk
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_policy_training
+  key: openness.policy_training
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_policy_deployment
+  key: openness.policy_deployment
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ecosystem_subscription
+  key: ecosystem.subscription
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+offers:
+- id: planned_access_2027
+  provider_id: agility_robotics
+  mode: pilot
+  status: angekuendigt
+  regions:
+  - US
+  - CA
+  - EU
+  - GB
+  audiences:
+  - unternehmen
+  price: null
+  currency: null
+  billing: unbekannt
+  subscription: unbekannt
+  term: null
+  included: []
+  exit_conditions: null
+  configuration: Digit 5; geplante Verfügbarkeit
+  checked_at: '2026-10-29'
+  source_ids:
+  - src_digit5_launch
+events:
+- id: early_access
+  type: zugang_geplant
+  date: 2027-H1
+  status: angekuendigt
+  description: Früher Zugang im ersten Halbjahr 2027 erwartet.
+  source_ids:
+  - src_digit5_launch
+- id: general_access
+  type: zugang_geplant
+  date: '2027'
+  status: angekuendigt
+  description: Allgemeine Verfügbarkeit bis Ende 2027 erwartet.
+  source_ids:
+  - src_digit5_launch
+extensions: []
+media: []

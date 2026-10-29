@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 1
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "published_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "accessed_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "language": {
+      "type": "string",
+      "minLength": 1
+    },
+    "access_method": {
+      "enum": [
+        "direkt",
+        "suchindex",
+        "lokale_kopie"
+      ]
+    },
+    "rights": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "title",
+    "publisher",
+    "url",
+    "published_at",
+    "accessed_at",
+    "language",
+    "access_method",
+    "rights"
+  ],
+  "additionalProperties": false
+}

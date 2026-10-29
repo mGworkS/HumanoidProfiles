@@ -1,0 +1,370 @@
+schema_version: '1.0'
+robot_id: unitree_h1
+claims:
+- id: lifecycle_first_presented
+  key: lifecycle.first_presented
+  value: '2023-08-15'
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_launch
+    locator: Unternehmensgeschichte 2023
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_height
+  key: hardware.height
+  value: 1.8
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_product
+    locator: H1 Body Size
+  context:
+    precision: ungefähr
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_width
+  key: hardware.width
+  value: 0.57
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_product
+    locator: H1 Key Dimensions
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_depth
+  key: hardware.depth
+  value: 0.22
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_product
+    locator: H1 Key Dimensions
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_mass
+  key: hardware.mass
+  value: 47
+  unit: kg
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_product
+    locator: H1 Total Weight
+  context:
+    precision: ungefähr
+    configuration: Batteriebezug nicht ausdrücklich angegeben
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_speed
+  key: hardware.speed
+  value: 3.3
+  unit: m/s
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_product
+    locator: H1 Mobility
+  context:
+    limit: Kein Nachweis einer Dauerarbeitsgeschwindigkeit
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_battery
+  key: hardware.battery
+  value: 864
+  unit: Wh
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_product
+    locator: H1 Battery
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_policy_training
+  key: openness.policy_training
+  value: Training für H1 dokumentiert
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_rl
+    locator: Training --task h1
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_policy_deployment
+  key: openness.policy_deployment
+  value: Physischer Deploymentpfad für H1 dokumentiert
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_rl
+    locator: Sim2Real; h1.yaml
+  context:
+    requirement: Passende Konfiguration und Debugmodus; keine allgemeine Sicherheitsfreigabe
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_training_code
+  key: openness.training_code
+  value: Öffentliches Unitree RL GYM Repository
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_rl
+    locator: README und Repository
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_simulation
+  key: openness.simulation
+  value: Trainingssimulation und Übertragung zwischen Simulatoren dokumentiert
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_h1_rl
+    locator: Train / Sim2Sim
+  context: {}
+  checked_at: '2026-10-29'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_development
+  key: lifecycle.development
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_production
+  key: lifecycle.production
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_support
+  key: lifecycle.support
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_first_delivery
+  key: lifecycle.first_delivery
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_development_end
+  key: lifecycle.development_end
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_production_end
+  key: lifecycle.production_end
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_support_end
+  key: lifecycle.support_end
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_arm
+  key: hardware.payload_arm
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_two_arms
+  key: hardware.payload_two_arms
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_walking
+  key: hardware.payload_walking
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_reach
+  key: hardware.reach
+  value: null
+  unit: m
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_runtime
+  key: hardware.runtime
+  value: null
+  unit: min
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: environment_ip
+  key: environment.ip
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: autonomy_scope
+  key: autonomy.scope
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_sdk
+  key: openness.sdk
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ecosystem_cloud
+  key: ecosystem.cloud
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ecosystem_subscription
+  key: ecosystem.subscription
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+offers: []
+events: []
+extensions: []
+media: []

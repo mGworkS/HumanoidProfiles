@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "group": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "enum": [
+        "text",
+        "number",
+        "range",
+        "boolean",
+        "date"
+      ]
+    },
+    "unit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "overview": {
+      "type": "boolean"
+    },
+    "core": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "label",
+    "group",
+    "kind",
+    "unit",
+    "overview",
+    "core"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,19 @@
+claim:
+  id: aussage_id
+  key: hardware.mass
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+extension:
+  id: besonderheit
+  title: Individuelle Besonderheit
+  description: Erklärung einer modellspezifischen Fähigkeit.
+  claim_ids:
+  - aussage_id

@@ -1,0 +1,394 @@
+schema_version: '1.0'
+metrics:
+  lifecycle.first_presented:
+    label: Erstvorstellung
+    group: Lebenszyklus
+    kind: date
+    unit: null
+    overview: true
+    core: true
+  lifecycle.development:
+    label: Entwicklung
+    group: Lebenszyklus
+    kind: text
+    unit: null
+    overview: true
+    core: true
+  lifecycle.production:
+    label: Produktion
+    group: Lebenszyklus
+    kind: text
+    unit: null
+    overview: true
+    core: true
+  lifecycle.support:
+    label: Support
+    group: Lebenszyklus
+    kind: text
+    unit: null
+    overview: true
+    core: true
+  lifecycle.first_delivery:
+    label: Erste bestätigte Auslieferung
+    group: Lebenszyklus
+    kind: date
+    unit: null
+    overview: true
+    core: true
+  lifecycle.development_end:
+    label: Entwicklungsende
+    group: Lebenszyklus
+    kind: date
+    unit: null
+    overview: true
+    core: true
+  lifecycle.production_end:
+    label: Produktionsende
+    group: Lebenszyklus
+    kind: date
+    unit: null
+    overview: true
+    core: true
+  lifecycle.support_end:
+    label: Supportende
+    group: Lebenszyklus
+    kind: date
+    unit: null
+    overview: true
+    core: true
+  hardware.height:
+    label: Höhe
+    group: Technik
+    kind: number
+    unit: m
+    overview: true
+    core: true
+  hardware.width:
+    label: Breite
+    group: Technik
+    kind: number
+    unit: m
+    overview: true
+    core: true
+  hardware.depth:
+    label: Tiefe
+    group: Technik
+    kind: number
+    unit: m
+    overview: true
+    core: true
+  hardware.mass:
+    label: Eigenmasse
+    group: Technik
+    kind: number
+    unit: kg
+    overview: true
+    core: true
+  hardware.payload_arm:
+    label: Nutzlast je Arm
+    group: Technik
+    kind: number
+    unit: kg
+    overview: true
+    core: true
+  hardware.payload_two_arms:
+    label: Nutzlast beidhändig
+    group: Technik
+    kind: number
+    unit: kg
+    overview: true
+    core: true
+  hardware.payload_walking:
+    label: Nutzlast beim Gehen
+    group: Technik
+    kind: number
+    unit: kg
+    overview: true
+    core: true
+  hardware.reach:
+    label: Reichweite
+    group: Technik
+    kind: number
+    unit: m
+    overview: true
+    core: true
+  hardware.speed:
+    label: Geschwindigkeit
+    group: Technik
+    kind: number
+    unit: m/s
+    overview: true
+    core: true
+  hardware.runtime:
+    label: Laufzeit
+    group: Technik
+    kind: number
+    unit: min
+    overview: true
+    core: true
+  hardware.battery:
+    label: Batterieenergie
+    group: Technik
+    kind: number
+    unit: Wh
+    overview: true
+    core: true
+  environment.ip:
+    label: IP Schutzart
+    group: Umgebung
+    kind: text
+    unit: null
+    overview: true
+    core: true
+  environment.temperature:
+    label: Betriebstemperatur
+    group: Umgebung
+    kind: range
+    unit: degC
+    overview: true
+    core: false
+  mobility.steps_up:
+    label: Treppen aufwärts
+    group: Mobilität
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  mobility.steps_down:
+    label: Treppen abwärts
+    group: Mobilität
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  mobility.rubble:
+    label: Geröll
+    group: Mobilität
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  mobility.obstacles:
+    label: Bodenhindernisse
+    group: Mobilität
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  mobility.self_recovery:
+    label: Selbstständiges Aufstehen
+    group: Mobilität
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  maintenance.modularity:
+    label: Modulare Wartung
+    group: Betrieb
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  autonomy.scope:
+    label: Autonomie nach Aufgabe
+    group: Autonomie
+    kind: text
+    unit: null
+    overview: true
+    core: true
+  interaction.scope:
+    label: Interaktion
+    group: Fähigkeiten
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  manipulation.scope:
+    label: Manipulation
+    group: Fähigkeiten
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.sdk:
+    label: SDK und API
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: true
+    core: true
+  openness.source_code:
+    label: Quellcode
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.weights:
+    label: Modellgewichte
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.training_code:
+    label: Trainingscode
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.training_data:
+    label: Trainingsdaten
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.policy_training:
+    label: Eigenes Policy Training
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: true
+    core: true
+  openness.policy_deployment:
+    label: Ausführung eigener Policies
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: true
+    core: true
+  openness.commercial_rights:
+    label: Kommerzielle Nutzungsrechte
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.low_level:
+    label: Steuerungszugriff
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.simulation:
+    label: Simulation
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.hardware_design:
+    label: Hardwareunterlagen
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.firmware:
+    label: Firmware
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.admin:
+    label: Administratorzugriff
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.offline:
+    label: Lokaler Betrieb
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.data_export:
+    label: Datenexport
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  openness.repair:
+    label: Umbau und Reparatur
+    group: Offenheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  ecosystem.marketplace:
+    label: App Marketplace
+    group: Ökosystem
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  ecosystem.apps:
+    label: Eigene Anwendungen
+    group: Ökosystem
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  ecosystem.integrators:
+    label: Integratoren
+    group: Ökosystem
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  ecosystem.accessories:
+    label: Zubehör
+    group: Ökosystem
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  ecosystem.cloud:
+    label: Cloudabhängigkeit
+    group: Ökosystem
+    kind: text
+    unit: null
+    overview: true
+    core: true
+  ecosystem.subscription:
+    label: Aboabhängigkeit
+    group: Ökosystem
+    kind: text
+    unit: null
+    overview: true
+    core: true
+  ecosystem.integration:
+    label: Systemintegration
+    group: Ökosystem
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  safety.certification:
+    label: Sicherheitsnachweise
+    group: Sicherheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  safety.human_contact:
+    label: Kontakt mit Menschen
+    group: Sicherheit
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  safety.privacy:
+    label: Datenverarbeitung
+    group: Sicherheit
+    kind: text
+    unit: null
+    overview: false
+    core: false

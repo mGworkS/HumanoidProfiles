@@ -1,0 +1,59 @@
+schema_version: '1.0'
+axes:
+  branche:
+    industrie:
+      label: Industrie
+      aliases: []
+    logistik:
+      label: Logistik
+      aliases: []
+    gesundheit_pflege:
+      label: Gesundheit und Pflege
+      aliases: []
+    einzelhandel:
+      label: Einzelhandel
+      aliases: []
+    bildung:
+      label: Bildung
+      aliases: []
+    forschung:
+      label: Forschung
+      aliases: []
+    unterhaltung:
+      label: Unterhaltung
+      aliases: []
+    service:
+      label: Service
+      aliases: []
+    landwirtschaft:
+      label: Landwirtschaft
+      aliases: []
+    bau:
+      label: Bau
+      aliases: []
+  aufgabe:
+    transport:
+      label: Transport
+      aliases: []
+    interaktion:
+      label: Interaktion
+      aliases: []
+    manipulation:
+      label: Manipulation
+      aliases: []
+    policy_training:
+      label: Policy Training
+      aliases: []
+    inspektion:
+      label: Inspektion
+      aliases: []
+  umgebung:
+    innen:
+      label: Innenraum
+      aliases: []
+    aussen:
+      label: Außenbereich
+      aliases: []
+    publikum:
+      label: Publikumsverkehr
+      aliases: []

@@ -1,0 +1,30 @@
+schema_version: '1.0'
+automation_enabled: false
+policy:
+  commercial_review_days: 30
+  technical_review_days: 180
+  historical_review_days: 365
+  wide_discovery_days: 90
+watch:
+- robot_id: agility_digit5
+  next_review: '2026-11-29'
+  source_ids:
+  - src_digit5_product
+- robot_id: deep_dr02
+  next_review: '2026-11-29'
+  source_ids:
+  - src_dr02_commercial
+- robot_id: honda_asimo_2011
+  next_review: '2026-11-29'
+  source_ids:
+  - src_asimo_launch
+  - src_asimo_museum
+- robot_id: pepper_classic
+  next_review: '2026-11-29'
+  source_ids:
+  - src_pepper_launch
+- robot_id: unitree_h1
+  next_review: '2026-11-29'
+  source_ids:
+  - src_h1_product
+  - src_h1_rl

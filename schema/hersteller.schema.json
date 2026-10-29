@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "organisationstyp": {
+      "enum": [
+        "unternehmen",
+        "forschungseinrichtung",
+        "konsortium",
+        "andere"
+      ]
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "aliases",
+    "website",
+    "organisationstyp",
+    "source_ids",
+    "reviewed_at"
+  ],
+  "additionalProperties": false
+}

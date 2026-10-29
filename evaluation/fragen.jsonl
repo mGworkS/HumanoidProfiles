@@ -1,0 +1,8 @@
+{"id": "purchase_eu", "question": "Welche Modelle sind als Kaufangebot für Unternehmen in der EU bestätigt?", "mode": "procurement", "expected_ids": [], "must_explain": "Keine bestätigten passenden Angebote im Startbestand; keine Aussage über den Weltmarkt."}
+{"id": "pipeline", "question": "Welche erfassten Modelle sind angekündigte Entwicklungen?", "mode": "pipeline", "expected_ids": ["agility_digit5"], "must_explain": "Digit 5 Werte sind vorläufig."}
+{"id": "h1_variant", "question": "Wie viel trägt der H1?", "expected": "Unbekannt im Startbestand. H1-2 Werte nicht übertragen."}
+{"id": "asimo_history", "question": "Ist das ASIMO Vorführungsende das Produktionsende?", "expected": "Nein; verschiedene Ereignisse. Produktionsende ungeklärt."}
+{"id": "pepper_health", "question": "Ist Pepper medizinisch wirksam?", "expected": "Healthcare Zuordnung belegt keine medizinische Wirksamkeit."}
+{"id": "policy", "question": "Welche Plattform hat dokumentiertes eigenes Policy Training und physische Ausführung?", "expected_ids": ["unitree_h1"], "must_explain": "Kommerzielle Lizenzrechte gesondert prüfen."}
+{"id": "dr02_ip", "question": "Ist DR02 unabhängig für IP66 getestet?", "expected": "Herstellerangabe vorhanden; unabhängiger Prüfbericht nicht erfasst."}
+{"id": "all", "question": "Liste alle erfassten Modelle einschließlich historischer Systeme.", "expected_count": 5, "method": "structured_enumeration"}

@@ -1,0 +1,17 @@
+id: angebot_id
+provider_id: hersteller_id
+mode: unbekannt
+status: unbekannt
+regions: []
+audiences: []
+price: null
+currency: null
+billing: unbekannt
+subscription: unbekannt
+term: null
+included: []
+exit_conditions: null
+configuration: Zu prüfen
+checked_at: '2026-10-29'
+source_ids:
+- src_ersetzen

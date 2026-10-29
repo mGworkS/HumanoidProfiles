@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "entity_type": {
+      "enum": [
+        "modell",
+        "variante",
+        "familie",
+        "entwicklungsprogramm"
+      ]
+    },
+    "manufacturer_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "developer_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$"
+      },
+      "uniqueItems": true
+    },
+    "form": {
+      "enum": [
+        "zweibeinig",
+        "raeder",
+        "oberkoerper",
+        "stationaer",
+        "modular",
+        "hybrid",
+        "andere",
+        "unbekannt"
+      ]
+    },
+    "classification": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "enum": [
+            "gegenwaertig",
+            "pipeline",
+            "fruehere_generation",
+            "historisch_relevant",
+            "historischer_entwicklungstraeger",
+            "historisches_produkt",
+            "ungeklaert"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "assessed_at": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": [
+        "value",
+        "reason",
+        "source_ids",
+        "assessed_at"
+      ],
+      "additionalProperties": false
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "axis": {
+            "enum": [
+              "branche",
+              "aufgabe",
+              "umgebung"
+            ]
+          },
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "basis": {
+            "enum": [
+              "herstellerziel",
+              "dokumentierter_einsatz",
+              "dokumentierte_funktion",
+              "redaktionelle_zuordnung"
+            ]
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9_]*$"
+            },
+            "uniqueItems": true,
+            "minItems": 1
+          }
+        },
+        "required": [
+          "axis",
+          "id",
+          "basis",
+          "source_ids"
+        ],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "enum": [
+              "familie",
+              "variante_von",
+              "vorgaenger",
+              "nachfolger"
+            ]
+          },
+          "target_id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          }
+        },
+        "required": [
+          "type",
+          "target_id"
+        ],
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "maintenance": {
+      "type": "object",
+      "properties": {
+        "last_search": {
+          "type": "string",
+          "format": "date"
+        },
+        "reviewed_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "next_review": {
+          "type": "string",
+          "format": "date"
+        },
+        "priority": {
+          "enum": [
+            "hoch",
+            "normal",
+            "niedrig"
+          ]
+        },
+        "status": {
+          "enum": [
+            "erfasst",
+            "teilweise_geprueft",
+            "geprueft_im_definierten_umfang"
+          ]
+        }
+      },
+      "required": [
+        "last_search",
+        "reviewed_at",
+        "next_review",
+        "priority",
+        "status"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "aliases",
+    "entity_type",
+    "manufacturer_id",
+    "developer_ids",
+    "form",
+    "classification",
+    "tags",
+    "relations",
+    "scope",
+    "maintenance"
+  ],
+  "additionalProperties": false
+}
