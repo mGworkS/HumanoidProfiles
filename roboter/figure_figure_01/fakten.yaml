@@ -313,7 +313,472 @@ claims:
   valid_from: null
   valid_until: null
   supersedes: null
+- id: v20261030_lifecycle_first_presented
+  key: lifecycle.first_presented
+  value: '2023-03-02'
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_figure01_launch_2023
+    locator: Datierte Herstellerankündigung
+  context:
+    umfang: öffentliche Ankündigung; kein Verkaufsstart
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: lifecycle_first_presented
+- id: v20261030_autonomy_scope
+  key: autonomy.scope
+  value: Frühe Entwicklungsplattform; erste Gehversuche und spätere Aufgabendemos, keine allgemeine Produktleistung
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_figure_company_20261030
+    locator: Beginnings
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: autonomy_scope
+- id: v20261030_openness_sdk
+  key: openness.sdk
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Kein öffentlicher Kunden SDK für diese Hardwaregeneration im geprüften Umfang bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: openness_sdk
+- id: v20261030_openness_policy_deployment
+  key: openness.policy_deployment
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Interne KI Architektur und Vorführungen belegen keine Ausführung beliebiger eigener Kunden
+      Policies
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: openness_policy_deployment
+- id: v20261030_environment_ip
+  key: environment.ip
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Keine eindeutige Schutzart in den geprüften generationsbezogenen Herstellerunterlagen
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: environment_ip
+- id: figure01_ai_early
+  key: software.ai_stack
+  value: Figure gelernte Bewegungssteuerung
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_figure_company_20261030
+    locator: Beginnings
+  context:
+    system: Figure gelernte Bewegungssteuerung
+    version: nicht benannt
+    rolle: Frühe Entwicklungssteuerung
+    bezug: herstellersteuerung
+    grenze: Konkretes Foundation Modell und Softwarebuild der frühen Gehplattform nicht benannt. Spätere
+      Helix Versionen werden nicht rückübertragen.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: unknown_software_compatible_models
+  key: software.compatible_models
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Kein belastbarer modellspezifischer Name oder weiterer Integrationsnachweis im geprüften Umfang.
+      Unbekannt bedeutet keine Inkompatibilität.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_walking
+  key: mobility.walking
+  value: Erste zweibeinige Gehversuche dokumentiert
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerdemo
+  sources:
+  - source_id: src_figure_company_20261030
+    locator: Beginnings
+  context:
+    bereitstellung: demo
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: figure01_openai_demo
+  key: software.compatible_models
+  value: OpenAI Sprach und Bildmodelle
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerdemo
+  sources:
+  - source_id: src_figure_helix_media_20261030
+    locator: OpenAI Speech to Speech Reasoning
+  context:
+    system: OpenAI Modelle
+    version: nicht benannt
+    rolle: Dialog, visuelle Interpretation und Aufgabenkoordination
+    bezug: historische_herstellerdemo
+    grenze: Historische Figure 01 Demo, kein bestätigtes frei austauschbares Kundenpaket.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_running
+  key: mobility.running
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_jumping
+  key: mobility.jumping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine belastbare editionsbezogene Lieferfunktion im geprüften Umfang; spektakuläre Vorführungen
+      nicht ungeprüft übernehmen.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_dancing
+  key: mobility.dancing
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_steps_up
+  key: mobility.steps_up
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_steps_down
+  key: mobility.steps_down
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_uneven_ground
+  key: mobility.uneven_ground
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_rubble
+  key: mobility.rubble
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_obstacles
+  key: mobility.obstacles
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_self_recovery
+  key: mobility.self_recovery
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_manipulation_pick_place
+  key: manipulation.pick_place
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_scope
+  key: navigation.scope
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_mapping
+  key: navigation.mapping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_obstacle_avoidance
+  key: navigation.obstacle_avoidance
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_fleet_management
+  key: fleet.management
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_erp
+  key: integration.erp
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine bestätigte direkte ERP Anbindung. WMS, MES, SDK oder eine API sind kein Nachweis
+      eines fertigen ERP Konnektors.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wms
+  key: integration.wms
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wes
+  key: integration.wes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_mes
+  key: integration.mes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_api
+  key: integration.api
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
 offers: []
-events: []
-extensions: []
-media: []
+events:
+- id: erste_schritte
+  type: entwicklung
+  date: 2023-05
+  status: bestaetigt
+  description: Hersteller ordnet erste Schritte dem Mai 2023 zu.
+  source_ids:
+  - src_figure_company_20261030
+extensions:
+- id: typ_besonderheit
+  title: Ankündigung und reale Entwicklungsschritte getrennt
+  description: Die erste öffentliche Ankündigung liegt vor den ersten Gehschritten. Spätere Herstellerdemos
+    und die heutige Figure 03 Technik werden nicht als ursprünglicher Figure 01 Lieferumfang behandelt.
+  claim_ids:
+  - v20261030_lifecycle_first_presented
+  - v20261030_autonomy_scope
+media:
+- id: herstellerbild
+  type: foto
+  url: https://images.ctfassets.net/qx5k8y1u9drj/1HTjyN6yU4ZR3eVjzkiQoX/a337234eb9680e2b074648faa5d9f2ad/video-carousel-04.jpg?fm=webp&q=70&w=3840
+  local_path: null
+  source_id: src_figure_helix_media_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Figure 01 im offiziellen Dynamic Walking Vorschaubild.
+- id: figure01_technische_ankuendigung
+  type: datenblatt
+  url: https://www.prnewswire.com/news-releases/figure-emerges-from-stealth-and-unveils-figure-01--a-humanoid-robot-to-support-supply-chain-on-a-global-scale-301759983.html
+  local_path: null
+  source_id: src_figure01_launch_2023
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: en
+  sha256: null
+  scope: Historische technische Ankündigung als HTML. Kein frei erreichbares Original PDF oder belastbares
+    archiviertes Zahlenblatt festgestellt.
+- id: figure01_walking
+  type: video
+  url: https://videos.ctfassets.net/qx5k8y1u9drj/793SxZadAAbbiJxJZ90xyo/cdca56ecadf4b21c33e9b9e4e8f04c39/company-01.mp4
+  local_path: null
+  source_id: src_figure_company_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis, keine Kopie und keine freie
+    Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Figure 01 Gehvideo aus der offiziellen Unternehmensgeschichte.
+- id: figure01_demoarchiv
+  type: video
+  url: https://www.figure.ai/helix
+  local_path: null
+  source_id: src_figure_helix_media_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis, keine Kopie und keine freie
+    Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: 'Historisches Videoarchiv: Figure 01 Dynamic Walking, Coffee Demo und OpenAI Speech to Speech.
+    Aktuelle obere Seitenabschnitte betreffen neuere Generationen.'

@@ -7,11 +7,12 @@ website: https://www.agilityrobotics.com/
 organisationstyp: unternehmen
 source_ids:
 - src_digit5_product
-reviewed_at: '2026-10-29'
+- src_digit4_gxo_update_2026
+reviewed_at: '2026-10-30'
 ---
 
 # Agility Robotics
 
-Startprofil zur Zuordnung der Robotermodelle. Unternehmenshistorie, Eigentümerstruktur, regionale Integratoren und Servicebedingungen sind noch zu prüfen.
+Hersteller von Digit. Kommerzieller Digit 4 Einsatz und angekündigter Digit 5 Zugang werden getrennt geführt.
 
-Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden erst mit dokumentierter Herkunft und geklärten Nutzungsrechten gespeichert.
+Dieser Prüfstand betrifft Website und das hier ausgearbeitete Portfolio. Vollständige Unternehmensgeschichte, Servicebedingungen und globale Vertriebslage sind nicht damit abschließend geprüft.

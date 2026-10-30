@@ -2,6 +2,22 @@
 
 Diese Begriffe gelten für Übersichten und Steckbriefe. Bedingungen und Quellen am einzelnen Wert haben Vorrang vor einer allgemeinen Beschreibung.
 
+## Funktionen und Lieferumfang
+
+| Kennzeichnung | Bedeutung |
+| --- | --- |
+| Enthalten | Für die dokumentierte Konfiguration als Lieferfunktion belegt; Inbetriebnahmebedingungen bleiben gültig. |
+| Konfigurationsabhängig | Werksfunktion einer bestimmten Firmware oder Ausstattung. Nicht automatisch bei jeder Edition vorhanden. |
+| Zusatzpaket | Als zusätzliches Paket nachgewiesen; Preis und Umfang separat prüfen. |
+| Projektintegration | Funktion erfordert ein vereinbartes Integrationsprojekt und Inbetriebnahme. |
+| Eigene Entwicklung | SDK, Trainingsworkflow oder API verfügbar; die fertige Aufgabe muss selbst entwickelt oder integriert werden. |
+| Demo | Hersteller oder Forschung zeigt eine Funktion. Der Lieferumfang ist damit nicht bestätigt. |
+| Angekündigt | Geplante Funktion, keine bestätigte ausgelieferte Leistung. |
+| Nicht enthalten | Diese Edition enthält die beschriebene Funktion oder das Paket ausdrücklich nicht. |
+| Unbekannt | Lieferumfang, Paket und mögliche Zusatzkosten nicht ausreichend belegt. |
+
+Gehen, Springen, Treppen, Pick and Place und Navigation sind eigene Funktionen. Flottenmanagement, ERP, WMS, WES und MES bleiben eigene Integrationsfelder. Eine API bedeutet keinen fertigen Konnektor. IP Schutzart allein belegt keine Gehfähigkeit auf Geröll.
+
 ## Quellen und Kenntnisstand
 
 | Kennzeichnung | Bedeutung |

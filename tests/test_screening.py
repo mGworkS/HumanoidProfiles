@@ -43,7 +43,8 @@ class ScreeningTests(unittest.TestCase):
   table=render_table(['unitree_g1','agility_digit5'],self.robots,self.orgs,self.policy,self.day)
   for heading in ['Hersteller','Ursprungsland','Vorstellung','Verkaufsstart','Höhe','Payload']:
    self.assertIn(heading,table)
-  self.assertIn('je Arm',table);self.assertIn('beidhändig (angekündigt)',table)
+  self.assertIn('je Arm',table);self.assertIn('22.7 kg; Lastbezug beachten (angekündigt)',table)
+  self.assertNotIn('22.7 kg beidhändig',table)
  def test_official_link_and_environment_label_in_profile(self):
   page=(kb.ROOT/'roboter/deep_dr02/README.md').read_text()
   self.assertIn('https://en.deeprobotics.cn/en/index/dr02.html',page)

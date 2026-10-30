@@ -2,9 +2,15 @@
 
 # SoftBank Robotics
 
-Startprofil zur Zuordnung der Robotermodelle. Unternehmenshistorie, Eigentümerstruktur, regionale Integratoren und Servicebedingungen sind noch zu prüfen.
+Pepper Plattform und regionale Angebote. Software, damaliger Entwicklungsbeitrag von Aldebaran und heutige Supportrolle separat prüfen.
 
-Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden erst mit dokumentierter Herkunft und geklärten Nutzungsrechten gespeichert.
+Dieser Prüfstand betrifft Website und das hier ausgearbeitete Portfolio. Vollständige Unternehmensgeschichte, Servicebedingungen und globale Vertriebslage sind nicht damit abschließend geprüft.
+
+| Steckbrief | Angabe |
+| --- | --- |
+| Offizielle Website | [https://www.softbank.jp/en/robot/](https://www.softbank.jp/en/robot/) |
+| Organisationstyp | unternehmen |
+| Profilstand | 2026-10-30 |
 
 ## Erfasstes Portfolio
 
@@ -14,3 +20,4 @@ Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden e
 ## Quellen
 
 * [Pepper Produktübersicht Japan](../../quellen/src_pepper_current.md)
+* [Pepper Einsatzbereiche](../../quellen/src_pepper_uses.md)

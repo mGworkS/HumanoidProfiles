@@ -8,7 +8,7 @@
 
 | Roboter | Hersteller | Ursprungsland | Vorstellung | Verkaufsstart | Zugang / Stand | Höhe | Payload / Lastbezug |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [H2 X](../roboter/unitree_h2_x/README.md) | [Unitree Robotics](../hersteller/unitree/README.md) | China [K](../roboter/unitree_h2_x/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kauf angeboten · 2026-10-29 [K](../roboter/unitree_h2_x/README.md#screening) | 1,725 m [K](../roboter/unitree_h2_x/README.md#hardware-height-description) | Je Arm 7 kg nominal; 15 kg Spitze [K](../roboter/unitree_h2_x/README.md#hardware-payload-description) |
+| [H2 X](../roboter/unitree_h2_x/README.md) | [Unitree Robotics](../hersteller/unitree/README.md) | China [K](../roboter/unitree_h2_x/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kauf angeboten · 2026-10-29 [K](../roboter/unitree_h2_x/README.md#screening) | 1.725 m [K](../roboter/unitree_h2_x/README.md#hardware-height) | Je Arm 7 kg nominal; 15 kg Spitze [K](../roboter/unitree_h2_x/README.md#hardware-payload-description) |
 
 <details>
 <summary>Noch zu prüfende Einträge (6)</summary>

@@ -2,9 +2,15 @@
 
 # Boston Dynamics
 
-Organisation beziehungsweise Organisationsgruppe aus dem bisherigen Bestand. Die genaue Rolle als Hersteller, Entwickler, Betreiber oder Konsortium ist noch zu prüfen.
+Hersteller von Atlas. Elektrisches Produkt 2026 und hydraulischer Entwicklungsträger sind getrennte Profile.
 
-Unternehmensgeschichte, offizielle Website, Integration und Service wurden beim Import nicht erneut recherchiert. Verweise im automatisch erzeugten Portfolio führen zu den erfassten Systemen.
+Dieser Prüfstand betrifft Website und das hier ausgearbeitete Portfolio. Vollständige Unternehmensgeschichte, Servicebedingungen und globale Vertriebslage sind nicht damit abschließend geprüft.
+
+| Steckbrief | Angabe |
+| --- | --- |
+| Offizielle Website | [https://bostondynamics.com/](https://bostondynamics.com/) |
+| Organisationstyp | unternehmen |
+| Profilstand | 2026-10-30 |
 
 ## Erfasstes Portfolio
 
@@ -15,3 +21,4 @@ Unternehmensgeschichte, offizielle Website, Integration und Service wurden beim 
 
 * [Bestandsposition B19: Atlas](../../quellen/src_import_b19.md)
 * [Bestandsposition N66: Atlas hydraulisch](../../quellen/src_import_n66.md)
+* [Atlas Produktdatenblatt, Revision 15. Oktober 2026](../../quellen/src_atlas_sheet_20261015.md)

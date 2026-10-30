@@ -3,16 +3,17 @@ schema_version: '1.0'
 id: boston_dynamics
 name: Boston Dynamics
 aliases: []
-website: null
-organisationstyp: andere
+website: https://bostondynamics.com/
+organisationstyp: unternehmen
 source_ids:
 - src_import_b19
 - src_import_n66
-reviewed_at: '2026-10-29'
+- src_atlas_sheet_20261015
+reviewed_at: '2026-10-30'
 ---
 
 # Boston Dynamics
 
-Organisation beziehungsweise Organisationsgruppe aus dem bisherigen Bestand. Die genaue Rolle als Hersteller, Entwickler, Betreiber oder Konsortium ist noch zu prüfen.
+Hersteller von Atlas. Elektrisches Produkt 2026 und hydraulischer Entwicklungsträger sind getrennte Profile.
 
-Unternehmensgeschichte, offizielle Website, Integration und Service wurden beim Import nicht erneut recherchiert. Verweise im automatisch erzeugten Portfolio führen zu den erfassten Systemen.
+Dieser Prüfstand betrifft Website und das hier ausgearbeitete Portfolio. Vollständige Unternehmensgeschichte, Servicebedingungen und globale Vertriebslage sind nicht damit abschließend geprüft.

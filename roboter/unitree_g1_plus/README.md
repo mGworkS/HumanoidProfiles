@@ -2,28 +2,11 @@
 
 # G1 Plus
 
-Im bisherigen Bestand unter **Unitree** erfasst. [Quellenhinweis](../../quellen/src_import_b32.md). Erfassungskennung: B32.
+Kompakte zweibeinige Plattform. Die Basisversion besitzt keinen zugesicherten Entwicklerzugang. Für eigene Policies die EDU Edition prüfen.
 
-**Übernommener Recherchehinweis, nicht neu verifiziert:** Lehre und Robot Learning mit EDU
+![Offizielle Vergleichsabbildung von G1+ und EDU; die gewählte Ausstattung ist aus dem Angebot zu bestätigen.](https://www.unitree.com/images/0e5960107c1648a490cf11f869941269_2000x1346.png)
 
-**Hersteller:** [Unitree Robotics](../../hersteller/unitree/README.md)  
-**Bauform:** unbekannt  
-**Einordnung:** ungeklaert  
-**Begründung:** Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht neu geprüft.  
-**Geltungsbereich:** Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten, Herstellerrolle und aktueller Zugang noch zu prüfen.  
-**Prüfumfang:** erfasst, noch nicht fachlich geprüft
-
-**Tags:** Forschung (redaktionelle_zuordnung), Bildung (redaktionelle_zuordnung)
-
-**Offizielle Modellquelle:** [https://www.unitree.com/mobile/G1pl/](https://www.unitree.com/mobile/G1pl/) (aus dem Bestand; noch nicht erneut geprüft).
-
-## Screening
-
-**Ansicht:** Aktuelle Auswahl. **Zugang:** Kauf angeboten.
-
-Bestellbar nach Variante · Entwicklerplattform und EDU nach Paket; Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
-
-Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_04](../../quellen/src_catalog_04.md)
+Bildquelle: [Unitree](../../quellen/src_g1_plus_specs_20261030.md). Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet.
 
 ## Steckbrief
 
@@ -31,162 +14,156 @@ Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_04](../
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
+| Hersteller | [Unitree Robotics](../../hersteller/unitree/README.md) | Organisationsprofil |
+| Offizielle Website | [https://www.unitree.com/G1plus/](https://www.unitree.com/G1plus/) | geprüft |
+| Vorstellung und weitere Videos | [G1+ Herstellerfilm von der offiziellen Produktseite; Edition und Lieferfunktionen separat prüfen.](https://www.unitree.com/images/c8fc52efc1b1413d8fab3405715f3242.mp4) | Links auf Originale; Vorführung ist kein unabhängiger Test |
+| Datenblatt und Dokumentation | [G1+ Basisversion: offizielle technische HTML Tabelle; keine separate allgemeine PDF gefunden.](https://www.unitree.com/G1plus/)<br>[G1 Downloadbereich. Bei G1+ Geltungsbereich des jeweiligen Handbuchs vor Verwendung bestätigen.](https://www.unitree.com/app/g1/) | Versions und Konfigurationshinweise im Linktext beachten |
+| Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
+| Einordnung | gegenwaertig | Aktuelle Herstellerseite mit eigenständiger Konfigurationsspalte. Öffentlicher Einstiegspreis; Liefertermin und Zielregion separat bestätigen. |
+| Geltungsbereich | G1+ Basisversion. Andere Editionen sind eigene Profile. Technische Tabelle am 30. Oktober 2026. | Daten anderer Generationen werden nicht automatisch übertragen |
+| Prüfumfang | teilweise_geprueft | 2026-10-30 |
+| Branchen, Aufgaben und Umgebung | Forschung (herstellerziel), Bildung (herstellerziel), Interaktion (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | Unbekannt | [unbekannt / keine](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |
 | Produktion | Unbekannt | [unbekannt / keine](#lifecycle-production) |
-| Support | Unbekannt | [unbekannt / keine](#lifecycle-support) |
+| Support | Hersteller nennt 8 Monate Garantie; kein bestätigtes Supportende (Garantie ist kein allgemeiner Software Supportvertrag; regionale Bedingungen prüfen) | [eingeschraenkt / herstellerangabe](#v20261030-lifecycle-support) |
 | Erste bestätigte Auslieferung | Unbekannt | [unbekannt / keine](#lifecycle-first-delivery) |
 | Entwicklungsende | Unbekannt | [unbekannt / keine](#lifecycle-development-end) |
 | Produktionsende | Unbekannt | [unbekannt / keine](#lifecycle-production-end) |
 | Supportende | Unbekannt | [unbekannt / keine](#lifecycle-support-end) |
-| Höhe | 1.34 m (G1 Plus; Katalogangabe) | [eingeschraenkt / projektkatalog](#hardware-height) |
-| Breite | Unbekannt | [unbekannt / keine](#hardware-width) |
-| Tiefe | Unbekannt | [unbekannt / keine](#hardware-depth) |
-| Eigenmasse | Unbekannt | [unbekannt / keine](#hardware-mass) |
-| Nutzlast je Arm | Unbekannt | [unbekannt / keine](#hardware-payload-arm) |
+| Höhe | 1.34 m (aufrecht) | [belegt / herstellerangabe](#v20261030-hardware-height) |
+| Breite | 0.45 m | [belegt / herstellerangabe](#v20261030-hardware-width) |
+| Tiefe | 0.2 m | [belegt / herstellerangabe](#v20261030-hardware-depth) |
+| Eigenmasse | 35 kg (ungefährer Wert mit Batterie) | [eingeschraenkt / herstellerangabe](#v20261030-hardware-mass) |
+| Nutzlast je Arm | 3 kg (ungefährer Maximalwert je Arm; stark von der Armhaltung abhängig; keine bestätigte Dauerlast beim Gehen) | [eingeschraenkt / herstellerangabe](#v20261030-hardware-payload-arm) |
 | Nutzlast beidhändig | Unbekannt | [unbekannt / keine](#hardware-payload-two-arms) |
 | Nutzlast beim Gehen | Unbekannt | [unbekannt / keine](#hardware-payload-walking) |
 | Reichweite | Unbekannt | [unbekannt / keine](#hardware-reach) |
 | Geschwindigkeit | Unbekannt | [unbekannt / keine](#hardware-speed) |
-| Laufzeit | Unbekannt | [unbekannt / keine](#hardware-runtime) |
+| Laufzeit | 120 min (ungefähr zwei Stunden; Testprofil nicht benannt) | [eingeschraenkt / herstellerangabe](#v20261030-hardware-runtime) |
 | Batterieenergie | Unbekannt | [unbekannt / keine](#hardware-battery) |
-| IP Schutzart | Unbekannt | [unbekannt / keine](#environment-ip) |
-| Autonomie nach Aufgabe | Unbekannt | [unbekannt / keine](#autonomy-scope) |
-| SDK und API | Unbekannt | [unbekannt / keine](#openness-sdk) |
-| Eigenes Policy Training | Unbekannt | [unbekannt / keine](#openness-policy-training) |
-| Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
+| IP Schutzart | Unbekannt (Keine eindeutige IP Schutzart in der geprüften Konfigurationstabelle) | [unbekannt / keine](#v20261030-environment-ip) |
+| Autonomie nach Aufgabe | Unbekannt (Lieferumfang autonomer Aufgaben und Umfang der Vorführsoftware sind nicht präzise zugesichert) | [unbekannt / keine](#v20261030-autonomy-scope) |
+| SDK und API | Sekundärentwicklung laut Basisspalte nicht unterstützt (G1+ Basisversion) | [belegt / herstellerangabe](#v20261030-openness-sdk) |
+| Eigenes Policy Training | Kein zugesicherter Pfad für eigene Policies auf diesem Basisgerät (Öffentliche Unitree Repositories schalten kein Basisgerät frei) | [eingeschraenkt / herstellerangabe](#v20261030-openness-policy-training) |
+| Ausführung eigener Policies | Für das Basisgerät nicht als Kundenfunktion zugesichert | [eingeschraenkt / herstellerangabe](#v20261030-openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
 | Ursprungsland der Entwicklung | China (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
-| Höhe mit Konfigurationsbezug | 1,34 m (G1 Plus; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
-| Nutzlast mit Lastbezug | Basis ca. 3 kg; EDU ca. 4 kg je Arm (G1 Plus; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
+| Freiheitsgrade | 25 (Basisversion) | [belegt / herstellerangabe](#v20261030-hardware-dof) |
+| KI und Steuerungsmodelle im Einsatz | Unbekannt | [Rolle, Bezug und Bedingungen](#ki-modelle-und-software) |
+| Weitere belegte KI Integrationen | Unbekannt | [Rolle, Bezug und Bedingungen](#ki-modelle-und-software) |
+
+## KI, Modelle und Software
+
+Noch keine belegten modellspezifischen KI Systeme erfasst. Das bedeutet keine grundsätzliche Inkompatibilität.
+
+Eingebaute Steuerung, Referenzintegration, Simulation und Forschungskooperation sind unterschiedliche Bezüge. Hardware und Softwareversion sowie Lizenz und Kundenrechte gemeinsam prüfen. Eine Plattform wie Isaac GR00T oder ein Rechner wie Jetson Thor belegen keine bestimmte vorinstallierte Modellversion.
+
+## Fähigkeiten und Lieferumfang
+
+| Funktion | Was ist belegt? | Direkt nutzbar oder Zusatzaufwand? | Bedingungen und Nachweis |
+| --- | --- | --- | --- |
+| Gehen oder rollende Fortbewegung | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-mobility-walking) |
+| Dynamisches Laufen | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-mobility-running) |
+| Springen | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Keine belastbare editionsbezogene Lieferfunktion im geprüften Umfang; spektakuläre Vorführungen nicht ungeprüft übernehmen. [unbekannt / keine](#cap20261030-mobility-jumping) |
+| Tanzen und Bewegungssequenzen | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-mobility-dancing) |
+| Treppen aufwärts | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand festgestellt [unbekannt / keine](#v20261030-mobility-steps-up) |
+| Treppen abwärts | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand festgestellt [unbekannt / keine](#v20261030-mobility-steps-down) |
+| Unebener Boden | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-mobility-uneven-ground) |
+| Geröll | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand festgestellt [unbekannt / keine](#v20261030-mobility-rubble) |
+| Bodenhindernisse | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand festgestellt [unbekannt / keine](#v20261030-mobility-obstacles) |
+| Selbstständiges Aufstehen | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-mobility-self-recovery) |
+| Pick and Place | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-manipulation-pick-place) |
+
+## Navigation, Flotte und Unternehmens IT
+
+| Funktion | Was ist belegt? | Direkt nutzbar oder Zusatzaufwand? | Bedingungen und Nachweis |
+| --- | --- | --- | --- |
+| Autonome Navigation | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-navigation-scope) |
+| Kartenaufbau und Lokalisierung | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-navigation-mapping) |
+| Hindernisvermeidung bei Navigation | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-navigation-obstacle-avoidance) |
+| Flottenmanagement | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-fleet-management) |
+| ERP Anbindung | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Keine bestätigte direkte ERP Anbindung. WMS, MES, SDK oder eine API sind kein Nachweis eines fertigen ERP Konnektors. [unbekannt / keine](#cap20261030-integration-erp) |
+| WMS Anbindung | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-integration-wms) |
+| WES Anbindung | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-integration-wes) |
+| MES Anbindung | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-integration-mes) |
+| Integrationsschnittstellen für Unternehmens IT | Unbekannt | Lieferumfang und mögliche Zusatzkosten unbekannt | Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang. [unbekannt / keine](#cap20261030-integration-api) |
+
+Eine API oder ein SDK ist keine fertige ERP oder WMS Anbindung. Zusatzpakete, Cloud, Lizenzen, Kartenaufbau und Inbetriebnahme werden nur bei passendem Beleg als enthalten behandelt. Nicht erfasst und unbekannt bedeuten keine Verneinung.
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Kaufanfrage.
+
+Aktuelle Herstellerseite mit eigenständiger Konfigurationsspalte. Öffentlicher Einstiegspreis; Liefertermin und Zielregion separat bestätigen.
+
+Einordnung geprüft: 2026-10-30. Grundlage: primaerquelle. [src_g1_plus_specs_20261030](../../quellen/src_g1_plus_specs_20261030.md)
+
 
 ## Beschaffung und Geschäftsmodell
 
-Kein konkretes aktuelles Angebot in diesem Bestand bestätigt. Das ist kein Nachweis der Nichtverfügbarkeit. Preis, Abo, RaaS und Integrationsleistungen bleiben offen.
+| Angebot | Angabe |
+| --- | --- |
+| Modell und Umfang | G1+ Basisversion; Preisangabe ohne bestätigten Versandtermin |
+| Geschäftsmodell und Status | kauf; unbekannt |
+| Preis | 15000 USD |
+| Regionen und Zielgruppe | anbieterfreigabe_erforderlich; shopkunden |
+| Abrechnung und Abo | einmalig; unbekannt |
+| Konditionen | Zuzüglich Steuern und Versand; Lieferregion und Liefertermin vor Bestellung bestätigen. |
+| Enthalten | Nicht präzisiert |
+| Ausstieg | Nicht bestätigt |
+| Prüfung | 2026-10-30 |
+| Quellen | [src_g1_plus_specs_20261030](../../quellen/src_g1_plus_specs_20261030.md) |
+
+
+## Integration und eigene Entwicklung
+
+Eigene Entwicklung benötigt passende Hardware, SDK Version und ein eigenes Testkonzept. Ein öffentliches Repository allein belegt keine Freischaltung dieser Edition. Ausgereifte autonome Arbeitsaufgaben und eine komplette Integration sind kein automatischer Bestandteil des Hardwarepreises.
+
+## Einsatzgrenzen und Beleglage
+
+Armnutzlast ist haltungsabhängig. Aus Sensorik und Herstelleraufnahmen folgt keine garantierte Sturzvermeidung. Für Treppen, Geröll, Staub und dynamische Hindernisse fehlen hier konfigurationsbezogene Betriebsgrenzen.
+
+## Dokumentationsstand
+
+Technische HTML Tabelle und offizieller Handbucheinstieg verlinkt. Allgemeine PDF nicht gefunden. Bilder sind externe Herstellerverweise mit Konfigurationshinweis.
 
 ## Offene Entscheidungsfragen
 
-* Modellidentität, Generation und Rollen der beteiligten Organisationen bestätigen.
-* Technische Daten, Fähigkeiten und deren Bedingungen aus Originalquellen ergänzen.
-* Aktuellen Lebenszyklus sowie Kauf, Miete, RaaS oder Forschungszugang prüfen.
-* SDK, eigene Policies, Integrationsaufwand, Abos und Nutzungsrechte prüfen.
-
+* Welche genaue Achsen, Hände und Rechenmodule enthält das Angebot?
+* Welche SDK und Policy Funktionen sind auf dieser Seriennummer freigeschaltet?
+* Welche Nutzlast, Betriebsdauer und Bodenbedingungen werden im Abnahmetest erreicht?
+* Welche regionalen Lieferbedingungen, Lizenzen, Abos und Sicherheitsunterlagen gelten?
 
 ## Ereignisse und Termine
 
 Keine zusätzlichen Ereignisse erfasst.
 
+## Modellspezifische Besonderheiten
+
+**Edition entscheidet über Eigenentwicklung:** Gleiche Familienbezeichnung bedeutet keinen gleichen Entwicklerumfang. Basisversion, EDU, Hände und zusätzliche Rechenmodule sind vor der Beschaffung konkret festzulegen. Belege: [v20261030_hardware_end_effectors](#v20261030-hardware-end-effectors), [v20261030_openness_sdk](#v20261030-openness-sdk), [v20261030_openness_policy_training](#v20261030-openness-policy-training).
+
+
+## Medien und Dokumente
+
+[Alle Bilder und Videos](assets/README.md) · [Datenblätter und Dokumentation](dokumente/README.md). Externe Originale bleiben beim Anbieter.
+
+| Typ | Original und Geltungsbereich | Version | Herkunft und Rechte |
+| --- | --- | --- | --- |
+| datenblatt | [G1+ Basisversion: offizielle technische HTML Tabelle; keine separate allgemeine PDF gefunden.](https://www.unitree.com/G1plus/) | Webstand 2026-10-30 | [Unitree](../../quellen/src_g1_plus_specs_20261030.md). Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet. |
+| handbuch | [G1 Downloadbereich. Bei G1+ Geltungsbereich des jeweiligen Handbuchs vor Verwendung bestätigen.](https://www.unitree.com/app/g1/) | Nicht angegeben | [Unitree](../../quellen/src_g1_downloads_20261030.md). Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet. |
+| rendering | [Offizielle Vergleichsabbildung von G1+ und EDU; die gewählte Ausstattung ist aus dem Angebot zu bestätigen.](https://www.unitree.com/images/0e5960107c1648a490cf11f869941269_2000x1346.png) | Nicht angegeben | [Unitree](../../quellen/src_g1_plus_specs_20261030.md). Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet. |
+| video | [G1+ Herstellerfilm von der offiziellen Produktseite; Edition und Lieferfunktionen separat prüfen.](https://www.unitree.com/images/c8fc52efc1b1413d8fab3405715f3242.mp4) | Nicht angegeben | [Unitree](../../quellen/src_g1_plus_specs_20261030.md). Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet. |
+
+
 ## Belege und Detailangaben
 
-Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sind nicht erfasst und dürfen nicht als Nein interpretiert werden.
+Details sind nach Fachgruppen aufklappbar. Unbekannte Angaben bedeuten keine Verneinung. Fehlende optionale Merkmale sind nicht erfasst.
 
-### lifecycle first presented
-
-**Erstvorstellung:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle development
-
-**Entwicklung:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle production
-
-**Produktion:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle support
-
-**Support:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle first delivery
-
-**Erste bestätigte Auslieferung:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle development end
-
-**Entwicklungsende:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle production end
-
-**Produktionsende:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle support end
-
-**Supportende:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware height
-
-**Höhe:** 1.34 m. Status: eingeschraenkt. Evidenz: projektkatalog.
-
-Bedingungen: scope: G1 Plus; precision: Katalogangabe
-
-* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
-### hardware width
-
-**Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware depth
-
-**Tiefe:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware mass
-
-**Eigenmasse:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware payload arm
-
-**Nutzlast je Arm:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware payload two arms
-
-**Nutzlast beidhändig:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware payload walking
-
-**Nutzlast beim Gehen:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware reach
-
-**Reichweite:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware speed
-
-**Geschwindigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware runtime
-
-**Laufzeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware battery
-
-**Batterieenergie:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### environment ip
-
-**IP Schutzart:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### autonomy scope
-
-**Autonomie nach Aufgabe:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### openness sdk
-
-**SDK und API:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### openness policy training
-
-**Eigenes Policy Training:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### openness policy deployment
-
-**Ausführung eigener Policies:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### ecosystem cloud
-
-**Cloudabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### ecosystem subscription
-
-**Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+<details>
+<summary>Identität: 1 Angaben und Belege</summary>
 
 ### identity origin country
 
@@ -195,21 +172,388 @@ Bedingungen: scope: G1 Plus; precision: Katalogangabe
 Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
 
 * [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
-### hardware height description
 
-**Höhe mit Konfigurationsbezug:** 1,34 m. Status: eingeschraenkt. Evidenz: projektkatalog.
 
-Bedingungen: scope: G1 Plus; note: Katalogangabe; Revision und Ausstattung beachten
+</details>
 
-* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
-### hardware payload description
+<details>
+<summary>Technik: 11 Angaben und Belege</summary>
 
-**Nutzlast mit Lastbezug:** Basis ca. 3 kg; EDU ca. 4 kg je Arm. Status: eingeschraenkt. Evidenz: projektkatalog.
+### v20261030 hardware height
 
-Bedingungen: scope: G1 Plus; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+**Höhe:** 1.34 m. Status: belegt. Evidenz: herstellerangabe.
 
-* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+Bedingungen: zustand: aufrecht
 
-## Medien und Dokumente
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Mechanical Dimensions, jeweilige Konfigurationsspalte. Zugang: direkt. Aussage geprüft: 2026-10-30.
 
-[Medienablage](assets/README.md) · [Dokumentablage](dokumente/README.md). Originale werden nur mit dokumentierter Herkunft und Nutzungsrechten aufgenommen.
+### v20261030 hardware width
+
+**Breite:** 0.45 m. Status: belegt. Evidenz: herstellerangabe.
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Mechanical Dimensions, Stand. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 hardware depth
+
+**Tiefe:** 0.2 m. Status: belegt. Evidenz: herstellerangabe.
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Mechanical Dimensions, Stand. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 hardware mass
+
+**Eigenmasse:** 35 kg. Status: eingeschraenkt. Evidenz: herstellerangabe.
+
+Bedingungen: konfiguration: ungefährer Wert mit Batterie
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Weight with battery. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 hardware dof
+
+**Freiheitsgrade:** 25. Status: belegt. Evidenz: herstellerangabe.
+
+Bedingungen: konfiguration: Basisversion
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Total Degrees of Freedom. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 hardware payload arm
+
+**Nutzlast je Arm:** 3 kg. Status: eingeschraenkt. Evidenz: herstellerangabe.
+
+Bedingungen: condition: ungefährer Maximalwert je Arm; stark von der Armhaltung abhängig; keine bestätigte Dauerlast beim Gehen
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Arm Maximum Load und Fußnote. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 hardware runtime
+
+**Laufzeit:** 120 min. Status: eingeschraenkt. Evidenz: herstellerangabe.
+
+Bedingungen: lastprofil: ungefähr zwei Stunden; Testprofil nicht benannt
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Battery Life. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 hardware battery capacity
+
+**Batteriekapazität:** 9 Ah. Status: belegt. Evidenz: herstellerangabe.
+
+Bedingungen: umrechnung: 9000 mAh entsprechen 9 Ah; kein daraus abgeleiteter Wh Wert
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Smart Battery Quick Release. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 hardware sensors
+
+**Sensorik:** Stereokamera, Weitwinkelkamera am Brustkorb, 3D LiDAR, sechs Mikrofone und Berührung am Kopf. Status: belegt. Evidenz: herstellerangabe.
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Sensing Sensors und Wahrnehmungsabschnitt. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 hardware compute
+
+**Rechenhardware:** Achtkern CPU. Status: belegt. Evidenz: herstellerangabe.
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Basic Computing Power und High Computing Power Module. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 hardware end effectors
+
+**Hände und Endeffektoren:** Keine dexteröse Entwicklerhand in der Basisspalte; Endeffektor nicht aus EDU übernehmen. Status: eingeschraenkt. Evidenz: herstellerangabe.
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Single Hand Degrees of Freedom. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+
+</details>
+
+<details>
+<summary>Lebenszyklus: 1 Angaben und Belege</summary>
+
+### v20261030 lifecycle support
+
+**Support:** Hersteller nennt 8 Monate Garantie; kein bestätigtes Supportende. Status: eingeschraenkt. Evidenz: herstellerangabe.
+
+Bedingungen: grenze: Garantie ist kein allgemeiner Software Supportvertrag; regionale Bedingungen prüfen
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Warranty Period. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+
+</details>
+
+<details>
+<summary>Offenheit: 3 Angaben und Belege</summary>
+
+### v20261030 openness sdk
+
+**SDK und API:** Sekundärentwicklung laut Basisspalte nicht unterstützt. Status: belegt. Evidenz: herstellerangabe.
+
+Bedingungen: edition: G1+ Basisversion
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Secondary Development. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 openness policy training
+
+**Eigenes Policy Training:** Kein zugesicherter Pfad für eigene Policies auf diesem Basisgerät. Status: eingeschraenkt. Evidenz: herstellerangabe.
+
+Bedingungen: grenze: Öffentliche Unitree Repositories schalten kein Basisgerät frei
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Secondary Development. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+### v20261030 openness policy deployment
+
+**Ausführung eigener Policies:** Für das Basisgerät nicht als Kundenfunktion zugesichert. Status: eingeschraenkt. Evidenz: herstellerangabe.
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Secondary Development. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+
+</details>
+
+<details>
+<summary>Ökosystem: 1 Angaben und Belege</summary>
+
+### v20261030 ecosystem accessories
+
+**Zubehör:** Externe Stromversorgung für längeren Betrieb beworben; Batterielaufzeit bleibt gesondert. Status: eingeschraenkt. Evidenz: herstellerangabe.
+
+* [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Continuous External Power Supply Charging. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+
+</details>
+
+<details>
+<summary>Offene und nicht veröffentlichte Angaben (38)</summary>
+
+### lifecycle first presented
+
+**Erstvorstellung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle development
+
+**Entwicklung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle production
+
+**Produktion:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle first delivery
+
+**Erste bestätigte Auslieferung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle development end
+
+**Entwicklungsende:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle production end
+
+**Produktionsende:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle support end
+
+**Supportende:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware payload two arms
+
+**Nutzlast beidhändig:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware payload walking
+
+**Nutzlast beim Gehen:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware reach
+
+**Reichweite:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware speed
+
+**Geschwindigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware battery
+
+**Batterieenergie:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### ecosystem cloud
+
+**Cloudabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### ecosystem subscription
+
+**Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### v20261030 environment ip
+
+**IP Schutzart:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: offen: Keine eindeutige IP Schutzart in der geprüften Konfigurationstabelle
+
+
+### v20261030 autonomy scope
+
+**Autonomie nach Aufgabe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: offen: Lieferumfang autonomer Aufgaben und Umfang der Vorführsoftware sind nicht präzise zugesichert
+
+
+### v20261030 mobility steps up
+
+**Treppen aufwärts:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand festgestellt; bereitstellung: unbekannt
+
+
+### v20261030 mobility steps down
+
+**Treppen abwärts:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand festgestellt; bereitstellung: unbekannt
+
+
+### v20261030 mobility rubble
+
+**Geröll:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand festgestellt; bereitstellung: unbekannt
+
+
+### v20261030 mobility obstacles
+
+**Bodenhindernisse:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand festgestellt; bereitstellung: unbekannt
+
+
+### unknown software ai stack
+
+**KI und Steuerungsmodelle im Einsatz:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: offen: Kein belastbarer modellspezifischer Name oder weiterer Integrationsnachweis im geprüften Umfang. Unbekannt bedeutet keine Inkompatibilität.
+
+
+### unknown software compatible models
+
+**Weitere belegte KI Integrationen:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: offen: Kein belastbarer modellspezifischer Name oder weiterer Integrationsnachweis im geprüften Umfang. Unbekannt bedeutet keine Inkompatibilität.
+
+
+### cap20261030 mobility walking
+
+**Gehen oder rollende Fortbewegung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 mobility running
+
+**Dynamisches Laufen:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 mobility jumping
+
+**Springen:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Keine belastbare editionsbezogene Lieferfunktion im geprüften Umfang; spektakuläre Vorführungen nicht ungeprüft übernehmen.
+
+
+### cap20261030 mobility dancing
+
+**Tanzen und Bewegungssequenzen:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 mobility uneven ground
+
+**Unebener Boden:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 mobility self recovery
+
+**Selbstständiges Aufstehen:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 manipulation pick place
+
+**Pick and Place:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 navigation scope
+
+**Autonome Navigation:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 navigation mapping
+
+**Kartenaufbau und Lokalisierung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 navigation obstacle avoidance
+
+**Hindernisvermeidung bei Navigation:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 fleet management
+
+**Flottenmanagement:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 integration erp
+
+**ERP Anbindung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Keine bestätigte direkte ERP Anbindung. WMS, MES, SDK oder eine API sind kein Nachweis eines fertigen ERP Konnektors.
+
+
+### cap20261030 integration wms
+
+**WMS Anbindung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 integration wes
+
+**WES Anbindung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 integration mes
+
+**MES Anbindung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+### cap20261030 integration api
+
+**Integrationsschnittstellen für Unternehmens IT:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+Bedingungen: bereitstellung: unbekannt; bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+
+
+
+</details>

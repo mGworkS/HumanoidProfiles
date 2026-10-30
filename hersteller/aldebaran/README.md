@@ -6,6 +6,12 @@ Startprofil zur Zuordnung der Robotermodelle. Unternehmenshistorie, Eigentümers
 
 Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden erst mit dokumentierter Herkunft und geklärten Nutzungsrechten gespeichert.
 
+| Steckbrief | Angabe |
+| --- | --- |
+| Offizielle Website | [https://www.aldebaran.com/](https://www.aldebaran.com/) |
+| Organisationstyp | unternehmen |
+| Profilstand | 2026-10-29 |
+
 ## Erfasstes Portfolio
 
 * [Pepper · klassische Plattform](../../roboter/pepper_classic/README.md)

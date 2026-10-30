@@ -2,9 +2,15 @@
 
 # Agility Robotics
 
-Startprofil zur Zuordnung der Robotermodelle. Unternehmenshistorie, Eigentümerstruktur, regionale Integratoren und Servicebedingungen sind noch zu prüfen.
+Hersteller von Digit. Kommerzieller Digit 4 Einsatz und angekündigter Digit 5 Zugang werden getrennt geführt.
 
-Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden erst mit dokumentierter Herkunft und geklärten Nutzungsrechten gespeichert.
+Dieser Prüfstand betrifft Website und das hier ausgearbeitete Portfolio. Vollständige Unternehmensgeschichte, Servicebedingungen und globale Vertriebslage sind nicht damit abschließend geprüft.
+
+| Steckbrief | Angabe |
+| --- | --- |
+| Offizielle Website | [https://www.agilityrobotics.com/](https://www.agilityrobotics.com/) |
+| Organisationstyp | unternehmen |
+| Profilstand | 2026-10-30 |
 
 ## Erfasstes Portfolio
 
@@ -14,3 +20,4 @@ Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden e
 ## Quellen
 
 * [Digit 5](../../quellen/src_digit5_product.md)
+* [Digit 4 bei GXO und geplanter Übergang zu Digit 5](../../quellen/src_digit4_gxo_update_2026.md)

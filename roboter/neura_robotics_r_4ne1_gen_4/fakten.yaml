@@ -342,7 +342,7 @@ claims:
     note: Katalogangabe; Revision und Ausstattung beachten
   checked_at: '2026-10-30'
   valid_from: null
-  valid_until: null
+  valid_until: '2026-10-30'
   supersedes: null
 - id: hardware_payload_description
   key: hardware.payload_description
@@ -358,9 +358,635 @@ claims:
     note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
   checked_at: '2026-10-30'
   valid_from: null
+  valid_until: '2026-10-30'
+  supersedes: null
+- id: v20261030_lifecycle_first_presented
+  key: lifecycle.first_presented
+  value: '2026-10-22'
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_gen4_launch_20261030
+    locator: Datierte Vorstellung
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: lifecycle_first_presented
+- id: v20261030_lifecycle_production
+  key: lifecycle.production
+  value: Für Serienproduktion ausgelegt; Vorbereitung beschrieben, Serienauslieferung nicht bestätigt
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_gen4_launch_20261030
+    locator: Introducing the next generation
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: lifecycle_production
+- id: v20261030_hardware_height
+  key: hardware.height
+  value: null
+  unit: m
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Allgemeine Produktseite mischt Generationen. V7 vom Juni 2026 benennt Gen4 nicht; kein eindeutiger
+      Gen4 Wert bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_height
+- id: v20261030_hardware_width
+  key: hardware.width
+  value: null
+  unit: m
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Allgemeine Produktseite mischt Generationen. V7 vom Juni 2026 benennt Gen4 nicht; kein eindeutiger
+      Gen4 Wert bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_width
+- id: v20261030_hardware_depth
+  key: hardware.depth
+  value: null
+  unit: m
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Allgemeine Produktseite mischt Generationen. V7 vom Juni 2026 benennt Gen4 nicht; kein eindeutiger
+      Gen4 Wert bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_depth
+- id: v20261030_hardware_mass
+  key: hardware.mass
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Allgemeine Produktseite mischt Generationen. V7 vom Juni 2026 benennt Gen4 nicht; kein eindeutiger
+      Gen4 Wert bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_mass
+- id: v20261030_hardware_payload_arm
+  key: hardware.payload_arm
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Allgemeine Produktseite mischt Generationen. V7 vom Juni 2026 benennt Gen4 nicht; kein eindeutiger
+      Gen4 Wert bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_payload_arm
+- id: v20261030_hardware_payload_two_arms
+  key: hardware.payload_two_arms
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Allgemeine Produktseite mischt Generationen. V7 vom Juni 2026 benennt Gen4 nicht; kein eindeutiger
+      Gen4 Wert bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_payload_two_arms
+- id: v20261030_hardware_payload_walking
+  key: hardware.payload_walking
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Allgemeine Produktseite mischt Generationen. V7 vom Juni 2026 benennt Gen4 nicht; kein eindeutiger
+      Gen4 Wert bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_payload_walking
+- id: v20261030_hardware_runtime
+  key: hardware.runtime
+  value: null
+  unit: min
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Allgemeine Produktseite mischt Generationen. V7 vom Juni 2026 benennt Gen4 nicht; kein eindeutiger
+      Gen4 Wert bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_runtime
+- id: v20261030_environment_ip
+  key: environment.ip
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Allgemeine Produktseite mischt Generationen. V7 vom Juni 2026 benennt Gen4 nicht; kein eindeutiger
+      Gen4 Wert bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: environment_ip
+- id: v20261030_hardware_sensors
+  key: hardware.sensors
+  value: Hersteller beschreibt 3D Wahrnehmung, Kontakt, Kraft und Audio
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_4ne1_page_20261030
+    locator: A New Central Brain
+  context:
+    umfang: keine bestätigte vollständige Sensorstückliste
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_end_effectors
+  key: hardware.end_effectors
+  value: Weiterentwickelte Hände und lokale Reflexregelung der Gliedmaßen
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_4ne1_page_20261030
+    locator: High Precision Movements
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_autonomy_scope
+  key: autonomy.scope
+  value: NEURON AI läuft laut Hersteller lokal; Training und Betrieb im RoboGym. Frei generalisierender
+    Kundenbetrieb nicht nachgewiesen
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_4ne1_page_20261030
+    locator: A New Central Brain und NEURA Gyms
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: autonomy_scope
+- id: v20261030_openness_offline
+  key: openness.offline
+  value: Lokale Ausführung des NEURON Modells beschrieben; vollständiger Betrieb ohne Netzwerk oder Abo
+    nicht zugesichert
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_4ne1_page_20261030
+    locator: All of this runs locally
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_openness_sdk
+  key: openness.sdk
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Gen4 spezifischer öffentlicher SDK Umfang nicht bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: openness_sdk
+- id: v20261030_openness_policy_training
+  key: openness.policy_training
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Herstellertraining im RoboGym belegt keine freien Kundenrechte oder offenen Gewichte
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: openness_policy_training
+- id: ai_neuron_gen4
+  key: software.ai_stack
+  value: NEURON AI
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_4ne1_page_20261030
+    locator: A New Central Brain
+  context:
+    system: NEURON AI
+    version: nicht benannt
+    rolle: Multimodales PLA mit Gedächtnis
+    bezug: herstellersteuerung
+    grenze: Läuft laut Gen4 Produktbeschreibung lokal. Keine offene Gewichte oder Lizenz aus dem Namen
+      ableitbar.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: neuron_customer_finetuning
+  key: openness.policy_training
+  value: Neuraverse bietet laut Hersteller Werkzeuge für kundenspezifisches NEURON Fine Tuning; konkrete
+    Gen4 Freischaltung und Vertragsrechte prüfen
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neuron_ai_20261014
+    locator: From learning a skill to deploying it across a fleet
+  context:
+    grenze: Plattformgebundenes Fine Tuning belegt keine offenen Gewichte oder freie Fremdpolicy Ausführung
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: v20261030_openness_policy_training
+- id: unknown_software_compatible_models
+  key: software.compatible_models
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Kein belastbarer modellspezifischer Name oder weiterer Integrationsnachweis im geprüften Umfang.
+      Unbekannt bedeutet keine Inkompatibilität.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_walking
+  key: mobility.walking
+  value: Neue Ganzkörper Bewegungsregelung für Gen4 beschrieben
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_4ne1_page_20261030
+    locator: High Precision Movements
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine veröffentlichte Standardroute oder kundenseitige Abnahme für beliebige Böden.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_running
+  key: mobility.running
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_jumping
+  key: mobility.jumping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine belastbare editionsbezogene Lieferfunktion im geprüften Umfang; spektakuläre Vorführungen
+      nicht ungeprüft übernehmen.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_dancing
+  key: mobility.dancing
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_steps_up
+  key: mobility.steps_up
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_steps_down
+  key: mobility.steps_down
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_uneven_ground
+  key: mobility.uneven_ground
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_rubble
+  key: mobility.rubble
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_obstacles
+  key: mobility.obstacles
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_self_recovery
+  key: mobility.self_recovery
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_manipulation_pick_place
+  key: manipulation.pick_place
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_scope
+  key: navigation.scope
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_mapping
+  key: navigation.mapping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_obstacle_avoidance
+  key: navigation.obstacle_avoidance
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_fleet_management
+  key: fleet.management
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_erp
+  key: integration.erp
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine bestätigte direkte ERP Anbindung. WMS, MES, SDK oder eine API sind kein Nachweis
+      eines fertigen ERP Konnektors.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wms
+  key: integration.wms
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wes
+  key: integration.wes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_mes
+  key: integration.mes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_api
+  key: integration.api
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
   valid_until: null
   supersedes: null
 offers: []
 events: []
-extensions: []
-media: []
+extensions:
+- id: typ_besonderheit
+  title: Generationskonflikt der Unterlagen
+  description: Gen4 ist eindeutig vorgestellt. Das generische ältere Datenblatt ist kein ausreichend zugewiesenes
+    Gen4 Zahlenblatt. Relative Gewichtsänderung wird nicht zu einem erfundenen absoluten Wert umgerechnet.
+  claim_ids:
+  - v20261030_lifecycle_first_presented
+  - v20261030_hardware_height
+  - v20261030_hardware_mass
+media:
+- id: herstellerbild
+  type: foto
+  url: https://neura-robotics.com/wp-content/uploads/2026/10/B00375103FR1792678857-1024x768.webp
+  local_path: null
+  source_id: src_neura_gen4_launch_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Herstellerpressefoto vom TUM RoboGym Start am 22. Oktober 2026. Gen4 mit schwarzer Textilhülle
+    steht rechts.
+- id: generisches_datenblatt
+  type: datenblatt
+  url: https://neurarobotics.px.media/plk/cE/NEURA_Robotics_4NE1_Datasheet_Web.pdf
+  local_path: null
+  source_id: src_neura_4ne1_sheet_v7
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: V7 / 05.06.2026
+  language: en
+  sha256: null
+  scope: 'WARNUNG: generisches älteres 4NE1 Datenblatt. Nicht als Gen4 Spezifikation verwenden.'
+- id: gen4_produktinformation
+  type: handbuch
+  url: https://neura-robotics.com/products/4ne1/
+  local_path: null
+  source_id: src_neura_4ne1_page_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: en
+  sha256: null
+  scope: 'HTML: Gen4 Beschreibung oben; weiter unten allgemeine, nicht eindeutig zugewiesene Kennwerte.'
+- id: gen4_vorstellungsclip
+  type: video
+  url: https://neura-robotics.com/wp-content/uploads/2026/10/Gen4_loop_hero_bg-1.mp4
+  local_path: null
+  source_id: src_neura_4ne1_page_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis; keine Kopie im Repository und
+    keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Offizieller Gen4 Produktclip aus dem oberen Gen4 Abschnitt; keine Übertragung älterer Tabellenwerte.

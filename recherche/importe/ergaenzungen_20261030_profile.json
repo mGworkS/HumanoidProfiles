@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "reason": "Eigene Varianten wegen abweichendem Entwicklerzugang und Manipulationspaket.",
+  "created_ids": [
+    "unitree_g1_plus_edu",
+    "neura_4ne1_mini_standard",
+    "neura_4ne1_mini_pro"
+  ],
+  "enriched_ids": [
+    "unitree_g1",
+    "unitree_g1_edu",
+    "unitree_g1_plus",
+    "unitree_g1_plus_edu",
+    "neura_robotics_r_4ne1_gen_4",
+    "neura_robotics_r_4ne1_mini",
+    "neura_4ne1_mini_standard",
+    "neura_4ne1_mini_pro",
+    "agility_robotics_digit_generation_4",
+    "agility_digit5",
+    "figure_figure_01",
+    "figure_figure_02",
+    "figure_figure_03",
+    "pepper_classic",
+    "boston_dynamics_atlas"
+  ]
+}

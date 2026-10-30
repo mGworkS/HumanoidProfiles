@@ -1,0 +1,873 @@
+schema_version: '1.0'
+robot_id: neura_4ne1_mini_standard
+claims:
+- id: lifecycle_first_presented
+  key: lifecycle.first_presented
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_development
+  key: lifecycle.development
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_production
+  key: lifecycle.production
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_support
+  key: lifecycle.support
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_first_delivery
+  key: lifecycle.first_delivery
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_development_end
+  key: lifecycle.development_end
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_production_end
+  key: lifecycle.production_end
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_support_end
+  key: lifecycle.support_end
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_height
+  key: hardware.height
+  value: null
+  unit: m
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_width
+  key: hardware.width
+  value: null
+  unit: m
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_depth
+  key: hardware.depth
+  value: null
+  unit: m
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_mass
+  key: hardware.mass
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_arm
+  key: hardware.payload_arm
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_two_arms
+  key: hardware.payload_two_arms
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_walking
+  key: hardware.payload_walking
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_reach
+  key: hardware.reach
+  value: null
+  unit: m
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_speed
+  key: hardware.speed
+  value: null
+  unit: m/s
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_runtime
+  key: hardware.runtime
+  value: null
+  unit: min
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_battery
+  key: hardware.battery
+  value: null
+  unit: Wh
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: environment_ip
+  key: environment.ip
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: autonomy_scope
+  key: autonomy.scope
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_sdk
+  key: openness.sdk
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_policy_training
+  key: openness.policy_training
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: openness_policy_deployment
+  key: openness.policy_deployment
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ecosystem_cloud
+  key: ecosystem.cloud
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ecosystem_subscription
+  key: ecosystem.subscription
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context: {}
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_height
+  key: hardware.height
+  value: 1.32
+  unit: m
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_sheet_v1
+    locator: 'Seite 1: Height'
+  context:
+    konfiguration: Plattformwert V1; finale Edition im Angebot abgleichen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_height
+- id: v20261030_hardware_mass
+  key: hardware.mass
+  value: 36
+  unit: kg
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_sheet_v1
+    locator: 'Seite 1: Weight'
+  context:
+    konfiguration: Plattformwert V1; konkrete Hand und Ausstattungskonfiguration nicht aufgeschlüsselt
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_mass
+- id: v20261030_hardware_dof
+  key: hardware.dof
+  value: 25
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_sheet_v1
+    locator: 'Seite 1: DoF und Fußnote'
+  context:
+    umfang: Basiseinheit ohne Hände und Endeffektoren
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_runtime
+  key: hardware.runtime
+  value: 150
+  unit: min
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_sheet_v1
+    locator: 'Seite 1: Motion Endurance 2.5 h'
+  context:
+    lastprofil: Bewegungsausdauer ohne genaue Testbedingungen; 24/7 ist keine Batterielaufzeit
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_runtime
+- id: v20261030_hardware_speed
+  key: hardware.speed
+  value: 1.278
+  unit: m/s
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_sheet_v1
+    locator: 'Seite 1: Speed Max 4.6 km/h'
+  context:
+    umrechnung: 4,6 km/h geteilt durch 3,6; Untergrund und Nutzlast nicht spezifiziert
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_speed
+- id: v20261030_manipulation_scope
+  key: manipulation.scope
+  value: Manipulation nicht im Standard Paket enthalten
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_reservation_20261030
+    locator: 'At A Glance: Manipulation'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_payload_rated
+  key: hardware.payload_rated
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: 3 kg im generischen Datenblatt nicht der Standard Edition ohne Manipulationspaket zugewiesen
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_openness_sdk
+  key: openness.sdk
+  value: Python SDK, ROS 2 und NEURA Sync; C++ und digitaler Zwilling nur bei Pro
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_reservation_20261030
+    locator: Common Interfaces und Additional Interfaces
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: openness_sdk
+- id: v20261030_ecosystem_cloud
+  key: ecosystem.cloud
+  value: Volle Neuraverse Anbindung vorgesehen; Pflichtabhängigkeit und Offline Umfang nicht geklärt
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_reservation_20261030
+    locator: Neuraverse integration
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: ecosystem_cloud
+- id: v20261030_autonomy_scope
+  key: autonomy.scope
+  value: Sprachinteraktion und Plattformfunktionen angekündigt; selbstständige universelle Arbeitsaufgaben
+    nicht bestätigt
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_reservation_20261030
+    locator: Use cases und FAQ
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: autonomy_scope
+- id: v20261030_mobility_steps_up
+  key: mobility.steps_up
+  value: Treppennavigation befindet sich laut FAQ in Entwicklung
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_reservation_20261030
+    locator: 'FAQ: stairs and uneven surfaces'
+  context:
+    bereitstellung: angekuendigt
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_mobility_steps_down
+  key: mobility.steps_down
+  value: Treppennavigation befindet sich laut FAQ in Entwicklung
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_reservation_20261030
+    locator: 'FAQ: stairs and uneven surfaces'
+  context:
+    bereitstellung: angekuendigt
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_mobility_uneven_ground
+  key: mobility.uneven_ground
+  value: Für unebene Flächen ausgelegt; keine Grenzwerte oder unabhängigen Geländetests angegeben
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_reservation_20261030
+    locator: 'FAQ: stairs and uneven surfaces'
+  context:
+    bereitstellung: unbekannt
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_safety_human_contact
+  key: safety.human_contact
+  value: Menschenerkennung im Datenblatt optional gegen Aufpreis; keine allgemeine Kollaborationsfreigabe
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_sheet_v1
+    locator: 'Seite 1: Safety Fußnote'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_environment_ip
+  key: environment.ip
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Keine Schutzart in den geprüften Mini Unterlagen
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: environment_ip
+- id: ai_mini_platform
+  key: software.ai_stack
+  value: NEURA Foundation AI, konkrete Mini Modellversion nicht benannt
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_sheet_v1
+    locator: 'Seite 2: gleiche grundlegende AI wie Gen3'
+  context:
+    grenze: NEURON AI der späteren Gen4 nicht ohne Mini spezifischen Beleg übernehmen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: mini_frameworks
+  key: software.frameworks
+  value: ROS 2, Python und Neuraverse; zusätzliche Pro Schnittstellen separat
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_reservation_20261030
+    locator: Konfigurationstabelle
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: unknown_software_compatible_models
+  key: software.compatible_models
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Kein belastbarer modellspezifischer Name oder weiterer Integrationsnachweis im geprüften Umfang.
+      Unbekannt bedeutet keine Inkompatibilität.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_walking
+  key: mobility.walking
+  value: Betrieb auf ebener und unebener Fläche als Entwicklungsziel beschrieben
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_reservation_20261030
+    locator: FAQ stairs and uneven surfaces
+  context:
+    bereitstellung: angekuendigt
+    bedingung: Keine bestätigte finale Auslieferungssoftware oder Zuverlässigkeitsgrenze.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_manipulation_pick_place
+  key: manipulation.pick_place
+  value: Manipulationspaket in Standard nicht enthalten
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_reservation_20261030
+    locator: 'At A Glance: Manipulation'
+  context:
+    bereitstellung: nicht_enthalten
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_running
+  key: mobility.running
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_jumping
+  key: mobility.jumping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine belastbare editionsbezogene Lieferfunktion im geprüften Umfang; spektakuläre Vorführungen
+      nicht ungeprüft übernehmen.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_dancing
+  key: mobility.dancing
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_rubble
+  key: mobility.rubble
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_obstacles
+  key: mobility.obstacles
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_self_recovery
+  key: mobility.self_recovery
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_scope
+  key: navigation.scope
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_mapping
+  key: navigation.mapping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_obstacle_avoidance
+  key: navigation.obstacle_avoidance
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_fleet_management
+  key: fleet.management
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_erp
+  key: integration.erp
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine bestätigte direkte ERP Anbindung. WMS, MES, SDK oder eine API sind kein Nachweis
+      eines fertigen ERP Konnektors.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wms
+  key: integration.wms
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wes
+  key: integration.wes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_mes
+  key: integration.mes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_api
+  key: integration.api
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+offers:
+- id: reservierung_2026
+  provider_id: neura_robotics
+  mode: kauf
+  status: angekuendigt
+  regions:
+  - anbieterfreigabe_erforderlich
+  audiences:
+  - einzelbesteller
+  price: 19999
+  currency: EUR
+  billing: einmalig
+  subscription: unbekannt
+  term: 100 EUR erstattbare Reservierungsgebühr wird auf Kauf angerechnet; Steuern und Versand zusätzlich.
+  included: []
+  exit_conditions: Rückerstattung der Reservierungsgebühr bis Unterzeichnung des finalen Kaufvertrags
+    laut FAQ.
+  configuration: 4NE1 Mini Standard; geschätzter Endpreis, Reservierung ist keine Auslieferung
+  checked_at: '2026-10-30'
+  source_ids:
+  - src_neura_mini_reservation_20261030
+events: []
+extensions:
+- id: typ_besonderheit
+  title: Manipulation ist ein Paketmerkmal
+  description: Die Standard Edition enthält kein Manipulationspaket. Pro ergänzt dexteröse Hände und zusätzliche
+    Entwicklerfunktionen. Das allgemeine Mini Datenblatt allein beschreibt diese Grenzen nicht ausreichend.
+  claim_ids:
+  - v20261030_manipulation_scope
+  - v20261030_hardware_payload_rated
+  - v20261030_openness_sdk
+media:
+- id: herstellerbild
+  type: rendering
+  url: https://neura-robotics.com/wp-content/uploads/2026/01/4NE1_Mini_home_04-1024x553.webp
+  local_path: null
+  source_id: src_neura_mini_reservation_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Herstellerabbildung der Mini Plattform. Gezeigte Hände sind kein Bestandteil des Standard Manipulationspakets.
+- id: mini_datenblatt
+  type: datenblatt
+  url: https://neurarobotics.px.media/plk/Jj/4NE1Minidatasheet.pdf
+  local_path: null
+  source_id: src_neura_mini_sheet_v1
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: V1 / 01.01.2026
+  language: en
+  sha256: 1e8d135d28d2f0e0d55496aca93f66793f83bf63f2438045170a12d349e12087
+  scope: Generisches Mini PDF. Standard und Pro Ausstattung anhand der aktuelleren Konfigurationstabelle
+    prüfen.

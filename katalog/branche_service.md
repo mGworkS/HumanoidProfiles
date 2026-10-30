@@ -8,12 +8,12 @@
 
 | Roboter | Hersteller | Ursprungsland | Vorstellung | Verkaufsstart | Zugang / Stand | Höhe | Payload / Lastbezug |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [A2 Lite](../roboter/agibot_a2_lite/README.md) | [AGIBOT](../hersteller/agibot/README.md) | China [K](../roboter/agibot_a2_lite/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kaufanfrage · 2026-10-29 [K](../roboter/agibot_a2_lite/README.md#screening) | 1,69 m [K](../roboter/agibot_a2_lite/README.md#hardware-height-description) | Ca. 2 kg je Arm [K](../roboter/agibot_a2_lite/README.md#hardware-payload-description) |
-| [A2 Ultra](../roboter/agibot_a2_ultra/README.md) | [AGIBOT](../hersteller/agibot/README.md) | China [K](../roboter/agibot_a2_ultra/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kaufanfrage · 2026-10-29 [K](../roboter/agibot_a2_ultra/README.md#screening) | 1,69 m [K](../roboter/agibot_a2_ultra/README.md#hardware-height-description) | Ca. 2 kg je Arm [K](../roboter/agibot_a2_ultra/README.md#hardware-payload-description) |
-| [S1](../roboter/astribot_s1/README.md) | [Astribot](../hersteller/astribot/README.md) | China [K](../roboter/astribot_s1/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kaufanfrage · 2026-10-29 [K](../roboter/astribot_s1/README.md#screening) | Ca. 1,70 m [K](../roboter/astribot_s1/README.md#hardware-height-description) | 5 kg je Arm bei horizontaler Reichweite [K](../roboter/astribot_s1/README.md#hardware-payload-description) |
+| [A2 Lite](../roboter/agibot_a2_lite/README.md) | [AGIBOT](../hersteller/agibot/README.md) | China [K](../roboter/agibot_a2_lite/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kaufanfrage · 2026-10-29 [K](../roboter/agibot_a2_lite/README.md#screening) | 1.69 m [K](../roboter/agibot_a2_lite/README.md#hardware-height) | Ca. 2 kg je Arm [K](../roboter/agibot_a2_lite/README.md#hardware-payload-description) |
+| [A2 Ultra](../roboter/agibot_a2_ultra/README.md) | [AGIBOT](../hersteller/agibot/README.md) | China [K](../roboter/agibot_a2_ultra/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kaufanfrage · 2026-10-29 [K](../roboter/agibot_a2_ultra/README.md#screening) | 1.69 m [K](../roboter/agibot_a2_ultra/README.md#hardware-height) | Ca. 2 kg je Arm [K](../roboter/agibot_a2_ultra/README.md#hardware-payload-description) |
+| [S1](../roboter/astribot_s1/README.md) | [Astribot](../hersteller/astribot/README.md) | China [K](../roboter/astribot_s1/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kaufanfrage · 2026-10-29 [K](../roboter/astribot_s1/README.md#screening) | 1.7 m [K](../roboter/astribot_s1/README.md#hardware-height) | 5 kg je Arm bei horizontaler Reichweite [K](../roboter/astribot_s1/README.md#hardware-payload-description) |
 | [Mirokaï](../roboter/enchanted_tools_mirokai/README.md) | [Enchanted Tools](../hersteller/enchanted_tools/README.md) | Frankreich [K](../roboter/enchanted_tools_mirokai/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kaufanfrage · 2026-10-29 [K](../roboter/enchanted_tools_mirokai/README.md#screening) | 1,23 m im Händlerpaket [K](../roboter/enchanted_tools_mirokai/README.md#hardware-height-description) | 1,5 kg je Arm laut Händler [K](../roboter/enchanted_tools_mirokai/README.md#hardware-payload-description) |
-| [Ameca](../roboter/engineered_arts_ameca/README.md) | [Engineered Arts](../hersteller/engineered_arts/README.md) | Großbritannien [K](../roboter/engineered_arts_ameca/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kaufanfrage · 2026-10-29 [K](../roboter/engineered_arts_ameca/README.md#screening) | 1,87 m [K](../roboter/engineered_arts_ameca/README.md#hardware-height-description) | Keine industrielle Arbeitsnutzlast zugesichert [K](../roboter/engineered_arts_ameca/README.md#hardware-payload-description) |
-| [HMND 01 Alpha Bipedal](../roboter/humanoid_hmnd_01_alpha_bipedal/README.md) | [Humanoid](../hersteller/humanoid/README.md) | Großbritannien [K](../roboter/humanoid_hmnd_01_alpha_bipedal/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Projektzugang · 2026-10-29 [K](../roboter/humanoid_hmnd_01_alpha_bipedal/README.md#screening) | 1,79 m [K](../roboter/humanoid_hmnd_01_alpha_bipedal/README.md#hardware-height-description) | 15 kg; Lastbezug nicht weiter ausgewiesen [K](../roboter/humanoid_hmnd_01_alpha_bipedal/README.md#hardware-payload-description) |
+| [Ameca](../roboter/engineered_arts_ameca/README.md) | [Engineered Arts](../hersteller/engineered_arts/README.md) | Großbritannien [K](../roboter/engineered_arts_ameca/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Kaufanfrage · 2026-10-29 [K](../roboter/engineered_arts_ameca/README.md#screening) | 1.87 m [K](../roboter/engineered_arts_ameca/README.md#hardware-height) | Keine industrielle Arbeitsnutzlast zugesichert [K](../roboter/engineered_arts_ameca/README.md#hardware-payload-description) |
+| [HMND 01 Alpha Bipedal](../roboter/humanoid_hmnd_01_alpha_bipedal/README.md) | [Humanoid](../hersteller/humanoid/README.md) | Großbritannien [K](../roboter/humanoid_hmnd_01_alpha_bipedal/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Projektzugang · 2026-10-29 [K](../roboter/humanoid_hmnd_01_alpha_bipedal/README.md#screening) | 1.79 m [K](../roboter/humanoid_hmnd_01_alpha_bipedal/README.md#hardware-height) | 15 kg; Lastbezug nicht weiter ausgewiesen [K](../roboter/humanoid_hmnd_01_alpha_bipedal/README.md#hardware-payload-description) |
 | [IRON](../roboter/xpeng_iron/README.md) | [XPENG](../hersteller/xpeng/README.md) | China [K](../roboter/xpeng_iron/README.md#identity-origin-country) | Nicht erfasst | Nicht erfasst | Projektzugang · 2026-10-29 [K](../roboter/xpeng_iron/README.md#screening) | Aktuelle Generation nicht eindeutig beziffert [K](../roboter/xpeng_iron/README.md#hardware-height-description) | Nicht veröffentlicht [K](../roboter/xpeng_iron/README.md#hardware-payload-description) |
 
 <details>
@@ -22,6 +22,15 @@
 | Roboter | Hersteller | Ursprungsland | Vorstellung | Verkaufsstart | Zugang / Stand | Höhe | Payload / Lastbezug |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Care-O-bot 4](../roboter/fraunhofer_ipa_und_partner_care_o_bot_4/README.md) | [Fraunhofer IPA und Partner](../hersteller/fraunhofer_ipa_und_partner/README.md) | Nicht erfasst | Nicht erfasst | Nicht erfasst | Externer Zugang nicht bestätigt [B](../roboter/fraunhofer_ipa_und_partner_care_o_bot_4/README.md#screening) | Nicht erfasst | Nicht erfasst |
+
+</details>
+
+<details>
+<summary>Historie und frühere Generationen (1)</summary>
+
+| Roboter | Hersteller | Ursprungsland | Vorstellung | Verkaufsstart | Zugang / Stand | Höhe | Payload / Lastbezug |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Pepper · klassische Plattform](../roboter/pepper_classic/README.md) | [SoftBank Robotics](../hersteller/softbank_robotics/README.md) | Frankreich / Japan [H](../roboter/pepper_classic/README.md#identity-origin-country) | 2014-06-05 [H](../roboter/pepper_classic/README.md#lifecycle-first-presented) | 2015-06-20 [H](../roboter/pepper_classic/README.md#v20261030-lifecycle-sales-start) | Historisch; Unbekannt · 2026-10-30 [B](../roboter/pepper_classic/README.md#screening) | 1.21 m [H](../roboter/pepper_classic/README.md#v20261030-hardware-height) | Nicht erfasst |
 
 </details>
 
@@ -47,15 +56,6 @@
 | [NAVIAI i3](../roboter/zhejiang_humanoid_robot_innovation_center_naviai_i3/README.md) | [Zhejiang Humanoid Robot Innovation Center](../hersteller/zhejiang_humanoid_robot_innovation_center/README.md) | Nicht erfasst | Nicht erfasst | Nicht erfasst | Aktualität / Zugang ungeklärt [B](../roboter/zhejiang_humanoid_robot_innovation_center_naviai_i3/README.md#screening) | Nicht erfasst | Nicht erfasst |
 | [NAVIAI WA1](../roboter/zhejiang_humanoid_robot_innovation_center_naviai_wa1/README.md) | [Zhejiang Humanoid Robot Innovation Center](../hersteller/zhejiang_humanoid_robot_innovation_center/README.md) | Nicht erfasst | Nicht erfasst | Nicht erfasst | Aktualität / Zugang ungeklärt [B](../roboter/zhejiang_humanoid_robot_innovation_center_naviai_wa1/README.md#screening) | Nicht erfasst | Nicht erfasst |
 | [NAVIAI WA2](../roboter/zhejiang_humanoid_robot_innovation_center_naviai_wa2/README.md) | [Zhejiang Humanoid Robot Innovation Center](../hersteller/zhejiang_humanoid_robot_innovation_center/README.md) | Nicht erfasst | Nicht erfasst | Nicht erfasst | Aktualität / Zugang ungeklärt [B](../roboter/zhejiang_humanoid_robot_innovation_center_naviai_wa2/README.md#screening) | Nicht erfasst | Nicht erfasst |
-
-</details>
-
-<details>
-<summary>Historie und frühere Generationen (1)</summary>
-
-| Roboter | Hersteller | Ursprungsland | Vorstellung | Verkaufsstart | Zugang / Stand | Höhe | Payload / Lastbezug |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [Pepper · klassische Plattform](../roboter/pepper_classic/README.md) | [SoftBank Robotics](../hersteller/softbank_robotics/README.md) | Frankreich / Japan [H](../roboter/pepper_classic/README.md#identity-origin-country) | 2014-06-05 [H](../roboter/pepper_classic/README.md#lifecycle-first-presented) | Nicht erfasst | Historisch; Unbekannt [B](../roboter/pepper_classic/README.md#screening) | 1.21 m [H](../roboter/pepper_classic/README.md#hardware-height) | Nicht erfasst |
 
 </details>
 

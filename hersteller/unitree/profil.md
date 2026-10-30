@@ -7,11 +7,12 @@ website: https://www.unitree.com/
 organisationstyp: unternehmen
 source_ids:
 - src_h1_product
-reviewed_at: '2026-10-29'
+- src_g1_specs_20261030
+reviewed_at: '2026-10-30'
 ---
 
 # Unitree Robotics
 
-Startprofil zur Zuordnung der Robotermodelle. Unternehmenshistorie, Eigentümerstruktur, regionale Integratoren und Servicebedingungen sind noch zu prüfen.
+Hersteller der G1 Plattform. Basis und EDU Ausstattungen sowie Varianten getrennt vergleichen.
 
-Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden erst mit dokumentierter Herkunft und geklärten Nutzungsrechten gespeichert.
+Dieser Prüfstand betrifft Website und das hier ausgearbeitete Portfolio. Vollständige Unternehmensgeschichte, Servicebedingungen und globale Vertriebslage sind nicht damit abschließend geprüft.

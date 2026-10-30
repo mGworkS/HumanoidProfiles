@@ -8,53 +8,79 @@ manufacturer_id: figure
 developer_ids: []
 form: zweibeinig
 classification:
-  value: ungeklaert
-  reason: Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht
-    neu geprüft.
+  value: historischer_entwicklungstraeger
+  reason: Erste Entwicklungsplattform, inzwischen durch weitere Generationen abgelöst; kein aktueller
+    externer Zugang bestätigt.
   source_ids:
-  - src_import_n65
-  assessed_at: '2026-10-29'
-tags: []
-relations: []
-scope: Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten,
-  Herstellerrolle und aktueller Zugang noch zu prüfen.
+  - src_figure01_launch_2023
+  assessed_at: '2026-10-30'
+tags:
+- axis: branche
+  id: industrie
+  basis: herstellerziel
+  source_ids:
+  - src_figure01_launch_2023
+- axis: branche
+  id: logistik
+  basis: herstellerziel
+  source_ids:
+  - src_figure01_launch_2023
+- axis: aufgabe
+  id: manipulation
+  basis: herstellerziel
+  source_ids:
+  - src_figure01_launch_2023
+relations:
+- type: nachfolger
+  target_id: figure_figure_02
+scope: Figure 01. Daten und Fähigkeiten anderer Generationen werden nicht übertragen.
 maintenance:
-  last_search: null
-  reviewed_at: null
+  last_search: '2026-10-30'
+  reviewed_at: '2026-10-30'
   next_review: '2026-11-29'
   priority: normal
-  status: erfasst
+  status: teilweise_geprueft
 official_link:
   url: https://www.figure.ai/company
   kind: produkt
-  source_id: src_import_n65
-  verification: aus_bestand
+  source_id: src_figure01_launch_2023
+  verification: geprueft
 screening:
-  section: ungeklaert
-  access: unbekannt
-  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
-    ausreichend geprüft.
+  section: historie
+  access: kein_bestaetigter_zugang
+  reason: Erste Entwicklungsplattform, inzwischen durch weitere Generationen abgelöst; kein aktueller
+    externer Zugang bestätigt.
   source_ids:
-  - src_import_n65
-  checked_at: null
-  basis: bestandsimport
+  - src_figure01_launch_2023
+  checked_at: '2026-10-30'
+  basis: primaerquelle
 ---
 
 # Figure 01
 
 ## Einordnung
 
-Im bisherigen Bestand unter **Figure** erfasst. [Quellenhinweis](../../quellen/src_import_n65.md). Erfassungskennung: N65.01.
+Figure 01 ist eine historische Entwicklungsplattform.
 
-**Übernommener Recherchehinweis, nicht neu verifiziert:** Erste Schritte 2023; Vorgänger
+## Integration und eigene Entwicklung
+
+Herstellerinterne KI Entwicklung ist dokumentiert. Offene Gewichte, Trainingsdaten, frei verfügbare Kunden SDKs und eigene Policy Bereitstellung sind nicht bestätigt. Für aktuelle Integrationsvorhaben Figure 03 und spätere Produkte prüfen.
+
+## Einsatzgrenzen und Beleglage
+
+Kennwerte, Lebenszyklus und Erfolge bleiben auf diese Generation begrenzt. Für historische Körpermaße wurde keine verlässlich zugängliche Originaltabelle gefunden; verbreitete Verzeichniswerte bleiben deshalb offen.
+
+## Dokumentationsstand
+
+Generationsbezogenes Herstellerbild und technische HTML Quellen verlinkt. Ein separates öffentliches Herstellerdatenblatt als PDF wurde nicht gefunden. Historische und aktuelle Generationen bleiben getrennt.
 
 ## Offene Entscheidungsfragen
 
-* Modellidentität, Generation und Rollen der beteiligten Organisationen bestätigen.
-* Technische Daten, Fähigkeiten und deren Bedingungen aus Originalquellen ergänzen.
-* Aktuellen Lebenszyklus sowie Kauf, Miete, RaaS oder Forschungszugang prüfen.
-* SDK, eigene Policies, Integrationsaufwand, Abos und Nutzungsrechte prüfen.
+* Welche Originalunterlagen und genaue Hardwarekonfiguration sind zugänglich?
+* Welche Aufgabenleistung und menschlichen Eingriffe sind nachvollziehbar belegt?
+* Welche aktuellen Beschaffungs, Support und Entwicklungsrechte bestehen?
+* Welche Sicherheits und Umgebungsgrenzen sind für den konkreten Einsatz bestätigt?
 
 ## Pflege
 
-Eintrag ist vollständig im Inventar erfasst, aber fachlich noch nicht vollständig geprüft. Zahlen und Angebote werden nicht aus ähnlichen Modellen abgeleitet.
+Stand 30. Oktober 2026. Fachlich im genannten Umfang geprüft. Offene Felder bleiben unbekannt. Fakten und Medien werden aus `fakten.yaml` erzeugt.

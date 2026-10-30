@@ -6,31 +6,22 @@ Im bisherigen Bestand unter **CNRS AIST JRL und Partner** erfasst. [Quellenhinwe
 
 **Übernommener Recherchehinweis, nicht neu verifiziert:** Forschungsplattformen; Institut als Betreiber, Hersteller je Modell
 
-**Hersteller:** [CNRS AIST JRL und Partner](../../hersteller/cnrs_aist_jrl_und_partner/README.md)  
-**Bauform:** unbekannt  
-**Einordnung:** ungeklaert  
-**Begründung:** Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht neu geprüft.  
-**Geltungsbereich:** Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten, Herstellerrolle und aktueller Zugang noch zu prüfen. Bauform beziehungsweise Grenze zum Humanoiden ist modellspezifisch zu prüfen.  
-**Prüfumfang:** erfasst, noch nicht fachlich geprüft
-
-**Tags:** Forschung (redaktionelle_zuordnung)
-
-**Offizielle Modellquelle:** [https://unit.aist.go.jp/isri/isri-jrl/en/robots.html](https://unit.aist.go.jp/isri/isri-jrl/en/robots.html) (aus dem Bestand; noch nicht erneut geprüft).
-
-## Screening
-
-**Ansicht:** Forschungsplattformen ohne bestätigten externen Zugang. **Zugang:** Zugang nicht bestätigt.
-
-Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt. Kein Nachweis, dass Zugang ausgeschlossen ist.
-
-Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n41](../../quellen/src_import_n41.md)
-
 ## Steckbrief
 
 [Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
+| Hersteller | [CNRS AIST JRL und Partner](../../hersteller/cnrs_aist_jrl_und_partner/README.md) | Organisationsprofil |
+| Offizielle Website | [https://unit.aist.go.jp/isri/isri-jrl/en/robots.html](https://unit.aist.go.jp/isri/isri-jrl/en/robots.html) | aus dem Bestand; noch nicht erneut geprüft |
+| Vorstellung und weitere Videos | Noch kein geprüfter Link erfasst | Links auf Originale; Vorführung ist kein unabhängiger Test |
+| Datenblatt und Dokumentation | Noch kein geprüfter Link erfasst | Versions und Konfigurationshinweise im Linktext beachten |
+| Bauform und Entität | unbekannt; modell | Geltungsbereich unten beachten |
+| Einordnung | ungeklaert | Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht neu geprüft. |
+| Geltungsbereich | Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten, Herstellerrolle und aktueller Zugang noch zu prüfen. Bauform beziehungsweise Grenze zum Humanoiden ist modellspezifisch zu prüfen. | Daten anderer Generationen werden nicht automatisch übertragen |
+| Prüfumfang | erfasst | Noch nicht fachlich geprüft |
+| Branchen, Aufgaben und Umgebung | Forschung (redaktionelle_zuordnung) | Tags sind keine Eignungsfreigabe |
+| Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | Unbekannt | [unbekannt / keine](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |
 | Produktion | Unbekannt | [unbekannt / keine](#lifecycle-production) |
@@ -57,6 +48,55 @@ Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n41](../
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| KI und Steuerungsmodelle im Einsatz | Nicht erfasst | [Rolle, Bezug und Bedingungen](#ki-modelle-und-software) |
+| Weitere belegte KI Integrationen | Nicht erfasst | [Rolle, Bezug und Bedingungen](#ki-modelle-und-software) |
+
+## KI, Modelle und Software
+
+Noch keine belegten modellspezifischen KI Systeme erfasst. Das bedeutet keine grundsätzliche Inkompatibilität.
+
+Eingebaute Steuerung, Referenzintegration, Simulation und Forschungskooperation sind unterschiedliche Bezüge. Hardware und Softwareversion sowie Lizenz und Kundenrechte gemeinsam prüfen. Eine Plattform wie Isaac GR00T oder ein Rechner wie Jetson Thor belegen keine bestimmte vorinstallierte Modellversion.
+
+## Fähigkeiten und Lieferumfang
+
+| Funktion | Was ist belegt? | Direkt nutzbar oder Zusatzaufwand? | Bedingungen und Nachweis |
+| --- | --- | --- | --- |
+| Gehen oder rollende Fortbewegung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Dynamisches Laufen | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Springen | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Tanzen und Bewegungssequenzen | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Treppen aufwärts | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Treppen abwärts | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Unebener Boden | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Geröll | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Bodenhindernisse | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Selbstständiges Aufstehen | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Pick and Place | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+
+## Navigation, Flotte und Unternehmens IT
+
+| Funktion | Was ist belegt? | Direkt nutzbar oder Zusatzaufwand? | Bedingungen und Nachweis |
+| --- | --- | --- | --- |
+| Autonome Navigation | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Kartenaufbau und Lokalisierung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Hindernisvermeidung bei Navigation | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Flottenmanagement | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| ERP Anbindung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| WMS Anbindung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| WES Anbindung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| MES Anbindung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Integrationsschnittstellen für Unternehmens IT | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+
+Eine API oder ein SDK ist keine fertige ERP oder WMS Anbindung. Zusatzpakete, Cloud, Lizenzen, Kartenaufbau und Inbetriebnahme werden nur bei passendem Beleg als enthalten behandelt. Nicht erfasst und unbekannt bedeuten keine Verneinung.
+
+## Screening
+
+**Ansicht:** Forschungsplattformen ohne bestätigten externen Zugang. **Zugang:** Zugang nicht bestätigt.
+
+Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt. Kein Nachweis, dass Zugang ausgeschlossen ist.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n41](../../quellen/src_import_n41.md)
+
 
 ## Beschaffung und Geschäftsmodell
 
@@ -69,120 +109,155 @@ Kein konkretes aktuelles Angebot in diesem Bestand bestätigt. Das ist kein Nach
 * Aktuellen Lebenszyklus sowie Kauf, Miete, RaaS oder Forschungszugang prüfen.
 * SDK, eigene Policies, Integrationsaufwand, Abos und Nutzungsrechte prüfen.
 
-
 ## Ereignisse und Termine
 
 Keine zusätzlichen Ereignisse erfasst.
 
+## Modellspezifische Besonderheiten
+
+Noch keine zusätzlichen Spezialinformationen erfasst. Dieses Feld nimmt Besonderheiten auf, die sich durch die gemeinsamen Merkmale und Tags nicht ausreichend beschreiben lassen.
+
+## Medien und Dokumente
+
+[Alle Bilder und Videos](assets/README.md) · [Datenblätter und Dokumentation](dokumente/README.md). Externe Originale bleiben beim Anbieter.
+
+
 ## Belege und Detailangaben
 
-Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sind nicht erfasst und dürfen nicht als Nein interpretiert werden.
+Details sind nach Fachgruppen aufklappbar. Unbekannte Angaben bedeuten keine Verneinung. Fehlende optionale Merkmale sind nicht erfasst.
+
+<details>
+<summary>Offene und nicht veröffentlichte Angaben (26)</summary>
 
 ### lifecycle first presented
 
 **Erstvorstellung:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### lifecycle development
 
 **Entwicklung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### lifecycle production
 
 **Produktion:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### lifecycle support
 
 **Support:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### lifecycle first delivery
 
 **Erste bestätigte Auslieferung:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### lifecycle development end
 
 **Entwicklungsende:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### lifecycle production end
 
 **Produktionsende:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### lifecycle support end
 
 **Supportende:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### hardware height
 
 **Höhe:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### hardware width
 
 **Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### hardware depth
 
 **Tiefe:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### hardware mass
 
 **Eigenmasse:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### hardware payload arm
 
 **Nutzlast je Arm:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### hardware payload two arms
 
 **Nutzlast beidhändig:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### hardware payload walking
 
 **Nutzlast beim Gehen:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### hardware reach
 
 **Reichweite:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### hardware speed
 
 **Geschwindigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### hardware runtime
 
 **Laufzeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### hardware battery
 
 **Batterieenergie:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### environment ip
 
 **IP Schutzart:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### autonomy scope
 
 **Autonomie nach Aufgabe:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### openness sdk
 
 **SDK und API:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### openness policy training
 
 **Eigenes Policy Training:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### openness policy deployment
 
 **Ausführung eigener Policies:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+
 ### ecosystem cloud
 
 **Cloudabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
 
 ### ecosystem subscription
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
 
-## Medien und Dokumente
 
-[Medienablage](assets/README.md) · [Dokumentablage](dokumente/README.md). Originale werden nur mit dokumentierter Herkunft und Nutzungsrechten aufgenommen.
+</details>

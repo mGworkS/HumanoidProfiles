@@ -6,6 +6,12 @@ Organisation beziehungsweise Organisationsgruppe aus dem bisherigen Bestand. Die
 
 Unternehmensgeschichte, offizielle Website, Integration und Service wurden beim Import nicht erneut recherchiert. Verweise im automatisch erzeugten Portfolio führen zu den erfassten Systemen.
 
+| Steckbrief | Angabe |
+| --- | --- |
+| Offizielle Website | Noch nicht bestätigt |
+| Organisationstyp | andere |
+| Profilstand | 2026-10-29 |
+
 ## Erfasstes Portfolio
 
 * [HMND 01 Alpha Bipedal](../../roboter/humanoid_hmnd_01_alpha_bipedal/README.md)

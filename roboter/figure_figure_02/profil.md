@@ -6,32 +6,52 @@ aliases: []
 entity_type: modell
 manufacturer_id: figure
 developer_ids: []
-form: unbekannt
+form: zweibeinig
 classification:
   value: historisches_produkt
-  reason: Ausgemusterte Figure 02 Flotte laut Hersteller.
+  reason: Hersteller dokumentiert Ausmusterung der Flotte am 30. September 2026; wenige Geräte bleiben
+    eingelagert.
   source_ids:
   - src_figure02_retirement
   assessed_at: '2026-10-30'
-tags: []
-relations: []
-scope: Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten,
-  Herstellerrolle und aktueller Zugang noch zu prüfen.
+tags:
+- axis: branche
+  id: industrie
+  basis: dokumentierter_einsatz
+  source_ids:
+  - src_figure02_bmw_2025
+- axis: branche
+  id: logistik
+  basis: dokumentierter_einsatz
+  source_ids:
+  - src_figure02_bmw_2025
+- axis: aufgabe
+  id: manipulation
+  basis: herstellerziel
+  source_ids:
+  - src_figure02_retirement
+relations:
+- type: vorgaenger
+  target_id: figure_figure_01
+- type: nachfolger
+  target_id: figure_figure_03
+scope: Figure 02. Daten und Fähigkeiten anderer Generationen werden nicht übertragen.
 maintenance:
-  last_search: null
-  reviewed_at: null
+  last_search: '2026-10-30'
+  reviewed_at: '2026-10-30'
   next_review: '2026-11-29'
   priority: normal
-  status: erfasst
+  status: teilweise_geprueft
 official_link:
   url: https://www.figure.ai/news/f-02-decommission
   kind: produkt
-  source_id: src_import_b20
-  verification: aus_bestand
+  source_id: src_figure02_retirement
+  verification: geprueft
 screening:
   section: historie
   access: kein_bestaetigter_zugang
-  reason: Flotte laut Hersteller ausgemustert.
+  reason: Hersteller dokumentiert Ausmusterung der Flotte am 30. September 2026; wenige Geräte bleiben
+    eingelagert.
   source_ids:
   - src_figure02_retirement
   checked_at: '2026-10-30'
@@ -42,17 +62,27 @@ screening:
 
 ## Einordnung
 
-Im bisherigen Bestand unter **Figure** erfasst. [Quellenhinweis](../../quellen/src_import_b20.md). Erfassungskennung: B20.
+Figure 02 wurde im Produktionspilot eingesetzt und 2026 ausgemustert.
 
-**Übernommener Recherchehinweis, nicht neu verifiziert:** Historischer Produktionspilot bei BMW
+## Integration und eigene Entwicklung
+
+Herstellerinterne KI Entwicklung ist dokumentiert. Offene Gewichte, Trainingsdaten, frei verfügbare Kunden SDKs und eigene Policy Bereitstellung sind nicht bestätigt. Für aktuelle Integrationsvorhaben Figure 03 und spätere Produkte prüfen.
+
+## Einsatzgrenzen und Beleglage
+
+Kennwerte, Lebenszyklus und Erfolge bleiben auf diese Generation begrenzt. Für historische Körpermaße wurde keine verlässlich zugängliche Originaltabelle gefunden; verbreitete Verzeichniswerte bleiben deshalb offen.
+
+## Dokumentationsstand
+
+Generationsbezogenes Herstellerbild und technische HTML Quellen verlinkt. Ein separates öffentliches Herstellerdatenblatt als PDF wurde nicht gefunden. Historische und aktuelle Generationen bleiben getrennt.
 
 ## Offene Entscheidungsfragen
 
-* Modellidentität, Generation und Rollen der beteiligten Organisationen bestätigen.
-* Technische Daten, Fähigkeiten und deren Bedingungen aus Originalquellen ergänzen.
-* Aktuellen Lebenszyklus sowie Kauf, Miete, RaaS oder Forschungszugang prüfen.
-* SDK, eigene Policies, Integrationsaufwand, Abos und Nutzungsrechte prüfen.
+* Welche Originalunterlagen und genaue Hardwarekonfiguration sind zugänglich?
+* Welche Aufgabenleistung und menschlichen Eingriffe sind nachvollziehbar belegt?
+* Welche aktuellen Beschaffungs, Support und Entwicklungsrechte bestehen?
+* Welche Sicherheits und Umgebungsgrenzen sind für den konkreten Einsatz bestätigt?
 
 ## Pflege
 
-Eintrag ist vollständig im Inventar erfasst, aber fachlich noch nicht vollständig geprüft. Zahlen und Angebote werden nicht aus ähnlichen Modellen abgeleitet.
+Stand 30. Oktober 2026. Fachlich im genannten Umfang geprüft. Offene Felder bleiben unbekannt. Fakten und Medien werden aus `fakten.yaml` erzeugt.

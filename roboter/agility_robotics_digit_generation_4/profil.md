@@ -6,60 +6,86 @@ aliases: []
 entity_type: modell
 manufacturer_id: agility_robotics
 developer_ids: []
-form: unbekannt
+form: zweibeinig
 classification:
-  value: ungeklaert
-  reason: Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht
-    neu geprüft.
+  value: gegenwaertig
+  reason: Kundenbericht bestätigt bestehenden kommerziellen Betrieb und weitere Digit 4 Einsätze ab 2027.
+    Kein frei bestellbarer Standardtarif.
   source_ids:
-  - src_import_b17
-  assessed_at: '2026-10-29'
+  - src_digit4_gxo_update_2026
+  assessed_at: '2026-10-30'
 tags:
 - axis: branche
   id: logistik
-  basis: redaktionelle_zuordnung
+  basis: dokumentierter_einsatz
   source_ids:
-  - src_import_b17
-relations: []
-scope: Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten,
-  Herstellerrolle und aktueller Zugang noch zu prüfen.
+  - src_digit4_gxo_update_2026
+- axis: aufgabe
+  id: transport
+  basis: dokumentierter_einsatz
+  source_ids:
+  - src_digit4_gxo_update_2026
+- axis: aufgabe
+  id: manipulation
+  basis: dokumentierter_einsatz
+  source_ids:
+  - src_digit4_gxo_update_2026
+- axis: umgebung
+  id: innen
+  basis: dokumentierter_einsatz
+  source_ids:
+  - src_digit4_gxo_update_2026
+relations:
+- type: nachfolger
+  target_id: agility_digit5
+scope: Digit 4 im kommerziellen GXO Prozess. Zahlen des Piloten 2023 sind als damalige Konfiguration markiert.
 maintenance:
-  last_search: null
-  reviewed_at: null
+  last_search: '2026-10-30'
+  reviewed_at: '2026-10-30'
   next_review: '2026-11-29'
   priority: normal
-  status: erfasst
+  status: teilweise_geprueft
 official_link:
   url: https://www.agilityrobotics.com/solutions
   kind: produkt
-  source_id: src_import_b17
-  verification: aus_bestand
+  source_id: src_digit4_gxo_update_2026
+  verification: geprueft
 screening:
   section: aktuell
   access: projektzugang
-  reason: Kommerzieller Betrieb belegt · RaaS beziehungsweise Prozessprojekt; Katalogstand
-    29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+  reason: Kundenbericht bestätigt bestehenden kommerziellen Betrieb und weitere Digit 4 Einsätze ab 2027.
+    Kein frei bestellbarer Standardtarif.
   source_ids:
-  - src_catalog_03
-  checked_at: '2026-10-29'
-  basis: projektkatalog
+  - src_digit4_gxo_update_2026
+  checked_at: '2026-10-30'
+  basis: primaerquelle
 ---
 
 # Digit Generation 4
 
 ## Einordnung
 
-Im bisherigen Bestand unter **Agility Robotics** erfasst. [Quellenhinweis](../../quellen/src_import_b17.md). Erfassungskennung: B17.
+Digit 4 besitzt einen dokumentierten kommerziellen Logistikeinsatz. Das ist ein belastbarerer Prozessbeleg als eine reine Vorführung, gilt aber für den konkret integrierten Behältertransfer.
 
-**Übernommener Recherchehinweis, nicht neu verifiziert:** Kommerziell integrierte Behälterhandhabung
+## Integration und eigene Entwicklung
+
+Das belegte Geschäftsmodell ist ein kundenspezifischer RaaS Vertrag mit Agility Arc und Integration vorhandener Automatisierung. Ein öffentlicher Basistarif, frei verfügbare eigene Policies und allgemeiner SDK Zugriff sind damit nicht bestätigt. Integrationsprojekt und Herstellerbetreuung einplanen.
+
+## Einsatzgrenzen und Beleglage
+
+Körpermaße und Last stammen hier aus der datierten Pilotkonfiguration. Spätere Hardwareänderungen sind nicht numerisch dokumentiert. Keine Übertragung der Digit 5 Nutzlast oder Sicherheitsauslegung. Treppen, Geröll und Staub sind keine bestätigten Grenzen dieses Produktionsprozesses.
+
+## Dokumentationsstand
+
+Kundenfoto, technische Pilotquelle und Herstellerdatenblattzugang verlinkt. Ein frei zugängliches, eindeutig versioniertes aktuelles Digit 4 PDF wurde nicht gefunden.
 
 ## Offene Entscheidungsfragen
 
-* Modellidentität, Generation und Rollen der beteiligten Organisationen bestätigen.
-* Technische Daten, Fähigkeiten und deren Bedingungen aus Originalquellen ergänzen.
-* Aktuellen Lebenszyklus sowie Kauf, Miete, RaaS oder Forschungszugang prüfen.
-* SDK, eigene Policies, Integrationsaufwand, Abos und Nutzungsrechte prüfen.
+* Welche aktuelle Digit 4 Konfiguration wird neuen Kunden angeboten?
+* Wie sehen RaaS Tarif, Laufzeit, Service und Ausstieg aus?
+* Welche Durchsatzwerte und Interventionen erreicht der eigene Prozess?
+* Welche Daten werden über Arc verarbeitet und welche Schnittstellen bleiben lokal?
 
 ## Pflege
 
-Eintrag ist vollständig im Inventar erfasst, aber fachlich noch nicht vollständig geprüft. Zahlen und Angebote werden nicht aus ähnlichen Modellen abgeleitet.
+Stand 30. Oktober 2026. Fachlich im genannten Umfang geprüft. Offene Felder bleiben unbekannt. Fakten und Medien werden aus `fakten.yaml` erzeugt.

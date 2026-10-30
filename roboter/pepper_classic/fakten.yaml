@@ -372,7 +372,736 @@ claims:
   valid_from: null
   valid_until: null
   supersedes: null
+- id: v20261030_lifecycle_sales_start
+  key: lifecycle.sales_start
+  value: '2015-06-20'
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_japan_sales_2015
+    locator: Sales launch
+  context:
+    region: Japan; kein globaler Verkaufsstart
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_height
+  key: hardware.height
+  value: 1.21
+  unit: m
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: 'Hardware Specifications Overview: Volume'
+  context:
+    konfiguration: undatiertes China Dokument; konkrete Hardwaregeneration abgleichen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_height
+- id: v20261030_hardware_width
+  key: hardware.width
+  value: 0.48
+  unit: m
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: 'Hardware Specifications Overview: Volume'
+  context:
+    konfiguration: undatiertes China Dokument; konkrete Hardwaregeneration abgleichen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_width
+- id: v20261030_hardware_depth
+  key: hardware.depth
+  value: 0.425
+  unit: m
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: 'Hardware Specifications Overview: Volume'
+  context:
+    konfiguration: undatiertes China Dokument; konkrete Hardwaregeneration abgleichen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_depth
+- id: v20261030_hardware_mass
+  key: hardware.mass
+  value: 29
+  unit: kg
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_japan_sales_2015
+    locator: 'Product specifications: weight'
+  context:
+    konfiguration: Japan Startkonfiguration 2015; andere Dokumente nennen abweichende Masse
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_mass
+- id: v20261030_hardware_mass_china
+  key: hardware.mass
+  value: 29.1
+  unit: kg
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: 'Hardware Specifications Overview: Weight'
+  context:
+    konfiguration: undatiertes China Dokument, Hardwaregeneration nicht eindeutig; Abweichung zum Japan
+      Wert ungeklärt
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_environment_ip
+  key: environment.ip
+  value: IPX0
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: IP Protection Rating
+  context:
+    konfiguration: laut China Hardwaredokument; X enthält keine nachgewiesene Staubschutzstufe, 0 keinen
+      Wasserschutz
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: environment_ip
+- id: v20261030_environment_temperature
+  key: environment.temperature
+  value:
+  - 5
+  - 35
+  unit: degC
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: Operating Temperature Range
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: environment_temperature
+- id: v20261030_hardware_runtime
+  key: hardware.runtime
+  value: 720
+  unit: min
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: 'Battery Runtime: active'
+  context:
+    lastprofil: 12 Stunden aktiv laut Dokument; Aufgabenprofil nicht festgelegt, 19 Stunden bereit sind
+      ein anderer Zustand
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_runtime
+- id: v20261030_hardware_dof
+  key: hardware.dof
+  value: 20
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: Degrees of freedom
+  context:
+    zaehlweise: einschließlich Chassisachsen nach Herstellerzählung
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_sensors
+  key: hardware.sensors
+  value: Kameras, Tiefenwahrnehmung, Mikrofone, Berührungs und Abstandssensorik
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: Components
+  context:
+    version: Sensorausbau je Hardwaregeneration prüfen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_compute
+  key: hardware.compute
+  value: Intel Atom E3845, vier Kerne, 4 GB RAM und 32 GB Speicher laut China Dokument
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: Motherboard
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_interaction_scope
+  key: interaction.scope
+  value: Sprache, Gesten und Tablet für Interaktion; Bildungs, Service und Betreuungsanwendungen
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_uses
+    locator: Produktseite
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: interaction_scope
+- id: v20261030_openness_sdk
+  key: openness.sdk
+  value: NAOqi 2.5 mit Python SDK und Choregraphe; NAOqi 2.9 mit Android und QiSDK
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_developer_20261030
+    locator: Getrennte Dokumentationseinstiege
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: openness_sdk
+- id: v20261030_ecosystem_apps
+  key: ecosystem.apps
+  value: Eigene Dialog und Interaktionsanwendungen über das zur Software passende SDK
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_developer_20261030
+    locator: Tutorials und API Referenzen
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_ecosystem_marketplace
+  key: ecosystem.marketplace
+  value: Apps und Basic Plan bei Japan Verkaufsstart 2015 beschrieben; aktueller Storezugang offen
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_japan_sales_2015
+    locator: Pepper apps und Basic Plan
+  context:
+    zeitbezug: historisches Japan Angebot, kein gegenwärtiger internationaler Marketplace Nachweis
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_ecosystem_subscription
+  key: ecosystem.subscription
+  value: Historisches Japan Angebot verband Hardware mit Basic Plan; heutige regionale Abo Bedingungen
+    offen
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_japan_sales_2015
+    locator: Pricing
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: ecosystem_subscription
+- id: v20261030_openness_policy_training
+  key: openness.policy_training
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: App Entwicklung ist belegt; freie RL oder Low Level Policy Entwicklung für die klassische Hardware
+      nicht bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: openness_policy_training
+- id: v20261030_autonomy_scope
+  key: autonomy.scope
+  value: Soziale Interaktion und anwendungsbezogene Funktionen; keine allgemeine autonome Arbeitskraft
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_uses
+    locator: Produktanwendungen
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: autonomy_scope
+- id: v20261030_mobility_steps_up
+  key: mobility.steps_up
+  value: null
+  unit: null
+  status: nicht_anwendbar
+  evidence: redaktionelle_einordnung
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: 'Chassis: drei omnidirektionale Räder'
+  context:
+    begruendung: Klassische Plattform rollt. Keine Fähigkeit zum Steigen normaler Treppen; geringe Schwellen
+      sind ein anderer Lastfall
+    bereitstellung: nicht_anwendbar
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_mobility_steps_down
+  key: mobility.steps_down
+  value: null
+  unit: null
+  status: nicht_anwendbar
+  evidence: redaktionelle_einordnung
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: 'Chassis: drei omnidirektionale Räder'
+  context:
+    begruendung: Keine normale Treppennavigation als zweibeinige Plattform
+    bereitstellung: nicht_anwendbar
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: pepper_naoqi
+  key: software.os
+  value: NAOqi 2.5 oder NAOqi 2.9 mit Android; genaue Hardware und Softwarekompatibilität prüfen
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_developer_20261030
+    locator: Getrennte Entwicklerzweige
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: pepper_ai_platform
+  key: software.ai_stack
+  value: NAOqi Dialog und Verhaltensfunktionen 2.5 oder 2.9 je Gerät
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_developer_20261030
+    locator: Python und QiSDK Dokumentation
+  context:
+    system: NAOqi Dialog und Verhaltensfunktionen
+    version: 2.5 oder 2.9 je Gerät
+    rolle: Anwendungslaufzeit und Interaktion
+    bezug: softwareplattform
+    grenze: Dies ist eine Softwareplattform, kein benanntes modernes VLA Foundation Modell. Zusätzliche
+      Dialogdienste sind anwendungsspezifisch.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: unknown_software_compatible_models
+  key: software.compatible_models
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Kein belastbarer modellspezifischer Name oder weiterer Integrationsnachweis im geprüften Umfang.
+      Unbekannt bedeutet keine Inkompatibilität.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_walking
+  key: mobility.walking
+  value: Rollende Fortbewegung auf drei omnidirektionalen Rädern
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_cn_hardware_20261030
+    locator: Chassis
+  context:
+    bereitstellung: konfigurationsabhaengig
+    bedingung: Kein zweibeiniges Gehen. Bedienung und Anwendungen hängen von NAOqi Version ab.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_dancing
+  key: mobility.dancing
+  value: Tanz und Gesten in Herstelleranwendungen dokumentiert
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerdemo
+  sources:
+  - source_id: src_pepper_anniversary_20240605
+    locator: Anwendungsbericht und Video
+  context:
+    bereitstellung: demo
+    bedingung: Vorführanwendung; konkrete App und aktueller Lieferumfang separat prüfen.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_scope
+  key: navigation.scope
+  value: Punkt zu Punkt Navigation über selbst entwickelte oder integrierte QiSDK Anwendung
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_navigation_20261030
+    locator: 'LocalizeAndMap: Funktionen und Grenzen'
+  - source_id: src_pepper_navigation_guide_20261030
+    locator: MapFrame, Production Mode und GoTo Route
+  context:
+    bereitstellung: eigene_entwicklung
+    bedingung: Android Pepper mit passender NAOqi 2.9 und Sensorik. Keine fertige universelle Navigation
+      bei jedem angebotenen Gerät.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_mapping
+  key: navigation.mapping
+  value: LocalizeAndMap und gespeicherte Umgebungskarte im QiSDK
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_navigation_20261030
+    locator: 'LocalizeAndMap: Funktionen und Grenzen'
+  context:
+    bereitstellung: eigene_entwicklung
+    bedingung: Android Pepper mit passender NAOqi 2.9 und Sensorik. Keine fertige universelle Navigation
+      bei jedem angebotenen Gerät.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_obstacle_avoidance
+  key: navigation.obstacle_avoidance
+  value: SDK dokumentiert laufende Hinderniserkennung; Zuverlässigkeit hängt von Umgebung und Kartierung
+    ab
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_navigation_20261030
+    locator: 'LocalizeAndMap: Funktionen und Grenzen'
+  context:
+    bereitstellung: eigene_entwicklung
+    bedingung: Android Pepper mit passender NAOqi 2.9 und Sensorik. Keine fertige universelle Navigation
+      bei jedem angebotenen Gerät.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: pepper_chatgpt_japan
+  key: software.compatible_models
+  value: ChatGPT
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_anniversary_20240605
+    locator: 'Abschnitt Pflegeeinrichtung: ChatGPT für Dialoge'
+  context:
+    system: ChatGPT
+    version: nicht benannt
+    rolle: Sprachdialog
+    bezug: dokumentierte_anwendung
+    grenze: Japanische Anwendung 2024. Keine Zusage für jede Pepper Hardware, keine Roboterbewegungs Policy
+      und keine klinische Wirksamkeit.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_running
+  key: mobility.running
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_jumping
+  key: mobility.jumping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine belastbare editionsbezogene Lieferfunktion im geprüften Umfang; spektakuläre Vorführungen
+      nicht ungeprüft übernehmen.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_uneven_ground
+  key: mobility.uneven_ground
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_rubble
+  key: mobility.rubble
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_obstacles
+  key: mobility.obstacles
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_self_recovery
+  key: mobility.self_recovery
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_manipulation_pick_place
+  key: manipulation.pick_place
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_fleet_management
+  key: fleet.management
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_erp
+  key: integration.erp
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine bestätigte direkte ERP Anbindung. WMS, MES, SDK oder eine API sind kein Nachweis
+      eines fertigen ERP Konnektors.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wms
+  key: integration.wms
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wes
+  key: integration.wes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_mes
+  key: integration.mes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_api
+  key: integration.api
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
 offers: []
-events: []
-extensions: []
-media: []
+events:
+- id: japan_verkaufsstart
+  type: verkaufsstart
+  date: '2015-06-20'
+  status: bestaetigt
+  description: Verkaufsstart der japanischen Startkonfiguration.
+  source_ids:
+  - src_pepper_japan_sales_2015
+extensions:
+- id: typ_besonderheit
+  title: Softwaregeneration ist eine zentrale Kaufbedingung
+  description: Die vorhandene Tablet und NAOqi Generation bestimmt den Entwicklungsweg. Historische App
+    und Abo Angebote aus Japan sind kein Beleg für einen heute weltweit funktionierenden Store oder aktuelle
+    Cloudzugänge.
+  claim_ids:
+  - v20261030_hardware_mass
+  - v20261030_hardware_mass_china
+  - v20261030_openness_sdk
+  - v20261030_ecosystem_marketplace
+  - v20261030_ecosystem_subscription
+media:
+- id: herstellerbild
+  type: foto
+  url: https://www.softbank.jp/-/media/sb/sjp/robot/set/data/img/shared/mainvisual/550x550/img-pepper-20180911/img-customer_en.png?rev=dccf369f56df4f81863171e653ff2f03&sc_lang=en&h=550&w=550&la=en&hash=EE7F3DCC2DD7CF273DAE9E8BFDD86F30
+  local_path: null
+  source_id: src_pepper_uses
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Offizielles japanisches Pepper Werbebild für Interaktion. Region und konkrete Softwareversion
+    sind getrennt zu prüfen.
+- id: pepper_hardware_pdf
+  type: datenblatt
+  url: https://www.softbankrobotics.com.cn/index_files/pdf/Hardware_Parameters_en.pdf
+  local_path: null
+  source_id: src_pepper_cn_hardware_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: ohne Versionsdatum
+  language: en
+  sha256: f2d1b1c82cfe19435ca2d6e8835fb7e7387eec217b91f362d0763a13f7dd9a27
+  scope: Undatiertes Hardware PDF aus China. Generationsbezug, Masse und uneinheitliche Geschwindigkeitsangaben
+    beachten.
+- id: pepper_sdk_dokumentation
+  type: handbuch
+  url: https://unitedrobotics.group/en-us/robots/pepper/documentation
+  local_path: null
+  source_id: src_pepper_developer_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: en
+  sha256: null
+  scope: Offizielle Einstiege für NAOqi 2.5 und 2.9; richtige Softwarefamilie wählen.
+- id: pepper_vorstellungsfilm
+  type: video
+  url: https://www.youtube.com/watch?v=In_SlrDXYP4
+  local_path: null
+  source_id: src_pepper_anniversary_20240605
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis; keine Kopie im Repository und
+    keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Historischer Pepper Vorstellungsfilm vom Hersteller verlinkt; Veranstaltung 2014.
+- id: pepper_anwendungsfilm
+  type: video
+  url: https://www.youtube.com/watch?v=bIkuFFRqRyw
+  local_path: null
+  source_id: src_pepper_anniversary_20240605
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis; keine Kopie im Repository und
+    keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Herstellerfilm im Rückblick 2024 zu Interaktion und damaligen Anwendungen; kein aktuelles Standardlieferpaket.

@@ -6,6 +6,12 @@ Organisation beziehungsweise Organisationsgruppe aus dem bisherigen Bestand. Die
 
 Unternehmensgeschichte, offizielle Website, Integration und Service wurden beim Import nicht erneut recherchiert. Verweise im automatisch erzeugten Portfolio führen zu den erfassten Systemen.
 
+| Steckbrief | Angabe |
+| --- | --- |
+| Offizielle Website | Noch nicht bestätigt |
+| Organisationstyp | andere |
+| Profilstand | 2026-10-29 |
+
 ## Erfasstes Portfolio
 
 * [Industriehumanoider ohne hier bestätigten Modellnamen](../../roboter/persona_ai_industriehumanoider_ohne_hier_bestatigten_modellnamen/README.md)

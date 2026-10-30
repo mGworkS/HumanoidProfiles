@@ -352,7 +352,7 @@ claims:
     note: Katalogangabe; Revision und Ausstattung beachten
   checked_at: '2026-10-30'
   valid_from: null
-  valid_until: null
+  valid_until: '2026-10-30'
   supersedes: null
 - id: hardware_payload_description
   key: hardware.payload_description
@@ -368,9 +368,654 @@ claims:
     note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
   checked_at: '2026-10-30'
   valid_from: null
+  valid_until: '2026-10-30'
+  supersedes: null
+- id: v20261030_hardware_height
+  key: hardware.height
+  value: 1.32
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Mechanical Dimensions, jeweilige Konfigurationsspalte
+  context:
+    zustand: aufrecht
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_height
+- id: v20261030_hardware_width
+  key: hardware.width
+  value: 0.45
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Mechanical Dimensions, Stand
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_width
+- id: v20261030_hardware_depth
+  key: hardware.depth
+  value: 0.2
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Mechanical Dimensions, Stand
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_depth
+- id: v20261030_hardware_mass
+  key: hardware.mass
+  value: 35
+  unit: kg
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Weight with battery
+  context:
+    konfiguration: ungefährer Wert mit Batterie
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_mass
+- id: v20261030_hardware_dof
+  key: hardware.dof
+  value: 23
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Total Degrees of Freedom
+  context:
+    konfiguration: Basisversion
+  checked_at: '2026-10-30'
+  valid_from: null
   valid_until: null
   supersedes: null
-offers: []
+- id: v20261030_hardware_payload_arm
+  key: hardware.payload_arm
+  value: 2
+  unit: kg
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Arm Maximum Load und Fußnote
+  context:
+    condition: ungefährer Maximalwert je Arm; stark von der Armhaltung abhängig; keine bestätigte Dauerlast
+      beim Gehen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_payload_arm
+- id: v20261030_hardware_runtime
+  key: hardware.runtime
+  value: 120
+  unit: min
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Battery Life
+  context:
+    lastprofil: ungefähr zwei Stunden; Testprofil nicht benannt
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_runtime
+- id: v20261030_hardware_battery_capacity
+  key: hardware.battery_capacity
+  value: 9
+  unit: Ah
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Smart Battery Quick Release
+  context:
+    umrechnung: 9000 mAh entsprechen 9 Ah; kein daraus abgeleiteter Wh Wert
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_sensors
+  key: hardware.sensors
+  value: Tiefenkamera, 3D LiDAR und vier Mikrofone
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Sensing Sensors und Wahrnehmungsabschnitt
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_compute
+  key: hardware.compute
+  value: Achtkern CPU
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Basic Computing Power und High Computing Power Module
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_end_effectors
+  key: hardware.end_effectors
+  value: Keine dexteröse Entwicklerhand in der Basisspalte; Endeffektor nicht aus EDU übernehmen
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Single Hand Degrees of Freedom
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_lifecycle_support
+  key: lifecycle.support
+  value: Hersteller nennt 8 Monate Garantie; kein bestätigtes Supportende
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Warranty Period
+  context:
+    grenze: Garantie ist kein allgemeiner Software Supportvertrag; regionale Bedingungen prüfen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: lifecycle_support
+- id: v20261030_openness_sdk
+  key: openness.sdk
+  value: Sekundärentwicklung laut Basisspalte nicht unterstützt
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Secondary Development
+  context:
+    edition: G1 Basisversion
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: openness_sdk
+- id: v20261030_openness_policy_training
+  key: openness.policy_training
+  value: Kein zugesicherter Pfad für eigene Policies auf diesem Basisgerät
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Secondary Development
+  context:
+    grenze: Öffentliche Unitree Repositories schalten kein Basisgerät frei
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: openness_policy_training
+- id: v20261030_openness_policy_deployment
+  key: openness.policy_deployment
+  value: Für das Basisgerät nicht als Kundenfunktion zugesichert
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Secondary Development
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: openness_policy_deployment
+- id: v20261030_environment_ip
+  key: environment.ip
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Keine eindeutige IP Schutzart in der geprüften Konfigurationstabelle
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: environment_ip
+- id: v20261030_autonomy_scope
+  key: autonomy.scope
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Lieferumfang autonomer Aufgaben und Umfang der Vorführsoftware sind nicht präzise zugesichert
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: autonomy_scope
+- id: v20261030_mobility_steps_up
+  key: mobility.steps_up
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand
+      festgestellt
+    bereitstellung: unbekannt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_mobility_steps_down
+  key: mobility.steps_down
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand
+      festgestellt
+    bereitstellung: unbekannt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_mobility_rubble
+  key: mobility.rubble
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand
+      festgestellt
+    bereitstellung: unbekannt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_mobility_obstacles
+  key: mobility.obstacles
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand
+      festgestellt
+    bereitstellung: unbekannt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: unknown_software_ai_stack
+  key: software.ai_stack
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Kein belastbarer modellspezifischer Name oder weiterer Integrationsnachweis im geprüften Umfang.
+      Unbekannt bedeutet keine Inkompatibilität.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: unknown_software_compatible_models
+  key: software.compatible_models
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Kein belastbarer modellspezifischer Name oder weiterer Integrationsnachweis im geprüften Umfang.
+      Unbekannt bedeutet keine Inkompatibilität.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_walking
+  key: mobility.walking
+  value: Zweibeiniges Gehen auf der G1 Plattform vom Hersteller beschrieben
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_launch
+    locator: Walking speed
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine Übernahme des ursprünglichen Prototyp Grenzwerts als heutige zugesicherte Konfigurationsleistung.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_running
+  key: mobility.running
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_jumping
+  key: mobility.jumping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine belastbare editionsbezogene Lieferfunktion im geprüften Umfang; spektakuläre Vorführungen
+      nicht ungeprüft übernehmen.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_dancing
+  key: mobility.dancing
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_uneven_ground
+  key: mobility.uneven_ground
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_self_recovery
+  key: mobility.self_recovery
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_manipulation_pick_place
+  key: manipulation.pick_place
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_scope
+  key: navigation.scope
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_mapping
+  key: navigation.mapping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_obstacle_avoidance
+  key: navigation.obstacle_avoidance
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_fleet_management
+  key: fleet.management
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_erp
+  key: integration.erp
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine bestätigte direkte ERP Anbindung. WMS, MES, SDK oder eine API sind kein Nachweis
+      eines fertigen ERP Konnektors.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wms
+  key: integration.wms
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wes
+  key: integration.wes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_mes
+  key: integration.mes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_api
+  key: integration.api
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+offers:
+- id: hersteller_preisangabe
+  provider_id: unitree
+  mode: kauf
+  status: bestaetigt
+  regions:
+  - anbieterfreigabe_erforderlich
+  audiences:
+  - shopkunden
+  price: 13500
+  currency: USD
+  billing: einmalig
+  subscription: unbekannt
+  term: Zuzüglich Steuern und Versand; Lieferregion und Liefertermin vor Bestellung bestätigen.
+  included: []
+  exit_conditions: null
+  configuration: G1 Basisversion; Herstellershop mit Bestellrückstand; Versandfreigabe erforderlich
+  checked_at: '2026-10-30'
+  source_ids:
+  - src_g1_shop
 events: []
-extensions: []
-media: []
+extensions:
+- id: typ_besonderheit
+  title: Edition entscheidet über Eigenentwicklung
+  description: Gleiche Familienbezeichnung bedeutet keinen gleichen Entwicklerumfang. Basisversion, EDU,
+    Hände und zusätzliche Rechenmodule sind vor der Beschaffung konkret festzulegen.
+  claim_ids:
+  - v20261030_hardware_end_effectors
+  - v20261030_openness_sdk
+  - v20261030_openness_policy_training
+media:
+- id: technische_tabelle
+  type: datenblatt
+  url: https://www.unitree.com/g1/
+  local_path: null
+  source_id: src_g1_specs_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: Webstand 2026-10-30
+  language: en
+  sha256: null
+  scope: 'G1 Basisversion: offizielle technische HTML Tabelle; keine separate allgemeine PDF gefunden.'
+- id: handbuch_einstieg
+  type: handbuch
+  url: https://www.unitree.com/app/g1/
+  local_path: null
+  source_id: src_g1_downloads_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: en
+  sha256: null
+  scope: G1 Benutzerhandbuch und Montageanleitungen im offiziellen Downloadbereich.
+- id: herstellerbild
+  type: rendering
+  url: https://www.unitree.com/images/4e6266ec20b849af968750d5d432d391_1372x798.jpg
+  local_path: null
+  source_id: src_g1_specs_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Offizielle G1 Plattformabbildung; gezeigte Hände und Zubehör sind keine Zusage für die Basisversion.
+- id: g1_vorstellung
+  type: video
+  url: https://www.unitree.com/images/7504897529034b05890225e149d3af28.mp4
+  local_path: null
+  source_id: src_g1_specs_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis, keine Kopie und keine freie
+    Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: G1 Herstellerclip aus der offiziellen Produktseite. Plattformdarstellung; Edition, Hände und
+    Softwarestand prüfen.
+- id: g1_weiterer_clip
+  type: video
+  url: https://www.unitree.com/images/fadc6f0bc26747d6b4110fd5e5657857.mp4
+  local_path: null
+  source_id: src_g1_specs_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis, keine Kopie und keine freie
+    Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Weiterer offizieller G1 Produktclip. Gezeigte Funktionen nicht pauschal als Lieferumfang werten.

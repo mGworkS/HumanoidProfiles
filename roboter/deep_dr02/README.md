@@ -4,31 +4,22 @@
 
 Industrielle humanoide Plattform mit Herstellerangaben zum Ganzkörperschutz. Keine allgemeine Einsatzfreigabe aus der Produktbeschreibung ableiten.
 
-**Hersteller:** [DEEP Robotics](../../hersteller/deep_robotics/README.md)  
-**Bauform:** zweibeinig  
-**Einordnung:** gegenwaertig  
-**Begründung:** Hersteller meldet kommerzielle Einsätze 2026.  
-**Geltungsbereich:** DR02 Grundmodell. Angaben zu DR02 Pro nicht übernehmen.  
-**Prüfumfang:** teilweise_geprueft, 2026-10-29
-
-**Tags:** Industrie (herstellerziel), Inspektion (herstellerziel), Außenbereich (herstellerziel)
-
-**Offizielle Modellquelle:** [https://en.deeprobotics.cn/en/index/dr02.html](https://en.deeprobotics.cn/en/index/dr02.html) (aus dem Bestand; noch nicht erneut geprüft).
-
-## Screening
-
-**Ansicht:** Aktuelle Auswahl. **Zugang:** Vorgestellt / angekündigt.
-
-Kommerzielle Einsätze laut Hersteller gemeldet; konkreter Beschaffungsweg weiterhin zu klären.
-
-Einordnung geprüft: 2026-10-29. Grundlage: primaerquelle. [src_dr02_commercial](../../quellen/src_dr02_commercial.md)
-
 ## Steckbrief
 
 [Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
+| Hersteller | [DEEP Robotics](../../hersteller/deep_robotics/README.md) | Organisationsprofil |
+| Offizielle Website | [https://en.deeprobotics.cn/en/index/dr02.html](https://en.deeprobotics.cn/en/index/dr02.html) | aus dem Bestand; noch nicht erneut geprüft |
+| Vorstellung und weitere Videos | Noch kein geprüfter Link erfasst | Links auf Originale; Vorführung ist kein unabhängiger Test |
+| Datenblatt und Dokumentation | Noch kein geprüfter Link erfasst | Versions und Konfigurationshinweise im Linktext beachten |
+| Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
+| Einordnung | gegenwaertig | Hersteller meldet kommerzielle Einsätze 2026. |
+| Geltungsbereich | DR02 Grundmodell. Angaben zu DR02 Pro nicht übernehmen. | Daten anderer Generationen werden nicht automatisch übertragen |
+| Prüfumfang | teilweise_geprueft | 2026-10-29 |
+| Branchen, Aufgaben und Umgebung | Industrie (herstellerziel), Inspektion (herstellerziel), Außenbereich (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2025-10-09 | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |
 | Produktion | Unbekannt | [unbekannt / keine](#lifecycle-production) |
@@ -57,6 +48,55 @@ Einordnung geprüft: 2026-10-29. Grundlage: primaerquelle. [src_dr02_commercial]
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
 | Ursprungsland der Entwicklung | China (Entwicklung, nicht Fertigungsstätte) | [belegt / herstellerangabe](#identity-origin-country) |
+| KI und Steuerungsmodelle im Einsatz | Nicht erfasst | [Rolle, Bezug und Bedingungen](#ki-modelle-und-software) |
+| Weitere belegte KI Integrationen | Nicht erfasst | [Rolle, Bezug und Bedingungen](#ki-modelle-und-software) |
+
+## KI, Modelle und Software
+
+Noch keine belegten modellspezifischen KI Systeme erfasst. Das bedeutet keine grundsätzliche Inkompatibilität.
+
+Eingebaute Steuerung, Referenzintegration, Simulation und Forschungskooperation sind unterschiedliche Bezüge. Hardware und Softwareversion sowie Lizenz und Kundenrechte gemeinsam prüfen. Eine Plattform wie Isaac GR00T oder ein Rechner wie Jetson Thor belegen keine bestimmte vorinstallierte Modellversion.
+
+## Fähigkeiten und Lieferumfang
+
+| Funktion | Was ist belegt? | Direkt nutzbar oder Zusatzaufwand? | Bedingungen und Nachweis |
+| --- | --- | --- | --- |
+| Gehen oder rollende Fortbewegung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Dynamisches Laufen | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Springen | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Tanzen und Bewegungssequenzen | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Treppen aufwärts | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Treppen abwärts | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Unebener Boden | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Geröll | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Bodenhindernisse | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Selbstständiges Aufstehen | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Pick and Place | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+
+## Navigation, Flotte und Unternehmens IT
+
+| Funktion | Was ist belegt? | Direkt nutzbar oder Zusatzaufwand? | Bedingungen und Nachweis |
+| --- | --- | --- | --- |
+| Autonome Navigation | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Kartenaufbau und Lokalisierung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Hindernisvermeidung bei Navigation | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Flottenmanagement | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| ERP Anbindung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| WMS Anbindung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| WES Anbindung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| MES Anbindung | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+| Integrationsschnittstellen für Unternehmens IT | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |
+
+Eine API oder ein SDK ist keine fertige ERP oder WMS Anbindung. Zusatzpakete, Cloud, Lizenzen, Kartenaufbau und Inbetriebnahme werden nur bei passendem Beleg als enthalten behandelt. Nicht erfasst und unbekannt bedeuten keine Verneinung.
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Vorgestellt / angekündigt.
+
+Kommerzielle Einsätze laut Hersteller gemeldet; konkreter Beschaffungsweg weiterhin zu klären.
+
+Einordnung geprüft: 2026-10-29. Grundlage: primaerquelle. [src_dr02_commercial](../../quellen/src_dr02_commercial.md)
+
 
 ## Beschaffung und Geschäftsmodell
 
@@ -69,20 +109,38 @@ Kein konkretes aktuelles Angebot in diesem Bestand bestätigt. Das ist kein Nach
 * Autonomie, Policy Zugriff und App Ökosystem prüfen.
 * Staubschutzangabe ist kein unabhängiger Testbericht.
 
-
 ## Ereignisse und Termine
 
 * **2026, bestaetigt:** Hersteller meldet kommerzielle Einsätze. Kein Liefernachweis für eine konkrete Bestellung. [src_dr02_commercial](../../quellen/src_dr02_commercial.md)
 
+## Modellspezifische Besonderheiten
+
+Noch keine zusätzlichen Spezialinformationen erfasst. Dieses Feld nimmt Besonderheiten auf, die sich durch die gemeinsamen Merkmale und Tags nicht ausreichend beschreiben lassen.
+
+## Medien und Dokumente
+
+[Alle Bilder und Videos](assets/README.md) · [Datenblätter und Dokumentation](dokumente/README.md). Externe Originale bleiben beim Anbieter.
+
+
 ## Belege und Detailangaben
 
-Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sind nicht erfasst und dürfen nicht als Nein interpretiert werden.
+Details sind nach Fachgruppen aufklappbar. Unbekannte Angaben bedeuten keine Verneinung. Fehlende optionale Merkmale sind nicht erfasst.
+
+<details>
+<summary>Lebenszyklus: 1 Angaben und Belege</summary>
 
 ### lifecycle first presented
 
 **Erstvorstellung:** 2025-10-09. Status: belegt. Evidenz: herstellerangabe.
 
 * [DR02 Veröffentlichung](../../quellen/src_dr02_launch.md), Fundstelle: Text nennt 9. Oktober; Artikel datiert Dezember 2025. Zugang: suchindex. Aussage geprüft: 2026-10-29.
+
+
+</details>
+
+<details>
+<summary>Umgebung: 2 Angaben und Belege</summary>
+
 ### environment ip
 
 **IP Schutzart:** IP66. Status: belegt. Evidenz: herstellerangabe.
@@ -90,43 +148,30 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 Bedingungen: scope: Gesamter Roboter laut Hersteller; unabhängiger Prüfbericht nicht erfasst
 
 * [DEEP Robotics DR02](../../quellen/src_dr02_product.md), Fundstelle: Full-Body Waterproof and Dustproof. Zugang: suchindex. Aussage geprüft: 2026-10-29.
+
 ### environment temperature
 
 **Betriebstemperatur:** -20 bis 55 degC. Status: belegt. Evidenz: herstellerangabe.
 
 * [DEEP Robotics DR02](../../quellen/src_dr02_product.md), Fundstelle: Wide Operating Temperature Range. Zugang: suchindex. Aussage geprüft: 2026-10-29.
+
+
+</details>
+
+<details>
+<summary>Betrieb: 1 Angaben und Belege</summary>
+
 ### maintenance modularity
 
 **Modulare Wartung:** Arme, Unterarme und Beine modular austauschbar. Status: belegt. Evidenz: herstellerangabe.
 
 * [DEEP Robotics DR02](../../quellen/src_dr02_product.md), Fundstelle: Modular Quick-Detach Design. Zugang: suchindex. Aussage geprüft: 2026-10-29.
-### lifecycle development
 
-**Entwicklung:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
-### lifecycle production
+</details>
 
-**Produktion:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle support
-
-**Support:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle first delivery
-
-**Erste bestätigte Auslieferung:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle development end
-
-**Entwicklungsende:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle production end
-
-**Produktionsende:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### lifecycle support end
-
-**Supportende:** Unbekannt. Status: unbekannt. Evidenz: keine.
+<details>
+<summary>Technik: 4 Angaben und Belege</summary>
 
 ### hardware height
 
@@ -135,13 +180,6 @@ Bedingungen: scope: Gesamter Roboter laut Hersteller; unabhängiger Prüfbericht
 Bedingungen: configuration: DR02 Grundmodell; Laborangabe
 
 * [DR02 Datenblatt Februar 2026](../../quellen/src_dr02_datasheet.md), Fundstelle: Seite 2, Spalte DR02. Zugang: direkt. Aussage geprüft: 2026-10-30.
-### hardware width
-
-**Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware depth
-
-**Tiefe:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
 ### hardware mass
 
@@ -150,9 +188,6 @@ Bedingungen: configuration: DR02 Grundmodell; Laborangabe
 Bedingungen: configuration: DR02 Grundmodell; Laborangabe
 
 * [DR02 Datenblatt Februar 2026](../../quellen/src_dr02_datasheet.md), Fundstelle: Seite 2, Spalte DR02. Zugang: direkt. Aussage geprüft: 2026-10-30.
-### hardware payload arm
-
-**Nutzlast je Arm:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
 ### hardware payload two arms
 
@@ -161,21 +196,6 @@ Bedingungen: configuration: DR02 Grundmodell; Laborangabe
 Bedingungen: configuration: DR02 Grundmodell; Laborangabe
 
 * [DR02 Datenblatt Februar 2026](../../quellen/src_dr02_datasheet.md), Fundstelle: Seite 2, Spalte DR02. Zugang: direkt. Aussage geprüft: 2026-10-30.
-### hardware payload walking
-
-**Nutzlast beim Gehen:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware reach
-
-**Reichweite:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware speed
-
-**Geschwindigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### hardware runtime
-
-**Laufzeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
 ### hardware battery
 
@@ -184,29 +204,12 @@ Bedingungen: configuration: DR02 Grundmodell; Laborangabe
 Bedingungen: configuration: DR02 Grundmodell; Laborangabe
 
 * [DR02 Datenblatt Februar 2026](../../quellen/src_dr02_datasheet.md), Fundstelle: Seite 2, Spalte DR02. Zugang: direkt. Aussage geprüft: 2026-10-30.
-### autonomy scope
 
-**Autonomie nach Aufgabe:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
-### openness sdk
+</details>
 
-**SDK und API:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### openness policy training
-
-**Eigenes Policy Training:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### openness policy deployment
-
-**Ausführung eigener Policies:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### ecosystem cloud
-
-**Cloudabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
-
-### ecosystem subscription
-
-**Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+<details>
+<summary>Identität: 1 Angaben und Belege</summary>
 
 ### identity origin country
 
@@ -216,6 +219,111 @@ Bedingungen: definition: Entwicklung, nicht Fertigungsstätte
 
 * [DR02 Veröffentlichung](../../quellen/src_dr02_launch.md), Fundstelle: Herkunft der Entwicklungsorganisation. Zugang: suchindex. Aussage geprüft: 2026-10-30.
 
-## Medien und Dokumente
 
-[Medienablage](assets/README.md) · [Dokumentablage](dokumente/README.md). Originale werden nur mit dokumentierter Herkunft und Nutzungsrechten aufgenommen.
+</details>
+
+<details>
+<summary>Offene und nicht veröffentlichte Angaben (20)</summary>
+
+### lifecycle development
+
+**Entwicklung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle production
+
+**Produktion:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle support
+
+**Support:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle first delivery
+
+**Erste bestätigte Auslieferung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle development end
+
+**Entwicklungsende:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle production end
+
+**Produktionsende:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### lifecycle support end
+
+**Supportende:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware width
+
+**Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware depth
+
+**Tiefe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware payload arm
+
+**Nutzlast je Arm:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware payload walking
+
+**Nutzlast beim Gehen:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware reach
+
+**Reichweite:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware speed
+
+**Geschwindigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### hardware runtime
+
+**Laufzeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### autonomy scope
+
+**Autonomie nach Aufgabe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### openness sdk
+
+**SDK und API:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### openness policy training
+
+**Eigenes Policy Training:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### openness policy deployment
+
+**Ausführung eigener Policies:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### ecosystem cloud
+
+**Cloudabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+### ecosystem subscription
+
+**Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
+
+
+
+</details>

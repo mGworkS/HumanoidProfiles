@@ -10,10 +10,11 @@ developer_ids:
 form: zweibeinig
 classification:
   value: pipeline
-  reason: Produktseite bezeichnet Digit 5 ausdrücklich als in Entwicklung.
+  reason: In Entwicklung. Früher Kundenzugang für erstes Halbjahr 2027, allgemeine Verfügbarkeit bis Ende
+    2027 erwartet.
   source_ids:
   - src_digit5_product
-  assessed_at: '2026-10-29'
+  assessed_at: '2026-10-30'
 tags:
 - axis: branche
   id: industrie
@@ -35,12 +36,13 @@ tags:
   basis: herstellerziel
   source_ids:
   - src_digit5_launch
-relations: []
-scope: Digit 5. Betriebserfahrung, Einsatzzahlen und Kundenbelege von Digit 4 werden
-  nicht übertragen.
+relations:
+- type: vorgaenger
+  target_id: agility_robotics_digit_generation_4
+scope: Digit 5, angekündigte nächste Generation; sämtliche Leistungswerte vorläufig.
 maintenance:
-  last_search: '2026-10-29'
-  reviewed_at: '2026-10-29'
+  last_search: '2026-10-30'
+  reviewed_at: '2026-10-30'
   next_review: '2026-11-29'
   priority: normal
   status: teilweise_geprueft
@@ -52,12 +54,11 @@ official_link:
 screening:
   section: aktuell
   access: vorgestellt
-  reason: Digit 5 Entwicklung vorgestellt; Zugang für 2027 angekündigt. Keine bestätigte
-    Auslieferung.
+  reason: In Entwicklung. Früher Kundenzugang für erstes Halbjahr 2027, allgemeine Verfügbarkeit bis Ende
+    2027 erwartet.
   source_ids:
-  - src_digit5_launch
   - src_digit5_product
-  checked_at: '2026-10-29'
+  checked_at: '2026-10-30'
   basis: primaerquelle
 ---
 
@@ -65,14 +66,27 @@ screening:
 
 ## Einordnung
 
-Angekündigte nächste Digit Generation. Vorläufige Werte und geplante Arbeitsabläufe sind keine bestätigten Kundenleistungen.
+Digit 5 ist die angekündigte nächste industrielle Generation. Bestehende Digit 4 Kundenerfahrung wird nicht als bereits erreichte Digit 5 Leistung ausgewiesen.
+
+## Integration und eigene Entwicklung
+
+Agility Arc, wechselbare Greifer und Schnittstellen zu Lager und Produktionssystemen sind vorgesehen. Beschaffung, RaaS, Integrationskosten und Eigenentwicklung benötigen eine konkrete Anbietervereinbarung. Keine offenen Gewichte oder frei trainierbaren Kunden Policies bestätigt.
+
+## Einsatzgrenzen und Beleglage
+
+Leistungswerte stammen aus Vorserie und Planung. Ein Arbeitstag mit Ladeunterbrechungen ist keine ununterbrochene Batterielaufzeit. Ein geplantes Sicherheitskonzept ersetzt keinen Nachweis für den späteren Einsatz.
+
+## Dokumentationsstand
+
+Produktbild und technische HTML Angaben verfügbar. Product Sheet führt zu einer Formularseite. Ein direktes öffentliches PDF wurde nicht gefunden und kein Formular übermittelt.
 
 ## Offene Entscheidungsfragen
 
-* Lieferbeginn 2027 erneut prüfen; Termin nicht automatisch als erfüllt behandeln.
-* Kauf oder RaaS, Vertragskosten, Regionen und Kundenzugang konkret bestätigen.
-* Offene Entwicklungsrechte, Cloudzwang und Integrationsleistungen abklären.
+* Wer erhält 2027 tatsächlich Zugang und in welcher Region?
+* Welche finalen Daten, Zertifikate und Abnahmebedingungen gelten?
+* Welche Preise und RaaS Modelle gelten für neue Kunden?
+* Welcher SDK, Daten und Policy Zugriff ist vertraglich vorgesehen?
 
 ## Pflege
 
-Fakten ausschließlich in `fakten.yaml` pflegen. Der lesbare Steckbrief steht in der erzeugten [README.md](README.md).
+Stand 30. Oktober 2026. Fachlich im genannten Umfang geprüft. Offene Felder bleiben unbekannt. Fakten und Medien werden aus `fakten.yaml` erzeugt.

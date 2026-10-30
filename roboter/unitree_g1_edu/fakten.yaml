@@ -9,8 +9,7 @@ claims:
   evidence: keine
   sources: []
   context:
-    scope: Separates Datum der EDU Ausführung nicht bestätigt; Grundmodell separat
-      erfasst.
+    scope: Separates Datum der EDU Ausführung nicht bestätigt; Grundmodell separat erfasst.
   checked_at: null
   valid_from: null
   valid_until: null
@@ -351,7 +350,7 @@ claims:
     note: Katalogangabe; Revision und Ausstattung beachten
   checked_at: '2026-10-30'
   valid_from: null
-  valid_until: null
+  valid_until: '2026-10-30'
   supersedes: null
 - id: hardware_payload_description
   key: hardware.payload_description
@@ -367,9 +366,916 @@ claims:
     note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
   checked_at: '2026-10-30'
   valid_from: null
+  valid_until: '2026-10-30'
+  supersedes: null
+- id: v20261030_hardware_height
+  key: hardware.height
+  value: 1.32
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Mechanical Dimensions, jeweilige Konfigurationsspalte
+  context:
+    zustand: aufrecht
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_height
+- id: v20261030_hardware_width
+  key: hardware.width
+  value: 0.45
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Mechanical Dimensions, Stand
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_width
+- id: v20261030_hardware_depth
+  key: hardware.depth
+  value: 0.2
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Mechanical Dimensions, Stand
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_depth
+- id: v20261030_hardware_mass
+  key: hardware.mass
+  value: 35
+  unit: kg
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Weight with battery
+  context:
+    konfiguration: ungefährer Basiswert mit Batterie; EDU Zubehör kann die Masse erhöhen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_mass
+- id: v20261030_hardware_dof
+  key: hardware.dof
+  value: 23
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Total Degrees of Freedom
+  context:
+    konfiguration: Grundausstattung; zusätzliche Hände und Achsen gesondert
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_dof_max
+  key: hardware.dof_max
+  value: 43
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Total Degrees of Freedom, EDU
+  context:
+    konfiguration: höchster angegebener Ausbau; konkrete Bestellung prüfen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_payload_arm
+  key: hardware.payload_arm
+  value: 3
+  unit: kg
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Arm Maximum Load und Fußnote
+  context:
+    condition: ungefährer Maximalwert je Arm; stark von der Armhaltung abhängig; keine bestätigte Dauerlast
+      beim Gehen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_payload_arm
+- id: v20261030_hardware_runtime
+  key: hardware.runtime
+  value: 120
+  unit: min
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Battery Life
+  context:
+    lastprofil: ungefähr zwei Stunden; Testprofil nicht benannt
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_runtime
+- id: v20261030_hardware_battery_capacity
+  key: hardware.battery_capacity
+  value: 9
+  unit: Ah
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Smart Battery Quick Release
+  context:
+    umrechnung: 9000 mAh entsprechen 9 Ah; kein daraus abgeleiteter Wh Wert
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_sensors
+  key: hardware.sensors
+  value: Tiefenkamera, 3D LiDAR und vier Mikrofone
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Sensing Sensors und Wahrnehmungsabschnitt
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_compute
+  key: hardware.compute
+  value: Achtkern CPU; zusätzliche Rechenmodule nach EDU Konfiguration
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Basic Computing Power und High Computing Power Module
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_end_effectors
+  key: hardware.end_effectors
+  value: Dexteröse Hände und zusätzliche Handgelenkachsen je EDU Bestellung
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Single Hand Degrees of Freedom
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_lifecycle_support
+  key: lifecycle.support
+  value: Hersteller nennt 18 Monate Garantie; kein bestätigtes Supportende
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Warranty Period
+  context:
+    grenze: Garantie ist kein allgemeiner Software Supportvertrag; regionale Bedingungen prüfen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: lifecycle_support
+- id: v20261030_openness_sdk
+  key: openness.sdk
+  value: Sekundärentwicklung unterstützt; genaue Schnittstellen und Freischaltung im Angebot prüfen
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_specs_20261030
+    locator: Secondary Development, EDU
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: openness_sdk
+- id: v20261030_openness_low_level
+  key: openness.low_level
+  value: SDK2 enthält G1 Steuerungsbeispiele; Zugriff nur mit passender EDU Hardware und Firmware
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_unitree_sdk2_20261030
+    locator: README und example/g1
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_openness_source_code
+  key: openness.source_code
+  value: SDK2 und RL Gym sind öffentlich; dies umfasst nicht die gesamte Firmware
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_unitree_sdk2_20261030
+    locator: README und LICENSE
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_openness_training_code
+  key: openness.training_code
+  value: G1 RL Trainingsablauf im offiziellen RL Gym Repository
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_unitree_rl_20261030
+    locator: 'README: Training, Play, Deployment'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_openness_policy_training
+  key: openness.policy_training
+  value: Eigenes Training von G1 Bewegungsreglern über RL Gym dokumentiert
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_unitree_rl_20261030
+    locator: G1 Training und Sim2Real
+  context:
+    umfang: Bewegungsregelung; kein allgemeines vortrainiertes Industrieaufgabenmodell
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: openness_policy_training
+- id: v20261030_openness_policy_deployment
+  key: openness.policy_deployment
+  value: Sim2Real Bereitstellung für passende G1 EDU Konfiguration dokumentiert
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_unitree_rl_20261030
+    locator: Deployment
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: openness_policy_deployment
+- id: v20261030_openness_simulation
+  key: openness.simulation
+  value: Trainingssimulation und Bereitstellungsschritte im RL Gym Repository
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_unitree_rl_20261030
+    locator: README
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_openness_commercial_rights
+  key: openness.commercial_rights
+  value: BSD 3 Clause für die genannten öffentlichen Repositories; weitere Komponenten separat prüfen
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_unitree_sdk2_20261030
+    locator: LICENSE
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_environment_ip
+  key: environment.ip
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Keine eindeutige IP Schutzart in der geprüften Konfigurationstabelle
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: environment_ip
+- id: v20261030_autonomy_scope
+  key: autonomy.scope
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Lieferumfang autonomer Aufgaben und Umfang der Vorführsoftware sind nicht präzise zugesichert
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: autonomy_scope
+- id: v20261030_mobility_steps_up
+  key: mobility.steps_up
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand
+      festgestellt
+    bereitstellung: unbekannt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_mobility_steps_down
+  key: mobility.steps_down
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand
+      festgestellt
+    bereitstellung: unbekannt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_mobility_rubble
+  key: mobility.rubble
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand
+      festgestellt
+    bereitstellung: unbekannt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_mobility_obstacles
+  key: mobility.obstacles
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Für diese bestellbare Konfiguration kein belastbares Grenzprofil mit Last, Boden und Softwarestand
+      festgestellt
+    bereitstellung: unbekannt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ai_gr00t_reference
+  key: software.compatible_models
+  value: NVIDIA GR00T N
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_gr00t_workflow_20261030
+    locator: Requirements und Workflow
+  context:
+    system: NVIDIA GR00T N
+    version: nicht benannt
+    rolle: Manipulationsmodell
+    bezug: referenzintegration
+    grenze: G1 mit Dex3 Händen, zusätzlicher RealSense Kamera, freigeschaltetem Entwicklerzugriff und
+      NVIDIA Compute; aufgabenspezifisch feinabgestimmt. Nicht Bestandteil eines jeden EDU Pakets.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ai_agile_reference
+  key: software.compatible_models
+  value: NVIDIA AGILE
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_agile_20261030
+    locator: Supported Unitree G1 features
+  context:
+    system: NVIDIA AGILE
+    version: nicht benannt
+    rolle: Bewegungsregelung
+    bezug: referenzintegration
+    grenze: Isaac ROS Physical AI Release 4.5 für geeigneten G1 Aufbau; keine generelle Freischaltung
+      jeder Seriennummer.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ai_gr00t16_tray_sim
+  key: software.compatible_models
+  value: NVIDIA GR00T-N1.6-Rheo-PickNPlaceTray Checkpoint laut Quelle
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_gr00t_sim_20261030
+    locator: Supported Environments, Robots, and Models
+  context:
+    system: NVIDIA GR00T-N1.6-Rheo-PickNPlaceTray
+    version: Checkpoint laut Quelle
+    rolle: Aufgabenpolicy
+    bezug: simulation
+    grenze: Offizieller G1 Simulationsworkflow; kein bestätigter Einsatz auf physischem Seriengerät und
+      keine medizinische Eignungszusage.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ai_gr00t16_cart_sim
+  key: software.compatible_models
+  value: NVIDIA GR00T-N1.6-Rheo-Sim-PushCart Checkpoint laut Quelle
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_gr00t_sim_20261030
+    locator: Supported Environments, Robots, and Models
+  context:
+    system: NVIDIA GR00T-N1.6-Rheo-Sim-PushCart
+    version: Checkpoint laut Quelle
+    rolle: Aufgabenpolicy
+    bezug: simulation
+    grenze: Offizieller G1 Simulationsworkflow; kein bestätigter Einsatz auf physischem Seriengerät und
+      keine medizinische Eignungszusage.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: ai_gr00t15_trocar_sim
+  key: software.compatible_models
+  value: NVIDIA GR00T-N1.5-RL-Rheo-AssembleTrocar Checkpoint laut Quelle
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_gr00t_sim_20261030
+    locator: Supported Environments, Robots, and Models
+  context:
+    system: NVIDIA GR00T-N1.5-RL-Rheo-AssembleTrocar
+    version: Checkpoint laut Quelle
+    rolle: Aufgabenpolicy
+    bezug: simulation
+    grenze: Offizieller G1 Simulationsworkflow; kein bestätigter Einsatz auf physischem Seriengerät und
+      keine medizinische Eignungszusage.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: software_frameworks_g1
+  key: software.frameworks
+  value: Unitree RL Gym; NVIDIA Isaac ROS Physical AI; Isaac Lab und MuJoCo je Workflow
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_agile_20261030
+    locator: Simulation und Real Hardware
+  context:
+    grenze: Werkzeuge sind keine vorinstallierten universellen Aufgabenmodelle
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: unknown_software_ai_stack
+  key: software.ai_stack
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Kein belastbarer modellspezifischer Name oder weiterer Integrationsnachweis im geprüften Umfang.
+      Unbekannt bedeutet keine Inkompatibilität.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_walking_plattform
+  key: mobility.walking
+  value: Zweibeiniges Gehen auf der G1 Plattform vom Hersteller beschrieben
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_launch
+    locator: Walking speed
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine Übernahme des ursprünglichen Prototyp Grenzwerts als heutige zugesicherte Konfigurationsleistung.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_walking
+  key: mobility.walking
+  value: Regular Mode und Running Mode per Fernsteuerung
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_remote_29dof_20261030
+    locator: 'Seite 2: Motion Control Switching'
+  context:
+    bereitstellung: konfigurationsabhaengig
+    bedingung: Dokumentierte G1 Konfiguration; Firmwareversion, 29 DoF Bezug und Serienfreigabe vor Kauf
+      abgleichen.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: cap20261030_mobility_walking_plattform
+- id: cap20261030_mobility_running
+  key: mobility.running
+  value: Running Mode mit niedriger und hoher Geschwindigkeit
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_remote_29dof_20261030
+    locator: 'Seite 2: Motion Control Switching'
+  context:
+    bereitstellung: konfigurationsabhaengig
+    bedingung: Dokumentierte G1 Konfiguration; Firmwareversion, 29 DoF Bezug und Serienfreigabe vor Kauf
+      abgleichen.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_dancing
+  key: mobility.dancing
+  value: Dance Mode mit mehreren vorbereiteten Sequenzen
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_remote_29dof_20261030
+    locator: 'Seite 2: Motion Control Switching'
+  context:
+    bereitstellung: konfigurationsabhaengig
+    bedingung: Dokumentierte G1 Konfiguration; Firmwareversion, 29 DoF Bezug und Serienfreigabe vor Kauf
+      abgleichen.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_self_recovery
+  key: mobility.self_recovery
+  value: Lie to Stand und Roll Up als Bedienfunktionen dokumentiert
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_remote_29dof_20261030
+    locator: 'Seite 2: Motion Control Switching'
+  context:
+    bereitstellung: konfigurationsabhaengig
+    bedingung: Dokumentierte G1 Konfiguration; Firmwareversion, 29 DoF Bezug und Serienfreigabe vor Kauf
+      abgleichen.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_manipulation_pick_place
+  key: manipulation.pick_place
+  value: Apfel aufnehmen und auf Teller ablegen im NVIDIA GR00T Referenzworkflow
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_gr00t_workflow_20261030
+    locator: Apple to plate und Requirements
+  context:
+    bereitstellung: eigene_entwicklung
+    bedingung: EDU Entwicklerzugriff, Dex3 Hände, RealSense, NVIDIA Compute und angepasstes Training;
+      kein universeller Liefer Skill.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_jumping
+  key: mobility.jumping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine belastbare editionsbezogene Lieferfunktion im geprüften Umfang; spektakuläre Vorführungen
+      nicht ungeprüft übernehmen.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_uneven_ground
+  key: mobility.uneven_ground
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_scope
+  key: navigation.scope
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_mapping
+  key: navigation.mapping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_obstacle_avoidance
+  key: navigation.obstacle_avoidance
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_fleet_management
+  key: fleet.management
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_erp
+  key: integration.erp
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine bestätigte direkte ERP Anbindung. WMS, MES, SDK oder eine API sind kein Nachweis
+      eines fertigen ERP Konnektors.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wms
+  key: integration.wms
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wes
+  key: integration.wes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_mes
+  key: integration.mes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_api
+  key: integration.api
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap_final_mobility_obstacles
+  key: mobility.obstacles
+  value: Climb Mode in der Fernsteuerungsübersicht dokumentiert; keine bestätigte allgemeine Hindernisgrenze
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_remote_29dof_20261030
+    locator: 'Seite 2: Climb Mode'
+  context:
+    bereitstellung: konfigurationsabhaengig
+    bedingung: Konfiguration und Firmware prüfen; daraus keine Zusage für normale Treppen oder loses Geröll
+      ableiten.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: v20261030_mobility_obstacles
+- id: g1_unifolm_vla
+  key: software.compatible_models
+  value: UnifoLM-VLA-Base
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_unifolm_vla_20261030
+    locator: Model Checkpoints, G1 Datasets und Real World Inference
+  context:
+    system: UnifoLM-VLA-Base
+    version: VLA-0 Framework
+    rolle: Manipulations VLA
+    bezug: herstellerworkflow
+    grenze: G1 Trainingsdaten und reales Deployment dokumentiert. Handkonfiguration, Kameras, Entwicklungsrechte
+      und Client Server Inferenz müssen passen. Kein sofortiger Standardliefer Skill.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: g1_unifolm_vlm
+  key: software.compatible_models
+  value: UnifoLM-VLM-Base
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_g1_unifolm_vla_20261030
+    locator: Model Checkpoints und vlm_pretrained_path
+  context:
+    system: UnifoLM-VLM-Base
+    version: Base Checkpoint
+    rolle: Wahrnehmungs und Sprachkomponente
+    bezug: komponente_des_herstellerworkflows
+    grenze: Komponente im dokumentierten UnifoLM Workflow; kein eigenständiger universeller G1 Bewegungsregler.
+  checked_at: '2026-10-30'
+  valid_from: null
   valid_until: null
   supersedes: null
 offers: []
 events: []
-extensions: []
-media: []
+extensions:
+- id: typ_besonderheit
+  title: Edition entscheidet über Eigenentwicklung
+  description: Gleiche Familienbezeichnung bedeutet keinen gleichen Entwicklerumfang. Basisversion, EDU,
+    Hände und zusätzliche Rechenmodule sind vor der Beschaffung konkret festzulegen.
+  claim_ids:
+  - v20261030_hardware_end_effectors
+  - v20261030_openness_sdk
+  - v20261030_openness_policy_training
+media:
+- id: technische_tabelle
+  type: datenblatt
+  url: https://www.unitree.com/g1/
+  local_path: null
+  source_id: src_g1_specs_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: Webstand 2026-10-30
+  language: en
+  sha256: null
+  scope: 'G1 EDU: offizielle technische HTML Tabelle; keine separate allgemeine PDF gefunden.'
+- id: handbuch_einstieg
+  type: handbuch
+  url: https://www.unitree.com/app/g1/
+  local_path: null
+  source_id: src_g1_downloads_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: en
+  sha256: null
+  scope: G1 Benutzerhandbuch und Montageanleitungen im offiziellen Downloadbereich.
+- id: herstellerbild
+  type: rendering
+  url: https://www.unitree.com/images/4e6266ec20b849af968750d5d432d391_1372x798.jpg
+  local_path: null
+  source_id: src_g1_specs_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Offizielle G1 Plattformabbildung; gezeigte Hände und Zubehör sind keine Zusage für die Basisversion.
+- id: g1_vorstellung
+  type: video
+  url: https://www.unitree.com/images/7504897529034b05890225e149d3af28.mp4
+  local_path: null
+  source_id: src_g1_specs_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis, keine Kopie und keine freie
+    Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: G1 Herstellerclip aus der offiziellen Produktseite. Plattformdarstellung; Edition, Hände und
+    Softwarestand prüfen.
+- id: g1_weiterer_clip
+  type: video
+  url: https://www.unitree.com/images/fadc6f0bc26747d6b4110fd5e5657857.mp4
+  local_path: null
+  source_id: src_g1_specs_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis, keine Kopie und keine freie
+    Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Weiterer offizieller G1 Produktclip. Gezeigte Funktionen nicht pauschal als Lieferumfang werten.
+- id: g1_fernbedienung_pdf
+  type: handbuch
+  url: https://oss-global-cdn.unitree.com/static/5014b2b84df94951b1e2197081e02822.pdf
+  local_path: null
+  source_id: src_g1_remote_29dof_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis; keine Kopie im Repository und
+    keine freie Nachnutzungslizenz behauptet.
+  version: ohne Firmwaredatum; G1 29 DoF Dateititel
+  language: en/zh
+  sha256: 0a79a12990d2bb3e88d276c9f9a034323975d2e9c697871337261d81903cb22f
+  scope: G1 Fernsteuerungsfunktionen. Genaue Konfiguration und Firmware vor Nutzung bestätigen.

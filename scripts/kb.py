@@ -13,6 +13,24 @@ from jsonschema import Draft202012Validator, FormatChecker
 from screening import section as screening_section, live_claims
 
 ROOT = Path(__file__).resolve().parents[1]
+DELIVERY = {
+    'enthalten':'Im dokumentierten Lieferumfang enthalten',
+    'konfigurationsabhaengig':'Werksfunktion der dokumentierten Konfiguration; Paket und Firmware prüfen',
+    'zusatzpaket':'Zusatzpaket; Umfang und Preis separat',
+    'projektintegration':'Projektintegration und Inbetriebnahme erforderlich',
+    'eigene_entwicklung':'Eigene Anwendung, Policy oder Integration erforderlich',
+    'demo':'Vorführung; Lieferumfang nicht bestätigt',
+    'angekuendigt':'Angekündigt; noch keine bestätigte Lieferfunktion',
+    'nicht_enthalten':'In dieser Edition nicht enthalten',
+    'nicht_anwendbar':'Für diese Bauform oder Konfiguration nicht anwendbar',
+    'unbekannt':'Lieferumfang und mögliche Zusatzkosten unbekannt',
+}
+CAPABILITY_KEYS = ['mobility.walking','mobility.running','mobility.jumping','mobility.dancing',
+                   'mobility.steps_up','mobility.steps_down','mobility.uneven_ground','mobility.rubble',
+                   'mobility.obstacles','mobility.self_recovery','manipulation.pick_place']
+INTEGRATION_KEYS = ['navigation.scope','navigation.mapping','navigation.obstacle_avoidance',
+                    'fleet.management','integration.erp','integration.wms','integration.wes',
+                    'integration.mes','integration.api']
 class StrictLoader(yaml.SafeLoader):
     pass
 
@@ -108,6 +126,10 @@ def validate(root=ROOT):
             if c['supersedes'] and c['supersedes'] not in ids: errors.append(f'{label}: ersetzte Aussage fehlt')
             if c['supersedes'] == c['id']: errors.append(f'{label}: Aussage ersetzt sich selbst')
             if c['status'] not in ['unbekannt','nicht_anwendbar','nicht_veroeffentlicht'] and c['evidence']=='keine': errors.append(f'{label}: Evidenzart fehlt')
+            delivery=c['context'].get('bereitstellung')
+            if delivery and delivery not in DELIVERY:errors.append(f'{label}: unbekannter Lieferumfang {delivery}')
+            if delivery=='enthalten' and (c['status']!='belegt' or c['evidence'] in ['herstellerdemo','redaktionelle_einordnung','projektkatalog','keine']):
+                errors.append(f'{label}: Lieferumfang braucht passenden Produkt oder Kundenbeleg; Demo genügt nicht')
         for section in ['offers','events','extensions','media']:
             values=data[section]
             if len({v['id'] for v in values}) != len(values): errors.append(f'{rid}: doppelte IDs in {section}')
@@ -131,6 +153,20 @@ def validate(root=ROOT):
 def active_claims(data):
     return live_claims(data)
 
+def ai_records(data):
+    """Explicit AI relations; a simulated workflow is never implicit hardware support."""
+    return [{'claim_id':c['id'],'key':c['key'],'system':c['context'].get('system',c['value']),
+             'version':c['context'].get('version'),'role':c['context'].get('rolle'),
+             'relationship':c['context'].get('bezug'),'status':c['status'],
+             'context':c['context'],'source_ids':[s['source_id'] for s in c['sources']]}
+            for c in active_claims(data) if c['key'] in ['software.ai_stack','software.compatible_models','software.related_research'] and c['value'] is not None]
+
+def capability_records(data):
+    return [{'claim_id':c['id'],'key':c['key'],'value':c['value'],'status':c['status'],
+             'delivery':c['context'].get('bereitstellung','unbekannt'),'context':c['context'],
+             'source_ids':[s['source_id'] for s in c['sources']]}
+            for c in active_claims(data) if c['key'] in CAPABILITY_KEYS+INTEGRATION_KEYS]
+
 def procurement_offers(data, as_of, region=None, audience=None, max_age=90):
     """No inference from classification, product pages or absence of data."""
     result=[]
@@ -150,22 +186,107 @@ def display(c):
 def write(root,path,text):
     p=root/path; p.parent.mkdir(parents=True,exist_ok=True); p.write_text(text.rstrip()+'\n',encoding='utf-8')
 
+def editorial_sections(body):
+    """Keep additional editorial sections instead of silently discarding them."""
+    parts=re.split(r'^## (.+)\n',body,flags=re.MULTILINE)
+    return {parts[i].strip():parts[i+1].strip() for i in range(1,len(parts),2)}
+
+def media_label(item):
+    return item['scope'] or item['id']
+
+def media_links(items):
+    return '<br>'.join(f'[{esc(media_label(m))}]({m["url"]})' for m in items) or 'Noch kein geprüfter Link erfasst'
+
+def media_table(items, sources, prefix='../../'):
+    text='| Typ | Original und Geltungsbereich | Version | Herkunft und Rechte |\n| --- | --- | --- | --- |\n'
+    for m in items:
+        source=sources[m['source_id']]
+        text+=f'| {m["type"]} | [{esc(media_label(m))}]({m["url"]}) | {esc(m["version"] or "Nicht angegeben")} | [{esc(source["publisher"])}]({prefix}quellen/{m["source_id"]}.md). {esc(m["rights"])} |\n'
+    return text
+
+def render_claim(c,metrics,sources):
+    text=f'### {c["id"].replace("_"," ")}\n\n**{metrics[c["key"]]["label"]}:** {display(c)}. Status: {c["status"]}. Evidenz: {c["evidence"]}.\n\n'
+    if c['context']:text+='Bedingungen: '+esc('; '.join(f'{k}: {v}' for k,v in c['context'].items()))+'\n\n'
+    for ref in c['sources']:
+        src=sources[ref['source_id']]
+        text+=f'* [{src["title"]}](../../quellen/{src["id"]}.md), Fundstelle: {ref["locator"]}. Zugang: {src["access_method"]}. Aussage geprüft: {c["checked_at"]}.\n'
+    return text+'\n'
+
+def capability_table(data, keys, metrics):
+    claims=active_claims(data)
+    text='| Funktion | Was ist belegt? | Direkt nutzbar oder Zusatzaufwand? | Bedingungen und Nachweis |\n| --- | --- | --- | --- |\n'
+    for key in keys:
+        spec=metrics[key]
+        selected=[c for c in claims if c['key']==key]
+        if not selected:
+            text+=f'| {spec["label"]} | Nicht erfasst | Unbekannt | Kein bestätigter Eintrag |\n'
+        for c in selected:
+            delivery=DELIVERY[c['context'].get('bereitstellung','unbekannt')]
+            detail='; '.join(v for k,v in c['context'].items() if k!='bereitstellung')
+            ref=f'[{c["status"]} / {c["evidence"]}](#{c["id"].replace("_","-")})'
+            text+=f'| {spec["label"]} | {esc(display(c))} | {delivery} | {esc(detail)} {ref} |\n'
+    return text
+
 def generate(root=ROOT):
     validate(root)
     sources, orgs, robots, metrics, axes=load(root)
     generated='<!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->\n\n'
     for rid,(meta,data,body) in robots.items():
         claims=active_claims(data)
-        text=generated+f'# {meta["name"]}\n\n'+body.split('## Einordnung\n\n',1)[-1].split('\n\n## Offene',1)[0]+'\n\n'
-        text+=f'**Hersteller:** [{orgs[meta["manufacturer_id"]]["name"]}](../../hersteller/{meta["manufacturer_id"]}/README.md)  \n**Bauform:** {meta["form"]}  \n**Einordnung:** {meta["classification"]["value"]}  \n**Begründung:** {meta["classification"]["reason"]}  \n**Geltungsbereich:** {meta["scope"]}  \n**Prüfumfang:** {meta["maintenance"]["status"]}, {meta["maintenance"]["reviewed_at"] or 'noch nicht fachlich geprüft'}\n\n'
-        text+='**Tags:** '+', '.join(axes[t['axis']][t['id']]['label']+' ('+t['basis']+')' for t in meta['tags'])+'\n\n'
+        sections=editorial_sections(body)
+        text=generated+f'# {meta["name"]}\n\n'+sections.get('Einordnung','')+'\n\n'
+        pictures=[m for m in data['media'] if m['type'] in ['foto','rendering']]
+        videos=[m for m in data['media'] if m['type']=='video']
+        documents=[m for m in data['media'] if m['type'] in ['datenblatt','handbuch','zeichnung']]
+        if pictures:
+            hero=pictures[0]
+            text+=f'![{esc(hero["scope"])}]({hero["url"]})\n\n'
+            text+=f'Bildquelle: [{sources[hero["source_id"]]["publisher"]}](../../quellen/{hero["source_id"]}.md). {hero["rights"]}\n\n'
+        text+='## Steckbrief\n\n[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)\n\n| Merkmal | Angabe | Nachweisstand |\n| --- | --- | --- |\n'
+        text+=f'| Hersteller | [{esc(orgs[meta["manufacturer_id"]]["name"])}](../../hersteller/{meta["manufacturer_id"]}/README.md) | Organisationsprofil |\n'
         link=meta.get('official_link')
         if link:
             verification='geprüft' if link['verification']=='geprueft' else 'aus dem Bestand; noch nicht erneut geprüft'
-            text+=f'**Offizielle Modellquelle:** [{link["url"]}]({link["url"]}) ({verification}).\n\n'
+            text+=f'| Offizielle Website | [{esc(link["url"])}]({link["url"]}) | {verification} |\n'
         else:
             candidates=meta['classification']['source_ids']
-            text+='**Offizielle Modellquelle:** Noch nicht bestätigt. '+', '.join(f'[Bisheriger Quellenhinweis]({sources[s]["url"]})' for s in candidates)+'\n\n'
+            text+='| Offizielle Website | Noch nicht bestätigt | '+', '.join(f'[Quellenhinweis]({sources[s]["url"]})' for s in candidates)+' |\n'
+        text+='| Vorstellung und weitere Videos | '+media_links(videos)+' | Links auf Originale; Vorführung ist kein unabhängiger Test |\n'
+        text+='| Datenblatt und Dokumentation | '+media_links(documents)+' | Versions und Konfigurationshinweise im Linktext beachten |\n'
+        text+=f'| Bauform und Entität | {esc(meta["form"])}; {esc(meta["entity_type"])} | Geltungsbereich unten beachten |\n'
+        text+=f'| Einordnung | {esc(meta["classification"]["value"])} | {esc(meta["classification"]["reason"])} |\n'
+        text+=f'| Geltungsbereich | {esc(meta["scope"])} | Daten anderer Generationen werden nicht automatisch übertragen |\n'
+        text+=f'| Prüfumfang | {esc(meta["maintenance"]["status"])} | {meta["maintenance"]["reviewed_at"] or "Noch nicht fachlich geprüft"} |\n'
+        tags=', '.join(axes[t['axis']][t['id']]['label']+' ('+t['basis']+')' for t in meta['tags'])
+        text+='| Branchen, Aufgaben und Umgebung | '+esc(tags or 'Noch nicht zugeordnet')+' | Tags sind keine Eignungsfreigabe |\n'
+        text+='| Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |\n'
+        for key,spec in metrics.items():
+            if not spec['overview']:continue
+            selected=[c for c in claims if c['key']==key]
+            if key in ['software.ai_stack','software.compatible_models']:
+                known=[c for c in selected if c['value'] is not None]
+                summary='<br>'.join(f'[{esc(c["value"])}](#{c["id"].replace("_","-")}) ({c["status"]})' for c in known) or ('Unbekannt' if selected else 'Nicht erfasst')
+                text+=f'| {spec["label"]} | {summary} | [Rolle, Bezug und Bedingungen](#ki-modelle-und-software) |\n'
+                continue
+            for c in selected:
+                conditions='; '.join(c['context'].values())
+                val=display(c)+(f' ({conditions})' if conditions else '')
+                anchor=c['id'].replace('_','-')
+                text+=f'| {spec["label"]} | {esc(val)} | [{c["status"]} / {c["evidence"]}](#{anchor}) |\n'
+        text+='\n'
+        text+='## KI, Modelle und Software\n\n'
+        ai=ai_records(data)
+        if ai:
+            text+='| System | Version | Rolle | Bezug und Grenzen | Nachweis |\n| --- | --- | --- | --- | --- |\n'
+            for item in ai:
+                text+=f'| {esc(item["system"])} | {esc(item["version"] or "Nicht benannt")} | {esc(item["role"] or "Noch nicht näher erfasst")} | {esc(item["relationship"] or "Bezug separat prüfen")}. {esc(item["context"].get("grenze",""))} | [{item["status"]}](#{item["claim_id"].replace("_","-")}) |\n'
+        else:text+='Noch keine belegten modellspezifischen KI Systeme erfasst. Das bedeutet keine grundsätzliche Inkompatibilität.\n'
+        text+='\nEingebaute Steuerung, Referenzintegration, Simulation und Forschungskooperation sind unterschiedliche Bezüge. Hardware und Softwareversion sowie Lizenz und Kundenrechte gemeinsam prüfen. Eine Plattform wie Isaac GR00T oder ein Rechner wie Jetson Thor belegen keine bestimmte vorinstallierte Modellversion.\n\n'
+        text+='## Fähigkeiten und Lieferumfang\n\n'
+        text+=capability_table(data,CAPABILITY_KEYS,metrics)
+        text+='\n## Navigation, Flotte und Unternehmens IT\n\n'
+        text+=capability_table(data,INTEGRATION_KEYS,metrics)
+        text+='\nEine API oder ein SDK ist keine fertige ERP oder WMS Anbindung. Zusatzpakete, Cloud, Lizenzen, Kartenaufbau und Inbetriebnahme werden nur bei passendem Beleg als enthalten behandelt. Nicht erfasst und unbekannt bedeuten keine Verneinung.\n\n'
         text+='## Screening\n\n'
         screening=meta.get('screening',{})
         if screening:
@@ -173,45 +294,65 @@ def generate(root=ROOT):
             text+=f'**Ansicht:** {SECTION_LABELS[screening["section"]]}. **Zugang:** {ACCESS[screening["access"]]}.\n\n'
             text+=screening['reason']+'\n\n'
             text+='Einordnung geprüft: '+str(screening['checked_at'] or 'noch nicht')+'. Grundlage: '+screening['basis']+'. '+', '.join(f'[{s}](../../quellen/{s}.md)' for s in screening['source_ids'])+'\n\n'
-        text+='## Steckbrief\n\n[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)\n\n| Merkmal | Angabe | Nachweisstand |\n| --- | --- | --- |\n'
-
-        for key,spec in metrics.items():
-            if not spec['overview']: continue
-            selected=[c for c in claims if c['key']==key]
-            for c in selected:
-                conditions='; '.join(c['context'].values())
-                val=display(c)+(f' ({conditions})' if conditions else '')
-                anchor=c['id'].replace('_','-')
-                text+=f'| {spec["label"]} | {esc(val)} | [{c["status"]} / {c["evidence"]}](#{anchor}) |\n'
         text+='\n## Beschaffung und Geschäftsmodell\n\n'
         if not data['offers']: text+='Kein konkretes aktuelles Angebot in diesem Bestand bestätigt. Das ist kein Nachweis der Nichtverfügbarkeit. Preis, Abo, RaaS und Integrationsleistungen bleiben offen.\n'
         for o in data['offers']:
-            text+=f'* **{o["mode"]}, {o["status"]}:** {o["configuration"]}. Regionen: {", ".join(o["regions"])}. Abrechnung: {o["billing"]}. Abo: {o["subscription"]}. Geprüft: {o["checked_at"]}. Quellen: '+', '.join(f'[{sid}](../../quellen/{sid}.md)' for sid in o['source_ids'])+'\n'
-        questions=body.split('## Offene Entscheidungsfragen\n\n',1)[-1].split('\n## Pflege',1)[0]
+            price=f'{o["price"]:g} {o["currency"]}' if o['price'] is not None else 'Nicht veröffentlicht oder nicht bestätigt'
+            text+=f'| Angebot | Angabe |\n| --- | --- |\n| Modell und Umfang | {esc(o["configuration"])} |\n| Geschäftsmodell und Status | {o["mode"]}; {o["status"]} |\n| Preis | {price} |\n| Regionen und Zielgruppe | {esc(", ".join(o["regions"]))}; {esc(", ".join(o["audiences"]))} |\n| Abrechnung und Abo | {o["billing"]}; {o["subscription"]} |\n| Konditionen | {esc(o["term"] or "Nicht bestätigt")} |\n| Enthalten | {esc("; ".join(o["included"]) or "Nicht präzisiert")} |\n| Ausstieg | {esc(o["exit_conditions"] or "Nicht bestätigt")} |\n| Prüfung | {o["checked_at"]} |\n| Quellen | '+', '.join(f'[{sid}](../../quellen/{sid}.md)' for sid in o['source_ids'])+' |\n\n'
+        for title,content in sections.items():
+            if title not in ['Einordnung','Offene Entscheidungsfragen','Pflege','Modellspezifische Besonderheiten']:
+                text+='\n## '+title+'\n\n'+content+'\n'
+        questions=sections.get('Offene Entscheidungsfragen','Noch nicht erfasst.')
         text+='\n## Offene Entscheidungsfragen\n\n'+questions+'\n'
         text+='\n## Ereignisse und Termine\n\n'
         if not data['events']: text+='Keine zusätzlichen Ereignisse erfasst.\n'
         for e in data['events']:
             text+=f'* **{e["date"]}, {e["status"]}:** {e["description"]} '+', '.join(f'[{s}](../../quellen/{s}.md)' for s in e['source_ids'])+'\n'
-        text+='\n## Belege und Detailangaben\n\nUnbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sind nicht erfasst und dürfen nicht als Nein interpretiert werden.\n\n'
-        for c in claims:
-            text+=f'### {c["id"].replace("_"," ")}\n\n**{metrics[c["key"]]["label"]}:** {display(c)}. Status: {c["status"]}. Evidenz: {c["evidence"]}.\n\n'
-            if c['context']: text+='Bedingungen: '+esc('; '.join(f'{k}: {v}' for k,v in c['context'].items()))+'\n\n'
-            for ref in c['sources']:
-                src=sources[ref['source_id']]
-                text+=f'* [{src["title"]}](../../quellen/{src["id"]}.md), Fundstelle: {ref["locator"]}. Zugang: {src["access_method"]}. Aussage geprüft: {c["checked_at"]}.\n'
+        text+='\n## Modellspezifische Besonderheiten\n\n'
+        special=sections.get('Modellspezifische Besonderheiten')
+        if special:text+=special+'\n\n'
         if data['extensions']:
-            text+='\n## Individuelle Besonderheiten\n\n'
-            for ex in data['extensions']: text+=f'**{ex["title"]}:** {ex["description"]} (Aussagen: {", ".join(ex["claim_ids"])}).\n\n'
-        text+='\n## Medien und Dokumente\n\n[Medienablage](assets/README.md) · [Dokumentablage](dokumente/README.md). Originale werden nur mit dokumentierter Herkunft und Nutzungsrechten aufgenommen.\n'
+            for ex in data['extensions']:
+                refs=', '.join(f'[{cid}](#{cid.replace("_","-")})' for cid in ex['claim_ids'])
+                text+=f'**{ex["title"]}:** {ex["description"]}'+(f' Belege: {refs}.' if refs else '')+'\n\n'
+        elif not special:text+='Noch keine zusätzlichen Spezialinformationen erfasst. Dieses Feld nimmt Besonderheiten auf, die sich durch die gemeinsamen Merkmale und Tags nicht ausreichend beschreiben lassen.\n'
+        text+='\n## Medien und Dokumente\n\n[Alle Bilder und Videos](assets/README.md) · [Datenblätter und Dokumentation](dokumente/README.md). Externe Originale bleiben beim Anbieter.\n\n'
+        if data['media']:text+=media_table(data['media'],sources)+'\n'
+        text+='\n## Belege und Detailangaben\n\nDetails sind nach Fachgruppen aufklappbar. Unbekannte Angaben bedeuten keine Verneinung. Fehlende optionale Merkmale sind nicht erfasst.\n\n'
+        known=[c for c in claims if c['value'] is not None or c['status']=='nicht_anwendbar']
+        groups=list(dict.fromkeys(metrics[c['key']]['group'] for c in known))
+        for group in groups:
+            items=[c for c in known if metrics[c['key']]['group']==group]
+            text+=f'<details>\n<summary>{group}: {len(items)} Angaben und Belege</summary>\n\n'
+            text+=''.join(render_claim(c,metrics,sources) for c in items)+'\n</details>\n\n'
+        unknown=[c for c in claims if c not in known]
+        if unknown:
+            text+=f'<details>\n<summary>Offene und nicht veröffentlichte Angaben ({len(unknown)})</summary>\n\n'
+            text+=''.join(render_claim(c,metrics,sources) for c in unknown)+'\n</details>\n'
         write(root,f'roboter/{rid}/README.md',text)
+        if data['media']:
+            for sub,title,items in [('assets','Bilder und Videos',[m for m in data['media'] if m['type'] not in ['datenblatt','handbuch','zeichnung']]),('dokumente','Datenblätter und Dokumentation',documents)]:
+                page=generated+f'# {meta["name"]}: {title}\n\n[Zurück zum Steckbrief](../README.md)\n\n'
+                page+=media_table(items,sources,prefix='../../../') if items else 'Noch keine geprüften Verweise erfasst.\n'
+                page+='\nVersion und Modellbezug stehen am jeweiligen Link. PDF, HTML Dokumentation und Formularzugänge sind ausdrücklich unterschieden. Externe Dateien sind kein mitindexierter Volltext.\n'
+                write(root,f'roboter/{rid}/{sub}/README.md',page)
     for oid,org in orgs.items():
         body=front(root/f'hersteller/{oid}/profil.md')[1]
-        text=generated+body+'\n\n## Erfasstes Portfolio\n\n'
+        text=generated+body+'\n\n| Steckbrief | Angabe |\n| --- | --- |\n'
+        website=f'[{org["website"]}]({org["website"]})' if org['website'] else 'Noch nicht bestätigt'
+        text+=f'| Offizielle Website | {website} |\n| Organisationstyp | {org["organisationstyp"]} |\n| Profilstand | {org["reviewed_at"] or "Noch nicht geprüft"} |\n\n## Erfasstes Portfolio\n\n'
         for rid,(m,d,b) in robots.items():
             if oid in [m['manufacturer_id']]+m['developer_ids']: text+=f'* [{m["name"]}](../../roboter/{rid}/README.md)\n'
         text+='\n## Quellen\n\n'+''.join(f'* [{sources[s]["title"]}](../../quellen/{s}.md)\n' for s in org['source_ids'])
         write(root,f'hersteller/{oid}/README.md',text)
+    text=generated+'# Hersteller und Entwicklungsorganisationen\n\n[Gesamter Roboterbestand](../katalog/README.md) · [Startseite](../README.md)\n\n'
+    text+='Eine Organisation kann Hersteller, Entwickler oder Forschungspartner sein. Ungeprüfte Zuordnungen bleiben gekennzeichnet. Die Anzahl umfasst Modelle, Varianten und weitere erfasste Entitäten.\n\n'
+    text+='| Organisation | Typ | Offizielle Website | Erfasste Profile | Profilstand |\n| --- | --- | --- | --- | --- |\n'
+    for oid,org in sorted(orgs.items(),key=lambda item:item[1]['name'].casefold()):
+        count=sum(oid in [m['manufacturer_id']]+m['developer_ids'] for m,d,b in robots.values())
+        website=f'[{esc(org["website"])}]({org["website"]})' if org['website'] else 'Noch nicht bestätigt'
+        text+=f'| [{esc(org["name"])}]({oid}/README.md) | {org["organisationstyp"]} | {website} | {count} | {org["reviewed_at"] or "Noch nicht geprüft"} |\n'
+    write(root,'hersteller/README.md',text)
     from views import build_catalog
     build_catalog(root,sources,orgs,robots,metrics,axes,generated)
 
@@ -227,12 +368,19 @@ def export(root=ROOT, commit=None, as_of=None):
     for rid,(m,d,body) in robots.items():
         meta={'robot_id':rid,'name':m['name'],'manufacturer_id':m['manufacturer_id'],'entity_type':m['entity_type'],'review_status':m['maintenance']['status'],'classification':m['classification']['value'],'form':m['form'],'tags':m['tags'],'scope':m['scope'],'commit':commit,'source_path':f'roboter/{rid}/fakten.yaml'}
         meta.update(screening_section=screening_section(m,d,as_of,policy),screening=m.get('screening'),official_link=m.get('official_link'))
-        index.append({**meta,'claims':active_claims(d),'offers':d['offers'],'events':d['events']})
+        index.append({**meta,'claims':active_claims(d),'offers':d['offers'],'events':d['events'],'extensions':d['extensions'],'media':d['media'],'ai_systems':ai_records(d),'capabilities':capability_records(d)})
         for c in active_claims(d):
             text=f'{m["name"]}. Geltungsbereich: {m["scope"]} {metrics[c["key"]]["label"]}: {display(c)}. Status: {c["status"]}; Evidenz: {c["evidence"]}. Bedingungen: '+json.dumps(c['context'],ensure_ascii=False)
             chunks.append({**meta,'chunk_id':rid+':claim:'+c['id'],'kind':'claim','text':text,'claim':c,'source_ids':[s['source_id'] for s in c['sources']],'sources':[sources[s['source_id']] for s in c['sources']]})
         for kind,items in [('offer',d['offers']),('event',d['events'])]:
             for item in items: chunks.append({**meta,'chunk_id':rid+':'+kind+':'+item['id'],'kind':kind,'text':json.dumps(item,ensure_ascii=False),'record':item,'source_ids':item['source_ids'],'sources':[sources[s] for s in item['source_ids']]})
+        for item in d['media']:
+            sid=item['source_id']
+            chunks.append({**meta,'chunk_id':rid+':media:'+item['id'],'kind':'media','text':json.dumps(item,ensure_ascii=False),'record':item,'source_ids':[sid],'sources':[sources[sid]],'notice':'Medienmetadaten und Originalverweis. Dateiinhalt nicht automatisch gelesen, transkribiert oder im Index enthalten.'})
+        for item in d['extensions']:
+            evidence_claims=[c for c in d['claims'] if c['id'] in item['claim_ids']]
+            ids=sorted({ref['source_id'] for c in evidence_claims for ref in c['sources']})
+            chunks.append({**meta,'chunk_id':rid+':extension:'+item['id'],'kind':'extension','text':item['title']+'. '+item['description'],'record':item,'source_ids':ids,'sources':[sources[sid] for sid in ids],'notice':'Individuelle Besonderheit; Nachweisstand aus den referenzierten Aussagen beachten.'})
         chunks.append({**meta,'chunk_id':rid+':editorial','kind':'editorial','source_path':f'roboter/{rid}/profil.md','text':body,'source_ids':m['classification']['source_ids'],'notice':'Redaktionelle Einordnung, Bestandsimport oder offene Fragen; keine aktuelle Verifikation ohne Aussagebeleg.','sources':[sources[s] for s in m['classification']['source_ids']]})
     write(root,'export/robots.json',json.dumps(index,ensure_ascii=False,indent=2))
     write(root,'export/chunks.jsonl','\n'.join(json.dumps(c,ensure_ascii=False) for c in chunks))

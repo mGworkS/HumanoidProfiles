@@ -420,3 +420,213 @@ metrics:
     unit: null
     overview: true
     core: false
+  hardware.dof:
+    label: Freiheitsgrade
+    group: Technik
+    kind: number
+    unit: null
+    overview: true
+    core: false
+  hardware.dof_max:
+    label: Freiheitsgrade maximal nach Ausbau
+    group: Technik
+    kind: number
+    unit: null
+    overview: false
+    core: false
+  hardware.battery_capacity:
+    label: Batteriekapazität
+    group: Technik
+    kind: number
+    unit: Ah
+    overview: false
+    core: false
+  hardware.payload_rated:
+    label: Nennnutzlast mit gesondertem Lastbezug
+    group: Technik
+    kind: number
+    unit: kg
+    overview: true
+    core: false
+  hardware.payload_peak:
+    label: Kurzzeitige Spitzennutzlast
+    group: Technik
+    kind: number
+    unit: kg
+    overview: false
+    core: false
+  hardware.charge_time:
+    label: Ladezeit
+    group: Betrieb
+    kind: number
+    unit: min
+    overview: false
+    core: false
+  hardware.battery_swap_time:
+    label: Batteriewechselzeit
+    group: Betrieb
+    kind: number
+    unit: min
+    overview: false
+    core: false
+  hardware.sensors:
+    label: Sensorik
+    group: Technik
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  hardware.compute:
+    label: Rechenhardware
+    group: Technik
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  hardware.end_effectors:
+    label: Hände und Endeffektoren
+    group: Technik
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  mobility.uneven_ground:
+    label: Unebener Boden
+    group: Mobilität
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  software.ai_stack:
+    label: KI und Steuerungsmodelle im Einsatz
+    group: KI und Software
+    kind: text
+    unit: null
+    overview: true
+    core: false
+  software.compatible_models:
+    label: Weitere belegte KI Integrationen
+    group: KI und Software
+    kind: text
+    unit: null
+    overview: true
+    core: false
+  software.frameworks:
+    label: Trainings und Simulationswerkzeuge
+    group: KI und Software
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  software.os:
+    label: Betriebssystem und Laufzeit
+    group: KI und Software
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  mobility.walking:
+    label: Gehen oder rollende Fortbewegung
+    group: Mobilität
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  mobility.running:
+    label: Dynamisches Laufen
+    group: Mobilität
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  mobility.jumping:
+    label: Springen
+    group: Mobilität
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  mobility.dancing:
+    label: Tanzen und Bewegungssequenzen
+    group: Mobilität
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  manipulation.pick_place:
+    label: Pick and Place
+    group: Fähigkeiten
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  navigation.scope:
+    label: Autonome Navigation
+    group: Navigation und IT
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  navigation.mapping:
+    label: Kartenaufbau und Lokalisierung
+    group: Navigation und IT
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  navigation.obstacle_avoidance:
+    label: Hindernisvermeidung bei Navigation
+    group: Navigation und IT
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  fleet.management:
+    label: Flottenmanagement
+    group: Navigation und IT
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  integration.erp:
+    label: ERP Anbindung
+    group: Navigation und IT
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  integration.wms:
+    label: WMS Anbindung
+    group: Navigation und IT
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  integration.wes:
+    label: WES Anbindung
+    group: Navigation und IT
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  integration.mes:
+    label: MES Anbindung
+    group: Navigation und IT
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  integration.api:
+    label: Integrationsschnittstellen für Unternehmens IT
+    group: Navigation und IT
+    kind: text
+    unit: null
+    overview: false
+    core: false
+  software.related_research:
+    label: KI Forschung im Entwicklungshintergrund
+    group: KI und Software
+    kind: text
+    unit: null
+    overview: false
+    core: false

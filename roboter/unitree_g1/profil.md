@@ -6,40 +6,50 @@ aliases: []
 entity_type: modell
 manufacturer_id: unitree
 developer_ids: []
-form: unbekannt
+form: zweibeinig
 classification:
-  value: ungeklaert
-  reason: Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht
-    neu geprüft.
+  value: gegenwaertig
+  reason: Aktuelle Herstellerseite mit eigenständiger Konfigurationsspalte. Öffentlicher Einstiegspreis;
+    Liefertermin und Zielregion separat bestätigen.
   source_ids:
-  - src_import_b31
-  assessed_at: '2026-10-29'
+  - src_g1_specs_20261030
+  assessed_at: '2026-10-30'
 tags:
 - axis: branche
   id: forschung
-  basis: redaktionelle_zuordnung
+  basis: herstellerziel
   source_ids:
-  - src_import_b31
+  - src_g1_specs_20261030
+- axis: branche
+  id: bildung
+  basis: herstellerziel
+  source_ids:
+  - src_g1_specs_20261030
+- axis: aufgabe
+  id: interaktion
+  basis: herstellerziel
+  source_ids:
+  - src_g1_specs_20261030
 relations: []
-scope: Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten,
-  Herstellerrolle und aktueller Zugang noch zu prüfen.
+scope: G1 Basisversion. Andere Editionen sind eigene Profile. Technische Tabelle am 30. Oktober 2026.
 maintenance:
-  last_search: null
-  reviewed_at: null
+  last_search: '2026-10-30'
+  reviewed_at: '2026-10-30'
   next_review: '2026-11-29'
   priority: normal
-  status: erfasst
+  status: teilweise_geprueft
 official_link:
   url: https://www.unitree.com/g1/
   kind: produkt
-  source_id: src_g1_shop
+  source_id: src_g1_specs_20261030
   verification: geprueft
 screening:
   section: aktuell
   access: bestellweg
-  reason: 'Herstellershop: G1 bestellbar mit Rückstand; EDU nach Vertriebsabstimmung.'
+  reason: Aktuelle Herstellerseite mit eigenständiger Konfigurationsspalte. Öffentlicher Einstiegspreis;
+    Liefertermin und Zielregion separat bestätigen.
   source_ids:
-  - src_g1_shop
+  - src_g1_specs_20261030
   checked_at: '2026-10-30'
   basis: primaerquelle
 ---
@@ -48,17 +58,27 @@ screening:
 
 ## Einordnung
 
-Im bisherigen Bestand unter **Unitree** erfasst. [Quellenhinweis](../../quellen/src_import_b31.md). Erfassungskennung: B31.
+Kompakte zweibeinige Plattform. Die Basisversion besitzt keinen zugesicherten Entwicklerzugang. Für eigene Policies die EDU Edition prüfen.
 
-**Übernommener Recherchehinweis, nicht neu verifiziert:** Robot Learning und Ganzkörperforschung mit EDU
+## Integration und eigene Entwicklung
+
+Eigene Entwicklung benötigt passende Hardware, SDK Version und ein eigenes Testkonzept. Ein öffentliches Repository allein belegt keine Freischaltung dieser Edition. Ausgereifte autonome Arbeitsaufgaben und eine komplette Integration sind kein automatischer Bestandteil des Hardwarepreises.
+
+## Einsatzgrenzen und Beleglage
+
+Armnutzlast ist haltungsabhängig. Aus Sensorik und Herstelleraufnahmen folgt keine garantierte Sturzvermeidung. Für Treppen, Geröll, Staub und dynamische Hindernisse fehlen hier konfigurationsbezogene Betriebsgrenzen.
+
+## Dokumentationsstand
+
+Technische HTML Tabelle und offizieller Handbucheinstieg verlinkt. Allgemeine PDF nicht gefunden. Bilder sind externe Herstellerverweise mit Konfigurationshinweis.
 
 ## Offene Entscheidungsfragen
 
-* Modellidentität, Generation und Rollen der beteiligten Organisationen bestätigen.
-* Technische Daten, Fähigkeiten und deren Bedingungen aus Originalquellen ergänzen.
-* Aktuellen Lebenszyklus sowie Kauf, Miete, RaaS oder Forschungszugang prüfen.
-* SDK, eigene Policies, Integrationsaufwand, Abos und Nutzungsrechte prüfen.
+* Welche genaue Achsen, Hände und Rechenmodule enthält das Angebot?
+* Welche SDK und Policy Funktionen sind auf dieser Seriennummer freigeschaltet?
+* Welche Nutzlast, Betriebsdauer und Bodenbedingungen werden im Abnahmetest erreicht?
+* Welche regionalen Lieferbedingungen, Lizenzen, Abos und Sicherheitsunterlagen gelten?
 
 ## Pflege
 
-Eintrag ist vollständig im Inventar erfasst, aber fachlich noch nicht vollständig geprüft. Zahlen und Angebote werden nicht aus ähnlichen Modellen abgeleitet.
+Stand 30. Oktober 2026. Fachlich im genannten Umfang geprüft. Offene Felder bleiben unbekannt. Fakten und Medien werden aus `fakten.yaml` erzeugt.

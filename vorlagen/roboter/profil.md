@@ -38,6 +38,14 @@ screening:
 
 Kurze Beschreibung.
 
+## Integration und eigene Entwicklung
+
+Welche Integration ist dokumentiert, welche Voraussetzungen und Kundenrechte bleiben offen? Nachgewiesene Zahlen und Fähigkeiten in fakten.yaml pflegen und hier darauf verweisen.
+
+## Modellspezifische Besonderheiten
+
+Freies Feld für individuelle Eigenschaften, Einschränkungen, ungewöhnliche Funktionen und Abhängigkeiten, die gemeinsame Kategorien nicht ausreichend beschreiben. Belege verlinken. Strukturierte Besonderheiten können zusätzlich in extensions mit claim_ids geführt werden.
+
 ## Offene Entscheidungsfragen
 
 * Welche Fähigkeiten und Beschaffungswege sind tatsächlich belegt?

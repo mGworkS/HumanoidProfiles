@@ -375,7 +375,7 @@ claims:
     note: Katalogangabe; Revision und Ausstattung beachten
   checked_at: '2026-10-30'
   valid_from: null
-  valid_until: null
+  valid_until: '2026-10-30'
   supersedes: null
 - id: hardware_payload_description
   key: hardware.payload_description
@@ -390,6 +390,490 @@ claims:
     scope: Digit 5
     note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
   checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: '2026-10-30'
+  supersedes: null
+- id: v20261030_hardware_payload_rated
+  key: hardware.payload_rated
+  value: 22.7
+  unit: kg
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_launch
+    locator: 'Preliminary specifications: payload 50 lb'
+  context:
+    lastbezug: 50 lb als rund 22,7 kg; Produktseite rundet zu 23 kg. Dauer, Greifer und Gangprofil separat
+      bestätigen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_payload_two_arms
+  key: hardware.payload_two_arms
+  value: null
+  unit: kg
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Öffentliche allgemeine Payload Angabe nicht eindeutig als beidhändige Dauerlast spezifiziert
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_payload_two_arms
+- id: v20261030_hardware_charge_time
+  key: hardware.charge_time
+  value: 9
+  unit: min
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_launch
+    locator: 90 minutes runtime, 9 minutes recharge
+  context:
+    konfiguration: vorläufige Vorserienwerte
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_end_effectors
+  key: hardware.end_effectors
+  value: Austauschbare Greifer zur Erweiterung von Arbeitsabläufen vorgesehen
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Adaptable
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_ecosystem_integration
+  key: ecosystem.integration
+  value: Anbindung an AMR, WMS, WES und MES sowie Flottensteuerung vorgesehen
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Integration
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: ecosystem_integration
+- id: v20261030_ecosystem_cloud
+  key: ecosystem.cloud
+  value: Agility Arc als cloudbasierte Flotten und Integrationsplattform vorgesehen
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_launch
+    locator: Agility Arc
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: ecosystem_cloud
+- id: v20261030_autonomy_scope
+  key: autonomy.scope
+  value: Autonome industrielle Arbeitsabläufe und kooperativ sicherer Betrieb als Entwicklungsziel
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Adaptable und Fußnote
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: autonomy_scope
+- id: v20261030_safety_human_contact
+  key: safety.human_contact
+  value: Arbeit in der Nähe von Menschen vorgesehen; Sicherheitsfunktionen teilweise noch in Entwicklung
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Fußnote und Sicherheitsbeschreibung
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_safety_certification
+  key: safety.certification
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Geplante Sicherheitsauslegung oder Markteinführung ist kein bestätigtes Zertifikat
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_openness_policy_training
+  key: openness.policy_training
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Kein öffentlicher Kundenpfad für eigenes Policy Training bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: openness_policy_training
+- id: digit5_halos
+  key: software.ai_stack
+  value: NVIDIA Halos Modelle plus Agility Menschenerkennung
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_nvidia_20261022
+    locator: Advancing Compute and Safety
+  context:
+    system: NVIDIA Halos Modelle plus Agility Menschenerkennung
+    version: nicht benannt
+    rolle: Sicherheitswahrnehmung
+    bezug: angekuendigte_integration
+    grenze: Integration in proprietäres Sicherheitssystem vorgesehen; weder Foundation VLA Name noch fertiges
+      Sicherheitszertifikat.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: digit5_igx_thor
+  key: hardware.compute
+  value: NVIDIA IGX Thor für die allgemeine Verfügbarkeitsversion angekündigt
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_nvidia_20261022
+    locator: Standardize onboard compute
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: unknown_software_compatible_models
+  key: software.compatible_models
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Kein belastbarer modellspezifischer Name oder weiterer Integrationsnachweis im geprüften Umfang.
+      Unbekannt bedeutet keine Inkompatibilität.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_walking
+  key: mobility.walking
+  value: Zweibeiniger industrieller Transport als Produktziel
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Produktbeschreibung und Vorläufigkeitsfußnote
+  context:
+    bereitstellung: angekuendigt
+    bedingung: Digit 5 in Entwicklung; Konnektor, Lieferpaket und Preis nicht zugesichert.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_manipulation_pick_place
+  key: manipulation.pick_place
+  value: Materialhandhabung mit wechselbaren Greifern geplant
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Produktbeschreibung und Vorläufigkeitsfußnote
+  context:
+    bereitstellung: angekuendigt
+    bedingung: Digit 5 in Entwicklung; Konnektor, Lieferpaket und Preis nicht zugesichert.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_fleet_management
+  key: fleet.management
+  value: Agility Arc Integration vorgesehen
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Produktbeschreibung und Vorläufigkeitsfußnote
+  context:
+    bereitstellung: angekuendigt
+    bedingung: Digit 5 in Entwicklung; Konnektor, Lieferpaket und Preis nicht zugesichert.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_scope
+  key: navigation.scope
+  value: Standortbezogene industrielle Workflows vorgesehen
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Produktbeschreibung und Vorläufigkeitsfußnote
+  context:
+    bereitstellung: angekuendigt
+    bedingung: Digit 5 in Entwicklung; Konnektor, Lieferpaket und Preis nicht zugesichert.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wms
+  key: integration.wms
+  value: WMS Integration vorgesehen
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Produktbeschreibung und Vorläufigkeitsfußnote
+  context:
+    bereitstellung: angekuendigt
+    bedingung: Digit 5 in Entwicklung; Konnektor, Lieferpaket und Preis nicht zugesichert.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wes
+  key: integration.wes
+  value: WES Integration vorgesehen
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Produktbeschreibung und Vorläufigkeitsfußnote
+  context:
+    bereitstellung: angekuendigt
+    bedingung: Digit 5 in Entwicklung; Konnektor, Lieferpaket und Preis nicht zugesichert.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_mes
+  key: integration.mes
+  value: MES Integration vorgesehen
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_digit5_product
+    locator: Produktbeschreibung und Vorläufigkeitsfußnote
+  context:
+    bereitstellung: angekuendigt
+    bedingung: Digit 5 in Entwicklung; Konnektor, Lieferpaket und Preis nicht zugesichert.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_running
+  key: mobility.running
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_jumping
+  key: mobility.jumping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine belastbare editionsbezogene Lieferfunktion im geprüften Umfang; spektakuläre Vorführungen
+      nicht ungeprüft übernehmen.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_dancing
+  key: mobility.dancing
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_steps_up
+  key: mobility.steps_up
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_steps_down
+  key: mobility.steps_down
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_uneven_ground
+  key: mobility.uneven_ground
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_rubble
+  key: mobility.rubble
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_obstacles
+  key: mobility.obstacles
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_self_recovery
+  key: mobility.self_recovery
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_mapping
+  key: navigation.mapping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_obstacle_avoidance
+  key: navigation.obstacle_avoidance
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_erp
+  key: integration.erp
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine bestätigte direkte ERP Anbindung. WMS, MES, SDK oder eine API sind kein Nachweis
+      eines fertigen ERP Konnektors.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_api
+  key: integration.api
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
   valid_from: null
   valid_until: null
   supersedes: null
@@ -431,5 +915,48 @@ events:
   description: Allgemeine Verfügbarkeit bis Ende 2027 erwartet.
   source_ids:
   - src_digit5_launch
-extensions: []
-media: []
+extensions:
+- id: typ_besonderheit
+  title: Vorserie und Schichtbetrieb
+  description: Digit 5 bleibt ein angekündigtes Produkt. Ladetakt und Arbeitszeit pro Tag beschreiben
+    einen geplanten Betriebszyklus, keine durchgehende Batterielaufzeit oder bereits erreichte Kundenleistung.
+  claim_ids:
+  - hardware_runtime
+  - v20261030_hardware_payload_rated
+  - v20261030_hardware_charge_time
+media:
+- id: herstellerbild
+  type: rendering
+  url: https://cdn.prod.website-files.com/68d6ca150ffa11fdc25d7575/6aa86cf4c18af6ed6a54bd80_digit-5.avif
+  local_path: null
+  source_id: src_digit5_product
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Offizielle Digit 5 Produktdarstellung. Vorserie; Hersteller weist auf illustrative und animierte
+    Inhalte hin.
+- id: digit5_datenblattzugang
+  type: datenblatt
+  url: https://www.agilityrobotics.com/solutions/digit/product-sheet
+  local_path: null
+  source_id: src_digit5_sheet_access_20261030
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: en
+  sha256: null
+  scope: Product Sheet Zugang über Formular. Kein frei zugängliches PDF festgestellt.
+- id: digit5_vorstellung
+  type: video
+  url: https://www.agilityrobotics.com/solutions/digit-5
+  local_path: null
+  source_id: src_digit5_product
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis, keine Kopie und keine freie
+    Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Offizielle Digit 5 Vorstellung mit eingebetteten Videos. Vorläufige und teilweise illustrative
+    Inhalte.

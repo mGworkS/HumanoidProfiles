@@ -13,7 +13,7 @@ Derzeit kein ausreichend zugeordneter aktueller Kandidat im geprüften Screening
 
 | Roboter | Hersteller | Ursprungsland | Vorstellung | Verkaufsstart | Zugang / Stand | Höhe | Payload / Lastbezug |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Pepper · klassische Plattform](../roboter/pepper_classic/README.md) | [SoftBank Robotics](../hersteller/softbank_robotics/README.md) | Frankreich / Japan [H](../roboter/pepper_classic/README.md#identity-origin-country) | 2014-06-05 [H](../roboter/pepper_classic/README.md#lifecycle-first-presented) | Nicht erfasst | Historisch; Unbekannt [B](../roboter/pepper_classic/README.md#screening) | 1.21 m [H](../roboter/pepper_classic/README.md#hardware-height) | Nicht erfasst |
+| [Pepper · klassische Plattform](../roboter/pepper_classic/README.md) | [SoftBank Robotics](../hersteller/softbank_robotics/README.md) | Frankreich / Japan [H](../roboter/pepper_classic/README.md#identity-origin-country) | 2014-06-05 [H](../roboter/pepper_classic/README.md#lifecycle-first-presented) | 2015-06-20 [H](../roboter/pepper_classic/README.md#v20261030-lifecycle-sales-start) | Historisch; Unbekannt · 2026-10-30 [B](../roboter/pepper_classic/README.md#screening) | 1.21 m [H](../roboter/pepper_classic/README.md#v20261030-hardware-height) | Nicht erfasst |
 
 </details>
 

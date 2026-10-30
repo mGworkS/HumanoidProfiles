@@ -27,3 +27,11 @@ Tests prüfen Filter, unbekannte Werte, Quellenreferenzen und Löschung aus dem 
 ## Gemeinsame Screeningregeln
 
 Exportabschnitte enthalten screening_section, screening und official_link. Die Hauptansicht und query --mode screening verwenden dieselbe Auswahlfunktion. Ein RAG Import muss dieses Feld als echten Filter übernehmen. reference bleibt für vollständige historische und wissenschaftliche Recherche verfügbar. procurement verlangt weiterhin konkrete bestätigte Angebote mit passender Region und Zielgruppe; die bloße Aufnahme in die Screeningübersicht erfüllt diese strengere Bedingung nicht.
+
+## KI Beziehungen, Medien und Spezialinformationen
+
+robots.json enthält ai_systems mit System, Version, Rolle, relationship, Status, Bedingungen und Quellen. simulation darf bei einer Anfrage nach bestätigter Hardwarekompatibilität nicht als erfüllt behandelt werden. Eine Forschungskooperation oder ein angekündigtes Modell ist kein heute lieferbarer Kundenstack. Keine Liste bedeutet nicht grundsätzlich inkompatibel.
+
+Medienverweise und extensions werden sowohl als Metadaten als auch als eigene Abschnitte exportiert. media Abschnitte enthalten keinen automatisch gelesenen PDF Volltext und keine Videotranskription. Ein späterer Dokumentimport muss Dateirechte, Modellbezug, Version und Extraktion selbst prüfen. Spezialinformationen verweisen über claim_ids auf ihre Belege.
+
+capabilities enthält Funktion, Aussage, Status, delivery, Bedingungen und Quellen. Bei Fragen nach sofort nutzbaren Fähigkeiten müssen Lieferumfang und Belegstand zusammen gefiltert werden. demo, eigene_entwicklung, projektintegration, angekuendigt und unbekannt erfüllen keinen Filter auf enthalten. Auch enthalten gilt nur unter den aufgezeichneten Konfigurationsbedingungen. Eine Flottenplattform ersetzt keinen belegten ERP Konnektor.

@@ -32,6 +32,8 @@ SDK, API, Quellcode, Gewichte, Trainingsdaten, Trainingscode, Policy Training, A
 
 Cloudabhängigkeit, eigenes App Deployment, Marketplace, Integratoren und Betrieb ohne Abo gesondert prüfen. Unterschiedliche Entwicklereditionen gehören in den Geltungsbereich der Aussage.
 
+Fähigkeit und Lieferumfang sind unabhängig. context.bereitstellung beschreibt, ob eine Funktion enthalten, konfigurationsabhängig, ein Zusatzpaket, ein Integrationsprojekt, eigene Entwicklung, eine Demo, angekündigt oder unbekannt ist. Nur ein passender Produkt oder Kundenbeleg darf enthalten bestätigen. Ein SDK, ein Video oder ein Simulationsmodell reicht dafür nicht aus. Navigation, Flottenmanagement und ERP, WMS, WES sowie MES Integration getrennt behandeln.
+
 ## Freie Ergänzungen
 
 Ein neuer Merkmalschlüssel wird in schema/merkmale.yaml mit lesbarem Namen, Gruppe, Datentyp und Einheit ergänzt. Erweiterungstexte in extensions erklären individuelle Besonderheiten und verweisen auf konkrete Aussage IDs. Freitext darf keine unbemerkte zweite Datenquelle für Zahlen oder Lieferstatus werden.

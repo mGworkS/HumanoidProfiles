@@ -2,9 +2,15 @@
 
 # Figure
 
-Organisation beziehungsweise Organisationsgruppe aus dem bisherigen Bestand. Die genaue Rolle als Hersteller, Entwickler, Betreiber oder Konsortium ist noch zu prüfen.
+Entwickler der Figure Generationen und Helix KI. Hardwaregeneration und Softwareversion getrennt behandeln.
 
-Unternehmensgeschichte, offizielle Website, Integration und Service wurden beim Import nicht erneut recherchiert. Verweise im automatisch erzeugten Portfolio führen zu den erfassten Systemen.
+Dieser Prüfstand betrifft Website und das hier ausgearbeitete Portfolio. Vollständige Unternehmensgeschichte, Servicebedingungen und globale Vertriebslage sind nicht damit abschließend geprüft.
+
+| Steckbrief | Angabe |
+| --- | --- |
+| Offizielle Website | [https://www.figure.ai/](https://www.figure.ai/) |
+| Organisationstyp | unternehmen |
+| Profilstand | 2026-10-30 |
 
 ## Erfasstes Portfolio
 
@@ -17,3 +23,4 @@ Unternehmensgeschichte, offizielle Website, Integration und Service wurden beim 
 * [Bestandsposition B20: Figure 02](../../quellen/src_import_b20.md)
 * [Bestandsposition B21: Figure 03](../../quellen/src_import_b21.md)
 * [Bestandsposition N65: Figure 01](../../quellen/src_import_n65.md)
+* [Figure Unternehmensgeschichte und Generationen](../../quellen/src_figure_company_20261030.md)

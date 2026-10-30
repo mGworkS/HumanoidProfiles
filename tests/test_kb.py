@@ -84,17 +84,22 @@ class KnowledgeTests(unittest.TestCase):
   self.assertEqual({p['origin'] for p in rows},expected)
   targets=[rid for p in rows for rid in p['target_ids']]
   self.assertEqual(len(targets),len(set(targets)))
-  self.assertEqual(set(targets),set(kb.load()[2]))
+  additions=json.loads((kb.ROOT/'recherche/importe/ergaenzungen_20261030_profile.json').read_text())['created_ids']
+  self.assertFalse(set(targets)&set(additions))
+  self.assertEqual(set(targets)|set(additions),set(kb.load()[2]))
   self.assertTrue(set(manifest['preserved_seed_ids']).issubset(targets))
  def test_imports_do_not_invent_facts_or_offers(self):
   manifest=json.loads((kb.ROOT/'recherche/importe/zuordnung_20261029.json').read_text())
   robots=kb.load()[2]
   for rid in manifest['created_ids']:
    meta,data,body=robots[rid]
-   self.assertEqual(meta['maintenance']['status'],'erfasst')
-   self.assertIsNone(meta['maintenance']['reviewed_at'])
-   self.assertFalse(data['offers'])
-   self.assertTrue(all(c['value'] is None or (c['sources'] and c['checked_at'] and c['evidence'] in ['projektkatalog','herstellerangabe','herstellerdemo']) for c in data['claims']))
+   if meta['maintenance']['status']=='erfasst':
+    self.assertIsNone(meta['maintenance']['reviewed_at'])
+    self.assertFalse(data['offers'])
+    self.assertTrue(all(c['value'] is None or (c['sources'] and c['checked_at'] and c['evidence'] in ['projektkatalog','herstellerangabe','herstellerdemo']) for c in data['claims']))
+   else:
+    self.assertIsNotNone(meta['maintenance']['reviewed_at'])
+    self.assertTrue(all(c['value'] is None or (c['sources'] and c['checked_at'] and c['evidence']!='keine') for c in data['claims']))
  def test_same_name_different_manufacturers_remain_distinct(self):
   robots=kb.load()[2]
   g1=[m for m,d,b in robots.values() if m['name']=='G1']

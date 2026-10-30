@@ -349,7 +349,7 @@ claims:
     note: Katalogangabe; Revision und Ausstattung beachten
   checked_at: '2026-10-30'
   valid_from: null
-  valid_until: null
+  valid_until: '2026-10-30'
   supersedes: null
 - id: hardware_payload_description
   key: hardware.payload_description
@@ -365,9 +365,753 @@ claims:
     note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
   checked_at: '2026-10-30'
   valid_from: null
+  valid_until: '2026-10-30'
+  supersedes: null
+- id: v20261030_hardware_height
+  key: hardware.height
+  value: 1.9
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_height
+- id: v20261030_hardware_mass
+  key: hardware.mass
+  value: 90
+  unit: kg
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_mass
+- id: v20261030_hardware_dof
+  key: hardware.dof
+  value: 56
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_payload_rated
+  key: hardware.payload_rated
+  value: 30
+  unit: kg
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context:
+    lastbezug: Sustained laut Datenblatt; nicht als Last je Arm ausgewiesen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_payload_peak
+  key: hardware.payload_peak
+  value: 50
+  unit: kg
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context:
+    lastbezug: Instant laut Datenblatt; kein Dauerlastwert
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_payload_arm
+  key: hardware.payload_arm
+  value: 20
+  unit: kg
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context:
+    lastbezug: One Handed; einhändiger Lastfall, zulässige Haltung separat prüfen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_payload_arm
+- id: v20261030_hardware_reach
+  key: hardware.reach
+  value: 2.3
+  unit: m
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_reach
+- id: v20261030_hardware_runtime
+  key: hardware.runtime
+  value: 240
+  unit: min
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context:
+    lastprofil: allgemeiner Herstellerwert; bei schwerem Heben 120 Minuten
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: hardware_runtime
+- id: v20261030_hardware_charge_time
+  key: hardware.charge_time
+  value: 90
+  unit: min
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_battery_swap_time
+  key: hardware.battery_swap_time
+  value: 3
+  unit: min
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context:
+    modus: autonomer Batteriewechsel an vorgesehener Station
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_environment_ip
+  key: environment.ip
+  value: IP67
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: environment_ip
+- id: v20261030_environment_temperature
+  key: environment.temperature
+  value:
+  - -20
+  - 40
+  unit: degC
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Specifications'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_runtime_heavy
+  key: hardware.runtime
+  value: 120
+  unit: min
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Battery Life with Heavy Lifting'
+  context:
+    lastprofil: schweres Heben; gesonderter Betriebsfall
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_hardware_sensors
+  key: hardware.sensors
+  value: Taktile Finger und Handflächen sowie Kameraabdeckung rundum
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Sensing'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_autonomy_scope
+  key: autonomy.scope
+  value: Autonomer Betrieb, VR Teleoperation und Tabletsteuerung vorgesehen; konkrete Aufgabe benötigt
+    Integration
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Operating Modes'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: autonomy_scope
+- id: v20261030_ecosystem_integration
+  key: ecosystem.integration
+  value: Orbit für MES und WMS Verbindung, Flottenverwaltung und Betriebsdaten; Barcode und RFID im Arbeitsablauf
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seiten 1 und 2: Orbit und Workflow Integrations'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_maintenance_modularity
+  key: maintenance.modularity
+  value: Modulare, im Feld austauschbare Bauteile und Zertifizierung für Kundenreparatur
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Serviceability'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_openness_repair
+  key: openness.repair
+  value: Kundenreparatur mit Zertifizierung angeboten; keine uneingeschränkte Hardwareoffenheit
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Customer self repair certification'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_safety_human_contact
+  key: safety.human_contact
+  value: Hersteller nennt Menschenerkennung und Betrieb ohne klassischen Schutzzaun; projektspezifische
+    Risikobeurteilung erforderlich
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 2: Safety System'
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: v20261030_openness_sdk
+  key: openness.sdk
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Ein allgemein öffentlich zugänglicher Atlas Kunden SDK wurde im geprüften Quellenumfang nicht
+      bestätigt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: openness_sdk
+- id: v20261030_openness_policy_training
+  key: openness.policy_training
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Anpassung mit dem Anbieter ist beschrieben; freie eigene Policies, Gewichte und Lizenzen separat
+      bestätigen
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: openness_policy_training
+- id: v20261030_ecosystem_subscription
+  key: ecosystem.subscription
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    offen: Orbit Integration beschrieben; verpflichtende Vertrags und Abo Struktur nicht öffentlich eindeutig
+      belegt
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: ecosystem_subscription
+- id: atlas_own_control
+  key: software.ai_stack
+  value: Boston Dynamics Ganzkörper und Manipulationsregelung
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_nvidia_20250318
+    locator: Whole body and manipulation controllers
+  context:
+    system: Boston Dynamics Ganzkörper und Manipulationsregelung
+    version: nicht benannt
+    rolle: Bewegungs und Aufgabensteuerung
+    bezug: herstellersteuerung
+    grenze: Eigene Regelung genannt; Foundation Modellkonfiguration eines konkreten 2026 Seriengeräts
+      nicht vollständig offengelegt.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: atlas_gemini
+  key: software.compatible_models
+  value: Gemini Robotics
+  unit: null
+  status: angekuendigt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_gemini_20260105
+    locator: Joint research and new fleet
+  context:
+    system: Gemini Robotics
+    version: nicht benannt
+    rolle: Foundation Modelle für Industrieaufgaben
+    bezug: forschungskooperation
+    grenze: Kooperation für neue Atlas Flotte angekündigt. Kein zugesicherter frei austauschbarer Kundenstack
+      oder bestätigtes Lieferpaket.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: atlas_nvidia_frameworks
+  key: software.frameworks
+  value: NVIDIA Isaac GR00T Plattform, Isaac Lab und Isaac Sim in der elektrischen Atlas Entwicklung
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_nvidia_20250318
+    locator: NVIDIA collaboration
+  context:
+    grenze: GR00T Plattform ist kein Nachweis einer bestimmten GR00T N Modellversion auf jedem Atlas Produktgerät
+      2026
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_walking
+  key: mobility.walking
+  value: Bewegung zwischen Arbeitsstationen und Aufgaben im Industriebereich beschrieben
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 1: Deploy without disruption'
+  context:
+    bereitstellung: projektintegration
+    bedingung: Konkrete Wege und Arbeitsstationen müssen eingerichtet werden.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_manipulation_pick_place
+  key: manipulation.pick_place
+  value: Teilehandhabung, Sequenzierung und Maschinenbeschickung als Aufgaben beschrieben
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 1: Shared fleet intelligence'
+  context:
+    bereitstellung: projektintegration
+    bedingung: Hersteller nennt vorhandene Grundintelligenz; konkrete Aufgabe muss angepasst und abgenommen
+      werden.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_scope
+  key: navigation.scope
+  value: Autonomes Anfahren der Batteriewechselstation beschrieben
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 1: Operate continuously'
+  context:
+    bereitstellung: projektintegration
+    bedingung: Vorgesehene Station und Inbetriebnahme erforderlich. Keine separate frei verwendbare Kunden
+      Navigations API bestätigt.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_fleet_management
+  key: fleet.management
+  value: Orbit für Flottenübersicht, Betriebskennwerte und Aufgabenverwaltung
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 1: Orbit'
+  context:
+    bereitstellung: projektintegration
+    bedingung: Vertragsumfang und Preis separat; bestehender Orbit Zugang allein belegt keine enthaltene
+      Atlas Lizenz.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wms
+  key: integration.wms
+  value: Orbit Verbindung zu WMS beschrieben
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 1: Orbit'
+  context:
+    bereitstellung: projektintegration
+    bedingung: Konkreter Hersteller, Konnektor und Aufwand nicht öffentlich präzisiert.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_mes
+  key: integration.mes
+  value: Orbit Verbindung zu MES beschrieben
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_atlas_sheet_20261015
+    locator: 'Seite 1: Orbit'
+  context:
+    bereitstellung: projektintegration
+    bedingung: Konkreter Hersteller, Konnektor und Aufwand nicht öffentlich präzisiert.
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_running
+  key: mobility.running
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_jumping
+  key: mobility.jumping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine belastbare editionsbezogene Lieferfunktion im geprüften Umfang; spektakuläre Vorführungen
+      nicht ungeprüft übernehmen.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_dancing
+  key: mobility.dancing
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_steps_up
+  key: mobility.steps_up
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_steps_down
+  key: mobility.steps_down
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_uneven_ground
+  key: mobility.uneven_ground
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_rubble
+  key: mobility.rubble
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_obstacles
+  key: mobility.obstacles
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_mobility_self_recovery
+  key: mobility.self_recovery
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_mapping
+  key: navigation.mapping
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_navigation_obstacle_avoidance
+  key: navigation.obstacle_avoidance
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_erp
+  key: integration.erp
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Keine bestätigte direkte ERP Anbindung. WMS, MES, SDK oder eine API sind kein Nachweis
+      eines fertigen ERP Konnektors.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_wes
+  key: integration.wes
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: cap20261030_integration_api
+  key: integration.api
+  value: null
+  unit: null
+  status: unbekannt
+  evidence: keine
+  sources: []
+  context:
+    bereitstellung: unbekannt
+    bedingung: Kein modellspezifischer Nachweis oder konkretes Lieferpaket im geprüften Umfang.
+  checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: atlas_lbm_background
+  key: software.related_research
+  value: Atlas Large Behavior Model von Boston Dynamics und TRI
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerdemo
+  sources:
+  - source_id: src_atlas_lbm_2025
+    locator: Large Behavior Models and Atlas
+  - source_id: src_atlas_tri_lbm_20250820
+    locator: Datierte Pressemitteilung vom 20. August 2025
+  context:
+    system: Atlas Large Behavior Model von Boston Dynamics und TRI
+    version: Forschungsstand 2025
+    rolle: Ganzkörper Manipulationsforschung
+    bezug: forschung_vorgaenger
+    grenze: Frühere elektrische Atlas Forschungsplattform. Keine Übertragung als bestätigter KI Stack
+      der Produktversion 2026.
+  checked_at: '2026-10-30'
+  valid_from: null
   valid_until: null
   supersedes: null
 offers: []
-events: []
-extensions: []
-media: []
+events:
+- id: kunden_2027
+  type: kundenzugang_geplant
+  date: '2027'
+  status: angekuendigt
+  description: Weitere Kunden nach den Partnerkontingenten 2026 angekündigt.
+  source_ids:
+  - src_atlas_2026_launch
+extensions:
+- id: typ_besonderheit
+  title: Batteriewechsel und lastabhängige Laufzeit
+  description: Autonomer Batteriewechsel unterstützt längeren Betrieb. Er ist von der Ladezeit einer Batterie
+    und von der nutzlastabhängigen Batterielaufzeit zu unterscheiden.
+  claim_ids:
+  - v20261030_hardware_runtime
+  - v20261030_hardware_charge_time
+  - v20261030_hardware_battery_swap_time
+  - v20261030_hardware_runtime_heavy
+media:
+- id: herstellerbild
+  type: foto
+  url: https://bostondynamics.com/wp-content/uploads/2025/12/atlas-battery-walk-real-collage-768x1245-1.png
+  local_path: null
+  source_id: src_atlas_current
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Offizielle Abbildung der elektrischen Atlas Produktversion. Keine Darstellung des hydraulischen
+    Vorgängers.
+- id: atlas_datenblatt
+  type: datenblatt
+  url: https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf
+  local_path: null
+  source_id: src_atlas_sheet_20261015
+  rights: Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository
+    und keine freie Nachnutzungslizenz behauptet.
+  version: Rev 10/15/2026
+  language: en
+  sha256: c91ded77a6eba8f6a68450a9e195dd6d1d75d61662c0f808b483053eb0e0a1dd
+  scope: Original PDF zur elektrischen Produktversion; Dauerlast, Spitzenlast und Schwerlastlaufzeit getrennt
+    lesen.
+- id: atlas_produktfilm
+  type: video
+  url: https://bostondynamics.com/products/atlas/
+  local_path: null
+  source_id: src_atlas_current
+  rights: Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis, keine Kopie und keine freie
+    Nachnutzungslizenz behauptet.
+  version: null
+  language: null
+  sha256: null
+  scope: Offizielle elektrische Atlas Produktvorstellung mit Herstellerfilmen; Produktversion 2026 beachten.

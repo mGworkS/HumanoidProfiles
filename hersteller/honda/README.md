@@ -6,6 +6,12 @@ Startprofil zur Zuordnung der Robotermodelle. Unternehmenshistorie, Eigentümers
 
 Das Portfolio wird in [README.md](README.md) automatisch erzeugt. Logos werden erst mit dokumentierter Herkunft und geklärten Nutzungsrechten gespeichert.
 
+| Steckbrief | Angabe |
+| --- | --- |
+| Offizielle Website | [https://global.honda/](https://global.honda/) |
+| Organisationstyp | unternehmen |
+| Profilstand | 2026-10-29 |
+
 ## Erfasstes Portfolio
 
 * [ASIMO · Version 2011](../../roboter/honda_asimo_2011/README.md)

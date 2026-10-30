@@ -4,9 +4,11 @@
 
 Wissensbasis zur Auswahl humanoider Roboter und zur branchenübergreifenden Recherche.
 
-**[Aktuelle Roboter vergleichen](katalog/aktuelle_auswahl.md): 71 Einträge** mit Hersteller, Ursprungsland, Vorstellung, Verkaufsstart, Zugang, Höhe und Payload. Vorbestellungen und kommerziell vorgestellte Entwicklungen sind eingeschlossen und erkennbar. Die Auswahl wird durch dokumentierte Quellen und Aktualität begrenzt.
+**[Aktuelle Roboter vergleichen](katalog/aktuelle_auswahl.md): 74 Einträge** mit Hersteller, Ursprungsland, Vorstellung, Verkaufsstart, Zugang, Höhe und Payload. Vorbestellungen und kommerziell vorgestellte Entwicklungen sind eingeschlossen und erkennbar. Die Auswahl wird durch dokumentierte Quellen und Aktualität begrenzt.
 
-**Wissensbestand:** 236 Profile (2 Entwicklungsprogramme, 8 Familien, 209 Modelle, 17 Varianten). Unterschiedliche Varianten und Quellenstände beachten.
+**Wissensbestand:** 239 Profile (2 Entwicklungsprogramme, 8 Familien, 209 Modelle, 20 Varianten). Unterschiedliche Varianten und Quellenstände beachten.
+
+**[Gesamtbestand](katalog/README.md)** · **[Herstellerübersicht](hersteller/README.md)**
 
 **[Legende zu Spalten, Kürzeln und Nachweisen](docs/legende.md)**
 
@@ -46,8 +48,8 @@ Ein Roboter darf unter mehreren Branchen oder Aufgaben erscheinen. Alle Links ze
 
 * [Vorbestellungen und vorgestellte Entwicklungen](katalog/entwicklungspipeline.md)
 * [Forschungsplattformen ohne bestätigten externen Zugang](katalog/forschungsplattformen.md)
-* [Noch zu prüfende Einträge](katalog/ungeprueft.md)
 * [Historie und frühere Generationen](katalog/historie.md)
+* [Noch zu prüfende Einträge](katalog/ungeprueft.md)
 * [Gesamtbestand in getrennten Tabellen](katalog/gesamtbestand.md)
 
 ## Pflegen und erweitern

@@ -23,3 +23,13 @@ Bau und Bauwirtschaft sowie alle weiteren registrierten Branchen sind sichtbar. 
 Daten aus den gelieferten Fachkatalogen zur Übersicht ergänzt. Einzelne aktuelle Quellen zu DR02, G1, H1, TALOS, Atlas, Figure 02 und HRP-5P gezielt geprüft. Kein neuer globaler Vollrecherchelauf.
 
 Zentrale Legende zu technischen Merkmalen, Einheiten, Quellenkennzeichnungen, Zugangsarten, Lebenszyklus und Entwicklerbegriffen ergänzt und in allen Übersichten und Steckbriefen verlinkt.
+
+## 0.4.0 · 30. Oktober 2026
+
+15 ausgewählte Profile zu G1, 4NE1, Digit, Figure, Pepper und elektrischem Atlas anhand von Originalquellen vertieft. Drei zusätzliche Varianten ergeben insgesamt 239 Profile. Bilder, verfügbare Vorstellungsvideos, Datenblätter und technische HTML Quellen mit Version, Herkunft, Rechten und Modellbezug erfasst. Fehlende oder nur über Formular verfügbare PDFs ausdrücklich benannt.
+
+Steckbriefe zeigen zentrale Angaben als Tabelle. KI Modelle, Rollen, Integrationen und Voraussetzungen sind gesondert sichtbar; Simulation, Entwicklung und Serienumfang bleiben unterscheidbar. Individuelle Besonderheiten erhalten einen freien Abschnitt mit strukturierten Belegverweisen. Medien und Besonderheiten werden im RAG Export mitgeführt.
+
+Fähigkeiten und Lieferumfang pro Funktion getrennt ergänzt: Fortbewegung, Gelände, Treppen, Springen, Tanzen, Aufstehen und Pick and Place. Navigation, Kartierung, Flottenmanagement sowie ERP, WMS, WES, MES und APIs besitzen eine eigene Tabelle. Vorführung, Zusatzpaket, Eigenentwicklung, Projektintegration und bestätigter Lieferumfang werden ausdrücklich unterschieden und im Export mitgeführt.
+
+Katalogordner öffnet den Gesamtbestand, Herstellerordner eine Organisationsübersicht. Ungeprüfte Einträge stehen nach der Historie. Neue technische Aussagen ersetzen ältere Importzusammenfassungen nachvollziehbar; Generationen werden nicht vermischt.

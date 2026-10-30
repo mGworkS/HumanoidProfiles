@@ -3,16 +3,17 @@ schema_version: '1.0'
 id: neura_robotics
 name: NEURA Robotics
 aliases: []
-website: null
-organisationstyp: andere
+website: https://neura-robotics.com/
+organisationstyp: unternehmen
 source_ids:
 - src_import_b02
 - src_import_b03
-reviewed_at: '2026-10-29'
+- src_neura_gen4_launch_20261030
+reviewed_at: '2026-10-30'
 ---
 
 # NEURA Robotics
 
-Organisation beziehungsweise Organisationsgruppe aus dem bisherigen Bestand. Die genaue Rolle als Hersteller, Entwickler, Betreiber oder Konsortium ist noch zu prüfen.
+Hersteller von 4NE1 und 4NE1 Mini. Gen4 und Mini Konfigurationen besitzen unterschiedliche Unterlagen und Zugangsstände.
 
-Unternehmensgeschichte, offizielle Website, Integration und Service wurden beim Import nicht erneut recherchiert. Verweise im automatisch erzeugten Portfolio führen zu den erfassten Systemen.
+Dieser Prüfstand betrifft Website und das hier ausgearbeitete Portfolio. Vollständige Unternehmensgeschichte, Servicebedingungen und globale Vertriebslage sind nicht damit abschließend geprüft.
