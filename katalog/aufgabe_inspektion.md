@@ -10,4 +10,4 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [DR02](../roboter/deep_dr02/README.md) | [DEEP Robotics](../hersteller/deep_robotics/README.md) | China [H](../roboter/deep_dr02/README.md#identity-origin-country) | 2025-10-09 [H](../roboter/deep_dr02/README.md#lifecycle-first-presented) | Nicht erfasst | Vorgestellt / angekündigt · 2026-10-29 [B](../roboter/deep_dr02/README.md#screening) | 1.75 m [H](../roboter/deep_dr02/README.md#hardware-height) | 10 kg beidhändig [H](../roboter/deep_dr02/README.md#hardware-payload-two-arms) |
 
-[Auswahlübersicht](aktuelle_auswahl.md) · [Gesamtbestand in getrennten Tabellen](gesamtbestand.md)
+[Auswahlübersicht](aktuelle_auswahl.md) · [Katalog und Gesamtbestand](../KATALOG.md) · [Herstellerübersicht](../HERSTELLER.md) · [Einordnung und alle Tags](../docs/einordnung_und_tags.md)

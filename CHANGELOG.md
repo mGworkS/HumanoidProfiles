@@ -33,3 +33,11 @@ Steckbriefe zeigen zentrale Angaben als Tabelle. KI Modelle, Rollen, Integration
 Fähigkeiten und Lieferumfang pro Funktion getrennt ergänzt: Fortbewegung, Gelände, Treppen, Springen, Tanzen, Aufstehen und Pick and Place. Navigation, Kartierung, Flottenmanagement sowie ERP, WMS, WES, MES und APIs besitzen eine eigene Tabelle. Vorführung, Zusatzpaket, Eigenentwicklung, Projektintegration und bestätigter Lieferumfang werden ausdrücklich unterschieden und im Export mitgeführt.
 
 Katalogordner öffnet den Gesamtbestand, Herstellerordner eine Organisationsübersicht. Ungeprüfte Einträge stehen nach der Historie. Neue technische Aussagen ersetzen ältere Importzusammenfassungen nachvollziehbar; Generationen werden nicht vermischt.
+
+## 0.4.1 · 30. Oktober 2026
+
+Falsch zugeordnetes Unitree Navigationsbild bei G1 und G1 EDU durch eine visuell geprüfte G1 Abbildung aus dem offiziellen Herstellershop ersetzt. Modellzuordnung, Herkunft und Prüfsumme aktualisiert.
+
+Direkte Dokumenteinstiege KATALOG.md und HERSTELLER.md ergänzt und von der Startseite sowie den Profilen verlinkt. Sie öffnen die Markdown Übersicht ohne vorgeschaltete Ordnerliste. Bestehende Verzeichnisansichten bleiben erreichbar.
+
+Einordnung zeigt jetzt lesbare Statusnamen wie Aktuelles Modell. Alle sieben Statuswerte sind erklärt. Branchen, Aufgaben und Umgebungen stehen getrennt im Steckbrief; eine automatisch gepflegte Übersicht listet alle verfügbaren Tags mit ihren Zuordnungen. Maschinencodes bleiben stabil.

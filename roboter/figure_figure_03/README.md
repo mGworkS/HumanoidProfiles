@@ -2,6 +2,8 @@
 
 # Figure 03
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Figure 03 ist die aktuelle Generation mit Helix basierter Ganzkörpersteuerung und industriellen sowie häuslichen Entwicklungszielen.
 
 ![Offizielle Figure 03 Produktabbildung.](https://images.ctfassets.net/qx5k8y1u9drj/6rREWE2DjWe7W3AFbZYSyH/21889f6a8f17464410b45c9ae12b718a/human-form-module-figure-3-image-v3.png?fm=webp&q=70&w=3840)
@@ -19,10 +21,12 @@ Bildquelle: [Figure AI](../../quellen/src_figure03_specs_20261030.md). Rechte be
 | Vorstellung und weitere Videos | [Offizielle Figure 03 Vorstellung und Produktfilm.](https://www.figure.ai/news/introducing-figure-03)<br>[Figure 03 Sequenzierung und Wagenhandhabung bei BMW, Herstellerdemo.](https://www.figure.ai/news/f-03-at-bmw)<br>[Helix 02 Ganzkörperdemo auf Figure 03 mit Küchenablauf.](https://www.figure.ai/news/helix-02)<br>[Helix 2.5 Entwicklungsdemos; Aufgaben und Testbedingungen im Bericht beachten.](https://www.figure.ai/news/helix-2-5-zero-shot-30-home-generalization) | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [Offizielle technische HTML Tabelle. Kein separates frei zugängliches Original PDF gefunden.](https://www.figure.ai/figure)<br>[Technischer Entwicklungsbericht zu Helix 02 auf Figure 03; kein Kunden SDK Handbuch.](https://www.figure.ai/news/helix-02) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | gegenwaertig | Aktuelle Generation mit dokumentierter Produktion und Herstellerdemo bei BMW; allgemeiner Kaufzugang nicht bestätigt. |
+| Einordnung | [Aktuelles Modell](../../docs/einordnung_und_tags.md#einordnung) | Aktuelle Generation mit dokumentierter Produktion und Herstellerdemo bei BMW; allgemeiner Kaufzugang nicht bestätigt. |
 | Geltungsbereich | Figure 03. Daten und Fähigkeiten anderer Generationen werden nicht übertragen. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Industrie (dokumentierter_einsatz), Logistik (dokumentierter_einsatz), Manipulation (herstellerziel), Haushalt (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Industrie](../../katalog/branche_industrie.md) (Dokumentierter Einsatz)<br>[Logistik](../../katalog/branche_logistik.md) (Dokumentierter Einsatz)<br>[Haushalt](../../katalog/branche_haushalt.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Manipulation](../../katalog/aufgabe_manipulation.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2025-10-09 (öffentliche Ankündigung; kein Verkaufsstart) | [belegt / herstellerangabe](#v20261030-lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

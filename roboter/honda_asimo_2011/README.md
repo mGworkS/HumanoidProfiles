@@ -2,6 +2,8 @@
 
 # ASIMO · Version 2011
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Historischer humanoider Entwicklungsträger. Erfasst wegen der Nutzung im Betrachtungszeitraum ab 2016. Kein reguläres Kaufprodukt aus der historischen Bedeutung ableiten.
 
 ## Steckbrief
@@ -15,10 +17,12 @@ Historischer humanoider Entwicklungsträger. Erfasst wegen der Nutzung im Betrac
 | Vorstellung und weitere Videos | Noch kein geprüfter Link erfasst | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | Noch kein geprüfter Link erfasst | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | historischer_entwicklungstraeger | Historische Forschungsplattform; dokumentierter Museumseinsatz bis 2022. Kein aktueller Beschaffungsnachweis. |
+| Einordnung | [Historische Entwicklungsplattform](../../docs/einordnung_und_tags.md#einordnung) | Historische Forschungsplattform; dokumentierter Museumseinsatz bis 2022. Kein aktueller Beschaffungsnachweis. |
 | Geltungsbereich | Spezifikationsstand November 2011. Frühere ASIMO Versionen und die Familie ab 2000 sind nicht derselbe Datensatz. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-29 |
-| Branchen, Aufgaben und Umgebung | Forschung (herstellerziel), Bildung (dokumentierter_einsatz), Interaktion (herstellerziel), Umgebung mit Besuchern oder Kunden (dokumentierter_einsatz) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Forschung](../../katalog/branche_forschung.md) (Herstellerziel)<br>[Bildung](../../katalog/branche_bildung.md) (Dokumentierter Einsatz) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Interaktion](../../katalog/aufgabe_interaktion.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | [Umgebung mit Besuchern oder Kunden](../../katalog/umgebung_publikum.md) (Dokumentierter Einsatz) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2011-11-08 | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

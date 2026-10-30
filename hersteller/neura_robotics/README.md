@@ -1,5 +1,7 @@
 <!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->
 
+[Herstellerübersicht](../../HERSTELLER.md) · [Katalog](../../KATALOG.md)
+
 # NEURA Robotics
 
 Hersteller von 4NE1 und 4NE1 Mini. Gen4 und Mini Konfigurationen besitzen unterschiedliche Unterlagen und Zugangsstände.

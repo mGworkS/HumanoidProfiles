@@ -1,5 +1,9 @@
 # Lesbarer Steckbrief
 
+Direkte Dokumenteinstiege sind [KATALOG.md](../KATALOG.md) und [HERSTELLER.md](../HERSTELLER.md). Sie öffnen die Übersichten als Datei, ohne die GitHub Ordnerliste davor. Die bisherigen Verzeichnis README Dateien bleiben kompatible zusätzliche Ansichten.
+
+Einordnung zeigt einen verständlichen Anzeigenamen aus schema/einordnungen.yaml. Der stabile Maschinencode bleibt für bestehende Daten und RAG Filter erhalten. Branchen, Aufgaben und Umgebungen stehen getrennt und sind anklickbar. [Alle Statuswerte und Tags](einordnung_und_tags.md) werden automatisch aus den Verzeichnissen erzeugt.
+
 Die generierte README eines Roboters beginnt mit Einordnung und einem vorhandenen Herstellerbild. Eine gemeinsame Tabelle enthält Hersteller, offizielle Website, mehrere Vorstellungsvideos, Dokumente, Geltungsbereich, Tags und technische Kennwerte. Lebenszyklus, Größe, Gewicht, Nutzlast, Geschwindigkeit, Laufzeit, Batterie, IP Schutz, Autonomie und Entwicklerzugang bleiben sichtbar, auch wenn wesentliche Angaben unbekannt sind.
 
 Details zeigen Herkunft, Bedingungen, Softwarebezug und Nachweisstand. Angebote, offene Fragen und Ereignisse sind eigene Abschnitte. Die Daten werden nicht ein zweites Mal im Steckbrief gepflegt. Nicht erfasste Spezialmerkmale erzeugen keine leeren Tabellenzeilen.

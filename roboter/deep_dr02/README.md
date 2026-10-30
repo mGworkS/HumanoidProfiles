@@ -2,6 +2,8 @@
 
 # DR02
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Industrielle humanoide Plattform mit Herstellerangaben zum Ganzkörperschutz. Keine allgemeine Einsatzfreigabe aus der Produktbeschreibung ableiten.
 
 ## Steckbrief
@@ -15,10 +17,12 @@ Industrielle humanoide Plattform mit Herstellerangaben zum Ganzkörperschutz. Ke
 | Vorstellung und weitere Videos | Noch kein geprüfter Link erfasst | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | Noch kein geprüfter Link erfasst | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | gegenwaertig | Hersteller meldet kommerzielle Einsätze 2026. |
+| Einordnung | [Aktuelles Modell](../../docs/einordnung_und_tags.md#einordnung) | Hersteller meldet kommerzielle Einsätze 2026. |
 | Geltungsbereich | DR02 Grundmodell. Angaben zu DR02 Pro nicht übernehmen. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-29 |
-| Branchen, Aufgaben und Umgebung | Industrie (herstellerziel), Inspektion (herstellerziel), Außenbereich (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Industrie](../../katalog/branche_industrie.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Inspektion](../../katalog/aufgabe_inspektion.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | [Außenbereich](../../katalog/umgebung_aussen.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2025-10-09 | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

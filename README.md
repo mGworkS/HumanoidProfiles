@@ -8,7 +8,11 @@ Wissensbasis zur Auswahl humanoider Roboter und zur branchenübergreifenden Rech
 
 **Wissensbestand:** 239 Profile (2 Entwicklungsprogramme, 8 Familien, 209 Modelle, 20 Varianten). Unterschiedliche Varianten und Quellenstände beachten.
 
-**[Gesamtbestand](katalog/README.md)** · **[Herstellerübersicht](hersteller/README.md)**
+| Direkt öffnen | Inhalt |
+| --- | --- |
+| **[Katalog und Gesamtbestand](KATALOG.md)** | Alle Profile in getrennten Tabellen; direkt als Dokument öffnen. |
+| **[Herstellerübersicht](HERSTELLER.md)** | Organisationen und ihre Roboter; direkt als Dokument öffnen. |
+| **[Einordnung und alle Tags](docs/einordnung_und_tags.md)** | Statuswerte sowie Branchen, Aufgaben und Umgebungen mit Erklärung. |
 
 **[Legende zu Spalten, Kürzeln und Nachweisen](docs/legende.md)**
 

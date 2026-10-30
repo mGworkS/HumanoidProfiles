@@ -1,5 +1,7 @@
 <!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->
 
+[Herstellerübersicht](../../HERSTELLER.md) · [Katalog](../../KATALOG.md)
+
 # DEEP Robotics
 
 Startprofil zur Zuordnung der Robotermodelle. Unternehmenshistorie, Eigentümerstruktur, regionale Integratoren und Servicebedingungen sind noch zu prüfen.

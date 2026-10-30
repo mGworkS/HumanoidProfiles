@@ -141,4 +141,4 @@
 | [NAVIAI WA1](../roboter/zhejiang_humanoid_robot_innovation_center_naviai_wa1/README.md) | [Zhejiang Humanoid Robot Innovation Center](../hersteller/zhejiang_humanoid_robot_innovation_center/README.md) | Nicht erfasst | Nicht erfasst | Nicht erfasst | Aktualität / Zugang ungeklärt [B](../roboter/zhejiang_humanoid_robot_innovation_center_naviai_wa1/README.md#screening) | Nicht erfasst | Nicht erfasst |
 | [NAVIAI WA2](../roboter/zhejiang_humanoid_robot_innovation_center_naviai_wa2/README.md) | [Zhejiang Humanoid Robot Innovation Center](../hersteller/zhejiang_humanoid_robot_innovation_center/README.md) | Nicht erfasst | Nicht erfasst | Nicht erfasst | Aktualität / Zugang ungeklärt [B](../roboter/zhejiang_humanoid_robot_innovation_center_naviai_wa2/README.md#screening) | Nicht erfasst | Nicht erfasst |
 
-[Auswahlübersicht](aktuelle_auswahl.md) · [Gesamtbestand in getrennten Tabellen](gesamtbestand.md)
+[Auswahlübersicht](aktuelle_auswahl.md) · [Katalog und Gesamtbestand](../KATALOG.md) · [Herstellerübersicht](../HERSTELLER.md) · [Einordnung und alle Tags](../docs/einordnung_und_tags.md)

@@ -1,0 +1,23 @@
+schema_version: '1.0'
+values:
+  gegenwaertig:
+    label: Aktuelles Modell
+    description: Aktuell geführte Plattform. Kaufbarkeit, Produktion, Liefertermin und Einsatzreife werden separat belegt.
+  pipeline:
+    label: Angekündigtes Modell
+    description: Vorgestellte oder reservierbare Entwicklung mit noch nicht ausreichend bestätigter regulärer Bereitstellung.
+  fruehere_generation:
+    label: Frühere Generation
+    description: Durch eine neuere Generation abgelöste Ausführung. Nutzung, Verkauf und Support können weiterbestehen.
+  historisch_relevant:
+    label: Historisch bedeutsam
+    description: Für die Entwicklung humanoider Robotik wichtige ältere Plattform. Kein pauschaler Nachweis einer Einstellung.
+  historischer_entwicklungstraeger:
+    label: Historische Entwicklungsplattform
+    description: Früherer Prototyp oder Forschungsträger. Eine damalige Serienproduktion oder Vermarktung wird nicht vorausgesetzt.
+  historisches_produkt:
+    label: Historisches Produkt
+    description: Historisch eingeordnetes Produkt beziehungsweise frühere Einsatzflotte. Produktionsende, Support und mögliche Restangebote separat prüfen.
+  ungeklaert:
+    label: Noch zu prüfen
+    description: Aktueller Lebenszyklus oder passende Einordnung noch nicht ausreichend geklärt.

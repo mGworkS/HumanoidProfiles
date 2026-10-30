@@ -2,6 +2,8 @@
 
 Diese Begriffe gelten für Übersichten und Steckbriefe. Bedingungen und Quellen am einzelnen Wert haben Vorrang vor einer allgemeinen Beschreibung.
 
+Die [Übersicht zu Einordnung und allen Tags](einordnung_und_tags.md) erklärt sämtliche Statuswerte und zeigt alle verfügbaren Branchen, Aufgaben und Umgebungen. Aktuelles Modell ist eine Einordnung; Branchen und Aufgaben sind unabhängig kombinierbare Tags.
+
 ## Funktionen und Lieferumfang
 
 | Kennzeichnung | Bedeutung |

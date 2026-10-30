@@ -1,5 +1,7 @@
 <!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->
 
+[Herstellerübersicht](../../HERSTELLER.md) · [Katalog](../../KATALOG.md)
+
 # AeiROBOT
 
 Organisation beziehungsweise Organisationsgruppe aus dem bisherigen Bestand. Die genaue Rolle als Hersteller, Entwickler, Betreiber oder Konsortium ist noch zu prüfen.

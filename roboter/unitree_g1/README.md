@@ -2,11 +2,13 @@
 
 # G1
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Kompakte zweibeinige Plattform. Die Basisversion besitzt keinen zugesicherten Entwicklerzugang. Für eigene Policies die EDU Edition prüfen.
 
-![Offizielle G1 Plattformabbildung; gezeigte Hände und Zubehör sind keine Zusage für die Basisversion.](https://www.unitree.com/images/4e6266ec20b849af968750d5d432d391_1372x798.jpg)
+![Offizielle G1 Produktabbildung aus dem Unitree Shop. Gezeigte Ausstattung nicht auf jede Basis oder EDU Konfiguration übertragen.](https://cdn.shopify.com/s/files/1/0620/4932/1193/files/1_968fd08b-9aaf-4f32-b895-5c786285ee52.jpg?v=1717575256)
 
-Bildquelle: [Unitree](../../quellen/src_g1_specs_20261030.md). Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet.
+Bildquelle: [Unitree Robotics](../../quellen/src_g1_product_image_20261030.md). Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet.
 
 ## Steckbrief
 
@@ -19,10 +21,12 @@ Bildquelle: [Unitree](../../quellen/src_g1_specs_20261030.md). Rechte beim jewei
 | Vorstellung und weitere Videos | [G1 Herstellerclip aus der offiziellen Produktseite. Plattformdarstellung; Edition, Hände und Softwarestand prüfen.](https://www.unitree.com/images/7504897529034b05890225e149d3af28.mp4)<br>[Weiterer offizieller G1 Produktclip. Gezeigte Funktionen nicht pauschal als Lieferumfang werten.](https://www.unitree.com/images/fadc6f0bc26747d6b4110fd5e5657857.mp4) | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [G1 Basisversion: offizielle technische HTML Tabelle; keine separate allgemeine PDF gefunden.](https://www.unitree.com/g1/)<br>[G1 Benutzerhandbuch und Montageanleitungen im offiziellen Downloadbereich.](https://www.unitree.com/app/g1/) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | gegenwaertig | Aktuelle Herstellerseite mit eigenständiger Konfigurationsspalte. Öffentlicher Einstiegspreis; Liefertermin und Zielregion separat bestätigen. |
+| Einordnung | [Aktuelles Modell](../../docs/einordnung_und_tags.md#einordnung) | Aktuelle Herstellerseite mit eigenständiger Konfigurationsspalte. Öffentlicher Einstiegspreis; Liefertermin und Zielregion separat bestätigen. |
 | Geltungsbereich | G1 Basisversion. Andere Editionen sind eigene Profile. Technische Tabelle am 30. Oktober 2026. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Forschung (herstellerziel), Bildung (herstellerziel), Interaktion (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Forschung](../../katalog/branche_forschung.md) (Herstellerziel)<br>[Bildung](../../katalog/branche_bildung.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Interaktion](../../katalog/aufgabe_interaktion.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2024-05-13 (Plattformvorstellung; kein separates EDU Veröffentlichungsdatum) | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |
@@ -154,7 +158,7 @@ Keine zusätzlichen Ereignisse erfasst.
 | --- | --- | --- | --- |
 | datenblatt | [G1 Basisversion: offizielle technische HTML Tabelle; keine separate allgemeine PDF gefunden.](https://www.unitree.com/g1/) | Webstand 2026-10-30 | [Unitree](../../quellen/src_g1_specs_20261030.md). Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet. |
 | handbuch | [G1 Benutzerhandbuch und Montageanleitungen im offiziellen Downloadbereich.](https://www.unitree.com/app/g1/) | Nicht angegeben | [Unitree](../../quellen/src_g1_downloads_20261030.md). Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet. |
-| rendering | [Offizielle G1 Plattformabbildung; gezeigte Hände und Zubehör sind keine Zusage für die Basisversion.](https://www.unitree.com/images/4e6266ec20b849af968750d5d432d391_1372x798.jpg) | Nicht angegeben | [Unitree](../../quellen/src_g1_specs_20261030.md). Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet. |
+| rendering | [Offizielle G1 Produktabbildung aus dem Unitree Shop. Gezeigte Ausstattung nicht auf jede Basis oder EDU Konfiguration übertragen.](https://cdn.shopify.com/s/files/1/0620/4932/1193/files/1_968fd08b-9aaf-4f32-b895-5c786285ee52.jpg?v=1717575256) | Shopgalerie, geprüft 2026-10-30 | [Unitree Robotics](../../quellen/src_g1_product_image_20261030.md). Rechte beim jeweiligen Rechteinhaber. Nur externer Originalverweis; keine Kopie im Repository und keine freie Nachnutzungslizenz behauptet. |
 | video | [G1 Herstellerclip aus der offiziellen Produktseite. Plattformdarstellung; Edition, Hände und Softwarestand prüfen.](https://www.unitree.com/images/7504897529034b05890225e149d3af28.mp4) | Nicht angegeben | [Unitree](../../quellen/src_g1_specs_20261030.md). Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis, keine Kopie und keine freie Nachnutzungslizenz behauptet. |
 | video | [Weiterer offizieller G1 Produktclip. Gezeigte Funktionen nicht pauschal als Lieferumfang werten.](https://www.unitree.com/images/fadc6f0bc26747d6b4110fd5e5657857.mp4) | Nicht angegeben | [Unitree](../../quellen/src_g1_specs_20261030.md). Rechte beim jeweiligen Rechteinhaber. Externer Originalverweis, keine Kopie und keine freie Nachnutzungslizenz behauptet. |
 

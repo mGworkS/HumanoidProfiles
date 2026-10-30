@@ -4,6 +4,7 @@ from datetime import date
 from pathlib import Path
 import yaml
 from screening import section, live_claims
+from presentation import rebase_markdown_links
 
 SECTION_LABELS={'aktuell':'Aktuelle Auswahl','historie':'Historie und frühere Generationen','forschung':'Forschungsplattformen ohne bestätigten externen Zugang','ungeklaert':'Noch zu prüfende Einträge'}
 ACCESS={'bestellweg':'Kauf angeboten','vorbestellung':'Vorbestellung / Reservierung','anfrage':'Kaufanfrage','projektzugang':'Projektzugang','vorgestellt':'Vorgestellt / angekündigt','kein_bestaetigter_zugang':'Zugang nicht bestätigt','unbekannt':'Unbekannt'}
@@ -65,7 +66,7 @@ def build_catalog(root,sources,orgs,robots,metrics,axes,generated,as_of=None):
     for axis,tags in axes.items():
         for tid,tag in tags.items():
             members=[r for r,(m,d,b) in robots.items() if any(t['axis']==axis and t['id']==tid for t in m['tags'])]
-            if axis=='branche' or members:specs[f'{axis}_{tid}']=(tag['label'],members,'category')
+            specs[f'{axis}_{tid}']=(tag['label'],members,'category')
     def save(path,text):
         p=root/path;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text.rstrip()+'\n',encoding='utf-8')
     for key,(title,members,kind) in specs.items():
@@ -90,13 +91,14 @@ def build_catalog(root,sources,orgs,robots,metrics,axes,generated,as_of=None):
             for rid in members:
                 for event in robots[rid][1]['events']:
                     if event['status']=='angekuendigt':text+=f'* {robots[rid][0]["name"]}: {event["date"]}, {event["description"]}\n'
-        text+='\n[Auswahlübersicht](aktuelle_auswahl.md) · [Gesamtbestand in getrennten Tabellen](gesamtbestand.md)\n'
+        text+='\n[Auswahlübersicht](aktuelle_auswahl.md) · [Katalog und Gesamtbestand](../KATALOG.md) · [Herstellerübersicht](../HERSTELLER.md) · [Einordnung und alle Tags](../docs/einordnung_und_tags.md)\n'
         save(Path('katalog')/(key+'.md'),text)
     text=generated+'# Gesamter erfasster Bestand\n\n'+note+'Alle Profile bleiben erhalten. Für die Vorauswahl zuerst die [aktuelle Auswahl](aktuelle_auswahl.md) verwenden. Historie, Forschung und ungeklärte Einträge stehen in eigenen Tabellen.\n\n'
     for sec in ['aktuell','forschung','historie','ungeklaert']:
         text+='## '+SECTION_LABELS[sec]+f' ({len(buckets[sec])})\n\n'+render_table(buckets[sec],robots,orgs,policy,as_of)+'\n'
     save(Path('katalog/gesamtbestand.md'),text)
     save(Path('katalog/README.md'),text)
+    save(Path('KATALOG.md'),rebase_markdown_links(text,'katalog'))
     valid=set(specs)|{'gesamtbestand','README'}
     for p in (root/'katalog').glob('*.md'):
         if p.stem not in valid and p.read_text().startswith('<!-- AUTOMATISCH'):p.unlink()
@@ -105,7 +107,7 @@ def build_catalog(root,sources,orgs,robots,metrics,axes,generated,as_of=None):
     text=generated+'# HumanoidProfiles\n\nWissensbasis zur Auswahl humanoider Roboter und zur branchenübergreifenden Recherche.\n\n'
     text+=f'**[Aktuelle Roboter vergleichen](katalog/aktuelle_auswahl.md): {len(buckets["aktuell"])} Einträge** mit Hersteller, Ursprungsland, Vorstellung, Verkaufsstart, Zugang, Höhe und Payload. Vorbestellungen und kommerziell vorgestellte Entwicklungen sind eingeschlossen und erkennbar. Die Auswahl wird durch dokumentierte Quellen und Aktualität begrenzt.\n\n'
     text+='**Wissensbestand:** '+str(len(robots))+' Profile ('+', '.join(str(n)+' '+plural[k] for k,n in sorted(counts.items()))+'). Unterschiedliche Varianten und Quellenstände beachten.\n\n'
-    text+='**[Gesamtbestand](katalog/README.md)** · **[Herstellerübersicht](hersteller/README.md)**\n\n'
+    text+='| Direkt öffnen | Inhalt |\n| --- | --- |\n| **[Katalog und Gesamtbestand](KATALOG.md)** | Alle Profile in getrennten Tabellen; direkt als Dokument öffnen. |\n| **[Herstellerübersicht](HERSTELLER.md)** | Organisationen und ihre Roboter; direkt als Dokument öffnen. |\n| **[Einordnung und alle Tags](docs/einordnung_und_tags.md)** | Statuswerte sowie Branchen, Aufgaben und Umgebungen mit Erklärung. |\n\n'
     text+='**[Legende zu Spalten, Kürzeln und Nachweisen](docs/legende.md)**\n\n## Aktuelle Auswahl nach Branchen\n\nEin Roboter darf unter mehreren Branchen oder Aufgaben erscheinen. Alle Links zeigen auf dasselbe Profil. Die Zuordnung ist keine Eignungszusage. Kategorien bleiben auch ohne aktuellen Treffer sichtbar.\n\n'
     for tid,tag in axes['branche'].items():text+=f'* [{tag["label"]}](katalog/branche_{tid}.md)\n'
     text+='\n## Aufgaben\n\n'
@@ -116,4 +118,19 @@ def build_catalog(root,sources,orgs,robots,metrics,axes,generated,as_of=None):
         if key.startswith('umgebung_'):text+=f'* [{title}](katalog/{key}.md)\n'
     text+='\n## Weitere Ansichten\n\n* [Vorbestellungen und vorgestellte Entwicklungen](katalog/entwicklungspipeline.md)\n* [Forschungsplattformen ohne bestätigten externen Zugang](katalog/forschungsplattformen.md)\n* [Historie und frühere Generationen](katalog/historie.md)\n* [Noch zu prüfende Einträge](katalog/ungeprueft.md)\n* [Gesamtbestand in getrennten Tabellen](katalog/gesamtbestand.md)\n\n## Pflegen und erweitern\n\n* [Architektur](docs/architektur.md)\n* [Legende zu Merkmalen und Kürzeln](docs/legende.md)\n* [Screeningregeln](docs/screening.md)\n* [Datenregeln](docs/datenregeln.md)\n* [Pflegeprozess](docs/pflegeprozess.md)\n* [Steckbrief](docs/steckbrief.md)\n* [Vorlagen](vorlagen/README.md)\n* [Importnachweis](recherche/importe/README.md)\n* [Offene Recherchekandidaten](recherche/kandidaten/README.md)\n* [RAG und strukturierte Auswahl](docs/rag.md)\n* [Änderungen](CHANGELOG.md)\n\n## Lokal ausführen\n\n```sh\npython -m pip install -r requirements.txt\npython scripts/kb.py validate\npython scripts/kb.py build\npython -m unittest discover -s tests -v\npython scripts/kb.py export\npython scripts/kb.py query --mode screening\n```\n\nDie lesbaren Ansichten werden automatisch aus den Originaldaten erzeugt. Exportdateien werden nicht versioniert. Noch kein gehostetes RAG System und keine automatische Webrecherche eingerichtet.\n'
     save(Path('README.md'),text)
+    classifications=yaml.safe_load((root/'schema/einordnungen.yaml').read_text())['values']
+    text=generated+'# Einordnung und Tags\n\n[Katalog](../KATALOG.md) · [Herstellerübersicht](../HERSTELLER.md)\n\n'
+    text+='Einordnung ist genau ein Status pro Profil. Tags sind unabhängige Mehrfachzuordnungen nach Branche, Aufgabe und Umgebung. Beide sagen allein nichts über Kaufbarkeit oder Eignung für einen konkreten Einsatz aus.\n\n## Einordnung\n\n| Status im Steckbrief | Bedeutung |\n| --- | --- |\n'
+    for code,spec in classifications.items():text+=f'| {cell(spec["label"])} | {cell(spec["description"])} |\n'
+    text+='\n<details>\n<summary>Stabile Codes für Datenpflege und RAG</summary>\n\n| Anzeigename | Code |\n| --- | --- |\n'
+    for code,spec in classifications.items():text+=f'| {cell(spec["label"])} | `{code}` |\n'
+    text+='\n</details>\n\n## Tags\n\nEin Profil darf mehrere Tags derselben Gruppe besitzen. Die Liste ist erweiterbar. Vor neuen Tags vorhandene Begriffe und Synonyme prüfen. Zählungen umfassen alle erfassten Profile einschließlich Varianten, Historie und ungeprüfter Zuordnungen.\n'
+    headings={'branche':'Branchen','aufgabe':'Aufgaben','umgebung':'Umgebungen'}
+    for axis,tags in axes.items():
+        text+='\n## '+headings[axis]+'\n\n| Verfügbarer Tag | Erfasste Profile |\n| --- | --- |\n'
+        for tid,tag in tags.items():
+            count=sum(any(t['axis']==axis and t['id']==tid for t in m['tags']) for m,d,b in robots.values())
+            text+=f'| [{cell(tag["label"])}](../katalog/{axis}_{tid}.md) | {count} |\n'
+    text+='\n## Grundlage einer Zuordnung\n\n| Angabe im Steckbrief | Bedeutung |\n| --- | --- |\n| Herstellerziel | Vom Anbieter vorgesehener Bereich oder Einsatz. |\n| Dokumentierter Einsatz | Ein Einsatz im genannten Bereich ist mit Quelle erfasst. |\n| Dokumentierte Funktion | Eine technische Funktion begründet die Zuordnung. |\n| Redaktionelle Zuordnung | Fachliche Einordnung des Datenbestands; kein unabhängiger Einsatzbeleg. |\n\nEine Healthcare Zuordnung bestätigt keine medizinische Wirksamkeit. Ein Umgebungstag für Besucher oder Kunden ist kein Sicherheitsnachweis.\n'
+    save(Path('docs/einordnung_und_tags.md'),text)
     return {s:len(ids) for s,ids in buckets.items()}

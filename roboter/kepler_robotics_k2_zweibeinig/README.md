@@ -2,6 +2,8 @@
 
 # K2 zweibeinig
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Im bisherigen Bestand unter **Kepler Robotics** erfasst. [Quellenhinweis](../../quellen/src_import_b56a.md). Erfassungskennung: B56A.
 
 **Übernommener Recherchehinweis, nicht neu verifiziert:** Industrielle Handhabung und flexible Automatisierung
@@ -17,10 +19,12 @@ Im bisherigen Bestand unter **Kepler Robotics** erfasst. [Quellenhinweis](../../
 | Vorstellung und weitere Videos | Noch kein geprüfter Link erfasst | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | Noch kein geprüfter Link erfasst | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; variante | Geltungsbereich unten beachten |
-| Einordnung | ungeklaert | Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht neu geprüft. |
+| Einordnung | [Noch zu prüfen](../../docs/einordnung_und_tags.md#einordnung) | Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht neu geprüft. |
 | Geltungsbereich | Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten, Herstellerrolle und aktueller Zugang noch zu prüfen. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | erfasst | Noch nicht fachlich geprüft |
-| Branchen, Aufgaben und Umgebung | Industrie (redaktionelle_zuordnung) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Industrie](../../katalog/branche_industrie.md) (Redaktionelle Zuordnung) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | Unbekannt | [unbekannt / keine](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

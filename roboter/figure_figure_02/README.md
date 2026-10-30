@@ -2,6 +2,8 @@
 
 # Figure 02
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Figure 02 wurde im Produktionspilot eingesetzt und 2026 ausgemustert.
 
 ![Offizielles Vorschaubild zu Introducing Figure 02.](https://images.ctfassets.net/qx5k8y1u9drj/2oUM07hyEapemJNxfn3CKu/66915363ca119cfa05985d58614e968d/videa_carousell_image.jpg?fm=webp&q=70&w=3840)
@@ -19,10 +21,12 @@ Bildquelle: [Figure AI](../../quellen/src_figure_helix_media_20261030.md). Recht
 | Vorstellung und weitere Videos | [Videoarchiv mit Introducing Figure 02. Auf die Beschriftung der ausgewählten Videokachel achten.](https://www.figure.ai/helix)<br>[Herstellerfilm und Bericht zum Figure 02 BMW Prozess.](https://www.figure.ai/news/production-at-bmw) | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [Datierte technische Herstellerankündigung als HTML. Kein separates öffentliches Original PDF gefunden.](https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | historisches_produkt | Hersteller dokumentiert Ausmusterung der Flotte am 30. September 2026; wenige Geräte bleiben eingelagert. |
+| Einordnung | [Historisches Produkt](../../docs/einordnung_und_tags.md#einordnung) | Hersteller dokumentiert Ausmusterung der Flotte am 30. September 2026; wenige Geräte bleiben eingelagert. |
 | Geltungsbereich | Figure 02. Daten und Fähigkeiten anderer Generationen werden nicht übertragen. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Industrie (dokumentierter_einsatz), Logistik (dokumentierter_einsatz), Manipulation (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Industrie](../../katalog/branche_industrie.md) (Dokumentierter Einsatz)<br>[Logistik](../../katalog/branche_logistik.md) (Dokumentierter Einsatz) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Manipulation](../../katalog/aufgabe_manipulation.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2024-08-06 (öffentliche Ankündigung; kein Verkaufsstart) | [belegt / herstellerangabe](#v20261030-lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

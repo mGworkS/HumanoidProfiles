@@ -2,6 +2,8 @@
 
 # 4NE1 Gen 4
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Neue 4NE1 Generation mit textiler Hülle und NEURON AI. Der Hersteller nennt eine relative Gewichtsreduktion. Daraus wird hier keine absolute Masse berechnet.
 
 ![Herstellerpressefoto vom TUM RoboGym Start am 22. Oktober 2026. Gen4 mit schwarzer Textilhülle steht rechts.](https://neura-robotics.com/wp-content/uploads/2026/10/B00375103FR1792678857-1024x768.webp)
@@ -19,10 +21,12 @@ Bildquelle: [NEURA Robotics](../../quellen/src_neura_gen4_launch_20261030.md). R
 | Vorstellung und weitere Videos | [Offizieller Gen4 Produktclip aus dem oberen Gen4 Abschnitt; keine Übertragung älterer Tabellenwerte.](https://neura-robotics.com/wp-content/uploads/2026/10/Gen4_loop_hero_bg-1.mp4) | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [WARNUNG: generisches älteres 4NE1 Datenblatt. Nicht als Gen4 Spezifikation verwenden.](https://neurarobotics.px.media/plk/cE/NEURA_Robotics_4NE1_Datasheet_Web.pdf)<br>[HTML: Gen4 Beschreibung oben; weiter unten allgemeine, nicht eindeutig zugewiesene Kennwerte.](https://neura-robotics.com/products/4ne1/) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | pipeline | Gen4 im TUM RoboGym vorgestellt und betrieben; Serienfertigung wird vorbereitet. Allgemeine Kundenauslieferung nicht bestätigt. |
+| Einordnung | [Angekündigtes Modell](../../docs/einordnung_und_tags.md#einordnung) | Gen4 im TUM RoboGym vorgestellt und betrieben; Serienfertigung wird vorbereitet. Allgemeine Kundenauslieferung nicht bestätigt. |
 | Geltungsbereich | 4NE1 Gen 4 vom Oktober 2026; generische 4NE1 Angaben und Gen3.5 ausdrücklich ausgeschlossen. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Industrie (herstellerziel), Logistik (herstellerziel), Haushalt (herstellerziel), Forschung (dokumentierter_einsatz), Manipulation (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Industrie](../../katalog/branche_industrie.md) (Herstellerziel)<br>[Logistik](../../katalog/branche_logistik.md) (Herstellerziel)<br>[Haushalt](../../katalog/branche_haushalt.md) (Herstellerziel)<br>[Forschung](../../katalog/branche_forschung.md) (Dokumentierter Einsatz) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Manipulation](../../katalog/aufgabe_manipulation.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2026-10-22 | [belegt / herstellerangabe](#v20261030-lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

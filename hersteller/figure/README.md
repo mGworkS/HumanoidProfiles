@@ -1,5 +1,7 @@
 <!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->
 
+[Herstellerübersicht](../../HERSTELLER.md) · [Katalog](../../KATALOG.md)
+
 # Figure
 
 Entwickler der Figure Generationen und Helix KI. Hardwaregeneration und Softwareversion getrennt behandeln.

@@ -1,5 +1,7 @@
 <!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->
 
+[Herstellerübersicht](../../HERSTELLER.md) · [Katalog](../../KATALOG.md)
+
 # Boston Dynamics
 
 Hersteller von Atlas. Elektrisches Produkt 2026 und hydraulischer Entwicklungsträger sind getrennte Profile.

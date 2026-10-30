@@ -2,6 +2,8 @@
 
 # Grace
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Im bisherigen Bestand unter **Hanson Robotics und Awakening Health** erfasst. [Quellenhinweis](../../quellen/src_import_n33.md). Erfassungskennung: N33.01.
 
 **Übernommener Recherchehinweis, nicht neu verifiziert:** Healthcare Plattform
@@ -17,10 +19,12 @@ Im bisherigen Bestand unter **Hanson Robotics und Awakening Health** erfasst. [Q
 | Vorstellung und weitere Videos | Noch kein geprüfter Link erfasst | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | Noch kein geprüfter Link erfasst | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | unbekannt; modell | Geltungsbereich unten beachten |
-| Einordnung | ungeklaert | Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht neu geprüft. |
+| Einordnung | [Noch zu prüfen](../../docs/einordnung_und_tags.md#einordnung) | Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht neu geprüft. |
 | Geltungsbereich | Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten, Herstellerrolle und aktueller Zugang noch zu prüfen. Bauform beziehungsweise Grenze zum Humanoiden ist modellspezifisch zu prüfen. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | erfasst | Noch nicht fachlich geprüft |
-| Branchen, Aufgaben und Umgebung | Gesundheit und Pflege (redaktionelle_zuordnung) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Gesundheit und Pflege](../../katalog/branche_gesundheit_pflege.md) (Redaktionelle Zuordnung) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | Unbekannt | [unbekannt / keine](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

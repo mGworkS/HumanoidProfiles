@@ -2,6 +2,8 @@
 
 # Digit 5
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Digit 5 ist die angekündigte nächste industrielle Generation. Bestehende Digit 4 Kundenerfahrung wird nicht als bereits erreichte Digit 5 Leistung ausgewiesen.
 
 ![Offizielle Digit 5 Produktdarstellung. Vorserie; Hersteller weist auf illustrative und animierte Inhalte hin.](https://cdn.prod.website-files.com/68d6ca150ffa11fdc25d7575/6aa86cf4c18af6ed6a54bd80_digit-5.avif)
@@ -19,10 +21,12 @@ Bildquelle: [Agility Robotics](../../quellen/src_digit5_product.md). Rechte beim
 | Vorstellung und weitere Videos | [Offizielle Digit 5 Vorstellung mit eingebetteten Videos. Vorläufige und teilweise illustrative Inhalte.](https://www.agilityrobotics.com/solutions/digit-5) | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [Product Sheet Zugang über Formular. Kein frei zugängliches PDF festgestellt.](https://www.agilityrobotics.com/solutions/digit/product-sheet) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | pipeline | In Entwicklung. Früher Kundenzugang für erstes Halbjahr 2027, allgemeine Verfügbarkeit bis Ende 2027 erwartet. |
+| Einordnung | [Angekündigtes Modell](../../docs/einordnung_und_tags.md#einordnung) | In Entwicklung. Früher Kundenzugang für erstes Halbjahr 2027, allgemeine Verfügbarkeit bis Ende 2027 erwartet. |
 | Geltungsbereich | Digit 5, angekündigte nächste Generation; sämtliche Leistungswerte vorläufig. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Industrie (herstellerziel), Logistik (herstellerziel), Transport (herstellerziel), Manipulation (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Industrie](../../katalog/branche_industrie.md) (Herstellerziel)<br>[Logistik](../../katalog/branche_logistik.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Transport](../../katalog/aufgabe_transport.md) (Herstellerziel)<br>[Manipulation](../../katalog/aufgabe_manipulation.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2026-09-15 | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | aktiv | [belegt / herstellerangabe](#lifecycle-development) |

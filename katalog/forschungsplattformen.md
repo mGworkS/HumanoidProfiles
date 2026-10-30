@@ -33,4 +33,4 @@
 | [Mini Surena](../roboter/universitat_teheran_cast_mini_surena/README.md) | [Universität Teheran CAST](../hersteller/universitat_teheran_cast/README.md) | Nicht erfasst | Nicht erfasst | Nicht erfasst | Externer Zugang nicht bestätigt [B](../roboter/universitat_teheran_cast_mini_surena/README.md#screening) | Nicht erfasst | Nicht erfasst |
 | [Surena IV](../roboter/universitat_teheran_cast_surena_iv/README.md) | [Universität Teheran CAST](../hersteller/universitat_teheran_cast/README.md) | Nicht erfasst | Nicht erfasst | Nicht erfasst | Externer Zugang nicht bestätigt [B](../roboter/universitat_teheran_cast_surena_iv/README.md#screening) | Nicht erfasst | Nicht erfasst |
 
-[Auswahlübersicht](aktuelle_auswahl.md) · [Gesamtbestand in getrennten Tabellen](gesamtbestand.md)
+[Auswahlübersicht](aktuelle_auswahl.md) · [Katalog und Gesamtbestand](../KATALOG.md) · [Herstellerübersicht](../HERSTELLER.md) · [Einordnung und alle Tags](../docs/einordnung_und_tags.md)

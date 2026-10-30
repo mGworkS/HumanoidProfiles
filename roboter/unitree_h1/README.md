@@ -2,6 +2,8 @@
 
 # H1
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Humanoide Entwicklungsplattform mit dokumentiertem Workflow für eigene Bewegungssteuerung. Industrielle Einsatzreife ist aufgabenbezogen zu prüfen.
 
 ## Steckbrief
@@ -15,10 +17,12 @@ Humanoide Entwicklungsplattform mit dokumentiertem Workflow für eigene Bewegung
 | Vorstellung und weitere Videos | Noch kein geprüfter Link erfasst | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | Noch kein geprüfter Link erfasst | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | gegenwaertig | Produktseite und offizieller Entwicklungsworkflow verfügbar; Produktionsstatus separat ungeklärt. |
+| Einordnung | [Aktuelles Modell](../../docs/einordnung_und_tags.md#einordnung) | Produktseite und offizieller Entwicklungsworkflow verfügbar; Produktionsstatus separat ungeklärt. |
 | Geltungsbereich | H1 Originalmodell. H1-2 ist eine andere Ausführung; deren Nutzlast und Freiheitsgrade gelten hier nicht. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-29 |
-| Branchen, Aufgaben und Umgebung | Forschung (redaktionelle_zuordnung), Policy Training (dokumentierte_funktion) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Forschung](../../katalog/branche_forschung.md) (Redaktionelle Zuordnung) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Policy Training](../../katalog/aufgabe_policy_training.md) (Dokumentierte Funktion) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2023-08-15 | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

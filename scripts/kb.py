@@ -11,6 +11,7 @@ import sys
 import yaml
 from jsonschema import Draft202012Validator, FormatChecker
 from screening import section as screening_section, live_claims
+from presentation import rebase_markdown_links
 
 ROOT = Path(__file__).resolve().parents[1]
 DELIVERY = {
@@ -67,6 +68,11 @@ def validate(root=ROOT):
     sources, orgs, robots, metrics, axes = load(root)
     errors = []
     validators = {p.name.split('.')[0]: Draft202012Validator(json.loads(p.read_text()), format_checker=FormatChecker()) for p in (root/'schema').glob('*.schema.json')}
+    classification_specs=read_yaml(root/'schema/einordnungen.yaml')['values']
+    classification_codes=set(json.loads((root/'schema/roboter.schema.json').read_text())['properties']['classification']['properties']['value']['enum'])
+    if set(classification_specs)!=classification_codes:errors.append('Einordnungen: Anzeigenamen und Schemacodes stimmen nicht überein')
+    for code,spec in classification_specs.items():
+        if not spec.get('label') or not spec.get('description'):errors.append(f'Einordnung {code}: Anzeigename oder Erklärung fehlt')
     def check(kind, value, label):
         for error in validators[kind].iter_errors(value):
             errors.append(f'{label}: {list(error.path)}: {error.message}')
@@ -230,11 +236,12 @@ def capability_table(data, keys, metrics):
 def generate(root=ROOT):
     validate(root)
     sources, orgs, robots, metrics, axes=load(root)
+    classification_specs=read_yaml(root/'schema/einordnungen.yaml')['values']
     generated='<!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->\n\n'
     for rid,(meta,data,body) in robots.items():
         claims=active_claims(data)
         sections=editorial_sections(body)
-        text=generated+f'# {meta["name"]}\n\n'+sections.get('Einordnung','')+'\n\n'
+        text=generated+f'# {meta["name"]}\n\n[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)\n\n'+sections.get('Einordnung','')+'\n\n'
         pictures=[m for m in data['media'] if m['type'] in ['foto','rendering']]
         videos=[m for m in data['media'] if m['type']=='video']
         documents=[m for m in data['media'] if m['type'] in ['datenblatt','handbuch','zeichnung']]
@@ -254,11 +261,15 @@ def generate(root=ROOT):
         text+='| Vorstellung und weitere Videos | '+media_links(videos)+' | Links auf Originale; Vorführung ist kein unabhängiger Test |\n'
         text+='| Datenblatt und Dokumentation | '+media_links(documents)+' | Versions und Konfigurationshinweise im Linktext beachten |\n'
         text+=f'| Bauform und Entität | {esc(meta["form"])}; {esc(meta["entity_type"])} | Geltungsbereich unten beachten |\n'
-        text+=f'| Einordnung | {esc(meta["classification"]["value"])} | {esc(meta["classification"]["reason"])} |\n'
+        classification=classification_specs[meta['classification']['value']]['label']
+        text+=f'| Einordnung | [{esc(classification)}](../../docs/einordnung_und_tags.md#einordnung) | {esc(meta["classification"]["reason"])} |\n'
         text+=f'| Geltungsbereich | {esc(meta["scope"])} | Daten anderer Generationen werden nicht automatisch übertragen |\n'
         text+=f'| Prüfumfang | {esc(meta["maintenance"]["status"])} | {meta["maintenance"]["reviewed_at"] or "Noch nicht fachlich geprüft"} |\n'
-        tags=', '.join(axes[t['axis']][t['id']]['label']+' ('+t['basis']+')' for t in meta['tags'])
-        text+='| Branchen, Aufgaben und Umgebung | '+esc(tags or 'Noch nicht zugeordnet')+' | Tags sind keine Eignungsfreigabe |\n'
+        tag_bases={'herstellerziel':'Herstellerziel','dokumentierter_einsatz':'Dokumentierter Einsatz','dokumentierte_funktion':'Dokumentierte Funktion','redaktionelle_zuordnung':'Redaktionelle Zuordnung'}
+        for axis,label,anchor in [('branche','Branchen','branchen'),('aufgabe','Aufgaben','aufgaben'),('umgebung','Umgebungen','umgebungen')]:
+            tags=[t for t in meta['tags'] if t['axis']==axis]
+            value='<br>'.join(f'[{esc(axes[axis][t["id"]]["label"])}](../../katalog/{axis}_{t["id"]}.md) ({tag_bases[t["basis"]]})' for t in tags) or 'Noch nicht zugeordnet'
+            text+=f'| {label} | {value} | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#{anchor}); keine Eignungsfreigabe |\n'
         text+='| Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |\n'
         for key,spec in metrics.items():
             if not spec['overview']:continue
@@ -338,7 +349,7 @@ def generate(root=ROOT):
                 write(root,f'roboter/{rid}/{sub}/README.md',page)
     for oid,org in orgs.items():
         body=front(root/f'hersteller/{oid}/profil.md')[1]
-        text=generated+body+'\n\n| Steckbrief | Angabe |\n| --- | --- |\n'
+        text=generated+'[Herstellerübersicht](../../HERSTELLER.md) · [Katalog](../../KATALOG.md)\n\n'+body+'\n\n| Steckbrief | Angabe |\n| --- | --- |\n'
         website=f'[{org["website"]}]({org["website"]})' if org['website'] else 'Noch nicht bestätigt'
         text+=f'| Offizielle Website | {website} |\n| Organisationstyp | {org["organisationstyp"]} |\n| Profilstand | {org["reviewed_at"] or "Noch nicht geprüft"} |\n\n## Erfasstes Portfolio\n\n'
         for rid,(m,d,b) in robots.items():
@@ -353,6 +364,7 @@ def generate(root=ROOT):
         website=f'[{esc(org["website"])}]({org["website"]})' if org['website'] else 'Noch nicht bestätigt'
         text+=f'| [{esc(org["name"])}]({oid}/README.md) | {org["organisationstyp"]} | {website} | {count} | {org["reviewed_at"] or "Noch nicht geprüft"} |\n'
     write(root,'hersteller/README.md',text)
+    write(root,'HERSTELLER.md',rebase_markdown_links(text,'hersteller'))
     from views import build_catalog
     build_catalog(root,sources,orgs,robots,metrics,axes,generated)
 

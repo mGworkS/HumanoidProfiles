@@ -1,5 +1,7 @@
 <!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->
 
+[Herstellerübersicht](../../HERSTELLER.md) · [Katalog](../../KATALOG.md)
+
 # Agility Robotics
 
 Hersteller von Digit. Kommerzieller Digit 4 Einsatz und angekündigter Digit 5 Zugang werden getrennt geführt.

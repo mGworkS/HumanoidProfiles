@@ -2,6 +2,8 @@
 
 # Atlas · Produktversion 2026
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Elektrische industrielle Produktversion von Atlas. Das Datenblatt unterscheidet Dauerlast, Kurzzeitlast und einhändiges Heben. Die Betriebsarten umfassen Autonomie und menschliche Fernsteuerung.
 
 ![Offizielle Abbildung der elektrischen Atlas Produktversion. Keine Darstellung des hydraulischen Vorgängers.](https://bostondynamics.com/wp-content/uploads/2025/12/atlas-battery-walk-real-collage-768x1245-1.png)
@@ -19,10 +21,12 @@ Bildquelle: [Boston Dynamics](../../quellen/src_atlas_current.md). Rechte beim j
 | Vorstellung und weitere Videos | [Offizielle elektrische Atlas Produktvorstellung mit Herstellerfilmen; Produktversion 2026 beachten.](https://bostondynamics.com/products/atlas/) | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [Original PDF zur elektrischen Produktversion; Dauerlast, Spitzenlast und Schwerlastlaufzeit getrennt lesen.](https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | gegenwaertig | Produktversion vorgestellt; Partnerkontingente 2026, weitere Kunden für 2027 angekündigt. Allgemeine sofortige Bestellbarkeit nicht bestätigt. |
+| Einordnung | [Aktuelles Modell](../../docs/einordnung_und_tags.md#einordnung) | Produktversion vorgestellt; Partnerkontingente 2026, weitere Kunden für 2027 angekündigt. Allgemeine sofortige Bestellbarkeit nicht bestätigt. |
 | Geltungsbereich | Elektrische Atlas Produktversion 2026, Datenblattrevision 15. Oktober 2026. Hydraulischer Atlas und elektrischer Prototyp 2024 ausgeschlossen. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Industrie (herstellerziel), Logistik (herstellerziel), Manipulation (herstellerziel), Transport (herstellerziel), Innenraum (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Industrie](../../katalog/branche_industrie.md) (Herstellerziel)<br>[Logistik](../../katalog/branche_logistik.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Manipulation](../../katalog/aufgabe_manipulation.md) (Herstellerziel)<br>[Transport](../../katalog/aufgabe_transport.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | [Innenraum](../../katalog/umgebung_innen.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2026-01-05 (Produktversion 2026, nicht hydraulischer Atlas und nicht erster elektrischer Prototyp) | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

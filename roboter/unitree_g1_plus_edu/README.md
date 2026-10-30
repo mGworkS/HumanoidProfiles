@@ -2,6 +2,8 @@
 
 # G1+ EDU
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Kompakte zweibeinige Plattform. Die EDU Edition ist für eigene Entwicklung vorgesehen.
 
 ![Offizielle Vergleichsabbildung von G1+ und EDU; die gewählte Ausstattung ist aus dem Angebot zu bestätigen.](https://www.unitree.com/images/0e5960107c1648a490cf11f869941269_2000x1346.png)
@@ -19,10 +21,12 @@ Bildquelle: [Unitree](../../quellen/src_g1_plus_specs_20261030.md). Rechte beim 
 | Vorstellung und weitere Videos | [G1+ Herstellerfilm von der offiziellen Produktseite; Edition und Lieferfunktionen separat prüfen.](https://www.unitree.com/images/c8fc52efc1b1413d8fab3405715f3242.mp4) | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [G1+ EDU: offizielle technische HTML Tabelle; keine separate allgemeine PDF gefunden.](https://www.unitree.com/G1plus/)<br>[G1 Downloadbereich. Bei G1+ Geltungsbereich des jeweiligen Handbuchs vor Verwendung bestätigen.](https://www.unitree.com/app/g1/) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; variante | Geltungsbereich unten beachten |
-| Einordnung | gegenwaertig | Aktuelle Herstellerseite mit eigenständiger Konfigurationsspalte. EDU über Vertrieb abzustimmen. |
+| Einordnung | [Aktuelles Modell](../../docs/einordnung_und_tags.md#einordnung) | Aktuelle Herstellerseite mit eigenständiger Konfigurationsspalte. EDU über Vertrieb abzustimmen. |
 | Geltungsbereich | G1+ EDU. Andere Editionen sind eigene Profile. Technische Tabelle am 30. Oktober 2026. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Forschung (herstellerziel), Bildung (herstellerziel), Interaktion (herstellerziel), Policy Training (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Forschung](../../katalog/branche_forschung.md) (Herstellerziel)<br>[Bildung](../../katalog/branche_bildung.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Interaktion](../../katalog/aufgabe_interaktion.md) (Herstellerziel)<br>[Policy Training](../../katalog/aufgabe_policy_training.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | Unbekannt | [unbekannt / keine](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

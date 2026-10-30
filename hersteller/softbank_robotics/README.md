@@ -1,5 +1,7 @@
 <!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->
 
+[Herstellerübersicht](../../HERSTELLER.md) · [Katalog](../../KATALOG.md)
+
 # SoftBank Robotics
 
 Pepper Plattform und regionale Angebote. Software, damaliger Entwicklungsbeitrag von Aldebaran und heutige Supportrolle separat prüfen.

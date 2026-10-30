@@ -2,6 +2,8 @@
 
 # Pepper · klassische Plattform
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Soziale Plattform auf Rädern für Interaktion. Gesundheits und Pflegezuordnungen beschreiben Einsatzfelder, keine medizinische Wirksamkeit. Historische Relevanz ist unabhängig von aktuellem Support oder regionalen Restangeboten.
 
 ![Offizielles japanisches Pepper Werbebild für Interaktion. Region und konkrete Softwareversion sind getrennt zu prüfen.](https://www.softbank.jp/-/media/sb/sjp/robot/set/data/img/shared/mainvisual/550x550/img-pepper-20180911/img-customer_en.png?rev=dccf369f56df4f81863171e653ff2f03&sc_lang=en&h=550&w=550&la=en&hash=EE7F3DCC2DD7CF273DAE9E8BFDD86F30)
@@ -19,10 +21,12 @@ Bildquelle: [SoftBank](../../quellen/src_pepper_uses.md). Rechte beim jeweiligen
 | Vorstellung und weitere Videos | [Historischer Pepper Vorstellungsfilm vom Hersteller verlinkt; Veranstaltung 2014.](https://www.youtube.com/watch?v=In_SlrDXYP4)<br>[Herstellerfilm im Rückblick 2024 zu Interaktion und damaligen Anwendungen; kein aktuelles Standardlieferpaket.](https://www.youtube.com/watch?v=bIkuFFRqRyw) | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [Undatiertes Hardware PDF aus China. Generationsbezug, Masse und uneinheitliche Geschwindigkeitsangaben beachten.](https://www.softbankrobotics.com.cn/index_files/pdf/Hardware_Parameters_en.pdf)<br>[Offizielle Einstiege für NAOqi 2.5 und 2.9; richtige Softwarefamilie wählen.](https://unitedrobotics.group/en-us/robots/pepper/documentation) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | raeder; modell | Geltungsbereich unten beachten |
-| Einordnung | historisch_relevant | Historisch prägende soziale Plattform mit weiter verfügbaren Produkt und Entwicklerseiten. Heutige regionale Kaufverfügbarkeit und Produktionsende bleiben separat offen. |
+| Einordnung | [Historisch bedeutsam](../../docs/einordnung_und_tags.md#einordnung) | Historisch prägende soziale Plattform mit weiter verfügbaren Produkt und Entwicklerseiten. Heutige regionale Kaufverfügbarkeit und Produktionsende bleiben separat offen. |
 | Geltungsbereich | Klassische Pepper Plattform. Japan Startkonfiguration 2015 und undatiertes China Hardwaredokument getrennt beachten. Pepper+ ausgeschlossen. Software 2.5 und 2.9 getrennt. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Service (herstellerziel), Bildung (herstellerziel), Gesundheit und Pflege (herstellerziel), Einzelhandel (herstellerziel), Interaktion (herstellerziel), Innenraum (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Service](../../katalog/branche_service.md) (Herstellerziel)<br>[Bildung](../../katalog/branche_bildung.md) (Herstellerziel)<br>[Gesundheit und Pflege](../../katalog/branche_gesundheit_pflege.md) (Herstellerziel)<br>[Einzelhandel](../../katalog/branche_einzelhandel.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Interaktion](../../katalog/aufgabe_interaktion.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | [Innenraum](../../katalog/umgebung_innen.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2014-06-05 | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

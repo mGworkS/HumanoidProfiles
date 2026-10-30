@@ -8,4 +8,4 @@
 
 Derzeit kein ausreichend zugeordneter aktueller Kandidat im geprüften Screeningbestand. Das bedeutet keine weltweite Nichtverfügbarkeit.
 
-[Auswahlübersicht](aktuelle_auswahl.md) · [Gesamtbestand in getrennten Tabellen](gesamtbestand.md)
+[Auswahlübersicht](aktuelle_auswahl.md) · [Katalog und Gesamtbestand](../KATALOG.md) · [Herstellerübersicht](../HERSTELLER.md) · [Einordnung und alle Tags](../docs/einordnung_und_tags.md)

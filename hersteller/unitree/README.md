@@ -1,5 +1,7 @@
 <!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->
 
+[Herstellerübersicht](../../HERSTELLER.md) · [Katalog](../../KATALOG.md)
+
 # Unitree Robotics
 
 Hersteller der G1 Plattform. Basis und EDU Ausstattungen sowie Varianten getrennt vergleichen.

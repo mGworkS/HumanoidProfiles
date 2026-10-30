@@ -2,6 +2,8 @@
 
 # 4NE1 Mini
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Kompakte reservierbare Plattform für Bildung und Interaktion. Standard und Pro unterscheiden sich beim Manipulationspaket und Entwicklerumfang.
 
 ![Herstellerabbildung der Mini Plattform. Gezeigte Hände sind kein Bestandteil des Standard Manipulationspakets.](https://neura-robotics.com/wp-content/uploads/2026/01/4NE1_Mini_home_04-1024x553.webp)
@@ -19,10 +21,12 @@ Bildquelle: [NEURA Robotics](../../quellen/src_neura_mini_reservation_20261030.m
 | Vorstellung und weitere Videos | Noch kein geprüfter Link erfasst | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [Generisches Mini PDF. Standard und Pro Ausstattung anhand der aktuelleren Konfigurationstabelle prüfen.](https://neurarobotics.px.media/plk/Jj/4NE1Minidatasheet.pdf) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | pipeline | Standard und Pro reservierbar; Verfügbarkeit 2026 angekündigt. Keine bestätigte Kundenauslieferung in den geprüften Quellen. |
+| Einordnung | [Angekündigtes Modell](../../docs/einordnung_und_tags.md#einordnung) | Standard und Pro reservierbar; Verfügbarkeit 2026 angekündigt. Keine bestätigte Kundenauslieferung in den geprüften Quellen. |
 | Geltungsbereich | 4NE1 Mini Plattform mit getrennten Standard und Pro Varianten. Reservierungsstand Oktober 2026. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Bildung (herstellerziel), Unterhaltung (herstellerziel), Forschung (herstellerziel), Interaktion (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Bildung](../../katalog/branche_bildung.md) (Herstellerziel)<br>[Unterhaltung](../../katalog/branche_unterhaltung.md) (Herstellerziel)<br>[Forschung](../../katalog/branche_forschung.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Interaktion](../../katalog/aufgabe_interaktion.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2026-01 (Monat; kein Datum der separaten Standard oder Pro Einführung) | [belegt / herstellerangabe](#v20261030-lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

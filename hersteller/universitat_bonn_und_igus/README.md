@@ -1,5 +1,7 @@
 <!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->
 
+[Herstellerübersicht](../../HERSTELLER.md) · [Katalog](../../KATALOG.md)
+
 # Universität Bonn und igus
 
 Organisation beziehungsweise Organisationsgruppe aus dem bisherigen Bestand. Die genaue Rolle als Hersteller, Entwickler, Betreiber oder Konsortium ist noch zu prüfen.

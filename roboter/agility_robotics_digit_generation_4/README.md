@@ -2,6 +2,8 @@
 
 # Digit Generation 4
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Digit 4 besitzt einen dokumentierten kommerziellen Logistikeinsatz. Das ist ein belastbarerer Prozessbeleg als eine reine Vorführung, gilt aber für den konkret integrierten Behältertransfer.
 
 ![Digit im dokumentierten GXO Einsatz 2024; orange Einsatzkonfiguration.](https://gxo.com/wp-content/uploads/2024/06/GXO-Digit-Thumb.jpg)
@@ -19,10 +21,12 @@ Bildquelle: [GXO](../../quellen/src_digit4_gxo_raas_2024.md). Rechte beim jeweil
 | Vorstellung und weitere Videos | [GXO verlinktes Originalvideo zum kommerziellen Digit Einsatz 2024; nicht Digit 5.](https://www.youtube.com/watch?v=oW9L0CuAu_0) | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [Datierte HTML Quelle für damalige technische Eckwerte; kein aktuelles Serien PDF.](https://gxo.com/news_article/gxo-conducting-industry-leading-pilot-of-human-centric-robot/)<br>[Herstellerzugang zum Spec Sheet; aktueller Generationsbezug des Dokuments ungeklärt, kein direkter PDF Download.](https://www.agilityrobotics.com/solutions/digit/spec-sheet) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | gegenwaertig | Kundenbericht bestätigt bestehenden kommerziellen Betrieb und weitere Digit 4 Einsätze ab 2027. Kein frei bestellbarer Standardtarif. |
+| Einordnung | [Aktuelles Modell](../../docs/einordnung_und_tags.md#einordnung) | Kundenbericht bestätigt bestehenden kommerziellen Betrieb und weitere Digit 4 Einsätze ab 2027. Kein frei bestellbarer Standardtarif. |
 | Geltungsbereich | Digit 4 im kommerziellen GXO Prozess. Zahlen des Piloten 2023 sind als damalige Konfiguration markiert. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Logistik (dokumentierter_einsatz), Transport (dokumentierter_einsatz), Manipulation (dokumentierter_einsatz), Innenraum (dokumentierter_einsatz) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Logistik](../../katalog/branche_logistik.md) (Dokumentierter Einsatz) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Transport](../../katalog/aufgabe_transport.md) (Dokumentierter Einsatz)<br>[Manipulation](../../katalog/aufgabe_manipulation.md) (Dokumentierter Einsatz) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | [Innenraum](../../katalog/umgebung_innen.md) (Dokumentierter Einsatz) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | Unbekannt (Kein eindeutiger Erstvorstellungstermin genau dieser Generation im geprüften Quellenumfang) | [unbekannt / keine](#v20261030-lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |

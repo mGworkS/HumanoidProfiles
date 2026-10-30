@@ -2,6 +2,8 @@
 
 # Figure 01
 
+[Katalog](../../KATALOG.md) · [Herstellerübersicht](../../HERSTELLER.md) · [Einordnung und alle Tags](../../docs/einordnung_und_tags.md)
+
 Figure 01 ist eine historische Entwicklungsplattform.
 
 ![Figure 01 im offiziellen Dynamic Walking Vorschaubild.](https://images.ctfassets.net/qx5k8y1u9drj/1HTjyN6yU4ZR3eVjzkiQoX/a337234eb9680e2b074648faa5d9f2ad/video-carousel-04.jpg?fm=webp&q=70&w=3840)
@@ -19,10 +21,12 @@ Bildquelle: [Figure AI](../../quellen/src_figure_helix_media_20261030.md). Recht
 | Vorstellung und weitere Videos | [Figure 01 Gehvideo aus der offiziellen Unternehmensgeschichte.](https://videos.ctfassets.net/qx5k8y1u9drj/793SxZadAAbbiJxJZ90xyo/cdca56ecadf4b21c33e9b9e4e8f04c39/company-01.mp4)<br>[Historisches Videoarchiv: Figure 01 Dynamic Walking, Coffee Demo und OpenAI Speech to Speech. Aktuelle obere Seitenabschnitte betreffen neuere Generationen.](https://www.figure.ai/helix) | Links auf Originale; Vorführung ist kein unabhängiger Test |
 | Datenblatt und Dokumentation | [Historische technische Ankündigung als HTML. Kein frei erreichbares Original PDF oder belastbares archiviertes Zahlenblatt festgestellt.](https://www.prnewswire.com/news-releases/figure-emerges-from-stealth-and-unveils-figure-01--a-humanoid-robot-to-support-supply-chain-on-a-global-scale-301759983.html) | Versions und Konfigurationshinweise im Linktext beachten |
 | Bauform und Entität | zweibeinig; modell | Geltungsbereich unten beachten |
-| Einordnung | historischer_entwicklungstraeger | Erste Entwicklungsplattform, inzwischen durch weitere Generationen abgelöst; kein aktueller externer Zugang bestätigt. |
+| Einordnung | [Historische Entwicklungsplattform](../../docs/einordnung_und_tags.md#einordnung) | Erste Entwicklungsplattform, inzwischen durch weitere Generationen abgelöst; kein aktueller externer Zugang bestätigt. |
 | Geltungsbereich | Figure 01. Daten und Fähigkeiten anderer Generationen werden nicht übertragen. | Daten anderer Generationen werden nicht automatisch übertragen |
 | Prüfumfang | teilweise_geprueft | 2026-10-30 |
-| Branchen, Aufgaben und Umgebung | Industrie (herstellerziel), Logistik (herstellerziel), Manipulation (herstellerziel) | Tags sind keine Eignungsfreigabe |
+| Branchen | [Industrie](../../katalog/branche_industrie.md) (Herstellerziel)<br>[Logistik](../../katalog/branche_logistik.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#branchen); keine Eignungsfreigabe |
+| Aufgaben | [Manipulation](../../katalog/aufgabe_manipulation.md) (Herstellerziel) | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#aufgaben); keine Eignungsfreigabe |
+| Umgebungen | Noch nicht zugeordnet | [Alle verfügbaren Tags](../../docs/einordnung_und_tags.md#umgebungen); keine Eignungsfreigabe |
 | Modellspezifische Besonderheiten | [Spezialinformationen zu diesem Typ](#modellspezifische-besonderheiten) | Freie Ergänzungen mit Belegbezug |
 | Erstvorstellung | 2023-03-02 (öffentliche Ankündigung; kein Verkaufsstart) | [belegt / herstellerangabe](#v20261030-lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |
