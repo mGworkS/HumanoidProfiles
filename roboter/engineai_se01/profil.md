@@ -24,6 +24,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.engineai.com.cn/product-se01
+  kind: produkt
+  source_id: src_import_n23
+  verification: aus_bestand
+screening:
+  section: ungeklaert
+  access: unbekannt
+  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
+    ausreichend geprüft.
+  source_ids:
+  - src_import_n23
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # SE01

@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **MagicLab** erfasst. [Quellenhinweis](../../quellen
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.magiclab.top/en/human](https://www.magiclab.top/en/human) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n12](../../quellen/src_import_n12.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

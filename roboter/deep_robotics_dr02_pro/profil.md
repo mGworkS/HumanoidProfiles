@@ -24,6 +24,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.deeprobotics.cn/robot/index/dr02.html
+  kind: produkt
+  source_id: src_import_n01
+  verification: aus_bestand
+screening:
+  section: ungeklaert
+  access: unbekannt
+  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
+    ausreichend geprüft.
+  source_ids:
+  - src_import_n01
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # DR02 Pro

@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Robbyant und Ant Lingbo** erfasst. [Quellenhinweis
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.robbyant.com/](https://www.robbyant.com/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n77](../../quellen/src_import_n77.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

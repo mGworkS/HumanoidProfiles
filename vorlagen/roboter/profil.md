@@ -22,6 +22,14 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: teilweise_geprueft
+official_link: null
+screening:
+  section: ungeklaert
+  access: unbekannt
+  reason: Aktuellen Zugang oder kommerzielle Vorstellung prüfen.
+  source_ids: []
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # Modellname

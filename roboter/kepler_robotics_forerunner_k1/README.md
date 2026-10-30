@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Kepler Robotics** erfasst. [Quellenhinweis](../../
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.gotokepler.com/productDetailK1](https://www.gotokepler.com/productDetailK1) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n69](../../quellen/src_import_n69.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

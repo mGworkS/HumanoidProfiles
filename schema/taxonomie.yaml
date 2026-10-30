@@ -29,7 +29,7 @@ axes:
       label: Landwirtschaft
       aliases: []
     bau:
-      label: Bau
+      label: Bau und Bauwirtschaft
       aliases: []
     haushalt:
       label: Haushalt
@@ -64,5 +64,7 @@ axes:
       label: Außenbereich
       aliases: []
     publikum:
-      label: Publikumsverkehr
-      aliases: []
+      label: Umgebung mit Besuchern oder Kunden
+      aliases:
+      - Publikumsverkehr
+      description: Empfang, Laden, Museum oder andere Bereiche mit Besuchern. Keine Sicherheitsfreigabe.

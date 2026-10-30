@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **AeiROBOT** erfasst. [Quellenhinweis](../../quellen
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://eng.arobot4all.com/ALICE3](https://eng.arobot4all.com/ALICE3) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n15](../../quellen/src_import_n15.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

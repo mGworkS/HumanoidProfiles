@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **LimX Dynamics** erfasst. [Quellenhinweis](../../qu
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.limxdynamics.com/en/about](https://www.limxdynamics.com/en/about) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n21](../../quellen/src_import_n21.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

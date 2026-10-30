@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **ENGINEAI** erfasst. [Quellenhinweis](../../quellen
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.engineai.com.cn/product-sa01](https://www.engineai.com.cn/product-sa01) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n24](../../quellen/src_import_n24.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

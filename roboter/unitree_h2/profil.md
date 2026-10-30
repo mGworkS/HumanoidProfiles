@@ -29,6 +29,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.unitree.com/H2/
+  kind: produkt
+  source_id: src_import_b34
+  verification: aus_bestand
+screening:
+  section: aktuell
+  access: bestellweg
+  reason: Bestellbar nach Variante · Entwicklerplattform und EDU nach Paket; Katalogstand
+    29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+  source_ids:
+  - src_catalog_04
+  checked_at: '2026-10-29'
+  basis: projektkatalog
 ---
 
 # H2

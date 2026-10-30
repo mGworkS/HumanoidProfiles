@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Noetix Robotics** erfasst. [Quellenhinweis](../../
 
 **Tags:** Bildung (redaktionelle_zuordnung), Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://en.noetixrobotics.com/products-277.html](https://en.noetixrobotics.com/products-277.html) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Kaufanfrage.
+
+Kaufanfrage · Entwicklerplattform und EDU nach Paket; Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+
+Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_04](../../quellen/src_catalog_04.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **Noetix Robotics** erfasst. [Quellenhinweis](../../
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | China (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | Basis 1,18 m; SDK Handbuch 1,14 m (N2; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | SDK Handbuch bis 5 kg je Arm; Paket bestätigen (N2; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -170,6 +185,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** China. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** Basis 1,18 m; SDK Handbuch 1,14 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: N2; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** SDK Handbuch bis 5 kg je Arm; Paket bestätigen. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: N2; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

@@ -36,6 +36,19 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: teilweise_geprueft
+official_link:
+  url: https://www.unitree.com/h1/
+  kind: produkt
+  source_id: src_h1_shop
+  verification: geprueft
+screening:
+  section: aktuell
+  access: anfrage
+  reason: H1 wird im Herstellershop geführt; Preis und Lieferkonfiguration auf Anfrage.
+  source_ids:
+  - src_h1_shop
+  checked_at: '2026-10-30'
+  basis: primaerquelle
 ---
 
 # H1

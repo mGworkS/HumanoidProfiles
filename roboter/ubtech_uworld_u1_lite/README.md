@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **UBTECH** erfasst. [Quellenhinweis](../../quellen/s
 
 **Tags:** 
 
+**Offizielle Modellquelle:** Noch nicht bestätigt. [Bisheriger Quellenhinweis](https://www.prnewswire.com/news-releases/ubtech-launches-uworld-u1-the-worlds-first-full-size-mass-produced-ultra-bionic-humanoid-robot-302815272.html)
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n74](../../quellen/src_import_n74.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

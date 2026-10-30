@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Sharp** erfasst. [Quellenhinweis](../../quellen/sr
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://global.sharp/corporate/news/160414.html](https://global.sharp/corporate/news/160414.html) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n37](../../quellen/src_import_n37.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

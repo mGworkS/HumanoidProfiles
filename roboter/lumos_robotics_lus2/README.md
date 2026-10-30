@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Lumos Robotics** erfasst. [Quellenhinweis](../../q
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://lumosrobot.github.io/lumosrobotics.github.io/contents/models.html](https://lumosrobot.github.io/lumosrobotics.github.io/contents/models.html) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n19](../../quellen/src_import_n19.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **QIHAN und Sanbot** erfasst. [Quellenhinweis](../..
 
 **Tags:** 
 
+**Offizielle Modellquelle:** Noch nicht bestätigt. [Bisheriger Quellenhinweis](https://experthubrobotics.com/Portals/0/Docs/SanbotELF/Sanbot-ELF-Brochure-Experthubrobotics.pdf)
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n81](../../quellen/src_import_n81.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

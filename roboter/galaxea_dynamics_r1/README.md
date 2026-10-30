@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Galaxea Dynamics** erfasst. [Quellenhinweis](../..
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://galaxea-ai.com/cn/products/R1](https://galaxea-ai.com/cn/products/R1) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n61](../../quellen/src_import_n61.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

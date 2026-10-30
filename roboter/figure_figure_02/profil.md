@@ -8,12 +8,11 @@ manufacturer_id: figure
 developer_ids: []
 form: unbekannt
 classification:
-  value: ungeklaert
-  reason: Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht
-    neu geprüft.
+  value: historisches_produkt
+  reason: Ausgemusterte Figure 02 Flotte laut Hersteller.
   source_ids:
-  - src_import_b20
-  assessed_at: '2026-10-29'
+  - src_figure02_retirement
+  assessed_at: '2026-10-30'
 tags: []
 relations: []
 scope: Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten,
@@ -24,6 +23,19 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.figure.ai/news/f-02-decommission
+  kind: produkt
+  source_id: src_import_b20
+  verification: aus_bestand
+screening:
+  section: historie
+  access: kein_bestaetigter_zugang
+  reason: Flotte laut Hersteller ausgemustert.
+  source_ids:
+  - src_figure02_retirement
+  checked_at: '2026-10-30'
+  basis: primaerquelle
 ---
 
 # Figure 02

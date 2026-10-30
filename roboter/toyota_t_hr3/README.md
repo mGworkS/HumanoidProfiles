@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Toyota** erfasst. [Quellenhinweis](../../quellen/s
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://global.toyota/en/detail/19666346](https://global.toyota/en/detail/19666346) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n43](../../quellen/src_import_n43.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

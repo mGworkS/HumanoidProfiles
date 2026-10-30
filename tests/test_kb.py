@@ -28,13 +28,16 @@ class KnowledgeTests(unittest.TestCase):
   self.assertEqual(kb.procurement_offers(data,date(2025,10,29),'EU','unternehmen'),[])
  def test_h1_payload_does_not_inherit_h1_2(self):
   data=kb.load()[2]['unitree_h1'][1]
-  claims=[c for c in data['claims'] if c['key'].startswith('hardware.payload')]
+  claims=[c for c in data['claims'] if c['key'] in ['hardware.payload_arm','hardware.payload_two_arms','hardware.payload_walking']]
   self.assertTrue(claims)
   self.assertTrue(all(c['value'] is None and c['status']=='unbekannt' for c in claims))
  def test_historical_model_in_reference_export(self):
   with tempfile.TemporaryDirectory(dir=kb.ROOT.parent) as tmp:
    root=Path(tmp)/'repo';shutil.copytree(kb.ROOT,root,ignore=shutil.ignore_patterns('.git','export','__pycache__'))
-   index,chunks=kb.export(root,commit='test')
+   index,chunks=kb.export(root,commit='test',as_of=date(2026,10,30))
+   self.assertTrue(all('screening_section' in row and 'official_link' in row for row in index))
+   self.assertEqual(next(row for row in index if row['robot_id']=='aist_und_kawada_hrp_5p')['screening_section'],'forschung')
+   self.assertEqual(next(row for row in index if row['robot_id']=='unitree_h1')['screening_section'],'aktuell')
    self.assertIn('honda_asimo_2011',[r['robot_id'] for r in index])
    unknown=[c for c in chunks if c['kind']=='claim' and c['claim']['status']=='unbekannt']
    self.assertTrue(all(c['claim']['value'] is None for c in unknown))
@@ -91,7 +94,7 @@ class KnowledgeTests(unittest.TestCase):
    self.assertEqual(meta['maintenance']['status'],'erfasst')
    self.assertIsNone(meta['maintenance']['reviewed_at'])
    self.assertFalse(data['offers'])
-   self.assertTrue(all(c['value'] is None for c in data['claims']))
+   self.assertTrue(all(c['value'] is None or (c['sources'] and c['checked_at'] and c['evidence'] in ['projektkatalog','herstellerangabe','herstellerdemo']) for c in data['claims']))
  def test_same_name_different_manufacturers_remain_distinct(self):
   robots=kb.load()[2]
   g1=[m for m,d,b in robots.values() if m['name']=='G1']

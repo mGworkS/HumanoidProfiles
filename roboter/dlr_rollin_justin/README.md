@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **DLR** erfasst. [Quellenhinweis](../../quellen/src_
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.dlr.de/en/rm/research/robotic-systems/humanoids](https://www.dlr.de/en/rm/research/robotic-systems/humanoids) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Forschungsplattformen ohne bestätigten externen Zugang. **Zugang:** Zugang nicht bestätigt.
+
+Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt. Kein Nachweis, dass Zugang ausgeschlossen ist.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n39](../../quellen/src_import_n39.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

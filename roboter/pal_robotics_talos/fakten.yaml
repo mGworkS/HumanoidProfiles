@@ -3,13 +3,16 @@ robot_id: pal_robotics_talos
 claims:
 - id: lifecycle_first_presented
   key: lifecycle.first_presented
-  value: null
+  value: '2016-10-04'
   unit: null
-  status: unbekannt
-  evidence: keine
-  sources: []
-  context: {}
-  checked_at: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_talos_announcement
+    locator: Datum und Text der Ankündigung
+  context:
+    scope: Öffentliche Ankündigung; erste Plattformvorführung 2017 separat
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -99,13 +102,17 @@ claims:
   supersedes: null
 - id: hardware_height
   key: hardware.height
-  value: null
+  value: 1.75
   unit: m
-  status: unbekannt
-  evidence: keine
-  sources: []
-  context: {}
-  checked_at: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_04
+    locator: 'Technik: Körper und Achsen'
+  context:
+    scope: TALOS
+    precision: Katalogangabe
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -147,13 +154,16 @@ claims:
   supersedes: null
 - id: hardware_payload_arm
   key: hardware.payload_arm
-  value: null
+  value: 6
   unit: kg
-  status: unbekannt
-  evidence: keine
-  sources: []
-  context: {}
-  checked_at: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_talos_current
+    locator: Technical Specifications
+  context:
+    condition: Arm ausgestreckt
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -310,6 +320,68 @@ claims:
   sources: []
   context: {}
   checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: identity_origin_country
+  key: identity.origin_country
+  value: Spanien
+  unit: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_04
+    locator: 'Modellkopf: Hersteller und Land'
+  context:
+    definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_height_description
+  key: hardware.height_description
+  value: 1,75 m
+  unit: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_04
+    locator: 'Technik: Körper und Achsen'
+  context:
+    scope: TALOS
+    note: Katalogangabe; Revision und Ausstattung beachten
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_description
+  key: hardware.payload_description
+  value: 6 kg je Arm ausgestreckt
+  unit: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_04
+    locator: 'Technik: Nutzlast'
+  context:
+    scope: TALOS
+    note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: lifecycle_sales_start
+  key: lifecycle.sales_start
+  value: '2017'
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_talos_market
+    locator: '2017: enters the market'
+  context:
+    precision: Nur Jahr belegt; kein exakter Verkaufstag
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null

@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Rainbow Robotics** erfasst. [Quellenhinweis](../..
 
 **Tags:** Sicherheit und Rettung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.rainbowrobotics.com/drc_hubo](https://www.rainbowrobotics.com/drc_hubo) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n52](../../quellen/src_import_n52.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

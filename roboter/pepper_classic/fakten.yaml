@@ -357,6 +357,21 @@ claims:
   valid_from: null
   valid_until: null
   supersedes: null
+- id: identity_origin_country
+  key: identity.origin_country
+  value: Frankreich / Japan
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_pepper_launch
+    locator: Herkunft der Entwicklungsorganisation
+  context:
+    definition: Entwicklung, nicht Fertigungsstätte
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
 offers: []
 events: []
 extensions: []

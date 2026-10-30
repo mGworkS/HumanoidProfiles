@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Zeroth Robotics** erfasst. [Quellenhinweis](../../
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.zeroth0.com/products/m1](https://www.zeroth0.com/products/m1) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n75](../../quellen/src_import_n75.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

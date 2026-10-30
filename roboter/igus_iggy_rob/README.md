@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **igus** erfasst. [Quellenhinweis](../../quellen/src
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.igus.eu/product/0-LCA-IROB](https://www.igus.eu/product/0-LCA-IROB) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Projektzugang.
+
+Projektzugang · Herstellerprojekt; Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+
+Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_03](../../quellen/src_catalog_03.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -27,7 +39,7 @@ Im bisherigen Bestand unter **igus** erfasst. [Quellenhinweis](../../quellen/src
 | Entwicklungsende | Unbekannt | [unbekannt / keine](#lifecycle-development-end) |
 | Produktionsende | Unbekannt | [unbekannt / keine](#lifecycle-production-end) |
 | Supportende | Unbekannt | [unbekannt / keine](#lifecycle-support-end) |
-| Höhe | Unbekannt | [unbekannt / keine](#hardware-height) |
+| Höhe | 1.7 m (Iggy Rob; Katalogangabe) | [eingeschraenkt / projektkatalog](#hardware-height) |
 | Breite | Unbekannt | [unbekannt / keine](#hardware-width) |
 | Tiefe | Unbekannt | [unbekannt / keine](#hardware-depth) |
 | Eigenmasse | Unbekannt | [unbekannt / keine](#hardware-mass) |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **igus** erfasst. [Quellenhinweis](../../quellen/src
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | Deutschland (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | Ca. 1,70 m (Iggy Rob; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | 1,5 kg Bauteilgewicht im Paket; Arme je 2 kg (Iggy Rob; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -100,8 +115,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### hardware height
 
-**Höhe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Höhe:** 1.7 m. Status: eingeschraenkt. Evidenz: projektkatalog.
 
+Bedingungen: scope: Iggy Rob; precision: Katalogangabe
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 ### hardware width
 
 **Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -170,6 +188,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** Deutschland. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** Ca. 1,70 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Iggy Rob; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** 1,5 kg Bauteilgewicht im Paket; Arme je 2 kg. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Iggy Rob; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

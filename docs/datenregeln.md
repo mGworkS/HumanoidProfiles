@@ -47,3 +47,9 @@ Metadaten für Fotos, Renderings, Videos, Logos und PDFs enthalten Quelle, Model
 access_method bestandsverweis kennzeichnet einen gespeicherten Quellenlink, der beim Import nicht erneut geöffnet wurde. accessed_at ist hier das Datum der Sichtung des Bestandsverweises. Das ist keine Bestätigung der aktuellen Webseite. Profile mit maintenance.status erfasst können reviewed_at und last_search als null führen. Identität, Bauform und redaktionelle Tags stammen aus dem Bestand und sind noch zu prüfen. Importnotizen sind keine belegten technischen Aussagen.
 
 Herstellerzuordnung kann bei Forschungsprojekten eine beteiligte Organisation oder Gruppe bezeichnen. Eine noch ungeklärte Website bleibt null. Familien und Entwicklungsprogramme werden in Zählungen separat ausgewiesen.
+
+## Screening vor Vollständigkeit
+
+Für die Standardansicht gelten docs/screening.md und schema/screening_policy.yaml. Historische Systeme bleiben außerhalb der aktuellen Tabelle, selbst wenn eine Gebrauchtbeschaffung denkbar ist. Forschungsprototypen ohne bestätigten externen Zugang erscheinen separat. Kaufbare Forschungsplattformen bleiben in der aktuellen Auswahl. Ungeklärte Aktualität wird nicht stillschweigend als vorgestellt gewertet.
+
+Projektkatalogdaten werden mit evidence projektkatalog und eingeschränktem Belegstatus gespeichert. Sie sind keine unabhängigen Tests und keine erneute aktuelle Herstellerbestätigung. Maße und Nutzlasttexte mit uneindeutigem Lastbezug bleiben beschreibend.

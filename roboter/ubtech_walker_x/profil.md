@@ -34,6 +34,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.ubtrobot.com/en/
+  kind: produkt
+  source_id: src_import_n08
+  verification: aus_bestand
+screening:
+  section: ungeklaert
+  access: unbekannt
+  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
+    ausreichend geprüft.
+  source_ids:
+  - src_import_n08
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # Walker X

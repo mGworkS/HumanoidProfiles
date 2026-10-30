@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **AIDOL** erfasst. [Quellenhinweis](../../quellen/sr
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://aidoltech.ru/en](https://aidoltech.ru/en) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n55](../../quellen/src_import_n55.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

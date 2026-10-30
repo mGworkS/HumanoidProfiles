@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **PNDbotics** erfasst. [Quellenhinweis](../../quelle
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://pndbotics.com/humanoid](https://pndbotics.com/humanoid) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n02](../../quellen/src_import_n02.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Robbyant und Ant Lingbo** erfasst. [Quellenhinweis
 
 **Tags:** 
 
+**Offizielle Modellquelle:** Noch nicht bestätigt. [Bisheriger Quellenhinweis](https://ifdesign.com/en/winner-ranking/project/robbyant-r1-robot/765864)
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n78](../../quellen/src_import_n78.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

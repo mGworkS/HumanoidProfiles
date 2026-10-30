@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Agility Robotics** erfasst. [Quellenhinweis](../..
 
 **Tags:** Logistik (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.agilityrobotics.com/solutions](https://www.agilityrobotics.com/solutions) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Projektzugang.
+
+Kommerzieller Betrieb belegt · RaaS beziehungsweise Prozessprojekt; Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+
+Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_03](../../quellen/src_catalog_03.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **Agility Robotics** erfasst. [Quellenhinweis](../..
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | USA (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | GXO Pilot 2023 ca. 1,75 m (Digit Generation 4; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | GXO Pilot 2023 bis ca. 15,9 kg (Digit Generation 4; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -170,6 +185,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** USA. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** GXO Pilot 2023 ca. 1,75 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Digit Generation 4; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** GXO Pilot 2023 bis ca. 15,9 kg. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Digit Generation 4; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

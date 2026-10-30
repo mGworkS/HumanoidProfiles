@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Hanson Robotics und Awakening Health** erfasst. [Q
 
 **Tags:** Gesundheit und Pflege (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.hansonrobotics.com/sophia-utility](https://www.hansonrobotics.com/sophia-utility) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n33](../../quellen/src_import_n33.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

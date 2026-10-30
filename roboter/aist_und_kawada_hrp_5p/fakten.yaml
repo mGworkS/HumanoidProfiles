@@ -3,13 +3,15 @@ robot_id: aist_und_kawada_hrp_5p
 claims:
 - id: lifecycle_first_presented
   key: lifecycle.first_presented
-  value: null
+  value: '2018-09-27'
   unit: null
-  status: unbekannt
-  evidence: keine
-  sources: []
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_hrp5p_construction
+    locator: Verweis auf japanische Erstmeldung
   context: {}
-  checked_at: null
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -99,13 +101,15 @@ claims:
   supersedes: null
 - id: hardware_height
   key: hardware.height
-  value: null
+  value: 1.82
   unit: m
-  status: unbekannt
-  evidence: keine
-  sources: []
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_hrp5p_construction
+    locator: Summary
   context: {}
-  checked_at: null
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -310,6 +314,34 @@ claims:
   sources: []
   context: {}
   checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: identity_origin_country
+  key: identity.origin_country
+  value: Japan
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_hrp5p_construction
+    locator: AIST Forschungsbericht
+  context: {}
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_description
+  key: hardware.payload_description
+  value: Ca. 13 kg Sperrholz im Versuch; keine allgemeine Arbeitsnutzlast
+  unit: null
+  status: eingeschraenkt
+  evidence: herstellerdemo
+  sources:
+  - source_id: src_hrp5p_construction
+    locator: Details of Research
+  context: {}
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null

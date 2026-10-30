@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Sanctuary AI** erfasst. [Quellenhinweis](../../que
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://sanctuary.ai/solutions/](https://sanctuary.ai/solutions/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Historie und frühere Generationen. **Zugang:** Vorgestellt / angekündigt.
+
+Historischer Humanoid · Herstellerprojekt; Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+
+Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_03](../../quellen/src_catalog_03.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **Sanctuary AI** erfasst. [Quellenhinweis](../../que
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | Kanada (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | Historisch ca. 1,70 m (Phoenix und aktuelle Roadmap; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | Historisch max. 25 kg (Phoenix und aktuelle Roadmap; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -170,6 +185,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** Kanada. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** Historisch ca. 1,70 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Phoenix und aktuelle Roadmap; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** Historisch max. 25 kg. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Phoenix und aktuelle Roadmap; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

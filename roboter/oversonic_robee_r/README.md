@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Oversonic** erfasst. [Quellenhinweis](../../quelle
 
 **Tags:** Industrie (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.oversonicrobotics.com/robee-r/](https://www.oversonicrobotics.com/robee-r/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Projektzugang.
+
+Projektzugang · Herstellerprojekt; Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+
+Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_03](../../quellen/src_catalog_03.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **Oversonic** erfasst. [Quellenhinweis](../../quelle
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | Italien (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | 1,65 bis 1,99 m (RoBee R; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | 7,5 kg je Arm (RoBee R; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -170,6 +185,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** Italien. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** 1,65 bis 1,99 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: RoBee R; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** 7,5 kg je Arm. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: RoBee R; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

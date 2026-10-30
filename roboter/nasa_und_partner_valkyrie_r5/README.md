@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **NASA und Partner** erfasst. [Quellenhinweis](../..
 
 **Tags:** Forschung (redaktionelle_zuordnung), Raumfahrt (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.nasa.gov/robonaut2/](https://www.nasa.gov/robonaut2/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Forschungsplattformen ohne bestätigten externen Zugang. **Zugang:** Zugang nicht bestätigt.
+
+Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt. Kein Nachweis, dass Zugang ausgeschlossen ist.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n42](../../quellen/src_import_n42.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

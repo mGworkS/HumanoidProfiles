@@ -25,6 +25,16 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link: null
+screening:
+  section: ungeklaert
+  access: unbekannt
+  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
+    ausreichend geprüft.
+  source_ids:
+  - src_import_n74
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # UWORLD U1 Lite

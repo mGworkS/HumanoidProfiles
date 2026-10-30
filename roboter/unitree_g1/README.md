@@ -15,11 +15,23 @@ Im bisherigen Bestand unter **Unitree** erfasst. [Quellenhinweis](../../quellen/
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.unitree.com/g1/](https://www.unitree.com/g1/) (geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Kauf angeboten.
+
+Herstellershop: G1 bestellbar mit Rückstand; EDU nach Vertriebsabstimmung.
+
+Einordnung geprüft: 2026-10-30. Grundlage: primaerquelle. [src_g1_shop](../../quellen/src_g1_shop.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
-| Erstvorstellung | Unbekannt | [unbekannt / keine](#lifecycle-first-presented) |
+| Erstvorstellung | 2024-05-13 (Plattformvorstellung; kein separates EDU Veröffentlichungsdatum) | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |
 | Produktion | Unbekannt | [unbekannt / keine](#lifecycle-production) |
 | Support | Unbekannt | [unbekannt / keine](#lifecycle-support) |
@@ -27,11 +39,11 @@ Im bisherigen Bestand unter **Unitree** erfasst. [Quellenhinweis](../../quellen/
 | Entwicklungsende | Unbekannt | [unbekannt / keine](#lifecycle-development-end) |
 | Produktionsende | Unbekannt | [unbekannt / keine](#lifecycle-production-end) |
 | Supportende | Unbekannt | [unbekannt / keine](#lifecycle-support-end) |
-| Höhe | Unbekannt | [unbekannt / keine](#hardware-height) |
+| Höhe | 1.32 m (G1 und G1 EDU; Katalogangabe) | [eingeschraenkt / projektkatalog](#hardware-height) |
 | Breite | Unbekannt | [unbekannt / keine](#hardware-width) |
 | Tiefe | Unbekannt | [unbekannt / keine](#hardware-depth) |
 | Eigenmasse | Unbekannt | [unbekannt / keine](#hardware-mass) |
-| Nutzlast je Arm | Unbekannt | [unbekannt / keine](#hardware-payload-arm) |
+| Nutzlast je Arm | 2 kg (Haltungsabhängige maximale Armlast, keine Dauerlast im ganzen Arbeitsraum) | [belegt / herstellerangabe](#hardware-payload-arm) |
 | Nutzlast beidhändig | Unbekannt | [unbekannt / keine](#hardware-payload-two-arms) |
 | Nutzlast beim Gehen | Unbekannt | [unbekannt / keine](#hardware-payload-walking) |
 | Reichweite | Unbekannt | [unbekannt / keine](#hardware-reach) |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **Unitree** erfasst. [Quellenhinweis](../../quellen/
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | China (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | 1,32 m (G1 und G1 EDU; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | Basis ca. 2 kg; EDU ca. 3 kg je Arm (G1 und G1 EDU; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -68,8 +83,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### lifecycle first presented
 
-**Erstvorstellung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Erstvorstellung:** 2024-05-13. Status: belegt. Evidenz: herstellerangabe.
 
+Bedingungen: scope: Plattformvorstellung; kein separates EDU Veröffentlichungsdatum
+
+* [G1 Vorstellung durch Unitree](../../quellen/src_g1_launch.md), Fundstelle: Text: On May 13. Zugang: suchindex. Aussage geprüft: 2026-10-30.
 ### lifecycle development
 
 **Entwicklung:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -100,8 +118,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### hardware height
 
-**Höhe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Höhe:** 1.32 m. Status: eingeschraenkt. Evidenz: projektkatalog.
 
+Bedingungen: scope: G1 und G1 EDU; precision: Katalogangabe
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 ### hardware width
 
 **Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -116,8 +137,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### hardware payload arm
 
-**Nutzlast je Arm:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Nutzlast je Arm:** 2 kg. Status: belegt. Evidenz: herstellerangabe.
 
+Bedingungen: condition: Haltungsabhängige maximale Armlast, keine Dauerlast im ganzen Arbeitsraum
+
+* [G1 und G1 EDU Produktdaten](../../quellen/src_g1_current.md), Fundstelle: G1 Parameter, jeweilige Modellspalte. Zugang: direkt. Aussage geprüft: 2026-10-30.
 ### hardware payload two arms
 
 **Nutzlast beidhändig:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -170,6 +194,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** China. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** 1,32 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: G1 und G1 EDU; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** Basis ca. 2 kg; EDU ca. 3 kg je Arm. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: G1 und G1 EDU; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

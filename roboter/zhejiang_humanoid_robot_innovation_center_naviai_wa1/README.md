@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Zhejiang Humanoid Robot Innovation Center** erfass
 
 **Tags:** Industrie (redaktionelle_zuordnung), Service (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.zj-humanoid.com/](https://www.zj-humanoid.com/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n80](../../quellen/src_import_n80.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

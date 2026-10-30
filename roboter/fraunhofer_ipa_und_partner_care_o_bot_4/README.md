@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Fraunhofer IPA und Partner** erfasst. [Quellenhinw
 
 **Tags:** Service (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.care-o-bot.de/de/care-o-bot-4.html](https://www.care-o-bot.de/de/care-o-bot-4.html) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Forschungsplattformen ohne bestätigten externen Zugang. **Zugang:** Zugang nicht bestätigt.
+
+Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt. Kein Nachweis, dass Zugang ausgeschlossen ist.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n47](../../quellen/src_import_n47.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

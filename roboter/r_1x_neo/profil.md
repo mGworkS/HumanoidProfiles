@@ -24,6 +24,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.1x.tech/neo
+  kind: produkt
+  source_id: src_neo_product
+  verification: geprueft
+screening:
+  section: aktuell
+  access: vorbestellung
+  reason: Vorbestellbar · Kauf oder Abo; Katalogstand 29. Oktober 2026. Keine zugesicherte
+    Lieferfähigkeit.
+  source_ids:
+  - src_catalog_02
+  checked_at: '2026-10-29'
+  basis: projektkatalog
 ---
 
 # NEO

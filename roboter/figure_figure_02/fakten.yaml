@@ -313,6 +313,53 @@ claims:
   valid_from: null
   valid_until: null
   supersedes: null
+- id: identity_origin_country
+  key: identity.origin_country
+  value: USA
+  unit: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_03
+    locator: 'Modellkopf: Hersteller und Land'
+  context:
+    definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_height_description
+  key: hardware.height_description
+  value: Historische Konfiguration
+  unit: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_03
+    locator: 'Technik: Körper und Achsen'
+  context:
+    scope: Figure 02
+    note: Katalogangabe; Revision und Ausstattung beachten
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_description
+  key: hardware.payload_description
+  value: Kein aktuelles Verkaufsdatenblatt
+  unit: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_03
+    locator: 'Technik: Nutzlast'
+  context:
+    scope: Figure 02
+    note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
 offers: []
 events: []
 extensions: []

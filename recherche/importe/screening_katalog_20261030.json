@@ -1,0 +1,499 @@
+{
+  "13": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "NEO",
+    "body_dimensions": "Ca. 1,68 m · Ca. 30 kgArme je sieben, Hände je 22",
+    "payload": "8 kg je Arm; 25 kg Tragen; 70 kg Heben",
+    "access": "Beschaffung Vorbestellbar · Kauf oder Abo"
+  },
+  "28": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "Memo",
+    "body_dimensions": "Ca. 1,22 m typische Arbeitshaltung; verstellbar · Nicht veröffentlichtKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Nicht veröffentlicht",
+    "access": "Beschaffung Betabewerbung · Serviceprodukt oder Entwicklung"
+  },
+  "66": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "CLOiD",
+    "body_dimensions": "Nicht veröffentlicht · Nicht veröffentlichtJe Arm sieben; Hände mit fünf beweglichen Fingern",
+    "payload": "Nicht veröffentlicht",
+    "access": "Beschaffung Konzept vorgestellt · Serviceprodukt oder Entwicklung"
+  },
+  "11": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "HMND 01 Alpha Bipedal",
+    "body_dimensions": "1,79 m · 90 kg29 ohne Endeffektoren",
+    "payload": "15 kg; Lastbezug nicht weiter ausgewiesen",
+    "access": "Beschaffung Projektzugang · Serviceprodukt oder Entwicklung"
+  },
+  "15": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "Mirokaï",
+    "body_dimensions": "1,23 m im Händlerpaket · 29 kg im Händlerpaket26 im Händlerpaket",
+    "payload": "1,5 kg je Arm laut Händler",
+    "access": "Beschaffung Kaufanfrage · Serviceprodukt oder Entwicklung"
+  },
+  "48": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "GR 3",
+    "body_dimensions": "1,65 m · Ca. 71 kgBis 55 mit optionalen Händen",
+    "payload": "Ca. 3 kg je Arm",
+    "access": "Beschaffung Kaufanfrage · Serviceprodukt oder Entwicklung"
+  },
+  "14": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "Ameca",
+    "body_dimensions": "1,87 m · 62 kg61 angetriebene Bewegungen",
+    "payload": "Keine industrielle Arbeitsnutzlast zugesichert",
+    "access": "Beschaffung Kaufanfrage · Kauf oder Miete"
+  },
+  "43A": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "A2 Ultra",
+    "body_dimensions": "1,69 m · Ca. 69 kg40 einschließlich Hände",
+    "payload": "Ca. 2 kg je Arm",
+    "access": "Beschaffung Kaufanfrage · Serviceprodukt oder Entwicklung"
+  },
+  "43B": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "A2 Lite",
+    "body_dimensions": "1,69 m · Ca. 64 kg23 ohne geschickte Hände",
+    "payload": "Ca. 2 kg je Arm",
+    "access": "Beschaffung Kaufanfrage · Serviceprodukt oder Entwicklung"
+  },
+  "44": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "A3",
+    "body_dimensions": "1,73 m · 55 kgKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Keine industrielle Armnutzlast spezifiziert",
+    "access": "Beschaffung Kaufanfrage · Serviceprodukt oder Entwicklung"
+  },
+  "46A": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "X2",
+    "body_dimensions": "1,31 m · Ca. 35 kg25; keine Sekundärentwicklung",
+    "payload": "Bis 3 kg in bestimmter Pose; höchstens 1 kg im ganzen Arbeitsraum, ohne Werkzeug",
+    "access": "Beschaffung Kaufanfrage · Serviceprodukt oder Entwicklung"
+  },
+  "46B": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "X2 Ultra",
+    "body_dimensions": "1,31 m · Ca. 39 kg30; SDK unterstützt",
+    "payload": "Bis 3 kg in bestimmter Pose; höchstens 1 kg im ganzen Arbeitsraum, ohne Werkzeug",
+    "access": "Beschaffung Kaufanfrage · Serviceprodukt oder Entwicklung"
+  },
+  "54": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "IRON",
+    "body_dimensions": "Aktuelle Generation nicht eindeutig beziffert · Aktuelle Generation nicht eindeutig beziffert22 je Hand; Körperzählung revisionsabhängig",
+    "payload": "Nicht veröffentlicht",
+    "access": "Beschaffung Projektzugang · Serviceprodukt oder Entwicklung"
+  },
+  "36": {
+    "source_file": "02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx",
+    "model": "H2 X",
+    "body_dimensions": "1,725 m · Ab ca. 65 kg31 Körperachsen",
+    "payload": "Je Arm 7 kg nominal; 15 kg Spitze",
+    "access": "Beschaffung Bestellbar nach Variante · Serviceprodukt oder Entwicklung"
+  },
+  "17": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Digit Generation 4",
+    "body_dimensions": "GXO Pilot 2023 ca. 1,75 m · GXO Pilot 2023 ca. 63,5 kgKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "GXO Pilot 2023 bis ca. 15,9 kg",
+    "access": "Beschaffung Kommerzieller Betrieb belegt · RaaS beziehungsweise Prozessprojekt"
+  },
+  "18": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Digit 5",
+    "body_dimensions": "1,81 m · 129 kgKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "23 kg",
+    "access": "Beschaffung Angekündigt für 2027 · RaaS beziehungsweise Prozessprojekt"
+  },
+  "10": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "HMND 01 Alpha Wheeled",
+    "body_dimensions": "2,20 m · 300 kg29 ohne Endeffektoren",
+    "payload": "15 kg; Lastbezug nicht weiter ausgewiesen",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "26": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Reflex Robot",
+    "body_dimensions": "Nicht veröffentlicht · Nicht veröffentlichtKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "23 kg laut Hersteller",
+    "access": "Beschaffung Projektzugang · RaaS beziehungsweise Prozessprojekt"
+  },
+  "42": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "G2",
+    "body_dimensions": "1,225 bis 1,795 m · 185 kg26 Körperachsen ohne Endeffektoren",
+    "payload": "5 kg je Arm laut Broschüre; Pose bestätigen",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "41": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "G1",
+    "body_dimensions": "1,30 bis 1,80 m · 150 kg20 Körperachsen ohne Endeffektoren laut Tabelle",
+    "payload": "3 kg je Arm dauerhaft",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "57": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "G1",
+    "body_dimensions": "Bis 1,73 m · 92,5 kgKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Je Arm 5 kg; zusammen 10 kg",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "40": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Walker S2",
+    "body_dimensions": "1,76 m · 70 kg ohne HändeKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Max. 15 kg beidhändig",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "21": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Figure 03",
+    "body_dimensions": "Ca. 1,73 m · 61 kgKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "20 kg; Lastbezug nicht präzisiert",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "19": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Atlas",
+    "body_dimensions": "1,90 m · 90 kg56",
+    "payload": "30 kg dauerhaft; 50 kg Spitze; einhändig 20 kg",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "12": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "RoBee R",
+    "body_dimensions": "1,65 bis 1,99 m · Bis 293 kgKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "7,5 kg je Arm",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "09": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "AEON",
+    "body_dimensions": "1,65 m · 60 kg34",
+    "payload": "8 kg dauerhaft; 15 kg kurzzeitig",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "16": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Calvin 40",
+    "body_dimensions": "Nicht veröffentlicht · Nicht veröffentlichtKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Demo ca. 30 kg; 40 bis 50 kg als Zielklasse",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "22": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Apollo",
+    "body_dimensions": "Ca. 1,73 m · 73 kgKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Ca. 25 kg Hebelast",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "23": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Apollo 2",
+    "body_dimensions": "Nicht veröffentlicht · Nicht veröffentlichtKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Nicht veröffentlicht",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "29": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "MenteeBot V3",
+    "body_dimensions": "1,75 m · 70 kg40",
+    "payload": "25 kg Tragen",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "04": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Agile ONE",
+    "body_dimensions": "1,74 m · 69 kg71 mit Händen laut Herstellerbeitrag",
+    "payload": "20 kg; Lastbezug nicht präzisiert",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "01": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "WORKMATE",
+    "body_dimensions": "Nicht veröffentlicht · Nicht veröffentlichtKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Nicht veröffentlicht",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "06": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Iggy Rob",
+    "body_dimensions": "Ca. 1,70 m · 101 kgZwei Arme mit je sechs Achsen",
+    "payload": "1,5 kg Bauteilgewicht im Paket; Arme je 2 kg",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "02": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "4NE1 Gen 4",
+    "body_dimensions": "Gen 4 nicht eindeutig angegeben · Gen 4 nicht eindeutig angegebenKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Gen 4 nicht eindeutig angegeben",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "56A": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "K2 zweibeinig",
+    "body_dimensions": "1,75 m · Ca. 75 kgBis 52 in Entwicklungsvarianten",
+    "payload": "25 bis 30 kg beidhändig als Familienwert; Variante bestätigen",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "56B": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "K2 rollend",
+    "body_dimensions": "1,75 m · Ca. 135 kgBis 52 in Entwicklungsvarianten",
+    "payload": "25 bis 30 kg beidhändig als Familienwert; Variante bestätigen",
+    "access": "Beschaffung Projektzugang · Herstellerprojekt"
+  },
+  "24": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Optimus",
+    "body_dimensions": "Keine verbindliche aktuelle Serienspezifikation · Keine verbindliche aktuelle SerienspezifikationKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Keine verbindliche aktuelle Serienspezifikation",
+    "access": "Beschaffung Kein öffentlicher Verkauf · Herstellerprojekt"
+  },
+  "20": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Figure 02",
+    "body_dimensions": "Historische Konfiguration · Historische KonfigurationKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Kein aktuelles Verkaufsdatenblatt",
+    "access": "Beschaffung Ausgemustert · Herstellerprojekt"
+  },
+  "25": {
+    "source_file": "03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx",
+    "model": "Phoenix und aktuelle Roadmap",
+    "body_dimensions": "Historisch ca. 1,70 m · Historisch ca. 70 kgKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Historisch max. 25 kg",
+    "access": "Beschaffung Historischer Humanoid · Herstellerprojekt"
+  },
+  "08": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "Reachy 2",
+    "body_dimensions": "1,36 bis 1,66 m · Bis 50 kgJe Arm sieben Achsen",
+    "payload": "Ca. 3 kg je Arm",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "67": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "TIAGo Pro",
+    "body_dimensions": "1,20 bis 1,55 m laut Herstellerabbildung · 80 kg laut Herstellerabbildung23 einschließlich Standardgreifer",
+    "payload": "3 kg je Arm ohne Endeffektor",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "51": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "RB Y1",
+    "body_dimensions": "1,40 m · A 131 kg; M 170 kgA und M sowie Revision unterscheiden",
+    "payload": "3 kg je Arm",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "50": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "AI Worker SG2",
+    "body_dimensions": "1,623 m · 90 kg25 einschließlich Basis und Greifer",
+    "payload": "Je Arm 3 kg nominal; 5 kg Spitze",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "58": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "R1 Pro 2026",
+    "body_dimensions": "1,70 m · 126 kg mit Akku, Edition 202626 einschließlich Greifer und Chassis",
+    "payload": "Je Arm 3,5 kg nominal bei 0,6 m; 5 kg Spitze",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "59": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "S1",
+    "body_dimensions": "Ca. 1,70 m · Ca. 80 kgJe Arm sieben Achsen",
+    "payload": "5 kg je Arm bei horizontaler Reichweite",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "35": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "H2 Plus",
+    "body_dimensions": "1,82 m · Ca. 70 kg laut Körperangabe; Handpaket bestätigen31 Körper plus zweimal 22 Hände",
+    "payload": "Je Arm 7 kg nominal; 15 kg Spitze",
+    "access": "Beschaffung Bestellbar; Einführung angekündigt · Entwicklerplattform und EDU nach Paket"
+  },
+  "05": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "Agile ONE SN",
+    "body_dimensions": "1,40 m · 43 kg ohne Hände; NVIDIA nennt 40 kg31 Körper plus zweimal 20 Hände",
+    "payload": "Bis 3 kg je Arm",
+    "access": "Beschaffung Angekündigt · Entwicklerplattform und EDU nach Paket"
+  },
+  "34": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "H2 und H2 EDU",
+    "body_dimensions": "1,82 m · Ca. 70 kg31 Körperachsen",
+    "payload": "Je Arm 7 kg nominal; 15 kg Spitze",
+    "access": "Beschaffung Bestellbar nach Variante · Entwicklerplattform und EDU nach Paket"
+  },
+  "33A": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "H1",
+    "body_dimensions": "Ca. 1,80 m · Ca. 47 kgJe Bein fünf und je Arm vier Achsen",
+    "payload": "Nominelle Armnutzlast nicht veröffentlicht",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "33B": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "H1 2",
+    "body_dimensions": "Ca. 1,78 m · Ca. 70 kg27 Körperachsen; je Arm sieben",
+    "payload": "Je Arm 7 kg nominal; 21 kg Spitze",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "55": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "ATOM Max",
+    "body_dimensions": "1,65 m · Ca. 58 kg ohne Hände29 Körper plus zweimal sechs Hände",
+    "payload": "Je Arm 3,5 kg nominal; 5 kg Spitze",
+    "access": "Beschaffung Händlerbestellung mit Rückstand · Entwicklerplattform und EDU nach Paket"
+  },
+  "62": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "L7",
+    "body_dimensions": "1,71 m · 65 kg ohne Hände31 Körper plus zweimal zwölf Hände",
+    "payload": "20 kg beidhändig mit 90 Grad gebeugten Armen",
+    "access": "Beschaffung Händlerbestellung · Entwicklerplattform und EDU nach Paket"
+  },
+  "49": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "Oli EDU",
+    "body_dimensions": "1,65 m · Bis ca. 55 kg mit Akku31 Körperachsen",
+    "payload": "3 kg je Arm",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "47": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "GR 2",
+    "body_dimensions": "1,75 m · Ca. 63 kgBis 53 mit optionalen Händen",
+    "payload": "Ca. 3 kg je Hand",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "07": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "TALOS",
+    "body_dimensions": "1,75 m · 95 kg32 laut Datenblatt",
+    "payload": "6 kg je Arm ausgestreckt",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "39": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "T2",
+    "body_dimensions": "1,40 m · 42 kg; mit Endeffektoren ca. 43 kg31 Körperachsen; Endeffektoren zusätzlich",
+    "payload": "Bis 10 kg beidhändig; haltungsabhängig",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "38": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "T1",
+    "body_dimensions": "1,18 m · Ca. 30 kg23 Basis, 31 mit Greifern oder 41 mit Händen",
+    "payload": "Nicht einheitlich spezifiziert",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "45": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "X1",
+    "body_dimensions": "1,30 m · 33 kg34 aktive Achsen",
+    "payload": "0,5 kg je Arm laut aktueller Seite",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "64": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "TianGong 3",
+    "body_dimensions": "Hersteller April 2026 1,70 m · Hersteller April 2026 64,5 kg43 laut Hersteller April 2026",
+    "payload": "Nicht eindeutig verifiziert",
+    "access": "Beschaffung Projektzugang · Entwicklerplattform und EDU nach Paket"
+  },
+  "63": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "North",
+    "body_dimensions": "Nicht veröffentlicht · Nicht veröffentlicht67 laut Hersteller",
+    "payload": "Nicht veröffentlicht",
+    "access": "Beschaffung Projektzugang · Entwicklerplattform und EDU nach Paket"
+  },
+  "53": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "T800",
+    "body_dimensions": "1,73 m · Ca. 75 bis 85 kg nach PaketBasic 25, Pro 29 plus zweimal sieben Handachsen",
+    "payload": "Handangabe 5 kg; kein gleichwertiger Armwert",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "31": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "G1 und G1 EDU",
+    "body_dimensions": "1,32 m · Ca. 35 kg; EDU je Ausstattung mehrBasis 23, EDU bis 43",
+    "payload": "Basis ca. 2 kg; EDU ca. 3 kg je Arm",
+    "access": "Beschaffung Bestellbar mit Rückstand · Entwicklerplattform und EDU nach Paket"
+  },
+  "32": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "G1 Plus",
+    "body_dimensions": "1,34 m · Ca. 35 kg; EDU je Ausstattung mehrBasis 25, EDU bis 45",
+    "payload": "Basis ca. 3 kg; EDU ca. 4 kg je Arm",
+    "access": "Beschaffung Bestellbar nach Variante · Entwicklerplattform und EDU nach Paket"
+  },
+  "30": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "R1 Familie",
+    "body_dimensions": "1,23 m · AIR ca. 27 kg; R1 und EDU ca. 29 kgAIR 20, R1 26, EDU bis 40",
+    "payload": "Ca. 2 kg je Arm; stark haltungsabhängig",
+    "access": "Beschaffung Bestellbar nach Variante · Entwicklerplattform und EDU nach Paket"
+  },
+  "03": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "4NE1 Mini",
+    "body_dimensions": "Nicht eindeutig angegeben · Nicht eindeutig angegebenPro Handpaket mit 12 DoF",
+    "payload": "Keine einheitliche Armnutzlast",
+    "access": "Beschaffung Reservierbar · Entwicklerplattform und EDU nach Paket"
+  },
+  "37": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "K1",
+    "body_dimensions": "0,95 m · 19,5 kg22",
+    "payload": "Keine industrielle Armnutzlast spezifiziert",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "27": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "Sprout Creator Edition",
+    "body_dimensions": "1,07 m · 22,7 kg29 einschließlich Augenbrauen",
+    "payload": "Dauerhaft theoretisch je Arm 0,7 kg vorwärts oder 1,1 kg gebeugt",
+    "access": "Beschaffung Auslieferung belegt · Entwicklerplattform und EDU nach Paket"
+  },
+  "52": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "PM01",
+    "body_dimensions": "1,40 m · 44 bis 44,5 kg nach Edition24 in aktuellen 2026 Editionen",
+    "payload": "Keine eindeutige Armnutzlast angegeben",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "60": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "N2",
+    "body_dimensions": "Basis 1,18 m; SDK Handbuch 1,14 m · Basis ca. 30 kg; SDK Handbuch 33,5 kg18 bis 20 je Revision",
+    "payload": "SDK Handbuch bis 5 kg je Arm; Paket bestätigen",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  },
+  "61": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "Bumi",
+    "body_dimensions": "0,98 m · Ca. 17 kg mit Akku21",
+    "payload": "Nicht als Arbeitsroboter spezifiziert",
+    "access": "Beschaffung Bestellbar nach Variante · Entwicklerplattform und EDU nach Paket"
+  },
+  "65": {
+    "source_file": "04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx",
+    "model": "Kaleido",
+    "body_dimensions": "Historischer Stand 2019 1,78 m · Historischer Stand 2019 85 kgKeine eindeutig zugeordnete Gesamtzahl veröffentlicht",
+    "payload": "Nicht veröffentlicht",
+    "access": "Beschaffung Kaufanfrage · Entwicklerplattform und EDU nach Paket"
+  }
+}

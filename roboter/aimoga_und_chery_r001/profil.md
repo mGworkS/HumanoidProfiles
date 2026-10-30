@@ -45,6 +45,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.cheryinternational.com/pc/news/news1/20261021/detail-2673.shtml
+  kind: produkt
+  source_id: src_import_n59
+  verification: aus_bestand
+screening:
+  section: ungeklaert
+  access: unbekannt
+  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
+    ausreichend geprüft.
+  source_ids:
+  - src_import_n59
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # R001

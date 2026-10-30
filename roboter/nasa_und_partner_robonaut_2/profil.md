@@ -35,6 +35,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.nasa.gov/robonaut2/
+  kind: projekt
+  source_id: src_import_n42
+  verification: aus_bestand
+screening:
+  section: forschung
+  access: kein_bestaetigter_zugang
+  reason: Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt.
+    Kein Nachweis, dass Zugang ausgeschlossen ist.
+  source_ids:
+  - src_import_n42
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # Robonaut 2

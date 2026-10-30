@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Fauna Robotics** erfasst. [Quellenhinweis](../../q
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://faunarobotics.com/product](https://faunarobotics.com/product) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Vorgestellt / angekündigt.
+
+Auslieferung belegt · Entwicklerplattform und EDU nach Paket; Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+
+Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_04](../../quellen/src_catalog_04.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -27,7 +39,7 @@ Im bisherigen Bestand unter **Fauna Robotics** erfasst. [Quellenhinweis](../../q
 | Entwicklungsende | Unbekannt | [unbekannt / keine](#lifecycle-development-end) |
 | Produktionsende | Unbekannt | [unbekannt / keine](#lifecycle-production-end) |
 | Supportende | Unbekannt | [unbekannt / keine](#lifecycle-support-end) |
-| Höhe | Unbekannt | [unbekannt / keine](#hardware-height) |
+| Höhe | 1.07 m (Sprout Creator Edition; Katalogangabe) | [eingeschraenkt / projektkatalog](#hardware-height) |
 | Breite | Unbekannt | [unbekannt / keine](#hardware-width) |
 | Tiefe | Unbekannt | [unbekannt / keine](#hardware-depth) |
 | Eigenmasse | Unbekannt | [unbekannt / keine](#hardware-mass) |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **Fauna Robotics** erfasst. [Quellenhinweis](../../q
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | USA (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | 1,07 m (Sprout Creator Edition; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | Dauerhaft theoretisch je Arm 0,7 kg vorwärts oder 1,1 kg gebeugt (Sprout Creator Edition; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -100,8 +115,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### hardware height
 
-**Höhe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Höhe:** 1.07 m. Status: eingeschraenkt. Evidenz: projektkatalog.
 
+Bedingungen: scope: Sprout Creator Edition; precision: Katalogangabe
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 ### hardware width
 
 **Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -170,6 +188,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** USA. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** 1,07 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Sprout Creator Edition; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** Dauerhaft theoretisch je Arm 0,7 kg vorwärts oder 1,1 kg gebeugt. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Sprout Creator Edition; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

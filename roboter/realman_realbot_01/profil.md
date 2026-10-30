@@ -24,6 +24,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.realman-robotics.com/en/products/realbot-humanoid.html
+  kind: produkt
+  source_id: src_import_n26
+  verification: aus_bestand
+screening:
+  section: ungeklaert
+  access: unbekannt
+  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
+    ausreichend geprüft.
+  source_ids:
+  - src_import_n26
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # RealBot-01

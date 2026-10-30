@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **AiMOGA und Chery** erfasst. [Quellenhinweis](../..
 
 **Tags:** Gesundheit und Pflege (redaktionelle_zuordnung), Service (redaktionelle_zuordnung), Haushalt (redaktionelle_zuordnung), Sicherheit und Rettung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.cheryinternational.com/pc/news/news1/20261021/detail-2673.shtml](https://www.cheryinternational.com/pc/news/news1/20261021/detail-2673.shtml) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n59](../../quellen/src_import_n59.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

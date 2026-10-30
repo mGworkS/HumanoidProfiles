@@ -29,6 +29,19 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://pal-robotics.com/robot/talos/
+  kind: produkt
+  source_id: src_talos_current
+  verification: geprueft
+screening:
+  section: aktuell
+  access: anfrage
+  reason: Aktuelle Angebotsanfrage für externe Kunden vorhanden.
+  source_ids:
+  - src_talos_current
+  checked_at: '2026-10-30'
+  basis: primaerquelle
 ---
 
 # TALOS

@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **RealMan** erfasst. [Quellenhinweis](../../quellen/
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.realman-robotics.com/en/products/realbot-humanoid.html](https://www.realman-robotics.com/en/products/realbot-humanoid.html) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n26](../../quellen/src_import_n26.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

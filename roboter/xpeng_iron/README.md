@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **XPENG** erfasst. [Quellenhinweis](../../quellen/sr
 
 **Tags:** Service (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.xpeng.com/technology/ai_robot_iron](https://www.xpeng.com/technology/ai_robot_iron) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Projektzugang.
+
+Projektzugang · Serviceprodukt oder Entwicklung; Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+
+Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_02](../../quellen/src_catalog_02.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **XPENG** erfasst. [Quellenhinweis](../../quellen/sr
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | China (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | Aktuelle Generation nicht eindeutig beziffert (IRON; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | Nicht veröffentlicht (IRON; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -170,6 +185,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** China. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** Aktuelle Generation nicht eindeutig beziffert. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: IRON; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** Nicht veröffentlicht. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: IRON; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

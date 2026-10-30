@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **DexForce** erfasst. [Quellenhinweis](../../quellen
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://en.dexforce.com/w1pro.html](https://en.dexforce.com/w1pro.html) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n04](../../quellen/src_import_n04.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

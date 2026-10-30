@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Addverb** erfasst. [Quellenhinweis](../../quellen/
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://addverb.ai/blog/addverbs-leap-into-humanoid-robotics](https://addverb.ai/blog/addverbs-leap-into-humanoid-robotics) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n53](../../quellen/src_import_n53.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

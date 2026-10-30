@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **SoftBank Robotics und Aldebaran** erfasst. [Quelle
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.softbankrobotics.com/jp/news/info/20210629b/](https://www.softbankrobotics.com/jp/news/info/20210629b/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n36](../../quellen/src_import_n36.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

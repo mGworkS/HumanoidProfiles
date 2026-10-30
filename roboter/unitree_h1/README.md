@@ -13,7 +13,19 @@ Humanoide Entwicklungsplattform mit dokumentiertem Workflow für eigene Bewegung
 
 **Tags:** Forschung (redaktionelle_zuordnung), Policy Training (dokumentierte_funktion)
 
+**Offizielle Modellquelle:** [https://www.unitree.com/h1/](https://www.unitree.com/h1/) (geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Kaufanfrage.
+
+H1 wird im Herstellershop geführt; Preis und Lieferkonfiguration auf Anfrage.
+
+Einordnung geprüft: 2026-10-30. Grundlage: primaerquelle. [src_h1_shop](../../quellen/src_h1_shop.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -43,6 +55,9 @@ Humanoide Entwicklungsplattform mit dokumentiertem Workflow für eigene Bewegung
 | Ausführung eigener Policies | Physischer Deploymentpfad für H1 dokumentiert (Passende Konfiguration und Debugmodus; keine allgemeine Sicherheitsfreigabe) | [belegt / herstellerangabe](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | China (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | Ca. 1,80 m (H1; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | Nominelle Armnutzlast nicht veröffentlicht (H1; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -194,6 +209,27 @@ Bedingungen: requirement: Passende Konfiguration und Debugmodus; keine allgemein
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** China. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** Ca. 1,80 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: H1; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** Nominelle Armnutzlast nicht veröffentlicht. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: H1; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

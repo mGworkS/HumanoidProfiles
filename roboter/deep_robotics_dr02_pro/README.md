@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **DEEP Robotics** erfasst. [Quellenhinweis](../../qu
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.deeprobotics.cn/robot/index/dr02.html](https://www.deeprobotics.cn/robot/index/dr02.html) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n01](../../quellen/src_import_n01.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

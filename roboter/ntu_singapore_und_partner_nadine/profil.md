@@ -30,6 +30,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.ntu.edu.sg/research/research-hub/news/detail/virtual-tool-real-impact-prof-nadia-magnenat-thalmann
+  kind: produkt
+  source_id: src_import_n70
+  verification: aus_bestand
+screening:
+  section: forschung
+  access: kein_bestaetigter_zugang
+  reason: Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt.
+    Kein Nachweis, dass Zugang ausgeschlossen ist.
+  source_ids:
+  - src_import_n70
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # Nadine

@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **CNRS AIST JRL und Partner** erfasst. [Quellenhinwe
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://unit.aist.go.jp/isri/isri-jrl/en/robots.html](https://unit.aist.go.jp/isri/isri-jrl/en/robots.html) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Forschungsplattformen ohne bestätigten externen Zugang. **Zugang:** Zugang nicht bestätigt.
+
+Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt. Kein Nachweis, dass Zugang ausgeschlossen ist.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n41](../../quellen/src_import_n41.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

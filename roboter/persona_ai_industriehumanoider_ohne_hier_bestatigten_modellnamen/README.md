@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Persona AI** erfasst. [Quellenhinweis](../../quell
 
 **Tags:** Industrie (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://persona.ai/](https://persona.ai/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n72](../../quellen/src_import_n72.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

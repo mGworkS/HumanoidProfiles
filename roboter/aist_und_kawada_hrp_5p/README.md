@@ -13,13 +13,25 @@ Im bisherigen Bestand unter **AIST und KAWADA** erfasst. [Quellenhinweis](../../
 **Geltungsbereich:** Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten, Herstellerrolle und aktueller Zugang noch zu prüfen.  
 **Prüfumfang:** erfasst, noch nicht fachlich geprüft
 
-**Tags:** Forschung (redaktionelle_zuordnung)
+**Tags:** Forschung (redaktionelle_zuordnung), Bau und Bauwirtschaft (dokumentierter_einsatz), Manipulation (dokumentierte_funktion)
+
+**Offizielle Modellquelle:** [https://www.aist.go.jp/aist_e/list/latest_research/2018/20181116/en20181116.html](https://www.aist.go.jp/aist_e/list/latest_research/2018/20181116/en20181116.html) (geprüft).
+
+## Screening
+
+**Ansicht:** Forschungsplattformen ohne bestätigten externen Zugang. **Zugang:** Zugang nicht bestätigt.
+
+Forschungsdemonstrator für Bauarbeiten; aktueller externer Zugang nicht bestätigt.
+
+Einordnung geprüft: 2026-10-30. Grundlage: primaerquelle. [src_hrp5p_construction](../../quellen/src_hrp5p_construction.md)
 
 ## Steckbrief
 
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
+
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
-| Erstvorstellung | Unbekannt | [unbekannt / keine](#lifecycle-first-presented) |
+| Erstvorstellung | 2018-09-27 | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |
 | Produktion | Unbekannt | [unbekannt / keine](#lifecycle-production) |
 | Support | Unbekannt | [unbekannt / keine](#lifecycle-support) |
@@ -27,7 +39,7 @@ Im bisherigen Bestand unter **AIST und KAWADA** erfasst. [Quellenhinweis](../../
 | Entwicklungsende | Unbekannt | [unbekannt / keine](#lifecycle-development-end) |
 | Produktionsende | Unbekannt | [unbekannt / keine](#lifecycle-production-end) |
 | Supportende | Unbekannt | [unbekannt / keine](#lifecycle-support-end) |
-| Höhe | Unbekannt | [unbekannt / keine](#hardware-height) |
+| Höhe | 1.82 m | [belegt / herstellerangabe](#hardware-height) |
 | Breite | Unbekannt | [unbekannt / keine](#hardware-width) |
 | Tiefe | Unbekannt | [unbekannt / keine](#hardware-depth) |
 | Eigenmasse | Unbekannt | [unbekannt / keine](#hardware-mass) |
@@ -45,6 +57,8 @@ Im bisherigen Bestand unter **AIST und KAWADA** erfasst. [Quellenhinweis](../../
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | Japan | [belegt / herstellerangabe](#identity-origin-country) |
+| Nutzlast mit Lastbezug | Ca. 13 kg Sperrholz im Versuch; keine allgemeine Arbeitsnutzlast | [eingeschraenkt / herstellerdemo](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -68,8 +82,9 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### lifecycle first presented
 
-**Erstvorstellung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Erstvorstellung:** 2018-09-27. Status: belegt. Evidenz: herstellerangabe.
 
+* [HRP-5P Bauarbeiten im Forschungsversuch](../../quellen/src_hrp5p_construction.md), Fundstelle: Verweis auf japanische Erstmeldung. Zugang: suchindex. Aussage geprüft: 2026-10-30.
 ### lifecycle development
 
 **Entwicklung:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -100,8 +115,9 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### hardware height
 
-**Höhe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Höhe:** 1.82 m. Status: belegt. Evidenz: herstellerangabe.
 
+* [HRP-5P Bauarbeiten im Forschungsversuch](../../quellen/src_hrp5p_construction.md), Fundstelle: Summary. Zugang: suchindex. Aussage geprüft: 2026-10-30.
 ### hardware width
 
 **Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -170,6 +186,16 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** Japan. Status: belegt. Evidenz: herstellerangabe.
+
+* [HRP-5P Bauarbeiten im Forschungsversuch](../../quellen/src_hrp5p_construction.md), Fundstelle: AIST Forschungsbericht. Zugang: suchindex. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** Ca. 13 kg Sperrholz im Versuch; keine allgemeine Arbeitsnutzlast. Status: eingeschraenkt. Evidenz: herstellerdemo.
+
+* [HRP-5P Bauarbeiten im Forschungsversuch](../../quellen/src_hrp5p_construction.md), Fundstelle: Details of Research. Zugang: suchindex. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

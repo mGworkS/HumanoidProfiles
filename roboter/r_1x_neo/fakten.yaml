@@ -3,13 +3,16 @@ robot_id: r_1x_neo
 claims:
 - id: lifecycle_first_presented
   key: lifecycle.first_presented
-  value: null
+  value: '2025-10-28'
   unit: null
-  status: unbekannt
-  evidence: keine
-  sources: []
-  context: {}
-  checked_at: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neo_launch
+    locator: Veröffentlichungsdatum und Vorbestellankündigung
+  context:
+    scope: NEO Produktversion; Beta und Gamma separat
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -99,13 +102,17 @@ claims:
   supersedes: null
 - id: hardware_height
   key: hardware.height
-  value: null
+  value: 1.68
   unit: m
-  status: unbekannt
-  evidence: keine
-  sources: []
-  context: {}
-  checked_at: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_02
+    locator: 'Technik: Körper und Achsen'
+  context:
+    scope: NEO
+    precision: Katalogangabe
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -310,6 +317,53 @@ claims:
   sources: []
   context: {}
   checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: identity_origin_country
+  key: identity.origin_country
+  value: Norwegen und USA
+  unit: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_02
+    locator: 'Modellkopf: Hersteller und Land'
+  context:
+    definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_height_description
+  key: hardware.height_description
+  value: Ca. 1,68 m
+  unit: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_02
+    locator: 'Technik: Körper und Achsen'
+  context:
+    scope: NEO
+    note: Katalogangabe; Revision und Ausstattung beachten
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: hardware_payload_description
+  key: hardware.payload_description
+  value: 8 kg je Arm; 25 kg Tragen; 70 kg Heben
+  unit: null
+  status: eingeschraenkt
+  evidence: projektkatalog
+  sources:
+  - source_id: src_catalog_02
+    locator: 'Technik: Nutzlast'
+  context:
+    scope: NEO
+    note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null

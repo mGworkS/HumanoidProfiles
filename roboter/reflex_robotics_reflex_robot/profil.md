@@ -29,6 +29,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.reflexrobotics.com/
+  kind: produkt
+  source_id: src_import_b26
+  verification: aus_bestand
+screening:
+  section: aktuell
+  access: projektzugang
+  reason: Projektzugang · RaaS beziehungsweise Prozessprojekt; Katalogstand 29. Oktober
+    2026. Keine zugesicherte Lieferfähigkeit.
+  source_ids:
+  - src_catalog_03
+  checked_at: '2026-10-29'
+  basis: projektkatalog
 ---
 
 # Reflex Robot

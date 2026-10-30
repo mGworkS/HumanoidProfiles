@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Humanoid** erfasst. [Quellenhinweis](../../quellen
 
 **Tags:** Service (redaktionelle_zuordnung), Haushalt (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://thehumanoid.ai/hmnd-01-alpha-bipedal/](https://thehumanoid.ai/hmnd-01-alpha-bipedal/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Projektzugang.
+
+Projektzugang · Serviceprodukt oder Entwicklung; Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+
+Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_02](../../quellen/src_catalog_02.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -27,7 +39,7 @@ Im bisherigen Bestand unter **Humanoid** erfasst. [Quellenhinweis](../../quellen
 | Entwicklungsende | Unbekannt | [unbekannt / keine](#lifecycle-development-end) |
 | Produktionsende | Unbekannt | [unbekannt / keine](#lifecycle-production-end) |
 | Supportende | Unbekannt | [unbekannt / keine](#lifecycle-support-end) |
-| Höhe | Unbekannt | [unbekannt / keine](#hardware-height) |
+| Höhe | 1.79 m (HMND 01 Alpha Bipedal; Katalogangabe) | [eingeschraenkt / projektkatalog](#hardware-height) |
 | Breite | Unbekannt | [unbekannt / keine](#hardware-width) |
 | Tiefe | Unbekannt | [unbekannt / keine](#hardware-depth) |
 | Eigenmasse | Unbekannt | [unbekannt / keine](#hardware-mass) |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **Humanoid** erfasst. [Quellenhinweis](../../quellen
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | Großbritannien (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | 1,79 m (HMND 01 Alpha Bipedal; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | 15 kg; Lastbezug nicht weiter ausgewiesen (HMND 01 Alpha Bipedal; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -100,8 +115,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### hardware height
 
-**Höhe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Höhe:** 1.79 m. Status: eingeschraenkt. Evidenz: projektkatalog.
 
+Bedingungen: scope: HMND 01 Alpha Bipedal; precision: Katalogangabe
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 ### hardware width
 
 **Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -170,6 +188,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** Großbritannien. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** 1,79 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: HMND 01 Alpha Bipedal; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** 15 kg; Lastbezug nicht weiter ausgewiesen. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: HMND 01 Alpha Bipedal; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

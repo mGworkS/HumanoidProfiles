@@ -29,6 +29,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.agibot.com/products/X2
+  kind: produkt
+  source_id: src_import_b46b
+  verification: aus_bestand
+screening:
+  section: aktuell
+  access: anfrage
+  reason: Kaufanfrage · Serviceprodukt oder Entwicklung; Katalogstand 29. Oktober
+    2026. Keine zugesicherte Lieferfähigkeit.
+  source_ids:
+  - src_catalog_02
+  checked_at: '2026-10-29'
+  basis: projektkatalog
 ---
 
 # X2 Ultra

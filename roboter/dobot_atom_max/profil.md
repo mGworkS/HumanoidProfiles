@@ -34,6 +34,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.dobot-robots.com/products/humanoid-robots/atom.html?lang=cn
+  kind: produkt
+  source_id: src_import_b55
+  verification: aus_bestand
+screening:
+  section: aktuell
+  access: bestellweg
+  reason: Händlerbestellung mit Rückstand · Entwicklerplattform und EDU nach Paket;
+    Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+  source_ids:
+  - src_catalog_04
+  checked_at: '2026-10-29'
+  basis: projektkatalog
 ---
 
 # ATOM Max

@@ -29,6 +29,19 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.unitree.com/g1/
+  kind: produkt
+  source_id: src_g1_shop
+  verification: geprueft
+screening:
+  section: aktuell
+  access: anfrage
+  reason: 'Herstellershop: G1 bestellbar mit Rückstand; EDU nach Vertriebsabstimmung.'
+  source_ids:
+  - src_g1_shop
+  checked_at: '2026-10-30'
+  basis: primaerquelle
 ---
 
 # G1 EDU

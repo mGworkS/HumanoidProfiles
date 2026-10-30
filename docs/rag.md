@@ -23,3 +23,7 @@ Export überschreibt die abgeleiteten Dateien vollständig. manifest.json enthä
 ## Qualitätsprüfung
 
 Tests prüfen Filter, unbekannte Werte, Quellenreferenzen und Löschung aus dem Export. evaluation/fragen.jsonl ist zusätzlich für die spätere Antwortprüfung des tatsächlichen RAG Systems vorgesehen. Diese Fragen sind noch kein ausgeführter LLM Benchmark.
+
+## Gemeinsame Screeningregeln
+
+Exportabschnitte enthalten screening_section, screening und official_link. Die Hauptansicht und query --mode screening verwenden dieselbe Auswahlfunktion. Ein RAG Import muss dieses Feld als echten Filter übernehmen. reference bleibt für vollständige historische und wissenschaftliche Recherche verfügbar. procurement verlangt weiterhin konkrete bestätigte Angebote mit passender Region und Zielgruppe; die bloße Aufnahme in die Screeningübersicht erfüllt diese strengere Bedingung nicht.

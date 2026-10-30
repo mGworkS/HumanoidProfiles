@@ -46,6 +46,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: teilweise_geprueft
+official_link:
+  url: https://global.honda/en/ASIMO/about/
+  kind: produkt
+  source_id: src_asimo_specs
+  verification: aus_bestand
+screening:
+  section: historie
+  access: unbekannt
+  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
+    ausreichend geprüft.
+  source_ids:
+  - src_asimo_launch
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # ASIMO · Version 2011

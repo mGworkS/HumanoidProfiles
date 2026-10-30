@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Stanford University** erfasst. [Quellenhinweis](..
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://toddlerbot.github.io/](https://toddlerbot.github.io/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Forschungsplattformen ohne bestätigten externen Zugang. **Zugang:** Zugang nicht bestätigt.
+
+Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt. Kein Nachweis, dass Zugang ausgeschlossen ist.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n46](../../quellen/src_import_n46.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

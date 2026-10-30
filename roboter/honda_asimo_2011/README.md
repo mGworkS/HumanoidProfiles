@@ -11,9 +11,21 @@ Historischer humanoider Entwicklungsträger. Erfasst wegen der Nutzung im Betrac
 **Geltungsbereich:** Spezifikationsstand November 2011. Frühere ASIMO Versionen und die Familie ab 2000 sind nicht derselbe Datensatz.  
 **Prüfumfang:** teilweise_geprueft, 2026-10-29
 
-**Tags:** Forschung (herstellerziel), Bildung (dokumentierter_einsatz), Interaktion (herstellerziel), Publikumsverkehr (dokumentierter_einsatz)
+**Tags:** Forschung (herstellerziel), Bildung (dokumentierter_einsatz), Interaktion (herstellerziel), Umgebung mit Besuchern oder Kunden (dokumentierter_einsatz)
+
+**Offizielle Modellquelle:** [https://global.honda/en/ASIMO/about/](https://global.honda/en/ASIMO/about/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Historie und frühere Generationen. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_asimo_launch](../../quellen/src_asimo_launch.md)
 
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -43,6 +55,7 @@ Historischer humanoider Entwicklungsträger. Erfasst wegen der Nutzung im Betrac
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | Japan (Entwicklung, nicht Fertigungsstätte) | [belegt / herstellerangabe](#identity-origin-country) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -180,6 +193,13 @@ Bedingungen: limit: Herstellerdarstellung; keine universelle Autonomie
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** Japan. Status: belegt. Evidenz: herstellerangabe.
+
+Bedingungen: definition: Entwicklung, nicht Fertigungsstätte
+
+* [All-new ASIMO](../../quellen/src_asimo_launch.md), Fundstelle: Herkunft der Entwicklungsorganisation. Zugang: suchindex. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

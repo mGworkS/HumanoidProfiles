@@ -146,13 +146,16 @@ claims:
   supersedes: null
 - id: hardware_height
   key: hardware.height
-  value: null
+  value: 1.75
   unit: m
-  status: unbekannt
-  evidence: keine
-  sources: []
-  context: {}
-  checked_at: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_dr02_datasheet
+    locator: Seite 2, Spalte DR02
+  context:
+    configuration: DR02 Grundmodell; Laborangabe
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -182,13 +185,16 @@ claims:
   supersedes: null
 - id: hardware_mass
   key: hardware.mass
-  value: null
+  value: 65
   unit: kg
-  status: unbekannt
-  evidence: keine
-  sources: []
-  context: {}
-  checked_at: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_dr02_datasheet
+    locator: Seite 2, Spalte DR02
+  context:
+    configuration: DR02 Grundmodell; Laborangabe
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -206,13 +212,16 @@ claims:
   supersedes: null
 - id: hardware_payload_two_arms
   key: hardware.payload_two_arms
-  value: null
+  value: 10
   unit: kg
-  status: unbekannt
-  evidence: keine
-  sources: []
-  context: {}
-  checked_at: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_dr02_datasheet
+    locator: Seite 2, Spalte DR02
+  context:
+    configuration: DR02 Grundmodell; Laborangabe
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -266,13 +275,16 @@ claims:
   supersedes: null
 - id: hardware_battery
   key: hardware.battery
-  value: null
+  value: 1440
   unit: Wh
-  status: unbekannt
-  evidence: keine
-  sources: []
-  context: {}
-  checked_at: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_dr02_datasheet
+    locator: Seite 2, Spalte DR02
+  context:
+    configuration: DR02 Grundmodell; Laborangabe
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null
@@ -345,6 +357,21 @@ claims:
   sources: []
   context: {}
   checked_at: null
+  valid_from: null
+  valid_until: null
+  supersedes: null
+- id: identity_origin_country
+  key: identity.origin_country
+  value: China
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_dr02_launch
+    locator: Herkunft der Entwicklungsorganisation
+  context:
+    definition: Entwicklung, nicht Fertigungsstätte
+  checked_at: '2026-10-30'
   valid_from: null
   valid_until: null
   supersedes: null

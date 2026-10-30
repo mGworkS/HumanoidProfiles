@@ -38,6 +38,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: teilweise_geprueft
+official_link:
+  url: https://en.deeprobotics.cn/en/index/dr02.html
+  kind: produkt
+  source_id: src_dr02_commercial
+  verification: aus_bestand
+screening:
+  section: aktuell
+  access: vorgestellt
+  reason: Kommerzielle Einsätze laut Hersteller gemeldet; konkreter Beschaffungsweg
+    weiterhin zu klären.
+  source_ids:
+  - src_dr02_commercial
+  checked_at: '2026-10-29'
+  basis: primaerquelle
 ---
 
 # DR02

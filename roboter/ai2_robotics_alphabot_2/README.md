@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **AI² Robotics** erfasst. [Quellenhinweis](../../qu
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://docs.ai2robotics.com/en/alphabot2/hardware/architecture/](https://docs.ai2robotics.com/en/alphabot2/hardware/architecture/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n57](../../quellen/src_import_n57.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

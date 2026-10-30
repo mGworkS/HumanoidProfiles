@@ -13,7 +13,19 @@ Angekündigte nächste Digit Generation. Vorläufige Werte und geplante Arbeitsa
 
 **Tags:** Industrie (herstellerziel), Logistik (herstellerziel), Transport (herstellerziel), Manipulation (herstellerziel)
 
+**Offizielle Modellquelle:** [https://www.agilityrobotics.com/solutions/digit-5](https://www.agilityrobotics.com/solutions/digit-5) (geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Vorgestellt / angekündigt.
+
+Digit 5 Entwicklung vorgestellt; Zugang für 2027 angekündigt. Keine bestätigte Auslieferung.
+
+Einordnung geprüft: 2026-10-29. Grundlage: primaerquelle. [src_digit5_launch](../../quellen/src_digit5_launch.md), [src_digit5_product](../../quellen/src_digit5_product.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -43,6 +55,9 @@ Angekündigte nächste Digit Generation. Vorläufige Werte und geplante Arbeitsa
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Integration mit Agility Arc angekündigt; Pflichtumfang offen | [angekuendigt / herstellerangabe](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | USA (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | 1,81 m (Digit 5; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | 23 kg (Digit 5; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -185,6 +200,27 @@ Bedingungen: scope: Erreichbare Höhe, keine reine Armlänge
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** USA. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** 1,81 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Digit 5; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** 23 kg. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Digit 5; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

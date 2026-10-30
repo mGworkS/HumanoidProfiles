@@ -15,11 +15,23 @@ Im bisherigen Bestand unter **PAL Robotics** erfasst. [Quellenhinweis](../../que
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://pal-robotics.com/robot/talos/](https://pal-robotics.com/robot/talos/) (geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Kaufanfrage.
+
+Aktuelle Angebotsanfrage für externe Kunden vorhanden.
+
+Einordnung geprüft: 2026-10-30. Grundlage: primaerquelle. [src_talos_current](../../quellen/src_talos_current.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
-| Erstvorstellung | Unbekannt | [unbekannt / keine](#lifecycle-first-presented) |
+| Erstvorstellung | 2016-10-04 (Öffentliche Ankündigung; erste Plattformvorführung 2017 separat) | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |
 | Produktion | Unbekannt | [unbekannt / keine](#lifecycle-production) |
 | Support | Unbekannt | [unbekannt / keine](#lifecycle-support) |
@@ -27,11 +39,11 @@ Im bisherigen Bestand unter **PAL Robotics** erfasst. [Quellenhinweis](../../que
 | Entwicklungsende | Unbekannt | [unbekannt / keine](#lifecycle-development-end) |
 | Produktionsende | Unbekannt | [unbekannt / keine](#lifecycle-production-end) |
 | Supportende | Unbekannt | [unbekannt / keine](#lifecycle-support-end) |
-| Höhe | Unbekannt | [unbekannt / keine](#hardware-height) |
+| Höhe | 1.75 m (TALOS; Katalogangabe) | [eingeschraenkt / projektkatalog](#hardware-height) |
 | Breite | Unbekannt | [unbekannt / keine](#hardware-width) |
 | Tiefe | Unbekannt | [unbekannt / keine](#hardware-depth) |
 | Eigenmasse | Unbekannt | [unbekannt / keine](#hardware-mass) |
-| Nutzlast je Arm | Unbekannt | [unbekannt / keine](#hardware-payload-arm) |
+| Nutzlast je Arm | 6 kg (Arm ausgestreckt) | [belegt / herstellerangabe](#hardware-payload-arm) |
 | Nutzlast beidhändig | Unbekannt | [unbekannt / keine](#hardware-payload-two-arms) |
 | Nutzlast beim Gehen | Unbekannt | [unbekannt / keine](#hardware-payload-walking) |
 | Reichweite | Unbekannt | [unbekannt / keine](#hardware-reach) |
@@ -45,6 +57,10 @@ Im bisherigen Bestand unter **PAL Robotics** erfasst. [Quellenhinweis](../../que
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | Spanien (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Verkaufsstart | 2017 (Nur Jahr belegt; kein exakter Verkaufstag) | [belegt / herstellerangabe](#lifecycle-sales-start) |
+| Höhe mit Konfigurationsbezug | 1,75 m (TALOS; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | 6 kg je Arm ausgestreckt (TALOS; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -68,8 +84,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### lifecycle first presented
 
-**Erstvorstellung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Erstvorstellung:** 2016-10-04. Status: belegt. Evidenz: herstellerangabe.
 
+Bedingungen: scope: Öffentliche Ankündigung; erste Plattformvorführung 2017 separat
+
+* [TALOS erste Ankündigung](../../quellen/src_talos_announcement.md), Fundstelle: Datum und Text der Ankündigung. Zugang: direkt. Aussage geprüft: 2026-10-30.
 ### lifecycle development
 
 **Entwicklung:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -100,8 +119,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### hardware height
 
-**Höhe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Höhe:** 1.75 m. Status: eingeschraenkt. Evidenz: projektkatalog.
 
+Bedingungen: scope: TALOS; precision: Katalogangabe
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 ### hardware width
 
 **Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -116,8 +138,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### hardware payload arm
 
-**Nutzlast je Arm:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Nutzlast je Arm:** 6 kg. Status: belegt. Evidenz: herstellerangabe.
 
+Bedingungen: condition: Arm ausgestreckt
+
+* [TALOS Produkt und Angebotsanfrage](../../quellen/src_talos_current.md), Fundstelle: Technical Specifications. Zugang: direkt. Aussage geprüft: 2026-10-30.
 ### hardware payload two arms
 
 **Nutzlast beidhändig:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -170,6 +195,34 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** Spanien. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** 1,75 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: TALOS; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** 6 kg je Arm ausgestreckt. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: TALOS; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### lifecycle sales start
+
+**Verkaufsstart:** 2017. Status: belegt. Evidenz: herstellerangabe.
+
+Bedingungen: precision: Nur Jahr belegt; kein exakter Verkaufstag
+
+* [TALOS Markteintritt laut Herstellerchronik](../../quellen/src_talos_market.md), Fundstelle: 2017: enters the market. Zugang: direkt. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

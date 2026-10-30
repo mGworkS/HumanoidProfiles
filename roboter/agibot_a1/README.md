@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **AGIBOT** erfasst. [Quellenhinweis](../../quellen/s
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.agibot.com.cn/products/A1](https://www.agibot.com.cn/products/A1) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n67](../../quellen/src_import_n67.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

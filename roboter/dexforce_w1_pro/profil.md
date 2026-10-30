@@ -25,6 +25,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://en.dexforce.com/w1pro.html
+  kind: produkt
+  source_id: src_import_n04
+  verification: aus_bestand
+screening:
+  section: ungeklaert
+  access: unbekannt
+  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
+    ausreichend geprüft.
+  source_ids:
+  - src_import_n04
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # W1 Pro

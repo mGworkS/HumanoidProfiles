@@ -13,7 +13,19 @@ Industrielle humanoide Plattform mit Herstellerangaben zum Ganzkörperschutz. Ke
 
 **Tags:** Industrie (herstellerziel), Inspektion (herstellerziel), Außenbereich (herstellerziel)
 
+**Offizielle Modellquelle:** [https://en.deeprobotics.cn/en/index/dr02.html](https://en.deeprobotics.cn/en/index/dr02.html) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Vorgestellt / angekündigt.
+
+Kommerzielle Einsätze laut Hersteller gemeldet; konkreter Beschaffungsweg weiterhin zu klären.
+
+Einordnung geprüft: 2026-10-29. Grundlage: primaerquelle. [src_dr02_commercial](../../quellen/src_dr02_commercial.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -25,17 +37,17 @@ Industrielle humanoide Plattform mit Herstellerangaben zum Ganzkörperschutz. Ke
 | Entwicklungsende | Unbekannt | [unbekannt / keine](#lifecycle-development-end) |
 | Produktionsende | Unbekannt | [unbekannt / keine](#lifecycle-production-end) |
 | Supportende | Unbekannt | [unbekannt / keine](#lifecycle-support-end) |
-| Höhe | Unbekannt | [unbekannt / keine](#hardware-height) |
+| Höhe | 1.75 m (DR02 Grundmodell; Laborangabe) | [belegt / herstellerangabe](#hardware-height) |
 | Breite | Unbekannt | [unbekannt / keine](#hardware-width) |
 | Tiefe | Unbekannt | [unbekannt / keine](#hardware-depth) |
-| Eigenmasse | Unbekannt | [unbekannt / keine](#hardware-mass) |
+| Eigenmasse | 65 kg (DR02 Grundmodell; Laborangabe) | [belegt / herstellerangabe](#hardware-mass) |
 | Nutzlast je Arm | Unbekannt | [unbekannt / keine](#hardware-payload-arm) |
-| Nutzlast beidhändig | Unbekannt | [unbekannt / keine](#hardware-payload-two-arms) |
+| Nutzlast beidhändig | 10 kg (DR02 Grundmodell; Laborangabe) | [belegt / herstellerangabe](#hardware-payload-two-arms) |
 | Nutzlast beim Gehen | Unbekannt | [unbekannt / keine](#hardware-payload-walking) |
 | Reichweite | Unbekannt | [unbekannt / keine](#hardware-reach) |
 | Geschwindigkeit | Unbekannt | [unbekannt / keine](#hardware-speed) |
 | Laufzeit | Unbekannt | [unbekannt / keine](#hardware-runtime) |
-| Batterieenergie | Unbekannt | [unbekannt / keine](#hardware-battery) |
+| Batterieenergie | 1440 Wh (DR02 Grundmodell; Laborangabe) | [belegt / herstellerangabe](#hardware-battery) |
 | IP Schutzart | IP66 (Gesamter Roboter laut Hersteller; unabhängiger Prüfbericht nicht erfasst) | [belegt / herstellerangabe](#environment-ip) |
 | Betriebstemperatur | -20 bis 55 degC | [belegt / herstellerangabe](#environment-temperature) |
 | Autonomie nach Aufgabe | Unbekannt | [unbekannt / keine](#autonomy-scope) |
@@ -44,6 +56,7 @@ Industrielle humanoide Plattform mit Herstellerangaben zum Ganzkörperschutz. Ke
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | China (Entwicklung, nicht Fertigungsstätte) | [belegt / herstellerangabe](#identity-origin-country) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -117,8 +130,11 @@ Bedingungen: scope: Gesamter Roboter laut Hersteller; unabhängiger Prüfbericht
 
 ### hardware height
 
-**Höhe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Höhe:** 1.75 m. Status: belegt. Evidenz: herstellerangabe.
 
+Bedingungen: configuration: DR02 Grundmodell; Laborangabe
+
+* [DR02 Datenblatt Februar 2026](../../quellen/src_dr02_datasheet.md), Fundstelle: Seite 2, Spalte DR02. Zugang: direkt. Aussage geprüft: 2026-10-30.
 ### hardware width
 
 **Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -129,16 +145,22 @@ Bedingungen: scope: Gesamter Roboter laut Hersteller; unabhängiger Prüfbericht
 
 ### hardware mass
 
-**Eigenmasse:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Eigenmasse:** 65 kg. Status: belegt. Evidenz: herstellerangabe.
 
+Bedingungen: configuration: DR02 Grundmodell; Laborangabe
+
+* [DR02 Datenblatt Februar 2026](../../quellen/src_dr02_datasheet.md), Fundstelle: Seite 2, Spalte DR02. Zugang: direkt. Aussage geprüft: 2026-10-30.
 ### hardware payload arm
 
 **Nutzlast je Arm:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
 ### hardware payload two arms
 
-**Nutzlast beidhändig:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Nutzlast beidhändig:** 10 kg. Status: belegt. Evidenz: herstellerangabe.
 
+Bedingungen: configuration: DR02 Grundmodell; Laborangabe
+
+* [DR02 Datenblatt Februar 2026](../../quellen/src_dr02_datasheet.md), Fundstelle: Seite 2, Spalte DR02. Zugang: direkt. Aussage geprüft: 2026-10-30.
 ### hardware payload walking
 
 **Nutzlast beim Gehen:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -157,8 +179,11 @@ Bedingungen: scope: Gesamter Roboter laut Hersteller; unabhängiger Prüfbericht
 
 ### hardware battery
 
-**Batterieenergie:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Batterieenergie:** 1440 Wh. Status: belegt. Evidenz: herstellerangabe.
 
+Bedingungen: configuration: DR02 Grundmodell; Laborangabe
+
+* [DR02 Datenblatt Februar 2026](../../quellen/src_dr02_datasheet.md), Fundstelle: Seite 2, Spalte DR02. Zugang: direkt. Aussage geprüft: 2026-10-30.
 ### autonomy scope
 
 **Autonomie nach Aufgabe:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -183,6 +208,13 @@ Bedingungen: scope: Gesamter Roboter laut Hersteller; unabhängiger Prüfbericht
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** China. Status: belegt. Evidenz: herstellerangabe.
+
+Bedingungen: definition: Entwicklung, nicht Fertigungsstätte
+
+* [DR02 Veröffentlichung](../../quellen/src_dr02_launch.md), Fundstelle: Herkunft der Entwicklungsorganisation. Zugang: suchindex. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

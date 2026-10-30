@@ -8,14 +8,26 @@ Im bisherigen Bestand unter **Figure** erfasst. [Quellenhinweis](../../quellen/s
 
 **Hersteller:** [Figure](../../hersteller/figure/README.md)  
 **Bauform:** unbekannt  
-**Einordnung:** ungeklaert  
-**Begründung:** Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht neu geprüft.  
+**Einordnung:** historisches_produkt  
+**Begründung:** Ausgemusterte Figure 02 Flotte laut Hersteller.  
 **Geltungsbereich:** Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten, Herstellerrolle und aktueller Zugang noch zu prüfen.  
 **Prüfumfang:** erfasst, noch nicht fachlich geprüft
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.figure.ai/news/f-02-decommission](https://www.figure.ai/news/f-02-decommission) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Historie und frühere Generationen. **Zugang:** Zugang nicht bestätigt.
+
+Flotte laut Hersteller ausgemustert.
+
+Einordnung geprüft: 2026-10-30. Grundlage: primaerquelle. [src_figure02_retirement](../../quellen/src_figure02_retirement.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **Figure** erfasst. [Quellenhinweis](../../quellen/s
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | USA (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | Historische Konfiguration (Figure 02; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | Kein aktuelles Verkaufsdatenblatt (Figure 02; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -170,6 +185,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** USA. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** Historische Konfiguration. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Figure 02; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** Kein aktuelles Verkaufsdatenblatt. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Figure 02; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

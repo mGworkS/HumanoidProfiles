@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Boston Dynamics** erfasst. [Quellenhinweis](../../
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://bostondynamics.com/blog/electric-new-era-for-atlas](https://bostondynamics.com/blog/electric-new-era-for-atlas) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n66](../../quellen/src_import_n66.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

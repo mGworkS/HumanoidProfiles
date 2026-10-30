@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **ROBOTIS** erfasst. [Quellenhinweis](../../quellen/
 
 **Tags:** Forschung (redaktionelle_zuordnung), Bildung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://docs.robotis.com/](https://docs.robotis.com/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n18](../../quellen/src_import_n18.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

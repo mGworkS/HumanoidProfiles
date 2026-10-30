@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Figure** erfasst. [Quellenhinweis](../../quellen/s
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.figure.ai/company](https://www.figure.ai/company) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n65](../../quellen/src_import_n65.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

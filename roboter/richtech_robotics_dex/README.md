@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Richtech Robotics** erfasst. [Quellenhinweis](../.
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://richtechrobotics.com/solutions/dex](https://richtechrobotics.com/solutions/dex) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n27](../../quellen/src_import_n27.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

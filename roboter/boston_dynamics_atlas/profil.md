@@ -1,8 +1,10 @@
 ---
 schema_version: '1.0'
 id: boston_dynamics_atlas
-name: Atlas
-aliases: []
+name: Atlas · Produktversion 2026
+aliases:
+- Atlas
+- Atlas elektrisch
 entity_type: modell
 manufacturer_id: boston_dynamics
 developer_ids: []
@@ -26,14 +28,27 @@ tags:
   source_ids:
   - src_import_b19
 relations: []
-scope: Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten,
-  Herstellerrolle und aktueller Zugang noch zu prüfen.
+scope: Elektrische Atlas Produktversion 2026. Hydraulischer Atlas und elektrischer
+  Prototyp von 2024 sind getrennt zu betrachten.
 maintenance:
   last_search: null
   reviewed_at: null
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://bostondynamics.com/products/atlas/
+  kind: produkt
+  source_id: src_atlas_current
+  verification: geprueft
+screening:
+  section: aktuell
+  access: projektzugang
+  reason: Partnerkontingente 2026; weitere Kunden ab 2027 angekündigt.
+  source_ids:
+  - src_atlas_2026_launch
+  checked_at: '2026-10-30'
+  basis: primaerquelle
 ---
 
 # Atlas

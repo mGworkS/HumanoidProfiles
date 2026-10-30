@@ -13,7 +13,19 @@ Soziale Plattform für Kommunikation. Healthcare Zuordnung bezieht sich auf gena
 
 **Tags:** Service (herstellerziel), Bildung (herstellerziel), Gesundheit und Pflege (herstellerziel), Einzelhandel (herstellerziel), Interaktion (herstellerziel), Innenraum (herstellerziel)
 
+**Offizielle Modellquelle:** [https://www.softbank.jp/en/robot/](https://www.softbank.jp/en/robot/) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Historie und frühere Generationen. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_pepper_launch](../../quellen/src_pepper_launch.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
@@ -44,6 +56,7 @@ Soziale Plattform für Kommunikation. Healthcare Zuordnung bezieht sich auf gena
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | Frankreich / Japan (Entwicklung, nicht Fertigungsstätte) | [belegt / herstellerangabe](#identity-origin-country) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -189,6 +202,13 @@ Bedingungen: configuration: Handbuch 2019; limit: Typwert; konkretes Arbeitsprof
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** Frankreich / Japan. Status: belegt. Evidenz: herstellerangabe.
+
+Bedingungen: definition: Entwicklung, nicht Fertigungsstätte
+
+* [Vorstellung Pepper](../../quellen/src_pepper_launch.md), Fundstelle: Herkunft der Entwicklungsorganisation. Zugang: suchindex. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

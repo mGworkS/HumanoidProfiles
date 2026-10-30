@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Leju Robotics** erfasst. [Quellenhinweis](../../qu
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.lejurobot.com/en](https://www.lejurobot.com/en) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n11](../../quellen/src_import_n11.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

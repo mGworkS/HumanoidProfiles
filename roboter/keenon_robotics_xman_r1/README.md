@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **KEENON Robotics** erfasst. [Quellenhinweis](../../
 
 **Tags:** Service (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.keenon.com/en/news/k](https://www.keenon.com/en/news/k) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n31](../../quellen/src_import_n31.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

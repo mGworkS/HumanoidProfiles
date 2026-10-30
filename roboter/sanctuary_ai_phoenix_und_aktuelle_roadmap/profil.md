@@ -24,6 +24,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://sanctuary.ai/solutions/
+  kind: produkt
+  source_id: src_import_b25
+  verification: aus_bestand
+screening:
+  section: historie
+  access: vorgestellt
+  reason: Historischer Humanoid · Herstellerprojekt; Katalogstand 29. Oktober 2026.
+    Keine zugesicherte Lieferfähigkeit.
+  source_ids:
+  - src_catalog_03
+  checked_at: '2026-10-29'
+  basis: projektkatalog
 ---
 
 # Phoenix und aktuelle Roadmap

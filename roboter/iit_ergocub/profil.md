@@ -30,6 +30,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://www.iit.it/documents/20123/8310093/2024-2029_Strategic_Plan_Tech_Annex.pdf/370bdedd-6b2c-0eb6-c0fb-c49740a9fecc?t=1744021157424
+  kind: projekt
+  source_id: src_import_n38
+  verification: aus_bestand
+screening:
+  section: forschung
+  access: kein_bestaetigter_zugang
+  reason: Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt.
+    Kein Nachweis, dass Zugang ausgeschlossen ist.
+  source_ids:
+  - src_import_n38
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # ergoCub

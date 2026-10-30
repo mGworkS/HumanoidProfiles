@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **ROBOTIS** erfasst. [Quellenhinweis](../../quellen/
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://ai.robotis.com/ai_sapiens/introduction_ai_sapiens.html](https://ai.robotis.com/ai_sapiens/introduction_ai_sapiens.html) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n17](../../quellen/src_import_n17.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

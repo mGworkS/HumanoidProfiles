@@ -8,7 +8,7 @@ Unternehmensgeschichte, offizielle Website, Integration und Service wurden beim 
 
 ## Erfasstes Portfolio
 
-* [Atlas](../../roboter/boston_dynamics_atlas/README.md)
+* [Atlas · Produktversion 2026](../../roboter/boston_dynamics_atlas/README.md)
 * [Atlas hydraulisch](../../roboter/boston_dynamics_atlas_hydraulisch/README.md)
 
 ## Quellen

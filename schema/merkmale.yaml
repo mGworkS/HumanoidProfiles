@@ -392,3 +392,31 @@ metrics:
     unit: null
     overview: false
     core: false
+  identity.origin_country:
+    label: Ursprungsland der Entwicklung
+    group: Identität
+    kind: text
+    unit: null
+    overview: true
+    core: false
+  lifecycle.sales_start:
+    label: Verkaufsstart
+    group: Lebenszyklus
+    kind: date
+    unit: null
+    overview: true
+    core: false
+  hardware.height_description:
+    label: Höhe mit Konfigurationsbezug
+    group: Technik
+    kind: text
+    unit: null
+    overview: true
+    core: false
+  hardware.payload_description:
+    label: Nutzlast mit Lastbezug
+    group: Technik
+    kind: text
+    unit: null
+    overview: true
+    core: false

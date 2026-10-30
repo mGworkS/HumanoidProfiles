@@ -219,6 +219,110 @@
         "status"
       ],
       "additionalProperties": false
+    },
+    "official_link": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "url",
+            "kind",
+            "source_id",
+            "verification"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "kind": {
+              "enum": [
+                "produkt",
+                "projekt",
+                "dokumentation",
+                "hersteller",
+                "ankuendigung"
+              ]
+            },
+            "source_id": {
+              "type": "string"
+            },
+            "verification": {
+              "enum": [
+                "geprueft",
+                "aus_bestand"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "screening": {
+      "type": "object",
+      "required": [
+        "section",
+        "access",
+        "reason",
+        "source_ids",
+        "checked_at",
+        "basis"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "section": {
+          "enum": [
+            "aktuell",
+            "historie",
+            "forschung",
+            "ungeklaert"
+          ]
+        },
+        "access": {
+          "enum": [
+            "bestellweg",
+            "vorbestellung",
+            "anfrage",
+            "projektzugang",
+            "vorgestellt",
+            "kein_bestaetigter_zugang",
+            "unbekannt"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "checked_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "basis": {
+          "enum": [
+            "primaerquelle",
+            "projektkatalog",
+            "bestandsimport",
+            "redaktionelle_einordnung"
+          ]
+        }
+      }
     }
   },
   "required": [

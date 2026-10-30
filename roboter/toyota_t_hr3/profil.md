@@ -29,6 +29,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: erfasst
+official_link:
+  url: https://global.toyota/en/detail/19666346
+  kind: produkt
+  source_id: src_import_n43
+  verification: aus_bestand
+screening:
+  section: ungeklaert
+  access: unbekannt
+  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
+    ausreichend geprüft.
+  source_ids:
+  - src_import_n43
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # T-HR3

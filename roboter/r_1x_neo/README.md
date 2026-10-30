@@ -15,11 +15,23 @@ Im bisherigen Bestand unter **1X** erfasst. [Quellenhinweis](../../quellen/src_i
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.1x.tech/neo](https://www.1x.tech/neo) (geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Vorbestellung / Reservierung.
+
+Vorbestellbar · Kauf oder Abo; Katalogstand 29. Oktober 2026. Keine zugesicherte Lieferfähigkeit.
+
+Einordnung geprüft: 2026-10-29. Grundlage: projektkatalog. [src_catalog_02](../../quellen/src_catalog_02.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
-| Erstvorstellung | Unbekannt | [unbekannt / keine](#lifecycle-first-presented) |
+| Erstvorstellung | 2025-10-28 (NEO Produktversion; Beta und Gamma separat) | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |
 | Produktion | Unbekannt | [unbekannt / keine](#lifecycle-production) |
 | Support | Unbekannt | [unbekannt / keine](#lifecycle-support) |
@@ -27,7 +39,7 @@ Im bisherigen Bestand unter **1X** erfasst. [Quellenhinweis](../../quellen/src_i
 | Entwicklungsende | Unbekannt | [unbekannt / keine](#lifecycle-development-end) |
 | Produktionsende | Unbekannt | [unbekannt / keine](#lifecycle-production-end) |
 | Supportende | Unbekannt | [unbekannt / keine](#lifecycle-support-end) |
-| Höhe | Unbekannt | [unbekannt / keine](#hardware-height) |
+| Höhe | 1.68 m (NEO; Katalogangabe) | [eingeschraenkt / projektkatalog](#hardware-height) |
 | Breite | Unbekannt | [unbekannt / keine](#hardware-width) |
 | Tiefe | Unbekannt | [unbekannt / keine](#hardware-depth) |
 | Eigenmasse | Unbekannt | [unbekannt / keine](#hardware-mass) |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **1X** erfasst. [Quellenhinweis](../../quellen/src_i
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | Norwegen und USA (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | Ca. 1,68 m (NEO; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | 8 kg je Arm; 25 kg Tragen; 70 kg Heben (NEO; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -68,8 +83,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### lifecycle first presented
 
-**Erstvorstellung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Erstvorstellung:** 2025-10-28. Status: belegt. Evidenz: herstellerangabe.
 
+Bedingungen: scope: NEO Produktversion; Beta und Gamma separat
+
+* [NEO Vorbestellstart](../../quellen/src_neo_launch.md), Fundstelle: Veröffentlichungsdatum und Vorbestellankündigung. Zugang: direkt. Aussage geprüft: 2026-10-30.
 ### lifecycle development
 
 **Entwicklung:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -100,8 +118,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### hardware height
 
-**Höhe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Höhe:** 1.68 m. Status: eingeschraenkt. Evidenz: projektkatalog.
 
+Bedingungen: scope: NEO; precision: Katalogangabe
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 ### hardware width
 
 **Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -170,6 +191,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** Norwegen und USA. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** Ca. 1,68 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: NEO; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** 8 kg je Arm; 25 kg Tragen; 70 kg Heben. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: NEO; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 02-Humanoide_Roboter_Katalog_Haushalt_und_Service_2026_10_29_123420_CET.docx](../../quellen/src_catalog_02.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

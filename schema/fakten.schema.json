@@ -56,7 +56,8 @@
               "kundenbericht",
               "eigener_test",
               "redaktionelle_einordnung",
-              "keine"
+              "keine",
+              "projektkatalog"
             ]
           },
           "sources": {

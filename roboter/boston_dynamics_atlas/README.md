@@ -1,6 +1,6 @@
 <!-- AUTOMATISCH ERZEUGT: python scripts/kb.py build. Nicht manuell bearbeiten. -->
 
-# Atlas
+# Atlas · Produktversion 2026
 
 Im bisherigen Bestand unter **Boston Dynamics** erfasst. [Quellenhinweis](../../quellen/src_import_b19.md). Erfassungskennung: B19.
 
@@ -10,16 +10,28 @@ Im bisherigen Bestand unter **Boston Dynamics** erfasst. [Quellenhinweis](../../
 **Bauform:** unbekannt  
 **Einordnung:** ungeklaert  
 **Begründung:** Bestandsimport; aktueller Lebenszyklus und historische Einordnung noch nicht neu geprüft.  
-**Geltungsbereich:** Erfassung aus bisherigem Bestand. Konkrete Hardwareversion, tatsächliche Fähigkeiten, Herstellerrolle und aktueller Zugang noch zu prüfen.  
+**Geltungsbereich:** Elektrische Atlas Produktversion 2026. Hydraulischer Atlas und elektrischer Prototyp von 2024 sind getrennt zu betrachten.  
 **Prüfumfang:** erfasst, noch nicht fachlich geprüft
 
 **Tags:** Industrie (redaktionelle_zuordnung), Logistik (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://bostondynamics.com/products/atlas/](https://bostondynamics.com/products/atlas/) (geprüft).
+
+## Screening
+
+**Ansicht:** Aktuelle Auswahl. **Zugang:** Projektzugang.
+
+Partnerkontingente 2026; weitere Kunden ab 2027 angekündigt.
+
+Einordnung geprüft: 2026-10-30. Grundlage: primaerquelle. [src_atlas_2026_launch](../../quellen/src_atlas_2026_launch.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
-| Erstvorstellung | Unbekannt | [unbekannt / keine](#lifecycle-first-presented) |
+| Erstvorstellung | 2026-01-05 (Produktversion 2026, nicht hydraulischer Atlas und nicht erster elektrischer Prototyp) | [belegt / herstellerangabe](#lifecycle-first-presented) |
 | Entwicklung | Unbekannt | [unbekannt / keine](#lifecycle-development) |
 | Produktion | Unbekannt | [unbekannt / keine](#lifecycle-production) |
 | Support | Unbekannt | [unbekannt / keine](#lifecycle-support) |
@@ -27,7 +39,7 @@ Im bisherigen Bestand unter **Boston Dynamics** erfasst. [Quellenhinweis](../../
 | Entwicklungsende | Unbekannt | [unbekannt / keine](#lifecycle-development-end) |
 | Produktionsende | Unbekannt | [unbekannt / keine](#lifecycle-production-end) |
 | Supportende | Unbekannt | [unbekannt / keine](#lifecycle-support-end) |
-| Höhe | Unbekannt | [unbekannt / keine](#hardware-height) |
+| Höhe | 1.9 m (Atlas; Katalogangabe) | [eingeschraenkt / projektkatalog](#hardware-height) |
 | Breite | Unbekannt | [unbekannt / keine](#hardware-width) |
 | Tiefe | Unbekannt | [unbekannt / keine](#hardware-depth) |
 | Eigenmasse | Unbekannt | [unbekannt / keine](#hardware-mass) |
@@ -45,6 +57,9 @@ Im bisherigen Bestand unter **Boston Dynamics** erfasst. [Quellenhinweis](../../
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | USA (Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands) | [eingeschraenkt / projektkatalog](#identity-origin-country) |
+| Höhe mit Konfigurationsbezug | 1,90 m (Atlas; Katalogangabe; Revision und Ausstattung beachten) | [eingeschraenkt / projektkatalog](#hardware-height-description) |
+| Nutzlast mit Lastbezug | 30 kg dauerhaft; 50 kg Spitze; einhändig 20 kg (Atlas; Keine Umrechnung zwischen Armnutzlast, Heben und Tragen) | [eingeschraenkt / projektkatalog](#hardware-payload-description) |
 
 ## Beschaffung und Geschäftsmodell
 
@@ -68,8 +83,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### lifecycle first presented
 
-**Erstvorstellung:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Erstvorstellung:** 2026-01-05. Status: belegt. Evidenz: herstellerangabe.
 
+Bedingungen: scope: Produktversion 2026, nicht hydraulischer Atlas und nicht erster elektrischer Prototyp
+
+* [Atlas Produktvorstellung 2026](../../quellen/src_atlas_2026_launch.md), Fundstelle: CES Produktversion. Zugang: suchindex. Aussage geprüft: 2026-10-30.
 ### lifecycle development
 
 **Entwicklung:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -100,8 +118,11 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 ### hardware height
 
-**Höhe:** Unbekannt. Status: unbekannt. Evidenz: keine.
+**Höhe:** 1.9 m. Status: eingeschraenkt. Evidenz: projektkatalog.
 
+Bedingungen: scope: Atlas; precision: Katalogangabe
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 ### hardware width
 
 **Breite:** Unbekannt. Status: unbekannt. Evidenz: keine.
@@ -170,6 +191,27 @@ Unbekannte Pflichtangaben werden gesammelt gezeigt. Andere fehlende Merkmale sin
 
 **Aboabhängigkeit:** Unbekannt. Status: unbekannt. Evidenz: keine.
 
+### identity origin country
+
+**Ursprungsland der Entwicklung:** USA. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: definition: Entwicklungsherkunft laut Katalog; kein Nachweis des Fertigungslands
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Modellkopf: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware height description
+
+**Höhe mit Konfigurationsbezug:** 1,90 m. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Atlas; note: Katalogangabe; Revision und Ausstattung beachten
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Körper und Achsen. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
+### hardware payload description
+
+**Nutzlast mit Lastbezug:** 30 kg dauerhaft; 50 kg Spitze; einhändig 20 kg. Status: eingeschraenkt. Evidenz: projektkatalog.
+
+Bedingungen: scope: Atlas; note: Keine Umrechnung zwischen Armnutzlast, Heben und Tragen
+
+* [Projektkatalog 03-Humanoide_Roboter_Katalog_Industrie_und_Logistik_2026_10_29_123420_CET.docx](../../quellen/src_catalog_03.md), Fundstelle: Technik: Nutzlast. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 ## Medien und Dokumente
 

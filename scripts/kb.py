@@ -10,6 +10,7 @@ import subprocess
 import sys
 import yaml
 from jsonschema import Draft202012Validator, FormatChecker
+from screening import section as screening_section, live_claims
 
 ROOT = Path(__file__).resolve().parents[1]
 class StrictLoader(yaml.SafeLoader):
@@ -70,6 +71,15 @@ def validate(root=ROOT):
         for oid in [meta['manufacturer_id']] + meta['developer_ids']:
             if oid not in orgs: errors.append(f'{rid}: unbekannte Organisation {oid}')
         refs(meta['classification']['source_ids'], rid)
+        if meta.get('official_link'):
+            refs([meta['official_link']['source_id']], rid)
+            if not meta['official_link']['url'].startswith('https://'): errors.append(f'{rid}: offizieller Link muss HTTPS verwenden')
+        screening = meta.get('screening')
+        if screening:
+            refs(screening['source_ids'], rid)
+            if screening['section']=='aktuell' and (not screening['source_ids'] or not screening['checked_at'] or screening['basis']=='bestandsimport'):
+                errors.append(f'{rid}: aktuelle Auswahl braucht datierten Beleg jenseits des Bestandsimports')
+
         for tag in meta['tags']:
             if tag['id'] not in axes.get(tag['axis'], {}): errors.append(f'{rid}: unbekannter Tag {tag}')
             refs(tag['source_ids'], rid)
@@ -119,8 +129,7 @@ def validate(root=ROOT):
     return len(robots)
 
 def active_claims(data):
-    replaced={c['supersedes'] for c in data['claims'] if c['supersedes']}
-    return [c for c in data['claims'] if c['id'] not in replaced and c['valid_until'] is None]
+    return live_claims(data)
 
 def procurement_offers(data, as_of, region=None, audience=None, max_age=90):
     """No inference from classification, product pages or absence of data."""
@@ -150,7 +159,22 @@ def generate(root=ROOT):
         text=generated+f'# {meta["name"]}\n\n'+body.split('## Einordnung\n\n',1)[-1].split('\n\n## Offene',1)[0]+'\n\n'
         text+=f'**Hersteller:** [{orgs[meta["manufacturer_id"]]["name"]}](../../hersteller/{meta["manufacturer_id"]}/README.md)  \n**Bauform:** {meta["form"]}  \n**Einordnung:** {meta["classification"]["value"]}  \n**Begründung:** {meta["classification"]["reason"]}  \n**Geltungsbereich:** {meta["scope"]}  \n**Prüfumfang:** {meta["maintenance"]["status"]}, {meta["maintenance"]["reviewed_at"] or 'noch nicht fachlich geprüft'}\n\n'
         text+='**Tags:** '+', '.join(axes[t['axis']][t['id']]['label']+' ('+t['basis']+')' for t in meta['tags'])+'\n\n'
-        text+='## Steckbrief\n\n| Merkmal | Angabe | Nachweisstand |\n| --- | --- | --- |\n'
+        link=meta.get('official_link')
+        if link:
+            verification='geprüft' if link['verification']=='geprueft' else 'aus dem Bestand; noch nicht erneut geprüft'
+            text+=f'**Offizielle Modellquelle:** [{link["url"]}]({link["url"]}) ({verification}).\n\n'
+        else:
+            candidates=meta['classification']['source_ids']
+            text+='**Offizielle Modellquelle:** Noch nicht bestätigt. '+', '.join(f'[Bisheriger Quellenhinweis]({sources[s]["url"]})' for s in candidates)+'\n\n'
+        text+='## Screening\n\n'
+        screening=meta.get('screening',{})
+        if screening:
+            from views import ACCESS, SECTION_LABELS
+            text+=f'**Ansicht:** {SECTION_LABELS[screening["section"]]}. **Zugang:** {ACCESS[screening["access"]]}.\n\n'
+            text+=screening['reason']+'\n\n'
+            text+='Einordnung geprüft: '+str(screening['checked_at'] or 'noch nicht')+'. Grundlage: '+screening['basis']+'. '+', '.join(f'[{s}](../../quellen/{s}.md)' for s in screening['source_ids'])+'\n\n'
+        text+='## Steckbrief\n\n[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)\n\n| Merkmal | Angabe | Nachweisstand |\n| --- | --- | --- |\n'
+
         for key,spec in metrics.items():
             if not spec['overview']: continue
             selected=[c for c in claims if c['key']==key]
@@ -188,50 +212,21 @@ def generate(root=ROOT):
             if oid in [m['manufacturer_id']]+m['developer_ids']: text+=f'* [{m["name"]}](../../roboter/{rid}/README.md)\n'
         text+='\n## Quellen\n\n'+''.join(f'* [{sources[s]["title"]}](../../quellen/{s}.md)\n' for s in org['source_ids'])
         write(root,f'hersteller/{oid}/README.md',text)
-    groups={'gesamtbestand':('Gesamter erfasster Bestand',list(robots)),
-            'entwicklungspipeline':('Entwicklungspipeline',[r for r,(m,d,b) in robots.items() if m['classification']['value']=='pipeline']),
-            'historie':('Historie und frühere Generationen',[r for r,(m,d,b) in robots.items() if m['classification']['value'].startswith('historisch') or m['classification']['value']=='fruehere_generation']),
-            'ungeprueft':('Erfasste Profile mit offener Prüfung',[r for r,(m,d,b) in robots.items() if m['maintenance']['status']=='erfasst']),
-            'gegenwaertig':('Gegenwärtige Plattformen',[r for r,(m,d,b) in robots.items() if m['classification']['value']=='gegenwaertig'])}
-    for axis,tags in axes.items():
-        for tid,tag in tags.items():
-            members=[r for r,(m,d,b) in robots.items() if any(t['axis']==axis and t['id']==tid for t in m['tags'])]
-            if members: groups[f'{axis}_{tid}']=(tag['label'],members)
-    # Remove obsolete generated views when a tag or model was removed.
-    for p in (root/'katalog').glob('*.md') if (root/'katalog').exists() else []:
-        if p.stem not in groups and p.read_text().startswith('<!-- AUTOMATISCH'): p.unlink()
-    for key,(title,ids) in groups.items():
-        text=generated+f'# {title}\n\nKategorien sind keine Eignungszusage. Historische Einordnung und Beschaffbarkeit werden getrennt behandelt.\n\n| Modell | Eintragstyp | Einordnung | Prüfumfang |\n| --- | --- | --- | --- |\n'
-        for rid in ids:
-            m=robots[rid][0];text+=f'| [{m["name"]}](../roboter/{rid}/README.md) | {m["entity_type"]} | {m["classification"]["value"]} | {m["maintenance"]["status"]} |\n'
-        if key=='entwicklungspipeline':
-            text+='\n## Offene Termine\n\n'
-            for rid in ids:
-                for e in robots[rid][1]['events']:
-                    if e['status']=='angekuendigt':text+=f'* {robots[rid][0]["name"]}: {e["date"]}, {e["description"]}\n'
-        write(root,f'katalog/{key}.md',text)
-    from collections import Counter
-    counts=Counter(m['entity_type'] for m,d,b in robots.values())
-    count_text=', '.join(f'{n} {kind}' for kind,n in sorted(counts.items()))
-    text=generated+'# HumanoidProfiles\n\nQuellenbasierte Wissensbasis für humanoide Roboter. Für Menschen lesbar und für strukturierte Auswahl sowie RAG exportierbar. Branchen, Aufgaben und Umgebungen sind erweiterbare Tags.\n\n**Erfasster Bestand:** INVENTORY_COUNT Profile. INVENTORY_TYPES. Der Großteil wurde aus vorhandenen Listen übernommen und ist noch fachlich zu prüfen. Keine Vollständigkeitsbehauptung und keine pauschale Kaufempfehlung. Herstellerangaben, Ankündigungen und unabhängige Nachweise bleiben unterscheidbar.\n\n## Einstieg\n\n'
-    text=text.replace('INVENTORY_COUNT',str(len(robots))).replace('INVENTORY_TYPES',count_text)
-    for key in ['gegenwaertig','entwicklungspipeline','ungeprueft']:
-        text+=f'* [{groups[key][0]}](katalog/{key}.md)\n'
-    text+='\n## Branchen, Aufgaben und Umgebungen\n\n'
-    for key,(title,ids) in groups.items():
-        if key not in ['gesamtbestand','entwicklungspipeline','historie','gegenwaertig','ungeprueft']: text+=f'* [{title}](katalog/{key}.md) ({key.split("_")[0]})\n'
-    text+='\n## Historie und vollständiger erfasster Bestand\n\n* [Historie und frühere Generationen](katalog/historie.md)\n* [Alle erfassten Modelle](katalog/gesamtbestand.md)\n\n## Pflegen und erweitern\n\n* [Architektur und Dateistruktur](docs/architektur.md)\n* [Datenregeln](docs/datenregeln.md)\n* [Pflege und neue Recherche](docs/pflegeprozess.md)\n* [Vollständiges Merkmalsverzeichnis](schema/merkmale.yaml)\n* [Vorlagen](vorlagen/README.md)\n* [Vollständiger Importnachweis](recherche/importe/README.md)\n* [Recherchekandidaten](recherche/kandidaten/README.md)\n* [RAG und Auswahlregeln](docs/rag.md)\n* [Änderungen](CHANGELOG.md)\n\n## Lokal ausführen\n\n```sh\npython -m pip install -r requirements.txt\npython scripts/kb.py validate\npython scripts/kb.py build\npython -m unittest discover -s tests -v\npython scripts/kb.py export\npython scripts/kb.py query --mode procurement --region EU --audience unternehmen\n```\n\n`export/` ist abgeleitet und wird nicht versioniert. `README.md`, die Kataloge und die Modellansichten sind automatisch erzeugt. Es läuft noch kein gehostetes RAG System und keine automatische Webrecherche.\n'
-    write(root,'README.md',text)
+    from views import build_catalog
+    build_catalog(root,sources,orgs,robots,metrics,axes,generated)
 
-def export(root=ROOT, commit=None):
+def export(root=ROOT, commit=None, as_of=None):
     validate(root)
     sources,orgs,robots,metrics,axes=load(root)
     if commit is None:
         try: commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=root,text=True,stderr=subprocess.DEVNULL).strip()
         except subprocess.CalledProcessError: commit='uncommitted'
+    as_of=as_of or date.today()
+    policy=read_yaml(root/'schema/screening_policy.yaml')
     index=[];chunks=[]
     for rid,(m,d,body) in robots.items():
         meta={'robot_id':rid,'name':m['name'],'manufacturer_id':m['manufacturer_id'],'entity_type':m['entity_type'],'review_status':m['maintenance']['status'],'classification':m['classification']['value'],'form':m['form'],'tags':m['tags'],'scope':m['scope'],'commit':commit,'source_path':f'roboter/{rid}/fakten.yaml'}
+        meta.update(screening_section=screening_section(m,d,as_of,policy),screening=m.get('screening'),official_link=m.get('official_link'))
         index.append({**meta,'claims':active_claims(d),'offers':d['offers'],'events':d['events']})
         for c in active_claims(d):
             text=f'{m["name"]}. Geltungsbereich: {m["scope"]} {metrics[c["key"]]["label"]}: {display(c)}. Status: {c["status"]}; Evidenz: {c["evidence"]}. Bedingungen: '+json.dumps(c['context'],ensure_ascii=False)
@@ -258,21 +253,24 @@ def check_links(root=ROOT):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command',choices=['validate','build','export','query'])
-    parser.add_argument('--mode',choices=['procurement','reference','pipeline'],default='reference')
+    parser.add_argument('--mode',choices=['procurement','reference','pipeline','screening'],default='reference')
     parser.add_argument('--region');parser.add_argument('--audience');parser.add_argument('--as-of',default=date.today().isoformat());parser.add_argument('--commit')
     args=parser.parse_args()
     try:
         if args.command=='validate': print(f'OK: {validate()} Roboter validiert')
         elif args.command=='build': generate();check_links();print('Ansichten erzeugt und interne Links geprüft')
         elif args.command=='export':
-            index,chunks=export(commit=args.commit);print(f'Export: {len(index)} Modelle, {len(chunks)} Abschnitte')
+            index,chunks=export(commit=args.commit,as_of=date.fromisoformat(args.as_of));print(f'Export: {len(index)} Modelle, {len(chunks)} Abschnitte')
         else:
             validate();robots=load()[2];result=[]
+            policy=read_yaml(ROOT/'schema/screening_policy.yaml')
             for rid,(m,d,b) in robots.items():
                 offers=procurement_offers(d,date.fromisoformat(args.as_of),args.region,args.audience)
+                sec=screening_section(m,d,date.fromisoformat(args.as_of),policy)
+                if args.mode=='screening' and sec!='aktuell':continue
                 if args.mode=='procurement' and not offers: continue
                 if args.mode=='pipeline' and m['classification']['value']!='pipeline':continue
-                result.append({'id':rid,'name':m['name'],'classification':m['classification']['value'],'eligible_offers':offers})
+                result.append({'id':rid,'name':m['name'],'classification':m['classification']['value'],'eligible_offers':offers,'screening_section':sec,'access':m.get('screening',{}).get('access')})
             print(json.dumps({'mode':args.mode,'as_of':args.as_of,'region':args.region,'audience':args.audience,'results':result,'note':'Keine Treffer bedeuten keinen bestätigten passenden Datensatz, nicht weltweite Nichtverfügbarkeit.'},ensure_ascii=False,indent=2))
     except (ValueError,KeyError,yaml.YAMLError) as error:
         print(str(error),file=sys.stderr);sys.exit(1)

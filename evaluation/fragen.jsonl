@@ -6,3 +6,6 @@
 {"id": "policy", "question": "Welche Plattform hat dokumentiertes eigenes Policy Training und physische Ausführung?", "expected_ids": ["unitree_h1"], "must_explain": "Kommerzielle Lizenzrechte gesondert prüfen."}
 {"id": "dr02_ip", "question": "Ist DR02 unabhängig für IP66 getestet?", "expected": "Herstellerangabe vorhanden; unabhängiger Prüfbericht nicht erfasst."}
 {"id": "all", "question": "Liste alle erfassten Modelle einschließlich historischer Systeme.", "expected_count": 236, "method": "structured_enumeration", "must_explain": "Profile umfassen Modelle, Varianten, Familien und Programme; keine Gleichsetzung mit eindeutigen Hardwaremodellen."}
+{"id": "screening_history", "question": "Welche aktuellen Roboter soll ich für einen Einsatz vergleichen?", "mode": "screening", "must_exclude": ["pepper_classic", "honda_asimo_2011", "figure_figure_02", "aist_und_kawada_hrp_5p"], "must_explain": "Historie, Forschungsprototypen und ungeklärte Verfügbarkeit separat."}
+{"id": "old_but_available", "question": "Ist TALOS wegen Vorstellung 2016 auszuschließen?", "expected": "Nein, aktuelle Angebotsanfrage vorhanden."}
+{"id": "public_environment", "question": "Was bedeutet Umgebung mit Besuchern oder Kunden?", "expected": "Umgebungstag, keine Branche und kein Sicherheitsnachweis."}

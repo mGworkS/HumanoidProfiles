@@ -1,0 +1,16 @@
+schema_version: '1.0'
+max_evidence_age_days: 180
+allowed_access:
+- bestellweg
+- vorbestellung
+- anfrage
+- projektzugang
+- vorgestellt
+allowed_entities:
+- modell
+- variante
+- familie
+note: Alter der Erstvorstellung allein ist kein Ausschluss. Aktueller Zugang oder
+  eine noch relevante kommerzielle Vorstellung braucht einen datierten Beleg. Familien
+  werden ausdrücklich markiert.
+snapshot_date: '2026-10-30'

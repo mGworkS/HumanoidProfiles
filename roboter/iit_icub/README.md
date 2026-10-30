@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **IIT** erfasst. [Quellenhinweis](../../quellen/src_
 
 **Tags:** Forschung (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.iit.it/documents/20123/8310093/2024-2029_Strategic_Plan_Tech_Annex.pdf/370bdedd-6b2c-0eb6-c0fb-c49740a9fecc?t=1744021157424](https://www.iit.it/documents/20123/8310093/2024-2029_Strategic_Plan_Tech_Annex.pdf/370bdedd-6b2c-0eb6-c0fb-c49740a9fecc?t=1744021157424) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Forschungsplattformen ohne bestätigten externen Zugang. **Zugang:** Zugang nicht bestätigt.
+
+Forschungsplattform im Bestand; aktueller externer Zugang nicht bestätigt. Kein Nachweis, dass Zugang ausgeschlossen ist.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n38](../../quellen/src_import_n38.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

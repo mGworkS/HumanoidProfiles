@@ -44,6 +44,21 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: teilweise_geprueft
+official_link:
+  url: https://www.agilityrobotics.com/solutions/digit-5
+  kind: produkt
+  source_id: src_digit5_product
+  verification: geprueft
+screening:
+  section: aktuell
+  access: vorgestellt
+  reason: Digit 5 Entwicklung vorgestellt; Zugang für 2027 angekündigt. Keine bestätigte
+    Auslieferung.
+  source_ids:
+  - src_digit5_launch
+  - src_digit5_product
+  checked_at: '2026-10-29'
+  basis: primaerquelle
 ---
 
 # Digit 5

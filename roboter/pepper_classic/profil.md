@@ -57,6 +57,20 @@ maintenance:
   next_review: '2026-11-29'
   priority: normal
   status: teilweise_geprueft
+official_link:
+  url: https://www.softbank.jp/en/robot/
+  kind: produkt
+  source_id: src_pepper_uses
+  verification: aus_bestand
+screening:
+  section: historie
+  access: unbekannt
+  reason: Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht
+    ausreichend geprüft.
+  source_ids:
+  - src_pepper_launch
+  checked_at: null
+  basis: bestandsimport
 ---
 
 # Pepper · klassische Plattform

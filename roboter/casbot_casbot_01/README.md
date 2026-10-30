@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **CASBOT** erfasst. [Quellenhinweis](../../quellen/s
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://casbot.tech/about](https://casbot.tech/about) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n03](../../quellen/src_import_n03.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

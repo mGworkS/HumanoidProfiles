@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Engineered Arts** erfasst. [Quellenhinweis](../../
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://engineeredarts.com/uk/about](https://engineeredarts.com/uk/about) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n35](../../quellen/src_import_n35.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

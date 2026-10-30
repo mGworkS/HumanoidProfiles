@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **Aeolus Robotics** erfasst. [Quellenhinweis](../../
 
 **Tags:** Gesundheit und Pflege (redaktionelle_zuordnung), Service (redaktionelle_zuordnung)
 
+**Offizielle Modellquelle:** [https://www.aeolusbot.com/meet-aeo](https://www.aeolusbot.com/meet-aeo) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n62](../../quellen/src_import_n62.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |

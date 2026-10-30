@@ -30,3 +30,7 @@ Git dokumentiert Änderungen an der Wissensbasis. Ereignisse dokumentieren die G
 ## Automatisierung
 
 GitHub Actions prüft Daten, Tests und reproduzierbare Ansichten bei Push und Pull Request. Die Webrecherche ist nicht zeitgesteuert eingerichtet. Quellenmonitoring beschreibt geplante Prüfintervalle, keinen laufenden Dienst.
+
+## Screening aktualisieren
+
+Nach jeder Quellenprüfung screening begründen und den Quellentyp sowie das Datum korrekt setzen. snapshot_date in schema/screening_policy.yaml auf den Veröffentlichungsstand der Ansichten setzen. Ursprungsland und technische Kennwerte werden als Aussagen mit Quelle geführt. Neue Branchenansichten entstehen auch bei noch fehlenden Kandidaten.

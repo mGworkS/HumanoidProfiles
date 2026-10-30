@@ -15,7 +15,19 @@ Im bisherigen Bestand unter **UBTECH** erfasst. [Quellenhinweis](../../quellen/s
 
 **Tags:** 
 
+**Offizielle Modellquelle:** [https://www.ubtrobot.com/en/humanoid/products/walker-s1](https://www.ubtrobot.com/en/humanoid/products/walker-s1) (aus dem Bestand; noch nicht erneut geprüft).
+
+## Screening
+
+**Ansicht:** Noch zu prüfende Einträge. **Zugang:** Unbekannt.
+
+Aktuelle Marktverfügbarkeit beziehungsweise Marktvorstellung noch nicht ausreichend geprüft.
+
+Einordnung geprüft: noch nicht. Grundlage: bestandsimport. [src_import_n07](../../quellen/src_import_n07.md)
+
 ## Steckbrief
+
+[Legende zu Merkmalen, Einheiten und Nachweisen](../../docs/legende.md)
 
 | Merkmal | Angabe | Nachweisstand |
 | --- | --- | --- |
