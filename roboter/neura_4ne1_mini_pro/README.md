@@ -50,6 +50,7 @@ Bildquelle: [NEURA Robotics](../../quellen/src_neura_mini_reservation_20261030.m
 | Ausführung eigener Policies | Unbekannt | [unbekannt / keine](#openness-policy-deployment) |
 | Cloudabhängigkeit | Volle Neuraverse Anbindung vorgesehen; Pflichtabhängigkeit und Offline Umfang nicht geklärt | [angekuendigt / herstellerangabe](#v20261030-ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | Deutschland (Entwicklungsherkunft der Mini Plattform; kein Fertigungslandnachweis) | [belegt / herstellerangabe](#variant-origin-country) |
 | Freiheitsgrade | 25 (Basiseinheit ohne Hände und Endeffektoren) | [angekuendigt / herstellerangabe](#v20261030-hardware-dof) |
 | Nennnutzlast mit gesondertem Lastbezug | 3 kg (nicht als Last je Arm, Dauerlast oder Last beim Gehen ausgewiesen; nur im Kontext Pro Manipulationspaket prüfen) | [angekuendigt / herstellerangabe](#v20261030-hardware-payload-rated) |
 | KI und Steuerungsmodelle im Einsatz | [NEURA Foundation AI, konkrete Mini Modellversion nicht benannt](#ai-mini-platform) (angekuendigt) | [Rolle, Bezug und Bedingungen](#ki-modelle-und-software) |
@@ -342,6 +343,20 @@ Bedingungen: grenze: NEURON AI der späteren Gen4 nicht ohne Mini spezifischen B
 **Trainings und Simulationswerkzeuge:** ROS 2, Python und Neuraverse; zusätzliche Pro Schnittstellen separat. Status: angekuendigt. Evidenz: herstellerangabe.
 
 * [4NE1 Mini: Standard, Pro und Reservierungsbedingungen](../../quellen/src_neura_mini_reservation_20261030.md), Fundstelle: Konfigurationstabelle. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+
+</details>
+
+<details>
+<summary>Identität: 1 Angaben und Belege</summary>
+
+### variant origin country
+
+**Ursprungsland der Entwicklung:** Deutschland. Status: belegt. Evidenz: herstellerangabe.
+
+Bedingungen: definition: Entwicklungsherkunft der Mini Plattform; kein Fertigungslandnachweis
+
+* [4NE1 Mini Datenblatt V1](../../quellen/src_neura_mini_sheet_v1.md), Fundstelle: Seiten 1 und 2: Designed and engineered in Germany. Zugang: direkt. Aussage geprüft: 2026-10-30.
 
 
 </details>

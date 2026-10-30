@@ -899,6 +899,21 @@ claims:
   valid_from: null
   valid_until: null
   supersedes: null
+- id: variant_origin_country
+  key: identity.origin_country
+  value: China
+  unit: null
+  status: eingeschraenkt
+  evidence: redaktionelle_einordnung
+  sources:
+  - source_id: src_catalog_04
+    locator: 'G1 Plus: Hersteller und Land'
+  context:
+    definition: EDU Variante der G1+ Familienentwicklung laut Projektkatalog; kein eigenständiger Fertigungslandnachweis
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
 offers: []
 events: []
 extensions:

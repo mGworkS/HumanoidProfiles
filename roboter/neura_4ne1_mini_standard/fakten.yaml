@@ -816,6 +816,21 @@ claims:
   valid_from: null
   valid_until: null
   supersedes: null
+- id: variant_origin_country
+  key: identity.origin_country
+  value: Deutschland
+  unit: null
+  status: belegt
+  evidence: herstellerangabe
+  sources:
+  - source_id: src_neura_mini_sheet_v1
+    locator: 'Seiten 1 und 2: Designed and engineered in Germany'
+  context:
+    definition: Entwicklungsherkunft der Mini Plattform; kein Fertigungslandnachweis
+  checked_at: '2026-10-30'
+  valid_from: null
+  valid_until: null
+  supersedes: null
 offers:
 - id: reservierung_2026
   provider_id: neura_robotics

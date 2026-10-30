@@ -50,6 +50,7 @@ Bildquelle: [Unitree](../../quellen/src_g1_plus_specs_20261030.md). Rechte beim 
 | Ausführung eigener Policies | Unbekannt (G1 Beispiele nicht ohne Kompatibilitätsprüfung auf G1+ übertragen) | [unbekannt / keine](#v20261030-openness-policy-deployment) |
 | Cloudabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-cloud) |
 | Aboabhängigkeit | Unbekannt | [unbekannt / keine](#ecosystem-subscription) |
+| Ursprungsland der Entwicklung | China (EDU Variante der G1+ Familienentwicklung laut Projektkatalog; kein eigenständiger Fertigungslandnachweis) | [eingeschraenkt / redaktionelle_einordnung](#variant-origin-country) |
 | Freiheitsgrade | 25 (Grundausstattung; zusätzliche Hände und Achsen gesondert) | [belegt / herstellerangabe](#v20261030-hardware-dof) |
 | KI und Steuerungsmodelle im Einsatz | Unbekannt | [Rolle, Bezug und Bedingungen](#ki-modelle-und-software) |
 | Weitere belegte KI Integrationen | Unbekannt | [Rolle, Bezug und Bedingungen](#ki-modelle-und-software) |
@@ -275,6 +276,20 @@ Bedingungen: grenze: Garantie ist kein allgemeiner Software Supportvertrag; regi
 **Zubehör:** Externe Stromversorgung für längeren Betrieb beworben; Batterielaufzeit bleibt gesondert. Status: eingeschraenkt. Evidenz: herstellerangabe.
 
 * [Unitree G1+ und G1+ EDU: technische Vergleichstabelle](../../quellen/src_g1_plus_specs_20261030.md), Fundstelle: Continuous External Power Supply Charging. Zugang: direkt. Aussage geprüft: 2026-10-30.
+
+
+</details>
+
+<details>
+<summary>Identität: 1 Angaben und Belege</summary>
+
+### variant origin country
+
+**Ursprungsland der Entwicklung:** China. Status: eingeschraenkt. Evidenz: redaktionelle_einordnung.
+
+Bedingungen: definition: EDU Variante der G1+ Familienentwicklung laut Projektkatalog; kein eigenständiger Fertigungslandnachweis
+
+* [Projektkatalog 04-Humanoide_Roboter_Katalog_Forschung_und_EDU_2026_10_29_123420_CET.docx](../../quellen/src_catalog_04.md), Fundstelle: G1 Plus: Hersteller und Land. Zugang: lokale_kopie. Aussage geprüft: 2026-10-30.
 
 
 </details>
