@@ -1,0 +1,1652 @@
+{
+  "date": "2026-10-30",
+  "scope": "Abrufversuch der 145 verschiedenen offiziellen Links im vorhandenen Bestand. Kein Nachweis vollständiger fachlicher Auswertung.",
+  "sources": [
+    {
+      "url": "https://apptronik.com/our-work/astra",
+      "final_url": "https://apptronik.com/our-work/astra",
+      "ids": [
+        "apptronik_astra"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Apptronik",
+      "sha256": "7d8fb0c3a9eeb92f4fbe2922b26b2ceef957934599bb02989d2642e58100732e"
+    },
+    {
+      "url": "https://www.limxdynamics.com/en/faq",
+      "ids": [
+        "limx_dynamics_tron_2",
+        "limx_dynamics_tron_1",
+        "limx_dynamics_luna"
+      ],
+      "error": "403 Client Error: Forbidden for url: https://www.limxdynamics.com/en/faq"
+    },
+    {
+      "url": "https://www.ubtrobot.com/en/",
+      "final_url": "https://www.ubtrobot.com/en/",
+      "ids": [
+        "ubtech_cruzr_s2",
+        "ubtech_walker_c",
+        "ubtech_yanshee",
+        "ubtech_walker_c1",
+        "ubtech_walker_x",
+        "ubtech_cruzr_1s",
+        "ubtech_walker_tienkung",
+        "ubtech_cruzr_y1"
+      ],
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "title": "UBTECH: Humanoid Robot | AI Education Robot | Commercial Robot Solutions",
+      "sha256": "afb53359c07d397a4b7b11b00f45041c3a51aed0239643dc45c4a3281421ac97"
+    },
+    {
+      "url": "https://www.agilityrobotics.com/solutions/digit-5",
+      "final_url": "https://www.agilityrobotics.com/solutions/digit-5",
+      "ids": [
+        "agility_digit5"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Digit 5 | Agility",
+      "sha256": "7c2baa07c302b5fa5f1322202d5a28ce569bfd5c381a0034f7d266049480f1a1"
+    },
+    {
+      "url": "https://www.nasa.gov/robonaut2/",
+      "final_url": "https://www.nasa.gov/robonaut2/",
+      "ids": [
+        "nasa_und_partner_valkyrie_r5",
+        "nasa_und_partner_robonaut_2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "Robonaut2 - NASA",
+      "sha256": "a83efa1f0b0ed06055d1e8926c0119cc1feead11011fd476c6371e49bafc2627"
+    },
+    {
+      "url": "https://www.oversonicrobotics.com/robee-r/",
+      "final_url": "https://www.oversonicrobotics.com/robee-r/",
+      "ids": [
+        "oversonic_robee_r"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "RoBee R: Industrial Humanoid Robot with Cognitive AI – Oversonic Robotics",
+      "sha256": "87d3d3c0baabb02fb706f5b9a42bd002378a10075d0108b738334fc0edac890e"
+    },
+    {
+      "url": "https://global.sharp/corporate/news/160414.html",
+      "final_url": "https://global.sharp/corporate/news/160414.html",
+      "ids": [
+        "sharp_robohon"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Sharp to Release RoBoHoN Mobile Robotic Phone | Press Releases | Sharp Global",
+      "sha256": "f0441b604a20680d3a90c142ef90afaafcda422033c111edc65ab1fc49f5a23b"
+    },
+    {
+      "url": "https://casbot.tech/about",
+      "final_url": "https://casbot.tech/about",
+      "ids": [
+        "casbot_casbot_02",
+        "casbot_casbot_01",
+        "casbot_casbot_w1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "CASBOT 中科慧灵",
+      "sha256": "521548be434017d94938a13e81790fb28bd8cdb9b4ae886ebc6c5a1ad163f682"
+    },
+    {
+      "url": "https://www.sunday.ai/",
+      "final_url": "https://www.sunday.ai/",
+      "ids": [
+        "sunday_robotics_memo"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Sunday Robotics | The helpful robotics company",
+      "sha256": "cc661338d771e09cb97b03e083856222bddffe64bffa88cbb7675a63c9b9e80d"
+    },
+    {
+      "url": "https://sanctuary.ai/solutions/",
+      "final_url": "https://sanctuary.ai/solutions/",
+      "ids": [
+        "sanctuary_ai_phoenix_und_aktuelle_roadmap"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Industrial Automation Solutions | Physical AI | Industrial Robots | Sanctuary AI",
+      "sha256": "7a17aa768969047c83c0d9a95667ddc3c94cc94659789388b19fd619deef321a"
+    },
+    {
+      "url": "https://www.iit.it/documents/20123/8310093/2024-2029_Strategic_Plan_Tech_Annex.pdf/370bdedd-6b2c-0eb6-c0fb-c49740a9fecc?t=1744021157424",
+      "final_url": "https://www.iit.it/documents/20123/8310093/2024-2029_Strategic_Plan_Tech_Annex.pdf/370bdedd-6b2c-0eb6-c0fb-c49740a9fecc?t=1744021157424",
+      "ids": [
+        "iit_r1",
+        "iit_icub",
+        "iit_ergocub",
+        "iit_icub3"
+      ],
+      "status": 200,
+      "type": "application/pdf",
+      "sha256": "fdcba98e73705425e5c9b3e58b87805ae9a5da548ccdb15c91c682d1f11d3f14"
+    },
+    {
+      "url": "https://www.beyondimagination.com/",
+      "final_url": "https://www.beyondimagination.com/",
+      "ids": [
+        "beyond_imagination_beyond_mark_1",
+        "beyond_imagination_beomni_v2",
+        "beyond_imagination_beomni_v3",
+        "beyond_imagination_beyond_mark_2",
+        "beyond_imagination_beomni_v1",
+        "beyond_imagination_beyond_mark_3"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "Beyond Imagination - Beyond Imagination",
+      "sha256": "06a0a29096bab4d96294239bd6e7f2dfae39a156e484c77d9c318cb4fcb76200"
+    },
+    {
+      "url": "https://www.1x.tech/about",
+      "final_url": "https://www.1x.tech/about",
+      "ids": [
+        "r_1x_neo_gamma",
+        "r_1x_eve",
+        "r_1x_neo_beta"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "About",
+      "sha256": "a433e67859957c2219769dc4673e99cd7dc3cdc3961aa287ea9b932d52bf9e4a"
+    },
+    {
+      "url": "https://www.engineeredarts.com/robots",
+      "final_url": "https://www.engineeredarts.com/robots",
+      "ids": [
+        "engineered_arts_ami_desktop",
+        "engineered_arts_azi_desktop",
+        "engineered_arts_mesmer",
+        "engineered_arts_ameca_desktop"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Engineered Arts: Embodied AI Social Humanoid Robots",
+      "sha256": "547a2689d8e87eeafabe1b7d88396048e84bf6691fc5b750e479bf9e25bcafc4"
+    },
+    {
+      "url": "https://www.agibot.com/",
+      "final_url": "https://www.agibot.com/",
+      "ids": [
+        "agibot_g1_max",
+        "agibot_a2_w",
+        "agibot_a2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "AGIBOT Innovation (Shanghai) Technology Co., Ltd. -AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "sha256": "25a488c4bd03b162261e2f6d6c55ea97eda857b7b0f1309b3abed50eb3d4c94f"
+    },
+    {
+      "url": "https://www.openloong.org.cn/en",
+      "final_url": "https://www.openloong.org.cn/en",
+      "ids": [
+        "openloong_und_humanoid_robot_shanghai_qingloong_mini",
+        "openloong_und_humanoid_robot_shanghai_qingloong_offentliche_plattform"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "OpenLoong - 人形机器人全栈开源社区",
+      "sha256": "eed6223e65241fe732bd89c796bf93a436c9a9de5381efbf0cdd5fdc3ce8eb2d"
+    },
+    {
+      "url": "https://docs.booster.tech/docs/product-manual/t1/getting-started/overview/",
+      "final_url": "https://docs.booster.tech/docs/product-manual/t1/getting-started/overview/",
+      "ids": [
+        "booster_robotics_t1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Overview | Booster Studio Docs",
+      "sha256": "e42b203f18c72862e74ef80c21b5fdaa83360e4d4bbe8022c5bb0bbf3cea3cc0"
+    },
+    {
+      "url": "https://neura-robotics.com/product/4ne1-mini-reservation/",
+      "final_url": "https://neura-robotics.com/product/4ne1-mini-reservation/",
+      "ids": [
+        "neura_4ne1_mini_standard",
+        "neura_robotics_r_4ne1_mini",
+        "neura_4ne1_mini_pro"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "Reserve 4NE1 Mini: Compact Humanoid Robot | NEURA Robotics",
+      "sha256": "c75543d69a8a79e65c69da1faa98a7c28020290213c686fd8bf9f5de5d347ffb"
+    },
+    {
+      "url": "https://www.engineai.com.cn/product-sa01",
+      "final_url": "https://www.engineai.com.cn/product-sa01",
+      "ids": [
+        "engineai_sa01"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "SA01_高拓展性双足机器人平台-ENGINEAI众擎机器人",
+      "sha256": "d6101adcfc2b23f927fdc943eb129c3cb3a29cea4cd3b7b4af26c5c6e3010e6e"
+    },
+    {
+      "url": "https://www.magiclab.top/en/human",
+      "final_url": "https://www.magiclab.top/en/human",
+      "ids": [
+        "magiclab_magicbot_gen1"
+      ],
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "title": "General-Purpose Humanoid Robot - MagicLab",
+      "sha256": "89be1bc1ee704dba55f0cde7cd577ef9381f7d25f011b16dbcb7afbedb881c37"
+    },
+    {
+      "url": "https://www.figure.ai/news/f-02-decommission",
+      "final_url": "https://www.figure.ai/news/f-02-decommission",
+      "ids": [
+        "figure_figure_02"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "F.02 Decommission",
+      "sha256": "3feef204dbafd7edaf5bc30b0dd62a84f5283ac1cab65960459f372bb04c2b0b"
+    },
+    {
+      "url": "https://www.lejurobot.com/en",
+      "final_url": "https://www.lejurobot.com/en",
+      "ids": [
+        "leju_robotics_aelos_pro3",
+        "leju_robotics_kuavo_5_w",
+        "leju_robotics_roban_2",
+        "leju_robotics_kuavo_4pro",
+        "leju_robotics_aelos_smart",
+        "leju_robotics_kuavo_5",
+        "leju_robotics_aelos_lite",
+        "leju_robotics_aelos_pro"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Leju - Leader in the industrialization of humanoid robots",
+      "sha256": "e290cb7c6e9e5964fa178a46bee877bd6b0a8ecc848c9fb64382e197cff6a740"
+    },
+    {
+      "url": "https://pollen-robotics.com/reachy-mini/",
+      "final_url": "https://pollen-robotics.com/reachy-mini/",
+      "ids": [
+        "pollen_robotics_reachy_mini_lite",
+        "pollen_robotics_reachy_mini_wireless"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Reachy Mini: open-source AI desktop robot by Hugging Face",
+      "sha256": "c8ef8c7f9773772e5442f1cbcd6fc087ab3052a339aa23dab52edf38a15367c4"
+    },
+    {
+      "url": "https://hansonrobotics.com/",
+      "final_url": "https://hansonrobotics.com/",
+      "ids": [
+        "hanson_robotics_little_sophia",
+        "hanson_robotics_sophia",
+        "hanson_robotics_han"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Hanson Robotics — Relatable Robots",
+      "sha256": "aa6df68abace86a14c218bc29f3f7e3a30a1127b84508c0408c3d1d1dccce3a2"
+    },
+    {
+      "url": "https://docs.robotis.com/",
+      "final_url": "https://docs.robotis.com/",
+      "ids": [
+        "robotis_thormang3",
+        "robotis_robotis_op3"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "ROBOTIS Docs",
+      "sha256": "b57f20e6692637c0f38a8d489f74d9c4dd2a3f5b69e2d725592ac14ae520aed8"
+    },
+    {
+      "url": "https://www.cheryinternational.com/pc/news/news1/20261021/detail-2673.shtml",
+      "final_url": "https://www.cheryinternational.com/pc/news/news1/20261021/detail-2673.shtml",
+      "ids": [
+        "aimoga_und_chery_r001",
+        "aimoga_und_chery_mornine",
+        "aimoga_und_chery_rn001",
+        "aimoga_und_chery_mobo"
+      ],
+      "status": 200,
+      "type": "text/html;charset=UTF-8",
+      "title": "",
+      "sha256": "288b25ba8b8effbad20102e3f794b7c6ec46b6bb88ac0cfc78ec2243701b08c2"
+    },
+    {
+      "url": "https://pal-robotics.com/robot/reem-c/",
+      "final_url": "https://pal-robotics.com/robot/reem-c/",
+      "ids": [
+        "pal_robotics_reem_c"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "REEM-C | Biped Humanoid Research Robot",
+      "sha256": "8928fdd3b76e886800bf065ec0cb1c1d0f1bc671904f20b459148ca146f8f626"
+    },
+    {
+      "url": "https://andromedarobotics.ai/",
+      "final_url": "https://andromedarobotics.ai/",
+      "ids": [
+        "andromeda_robotics_abi"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Andromeda | Personalised robot companions for aged care & assisted living residents",
+      "sha256": "03d12f0c3822c96c8f05db4331dfc6e1a4c6dc996604fe8dfd27aee4ae08c029"
+    },
+    {
+      "url": "https://genrobotics.com/",
+      "final_url": "https://genrobotics.com/",
+      "ids": [
+        "genrobotics_g_bot",
+        "genrobotics_genbot"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Genrobotics | Leading Robotics Company in India",
+      "sha256": "d3e230568e39f10af0a592935143776343a5560fa79880e53203f697251f57be"
+    },
+    {
+      "url": "https://www.hightorquerobotics.com/product?id=94",
+      "final_url": "https://www.hightorquerobotics.com/product?id=94",
+      "ids": [
+        "high_torque_robotics_hi"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "产品 - High Torque Robotics",
+      "sha256": "dbff3c2dd3d1bd94a0da48d60c2295b88cc841b98d2609f6e7e3e018b5866e37"
+    },
+    {
+      "url": "https://en.engineai.com.cn/product-pm01.html",
+      "final_url": "https://en.engineai.com.cn/product-pm01.html",
+      "ids": [
+        "engineai_pm01"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "PM01_ 全开放通用具身智能体-ENGINEAI众擎机器人",
+      "sha256": "c77c5c97d65d5c65ce1ea0a21c96925552cdb18bfbfd246ee9f9ff8eef87a942"
+    },
+    {
+      "url": "https://www.ti5robotics.com/products/Humanoid-Robot-Actuator",
+      "final_url": "https://www.ti5robotics.com/products/Humanoid-Robot-Actuator",
+      "ids": [
+        "ti5robot_t170d",
+        "ti5robot_t170a",
+        "ti5robot_t230c",
+        "ti5robot_t170a_v2",
+        "ti5robot_t170c",
+        "ti5robot_t140a"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "Humanoid Robot Actuator-Ti5ROBOT",
+      "sha256": "d5d9793de61a5fd5e55499fd4a37e2610631577b24f729b4d0ae666ee6ba0c71"
+    },
+    {
+      "url": "https://www.zeroth0.com/products/m1",
+      "final_url": "https://www.zeroth0.com/products/m1-edu-combo",
+      "ids": [
+        "zeroth_robotics_jupiter",
+        "zeroth_robotics_m1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "M1 EDU Combo",
+      "sha256": "20fe1c56b3a6019711b3f087060dad68c90d5fd00134278a5f9da2f4613f625b"
+    },
+    {
+      "url": "https://global.toyota/en/detail/19666346",
+      "final_url": "https://global.toyota/en/detail/19666346",
+      "ids": [
+        "toyota_t_hr3"
+      ],
+      "status": 200,
+      "type": "text/html;charset=UTF-8",
+      "title": "Toyota Unveils Third Generation Humanoid Robot T-HR3 | Toyota Motor Corporation Official Global Website",
+      "sha256": "5cd80089f4d4a0aeaebe0b30396a0bc96e0a883c406672515d5bffd098dc6b17"
+    },
+    {
+      "url": "https://www.aheadform.com/products",
+      "final_url": "https://www.aheadform.com/products",
+      "ids": [
+        "aheadform_elf_iridium",
+        "aheadform_elf_xuan",
+        "aheadform_chappie",
+        "aheadform_elf_xuan_2_0",
+        "aheadform_origin_f1",
+        "aheadform_tang_sanzang",
+        "aheadform_origin_m1"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "AheadForm | Humanoid Robot",
+      "sha256": "fb0baf69b0ae57b5abb13c410bb9495ea2dd27b99370baed6b9f88ab08c0a126"
+    },
+    {
+      "url": "https://unit.aist.go.jp/isri/isri-jrl/en/robots.html",
+      "final_url": "https://unit.aist.go.jp/isri/isri-jrl/en/robots.html",
+      "ids": [
+        "cnrs_aist_jrl_und_partner_rhp_friends",
+        "cnrs_aist_jrl_und_partner_hrp_4cr",
+        "cnrs_aist_jrl_und_partner_call_m"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "CNRS-AIST JRL(Joint Robotics Laboratory), IRL3218",
+      "sha256": "d66b32d3a0a8e8388f0a5644d5b84863a9e4b980bd6f5127c4d6ed9a06466d91"
+    },
+    {
+      "url": "https://en.dexforce.com/w1pro.html",
+      "final_url": "https://en.dexforce.com/w1pro.html",
+      "ids": [
+        "dexforce_w1_pro",
+        "dexforce_w1_core"
+      ],
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "title": "DexForce   W1   Pro",
+      "sha256": "f608d0e8caca92521f3e03c8ae9fe7b1c6a08eed57eed819045426b54a8a6f25"
+    },
+    {
+      "url": "https://www.gotokepler.com/productDetailK1",
+      "final_url": "https://www.gotokepler.com/productDetailK1",
+      "ids": [
+        "kepler_robotics_forerunner_k1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "KEPLER",
+      "sha256": "453a5595ec5276eec0c38e2ae42bb697baa09b443962f1dbd9e630c873989324"
+    },
+    {
+      "url": "https://www.robotera.com/en/",
+      "final_url": "https://www.robotera.com/en/",
+      "ids": [
+        "robotera_q5",
+        "robotera_m7"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "北京星动纪元 | 行业唯一软硬件全栈自研具身智能",
+      "sha256": "ab89f1299a1ae43ef02c49dd051eeb94b3c61be4121244b565970def2177b013"
+    },
+    {
+      "url": "https://www.care-o-bot.de/de/care-o-bot-4.html",
+      "ids": [
+        "fraunhofer_ipa_und_partner_care_o_bot_4"
+      ],
+      "error": "503 Server Error: Service Unavailable for url: https://www.care-o-bot.de/de/care-o-bot-4.html"
+    },
+    {
+      "url": "https://www.unitree.com/H2/",
+      "final_url": "https://www.unitree.com/H2/",
+      "ids": [
+        "unitree_h2",
+        "unitree_h2_edu"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Unitree H2 Destiny Awakening | Unitree Robotics",
+      "sha256": "8931d8bffb093ad7ec7dd0ea69b691ca0f186610f8bcf194f8bd09b75f85c799"
+    },
+    {
+      "url": "https://www.igus.eu/product/0-LCA-IROB",
+      "final_url": "https://www.igus.eu/product/0-LCA-IROB",
+      "ids": [
+        "igus_iggy_rob"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "iggyRob humanoid robot",
+      "sha256": "3d70b9be3b748cdd2437a17230d897a71d5924d74abfd11f07791c855202f9d2"
+    },
+    {
+      "url": "https://apptronik.com/news-collection/apptronik-unveils-apollo",
+      "final_url": "https://apptronik.com/news-collection/apptronik-unveils-apollo",
+      "ids": [
+        "apptronik_apollo"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Apptronik - News",
+      "sha256": "4a4569e2dddc0cb1e99cef0da3fd7935116b29c9f36dfa2a0bd7d95305a2f1c3"
+    },
+    {
+      "url": "https://www.unitree.com/h1/",
+      "final_url": "https://www.unitree.com/h1/",
+      "ids": [
+        "unitree_h1_2",
+        "unitree_h1"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Universal humanoid robot H1_Bipedal Robot_Humanoid Intelligent Robot Company | Unitree Robotics",
+      "sha256": "f83c839abe29a1ef3851a2f21daf65b85672642025b177f40bd37d349e544e00"
+    },
+    {
+      "url": "https://www.dlr.de/en/rm/research/robotic-systems/humanoids",
+      "ids": [
+        "dlr_agile_justin",
+        "dlr_rollin_justin",
+        "dlr_spacejustin",
+        "dlr_david_neodavid",
+        "dlr_toro"
+      ],
+      "error": "503 Server Error: Service Unavailable for url: https://www.dlr.de/en/rm/research/robotic-systems/humanoids"
+    },
+    {
+      "url": "https://www.figure.ai/company",
+      "final_url": "https://www.figure.ai/company",
+      "ids": [
+        "figure_figure_01"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Company | Figure",
+      "sha256": "603cc1af6d0136c0ca39659d7d2e1b67f6bd00077438bdab0d8726b11eeed1ec"
+    },
+    {
+      "url": "https://en.wandercraft.eu/calvin",
+      "final_url": "https://en.wandercraft.eu/calvin",
+      "ids": [
+        "wandercraft_calvin_40"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Calvin-40 | Wandercraft",
+      "sha256": "85fdd802a25be7f1b4f727048077e50ebe5cfe1a47fcdd32d9247b932ed4a858"
+    },
+    {
+      "url": "https://www.zj-humanoid.com/",
+      "ids": [
+        "zhejiang_humanoid_robot_innovation_center_naviai_wa1",
+        "zhejiang_humanoid_robot_innovation_center_naviai_i3",
+        "zhejiang_humanoid_robot_innovation_center_naviai_wa2"
+      ],
+      "error": "503 Server Error: Service Unavailable for url: https://www.zj-humanoid.com/"
+    },
+    {
+      "url": "https://www.robotera.com/en/robotics/L7.html",
+      "final_url": "https://www.robotera.com/en/robotics/L7.html",
+      "ids": [
+        "robotera_l7"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "北京星动纪元 | 行业唯一软硬件全栈自研具身智能",
+      "sha256": "ab89f1299a1ae43ef02c49dd051eeb94b3c61be4121244b565970def2177b013"
+    },
+    {
+      "url": "https://www.agibot.com/products/G2",
+      "final_url": "https://www.agibot.com/products/G2",
+      "ids": [
+        "agibot_g2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "AGIBOT Innovation (Shanghai) Technology Co., Ltd. -AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "sha256": "3a2d3dee26d0f28774ac5a028d6ae1341a767a513416d25c96df9565e2575a19"
+    },
+    {
+      "url": "https://www.nimbro.net/OP/",
+      "final_url": "https://www.nimbro.net/OP/",
+      "ids": [
+        "universitat_bonn_und_igus_igus_humanoid_open_platform",
+        "universitat_bonn_und_igus_nimbro_op2",
+        "universitat_bonn_und_igus_nimbro_op2x"
+      ],
+      "status": 200,
+      "type": "text/html; charset=ISO-8859-1",
+      "title": "University of Bonn, Computer Science VI, Autonomous Intelligent Systems",
+      "sha256": "e4427c3a2d12dcc588af376193e9d801a596e1b922462fe7b2b8f8dfb1f8ba95"
+    },
+    {
+      "url": "https://www.engineeredarts.com/robot/ameca",
+      "final_url": "https://www.engineeredarts.com/robot/ameca",
+      "ids": [
+        "engineered_arts_ameca"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Engineered Arts: Embodied AI Social Humanoid Robots",
+      "sha256": "f9808bf8ea9b70860eabcbdc2db1c9a13f3a211d9b1d8dfabe43dd1da78404c5"
+    },
+    {
+      "url": "https://www.unitree.com/g1/",
+      "final_url": "https://www.unitree.com/g1/",
+      "ids": [
+        "unitree_g1",
+        "unitree_g1_edu"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Humanoid robot G1_Humanoid Robot Functions_Humanoid Robot Price | Unitree Robotics",
+      "sha256": "caa502c5a909ac0f76e96c311936a5d5c829bb78e6216cd8e9ae4e11bf2a631a"
+    },
+    {
+      "url": "https://addverb.ai/blog/addverbs-leap-into-humanoid-robotics",
+      "final_url": "https://addverb.ai/blog/addverbs-leap-into-humanoid-robotics",
+      "ids": [
+        "addverb_elixis"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Addverb’s Leap Into Humanoid Robotics",
+      "sha256": "6604a5d61e624fb918478cd406cabd84b2c88e4c1fac264233fc369ce5321f3e"
+    },
+    {
+      "url": "https://pal-robotics.com/robot/tiago-pro/",
+      "final_url": "https://pal-robotics.com/robot/tiago-pro/",
+      "ids": [
+        "pal_robotics_tiago_pro"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "TIAGo Pro - Empowering Mobile Manipulation",
+      "sha256": "1a31882133d1d947dbb08572154001595cb74f6983f0080ca54f0409d58f651e"
+    },
+    {
+      "url": "https://www.reflexrobotics.com/",
+      "final_url": "https://www.reflexrobotics.com/",
+      "ids": [
+        "reflex_robotics_reflex_robot"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Reflex Robotics — The first humanoid delivering reliable work",
+      "sha256": "098fbced7c3ed209e6acdb197cb81f062573f33b25f499ae7d8ea4c8b0a25e5e"
+    },
+    {
+      "url": "https://gotokepler.com/productDetailK2",
+      "final_url": "https://gotokepler.com/productDetailK2",
+      "ids": [
+        "kepler_robotics_k2_zweibeinig",
+        "kepler_robotics_k2_rollend"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "KEPLER",
+      "sha256": "e7b87330ed4f31064f1b7df78f4c6b78c92fcbba7de1a20fa70f32508fcbeb56"
+    },
+    {
+      "url": "https://pal-robotics.com/robot/talos/",
+      "final_url": "https://pal-robotics.com/robot/talos/",
+      "ids": [
+        "pal_robotics_talos"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "TALOS | High-Performance Humanoid Robot",
+      "sha256": "ed25984244ba75c6a1d805cc88539abf87c9b86ab57cd1680b910f94c583d133"
+    },
+    {
+      "url": "https://en.deeprobotics.cn/en/index/dr02.html",
+      "final_url": "https://en.deeprobotics.cn/en/index/dr02.html",
+      "ids": [
+        "deep_dr02"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "DEEP Robotics - Pioneering Innovation & Applicatio",
+      "sha256": "9f070f161d45d8c2f72f28522096286cc68ed9e179fb7cd3e43a42dc782d0079"
+    },
+    {
+      "url": "https://cast-tech.ir/",
+      "final_url": "https://cast-tech.ir/",
+      "ids": [
+        "universitat_teheran_cast_mini_surena",
+        "universitat_teheran_cast_surena_iv"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "CAST – Center of Advanced Systems & Technologies",
+      "sha256": "163ae7d69746408e3b8e085a2011a58d1b297ad63e6721815efa3cd21180e341"
+    },
+    {
+      "url": "https://www.unitree.com/G1plus/",
+      "final_url": "https://www.unitree.com/G1plus/",
+      "ids": [
+        "unitree_g1_plus_edu",
+        "unitree_g1_plus"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "G1+ Full Evolution",
+      "sha256": "bd08f25327119cb943beb83f8359ff8e3bd1f1500f3e15d3f0c15251161b22e3"
+    },
+    {
+      "url": "https://www.arobot4all.com/48",
+      "final_url": "https://www.arobot4all.com/48",
+      "ids": [
+        "aeirobot_alice_4",
+        "aeirobot_alice_5",
+        "aeirobot_alice_m1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "에이로봇",
+      "sha256": "35d0a63b39c2dbad3c5b579321c948cbac05653aba728c2e67f9ee4b4a7653e9"
+    },
+    {
+      "url": "https://developer.galbot.com/docs/g1/2.2.4/en/g1/",
+      "final_url": "https://developer.galbot.com/docs/g1/2.2.4/en/g1/",
+      "ids": [
+        "galbot_g1"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "GALBOT G1 | Galbot Developer Platform",
+      "sha256": "45fb2206154522cd55aec0841872481db788ed741b735d0e64f0785382106cd6"
+    },
+    {
+      "url": "https://bostondynamics.com/products/atlas/",
+      "final_url": "https://bostondynamics.com/products/atlas/",
+      "ids": [
+        "boston_dynamics_atlas"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "Atlas Humanoid Robot | Boston Dynamics",
+      "sha256": "6389ccf5d722cfe9d191af812b39f9f93f4a0fd205dbc0bba4236e0173596583"
+    },
+    {
+      "url": "https://neura-robotics.com/products/4ne1/",
+      "final_url": "https://neura-robotics.com/products/4ne1/",
+      "ids": [
+        "neura_robotics_r_4ne1_gen_4"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "Humanoid Robot 4NE1 for Work and Life | NEURA Robotics",
+      "sha256": "aefc40818c9690135b26f819d50f0aa8cac914cd142dba6596e2c5534a3aa5d6"
+    },
+    {
+      "url": "https://www.pudurobotics.com/en/products?tab=xlab",
+      "final_url": "https://www.pudurobotics.com/en/products?tab=xlab",
+      "ids": [
+        "pudu_robotics_pudu_d9",
+        "pudu_robotics_pudu_d7",
+        "pudu_robotics_flashbot_arm"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "AI-powered Commercial & Industrial Cleaning and Delivery Robots | PUDU Robotics",
+      "sha256": "4999a32ee1b510a54a41bcbce175b6e5405226e69612f99c321978706b7e9fb9"
+    },
+    {
+      "url": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-sn/",
+      "final_url": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one-sn/",
+      "ids": [
+        "agile_robots_agile_one_sn"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Agile ONE SN – The humanoid reference platform | Agile Robots SE",
+      "sha256": "cb6fda0367217067a8c14cded670fb4994f0d08fd2c6d13d0cc67b8678b0022d"
+    },
+    {
+      "url": "https://www.lg.com/at/ueber-lg/presse-medien/lg-cloid/",
+      "final_url": "https://www.lg.com/at/ueber-lg/presse-medien/lg-cloid/",
+      "ids": [
+        "lg_electronics_cloid"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "LG Electronics präsentiert auf der CES 2026 Heimroboter LG CLOiD und „Zero Labor Home“ | LG Österreich",
+      "sha256": "e5b9c2a42fab757dd0dac35df2af3c9f46dac79b78db90db028d351f1b49296c"
+    },
+    {
+      "url": "https://www.keenon.com/en/news/k",
+      "final_url": "https://www.keenon.com/en/news/k",
+      "ids": [
+        "keenon_robotics_xman_r1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "KEENON Robotics Marks a New Milestone with the Unveiling of the Humanoid Robot XMAN-R1 and the Latest KLEENBOT Additions",
+      "sha256": "020b03d82e2d72a6157011c2754b7916980fab7c82967db0337cbc464704f3bf"
+    },
+    {
+      "url": "https://www.unitree.com/mobile/H2-X/",
+      "final_url": "https://www.unitree.com/mobile/H2-X/",
+      "ids": [
+        "unitree_h2_x"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "H2-X Next-Generation Full-SizeHumanoid Robot | Unitree Robotics",
+      "sha256": "6360611edf761ee3eba7def8565afe1500d19f145bcd84d1672ad68cde3089b3"
+    },
+    {
+      "url": "https://en.noetixrobotics.com/products-277.html",
+      "ids": [
+        "noetix_robotics_n2"
+      ],
+      "error": "503 Server Error: Service Unavailable for url: https://en.noetixrobotics.com/products-277.html"
+    },
+    {
+      "url": "https://richtechrobotics.com/solutions/dex",
+      "final_url": "https://richtechrobotics.com/solutions/dex",
+      "ids": [
+        "richtech_robotics_dex"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Dex: Next-Gen Industrial Humanoid Robot | Richtech Robotics - Richtech Robotics",
+      "sha256": "77710fd8dbc25ac5e5b03e373d4f7b2c2b2cbacc61ad88d126a4171a9e2aae28"
+    },
+    {
+      "url": "https://agibot.com/products/X1",
+      "final_url": "https://agibot.com/products/X1",
+      "ids": [
+        "agibot_x1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "AGIBOT X1-AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "sha256": "d81220537b876f9dba6992d672e3ae496c4261db248a9f1b12da3625c81059be"
+    },
+    {
+      "url": "https://toddlerbot.github.io/",
+      "final_url": "https://toddlerbot.github.io/",
+      "ids": [
+        "stanford_university_toddlerbot"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "ToddlerBot: Open-Source ML-Compatible Humanoid Platform for Loco-Manipulation",
+      "sha256": "9fd0f12e35b80b7ddbb1754de9b0da4a9531555530e3be07c606536146bf97d0"
+    },
+    {
+      "url": "https://www.zerith.com/human",
+      "ids": [
+        "zerith_h_familie",
+        "zerith_z1_familie"
+      ],
+      "error": "404 Client Error: Not Found for url: https://www.zerith.com/human"
+    },
+    {
+      "url": "https://kawasakirobotics.com/blog/evolution-of-kawasakis-humanoid-robot-challenge/",
+      "final_url": "https://kawasakirobotics.com/blog/evolution-of-kawasakis-humanoid-robot-challenge/",
+      "ids": [
+        "kawasaki_robotics_kaleido"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "Where Kawasaki Robots Are Made And Why It Matters",
+      "sha256": "ac822633e5805fd2e16bdc7451ff5261310f23f215e8a20536ad56ee23e24c2f"
+    },
+    {
+      "url": "https://docs.ai2robotics.com/en/alphabot2/hardware/architecture/",
+      "final_url": "https://docs.ai2robotics.com/en/alphabot2/hardware/architecture/",
+      "ids": [
+        "ai2_robotics_alphabot_2"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Hardware Introduction | AI² Robotics",
+      "sha256": "ad666e7fb6b8234e26f6b29e0b40f5eee9e8849a5143c3338dc2b62565a5985e"
+    },
+    {
+      "url": "https://bostondynamics.com/blog/electric-new-era-for-atlas",
+      "final_url": "https://bostondynamics.com/blog/electric-new-era-for-atlas",
+      "ids": [
+        "boston_dynamics_atlas_hydraulisch"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "An Electric New Era for Atlas | Boston Dynamics",
+      "sha256": "9eff328417a58ef6e5c4e7a861d959b0d77728155a210befffbcb6bfb2b56f0d"
+    },
+    {
+      "url": "https://www.dobot-robots.com/products/humanoid-robots/atom.html?lang=cn",
+      "final_url": "https://www.dobot-robots.com/products/humanoid-robots/atom.html?lang=cn",
+      "ids": [
+        "dobot_atom_max"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "DOBOT Atom | Full-size Humanoid Robot",
+      "sha256": "e558ac4dcd43ede57a4f367cd69e8556fe93dd91227551bf338fffb728918952"
+    },
+    {
+      "url": "https://www.unitree.com/mobile/H2plus/",
+      "final_url": "https://www.unitree.com/mobile/H2plus/",
+      "ids": [
+        "unitree_h2_plus"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Unitree H2 PLUS Integrated R&D and Manufacturing, Embarking on Full-Stack Development | Unitree Robotics",
+      "sha256": "853456440fe525fe28ca8bcd9599dd901c70d0337ffdfca3f9694d2c6eeec4c7"
+    },
+    {
+      "url": "https://h2t.iar.kit.edu/397.php",
+      "final_url": "https://h2t.iar.kit.edu/397.php",
+      "ids": [
+        "kit_armar_7",
+        "kit_armar_6"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "H²T Research - Robots - ARMAR Family",
+      "sha256": "bbc932272c79ea5a5845caae56647c74466c43bbee5971cb4cc0cd33c8ce0f05"
+    },
+    {
+      "url": "https://lumosrobot.github.io/lumosrobotics.github.io/contents/models.html",
+      "final_url": "https://lumosrobot.github.io/lumosrobotics.github.io/contents/models.html",
+      "ids": [
+        "lumos_robotics_nix1",
+        "lumos_robotics_lus2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Robot Models | Lumos RL Workspace",
+      "sha256": "202c58c4d5f3d8100578bd725b58e45721fc5e1bb669e861012915db4879f85b"
+    },
+    {
+      "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+      "final_url": "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+      "ids": [
+        "ubtech_walker_s",
+        "ubtech_walker_s1"
+      ],
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "title": "UBTECH Walker S1 Humanoid Robot | For Multi-task Industrial Scenarios",
+      "sha256": "22c9f0ff631c3664afa8dee0c734e491121e5919fc9a38f068f5edaa3a6701e0"
+    },
+    {
+      "url": "https://galaxea-ai.com/cn/products/R1",
+      "final_url": "https://galaxea-ai.com/zh/product2.html",
+      "ids": [
+        "galaxea_dynamics_r1_lite",
+        "galaxea_dynamics_r1"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "星海图｜产品家族 — 机器人、机械臂与具身模型",
+      "sha256": "0c0d125057c684ef0a558ec42c8f0d7d609f3aef1b1bf09327a2daefef25546d"
+    },
+    {
+      "url": "https://www.magiclab.top/en/",
+      "final_url": "https://www.magiclab.top/en/",
+      "ids": [
+        "magiclab_magicbot_z1",
+        "magiclab_magicbot_x1"
+      ],
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "title": "MagicLab",
+      "sha256": "82c4bea8c480be8b3f8bc795eb33a1a984df7ac2d7c16adf2807e0e5b8fb3118"
+    },
+    {
+      "url": "https://www.spirit-ai.com/en/product",
+      "final_url": "https://www.spirit-ai.com/en/product",
+      "ids": [
+        "spirit_ai_moz1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "Product - Spirit AI | General-purpose Humanoid Robots & AI Solutions",
+      "sha256": "fe4f14b0d3cc72ce7c59514f5d968cd27200d3181bfae2b1a23584a7e55698b9"
+    },
+    {
+      "url": "https://www.engineai.com.cn/product-se01",
+      "final_url": "https://www.engineai.com.cn/product-se01",
+      "ids": [
+        "engineai_se01"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "SE01_全球首例拟人步态全尺寸通用人形机器人-ENGINEAI众擎",
+      "sha256": "05c1e66eb0927295d913e7babd0393a9a338c22346331c6d9d2b453e23661f88"
+    },
+    {
+      "url": "https://www.aeolusbot.com/meet-aeo",
+      "final_url": "https://www.aeolusbot.com/meet-aeo",
+      "ids": [
+        "aeolus_robotics_aeo"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Aeolus",
+      "sha256": "66ff0ef2d831cd795eafcd2fd3f5bcc77435f5996c192a87ac90ccedaa99131d"
+    },
+    {
+      "url": "https://www.dobot-robots.com/products/humanoid-robots/atom.html",
+      "final_url": "https://www.dobot-robots.com/products/humanoid-robots/atom.html",
+      "ids": [
+        "dobot_atom_d"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "DOBOT Atom | Full-size Humanoid Robot",
+      "sha256": "dda41a6cbc0e702c0c6fd32911246131c3ba25515a478a2d5f85ba2048a2a011"
+    },
+    {
+      "url": "https://www.rainbowrobotics.com/drc_hubo",
+      "ids": [
+        "rainbow_robotics_drc_hubo"
+      ],
+      "error": "503 Server Error: Service Unavailable for url: https://www.rainbowrobotics.com/drc_hubo"
+    },
+    {
+      "url": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one/",
+      "final_url": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one/",
+      "ids": [
+        "agile_robots_agile_one"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Agile ONE – Physical AI for the production floor | Agile Robots SE",
+      "sha256": "fbbc3014ae7244840756a901a1047ba15722924a2a2c51c25bfa2a4183435d35"
+    },
+    {
+      "url": "https://www.agibot.com/products/X2",
+      "final_url": "https://www.agibot.com/products/X2",
+      "ids": [
+        "agibot_x2_ultra",
+        "agibot_x2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "AGIBOT Innovation (Shanghai) Technology Co., Ltd. -AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "sha256": "5d768ffd946edc668f239ca994e17ce36670a0913f876b3e326ed78668d93e5d"
+    },
+    {
+      "url": "https://pollen-robotics.com/reachy-2/",
+      "final_url": "https://pollen-robotics.com/reachy-2/",
+      "ids": [
+        "pollen_robotics_reachy_2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Reachy 2: open-source humanoid robot for embodied AI",
+      "sha256": "5f6232ad36e81bb0038d2031eb6d983f06836edba974ffed44d7dfcc4860dd98"
+    },
+    {
+      "url": "https://www.agibot.com.cn/products/A1",
+      "final_url": "https://www.agibot.com.cn/products/A1",
+      "ids": [
+        "agibot_a1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "智元远征A1通用人形机器人-智元远征A1通用人形机器人",
+      "sha256": "9ce89b892aeb685a586829aade440bce28c5914803ff051bd0abc6976284df2f"
+    },
+    {
+      "url": "https://www.robotera.com/upload/goods/20241208/f56791f6bd7fdd069e2c8552f4d3aeed.pdf",
+      "final_url": "https://www.robotera.com/upload/goods/20241208/f56791f6bd7fdd069e2c8552f4d3aeed.pdf",
+      "ids": [
+        "robotera_star1"
+      ],
+      "status": 200,
+      "type": "application/pdf",
+      "sha256": "f6a4fc7cfcedb77ca81862bcc9fbbbfc7ef44729f9a41ab24336384d9b8ab687"
+    },
+    {
+      "url": "https://pndbotics.com/humanoid",
+      "final_url": "https://pndbotics.com/humanoid",
+      "ids": [
+        "pndbotics_adam"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "PNDbotics Website",
+      "sha256": "e9a5589434d58df72eb1fee1eeaa5479dec0bf60704fb809cd4f643c0ec0a96b"
+    },
+    {
+      "url": "https://www.x-humanoid.com/m/news-view-269.html",
+      "final_url": "https://www.x-humanoid.com/m/news-view-269.html",
+      "ids": [
+        "x_humanoid_tiangong_3"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "颜值与实力兼备，天工 3.0 登顶赛场领跑人形通用机器人技术革新",
+      "sha256": "c5ce41dee96b66db4117744657cec2a554ec14abae5df6edff7eb8e44ec8e299"
+    },
+    {
+      "url": "https://www.1x.tech/neo",
+      "final_url": "https://www.1x.tech/neo",
+      "ids": [
+        "r_1x_neo"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "NEO Home Robot",
+      "sha256": "721f1a7a63b54c93edd857bb89638f745d1c0a9cac98c0deca4c5e3164e7c551"
+    },
+    {
+      "url": "https://www.astribot.com/en/product/",
+      "final_url": "https://www.astribot.com/en/product/",
+      "ids": [
+        "astribot_s1"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Astribot Products | Astribot",
+      "sha256": "b9d4926698733db7f44b3bcf312bbe611cb5c3b35895cb758f372ccf281892c8"
+    },
+    {
+      "url": "https://rainbow-robotics.com/en/products/rb-y1/",
+      "final_url": "https://rainbow-robotics.com/en/products/rb-y1/",
+      "ids": [
+        "rainbow_robotics_rb_y1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "RB-Y1 | Rainbow Robotics",
+      "sha256": "b948f53b2430c2f0fceb4245240f6a6b94d84e342c2009f5f056f4d2c5880a99"
+    },
+    {
+      "url": "https://aidoltech.ru/en",
+      "final_url": "https://aidoltech.ru/en",
+      "ids": [
+        "aidol_aidol_desktop",
+        "aidol_aidol_walking_robot"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "Robot AIDOL",
+      "sha256": "2cd9c3e0b12436733540204a54c20f54ce5542ebc9df5a2aa1d37f33e73195f7"
+    },
+    {
+      "url": "https://www.limxdynamics.com/en/products/oli",
+      "ids": [
+        "limx_dynamics_oli_edu"
+      ],
+      "error": "403 Client Error: Forbidden for url: https://www.limxdynamics.com/en/products/oli"
+    },
+    {
+      "url": "https://www.agibot.com/products/A3",
+      "final_url": "https://www.agibot.com/products/A3",
+      "ids": [
+        "agibot_a3"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "AGIBOT Innovation (Shanghai) Technology Co., Ltd. -AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "sha256": "8052d5d7544fdea59a42134ed402f1a51e3757a06967c872b4c205aad89380a1"
+    },
+    {
+      "url": "https://global.honda/en/ASIMO/about/",
+      "final_url": "https://global.honda/en/ASIMO/about/",
+      "ids": [
+        "honda_asimo_2011"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "About ASIMO｜Honda Global Corporate Website",
+      "sha256": "90a6c5d467c81a643a0d52e0b4f4a1d8936c29242e922b4cded6c435c67bb8bf"
+    },
+    {
+      "url": "https://en.engineai.com.cn/product-t800.html",
+      "final_url": "https://en.engineai.com.cn/product-t800.html",
+      "ids": [
+        "engineai_t800"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "T800_ENGINEAI众擎",
+      "sha256": "d6e7ec448a7369f102761627bec51397c14f2686b06f382394e03be11dd1c783"
+    },
+    {
+      "url": "https://eng.arobot4all.com/ALICE3",
+      "final_url": "https://eng.arobot4all.com/ALICE3",
+      "ids": [
+        "aeirobot_alice_3"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "AeiROBOT",
+      "sha256": "157a517acc3f9c4a1178f75f753921146e38489592188467c3b6586fa7ffef02"
+    },
+    {
+      "url": "https://www.menteebot.com/bot/",
+      "final_url": "https://www.menteebot.com/bot/",
+      "ids": [
+        "mentee_robotics_menteebot_v3"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "MenteeBot - Personalized AI-based Robot You Can Mentor",
+      "sha256": "13336deb7e5c6d22d83b78dd0403adba5bacd1704924034c539f6ad50326b080"
+    },
+    {
+      "url": "https://www.sharpa.com/pages/north",
+      "final_url": "https://www.sharpa.com/pages/north",
+      "ids": [
+        "sharpa_north"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Sharpa North, a 67 DoF humanoid robot for productive work",
+      "sha256": "6ac218c46f78729611750db0ccb65ca8d100bf7a34a8f377dd52a471a2534a29"
+    },
+    {
+      "url": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/GR1/GR-1_Introduction/",
+      "final_url": "https://support-old.fftai.com/en/docs/GR-X-Humanoid-Robot/GR1/GR-1_Introduction/",
+      "ids": [
+        "fourier_gr_1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "About GR-1 | Fourier 文档中心",
+      "sha256": "ce82ff7c585c53f40da0a788be2466b093eec57bf5aa4bf584904de0279a5b6c"
+    },
+    {
+      "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+      "final_url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+      "ids": [
+        "ubtech_walker_s2"
+      ],
+      "status": 200,
+      "type": "text/html;charset=utf-8",
+      "title": "UBTECH Walker S2 Humanoid Robot | Autonomous Battery Swapping for Mass Production Delivery",
+      "sha256": "aee635e54335ad39163d9d9363bb45088fe00ed0f387e4890821b26fd63afc4f"
+    },
+    {
+      "url": "https://apptronik.com/apollo/apollo-2",
+      "final_url": "https://apptronik.com/apollo/apollo-2",
+      "ids": [
+        "apptronik_apollo_2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Apptronik - Apollo 2",
+      "sha256": "ee759c27fd1e4ece427ad626ecff97a1b724c2e7817476d1021a1ff75ece0a0c"
+    },
+    {
+      "url": "https://www.deeprobotics.cn/robot/index/dr02.html",
+      "final_url": "https://www.deeprobotics.cn/welcome.html",
+      "ids": [
+        "deep_robotics_dr01",
+        "deep_robotics_dr02_pro"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "云深处科技股份有限公司",
+      "sha256": "8a18f9a3d346115e0cc007659eb6e4544f0030a5bfdd674ed2083b3be4472493"
+    },
+    {
+      "url": "https://persona.ai/",
+      "final_url": "https://persona.ai/",
+      "ids": [
+        "persona_ai_industriehumanoider_ohne_hier_bestatigten_modellnamen"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "Industrial Humanoid Robots For Heavy Industry | Persona AI",
+      "sha256": "d62b7712fe3c3ded7e5e380368723a112b596aebcfc45a8011f7540975660081"
+    },
+    {
+      "url": "https://www.figure.ai/figure",
+      "final_url": "https://www.figure.ai/figure",
+      "ids": [
+        "figure_figure_03"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Figure 03 | Figure",
+      "sha256": "9830ecaa294b14306e85e3e91a04f3934ed5ccb9c98577552029f5a84233a668"
+    },
+    {
+      "url": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "final_url": "https://support.fftai.com/en/gr3/getting-started/general-information",
+      "ids": [
+        "fourier_gr_3"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Robot Overview | Fourier",
+      "sha256": "279c3bd6da2a1c36f8eb9a62f681ff9fa365c4bccb4469ea8f0812027f15ccc4"
+    },
+    {
+      "url": "https://www.hansonrobotics.com/sophia-utility",
+      "final_url": "https://www.hansonrobotics.com/sophia-utility",
+      "ids": [
+        "hanson_robotics_und_awakening_health_grace"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Hanson Robotics — Relatable Robots",
+      "sha256": "aa6df68abace86a14c218bc29f3f7e3a30a1127b84508c0408c3d1d1dccce3a2"
+    },
+    {
+      "url": "https://docs.galaxea-dynamics.com/R1Pro/en/docs/2026/",
+      "final_url": "https://docs.galaxea-dynamics.com/R1Pro/en/docs/2026/",
+      "ids": [
+        "galaxea_dynamics_r1_pro_2026"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "About R1 Pro 2026 | Galaxea Dynamics Documentation Center",
+      "sha256": "bbc09e90320db384e0b062c1cd755ae39bd82d495e28dd4ad16cb0b90c199851"
+    },
+    {
+      "url": "https://support-old.fftai.com/docs/GR-X-Humanoid-Robot/GR2/GR-2_Introduction/",
+      "final_url": "https://support-old.fftai.com/docs/GR-X-Humanoid-Robot/GR2/GR-2_Introduction/",
+      "ids": [
+        "fourier_gr_2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "关于GR-2 | Fourier 文档中心",
+      "sha256": "151390591a348b3a200b3c2a9810bd04210398ba82769e255f072091c3d44599"
+    },
+    {
+      "url": "https://docs.robotis.com/docs/systems/aiworker/introduction/",
+      "final_url": "https://docs.robotis.com/docs/systems/aiworker/introduction/",
+      "ids": [
+        "robotis_ai_worker_sg2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "About AI Worker | ROBOTIS Docs",
+      "sha256": "18964f74e49b05142a24e7ae58eb1ddb8d132e535932b00b51e1809de02309d7"
+    },
+    {
+      "url": "https://thehumanoid.ai/hmnd-01-alpha-wheeled/",
+      "final_url": "https://thehumanoid.ai/hmnd-01-alpha-wheeled/",
+      "ids": [
+        "humanoid_hmnd_01_alpha_wheeled"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "HMND 01 ALPHA WHEELED - Humanoid",
+      "sha256": "184919afed39981e677dd2f4768138ea0e39e48f00cbc46f6d295f84b36a3556"
+    },
+    {
+      "url": "https://www.iono.tech/",
+      "final_url": "https://www.iono.tech/",
+      "ids": [
+        "iono_workmate"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "iono Robotics | Trusted Humanoid Robots From Austria",
+      "sha256": "1e6f46d3cc621eb7fe82e95973dc4ff57451c255392570359c7d75719e38f8f3"
+    },
+    {
+      "url": "https://www.tesla.com/SI",
+      "final_url": "https://www.tesla.com/SI",
+      "ids": [
+        "tesla_optimus"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "SI & Robotics | Tesla",
+      "sha256": "56c27dbb361639bc1bfead53f267f6a95cefc42c9b94abf30133402b99d4218b"
+    },
+    {
+      "url": "https://www.realman-robotics.com/en/products/realbot-humanoid.html",
+      "final_url": "https://www.realman-robotics.com/en/products/realbot-humanoid.html",
+      "ids": [
+        "realman_realbot_01"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "RealMan | RealBot-01",
+      "sha256": "9a398e9f62fa21e8c6c2ade2b93d614c59a2d294d9f7db07deb6330e03c9e88c"
+    },
+    {
+      "url": "https://www.agibot.com/products/A2_Ultra",
+      "final_url": "https://www.agibot.com/products/A2_Ultra",
+      "ids": [
+        "agibot_a2_lite",
+        "agibot_a2_ultra"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "AGIBOT Innovation (Shanghai) Technology Co., Ltd. -AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "sha256": "411a35696b38b390508c62f9205e816a74d4f380f1d065ee742775a209b66d29"
+    },
+    {
+      "url": "https://www.aist.go.jp/aist_e/list/latest_research/2018/20181116/en20181116.html",
+      "final_url": "https://www.aist.go.jp/aist_e/list/latest_research/2018/20181116/en20181116.html",
+      "ids": [
+        "aist_und_kawada_hrp_5p"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Development of a Humanoid Robot Prototype, HRP-5P, Capable of Heavy Labor",
+      "sha256": "0fded4b88afa9f519d65cdea23e6f812a48fce441bb03c7fce510e7829159c5c"
+    },
+    {
+      "url": "https://www.unitree.com/R1/",
+      "final_url": "https://www.unitree.com/R1/",
+      "ids": [
+        "unitree_r1_familie"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "Unitree R1 | Unitree Robotics",
+      "sha256": "dc7d495b5eb1be1a60b46751f15291877dcc0fa48731556a0f00df9d2a192262"
+    },
+    {
+      "url": "https://www.robbyant.com/",
+      "final_url": "https://www.robbyant.com/",
+      "ids": [
+        "robbyant_und_ant_lingbo_robbyant_r2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Robbyant - Building One Brain for All Robots",
+      "sha256": "fb39a53383fe82bd2951f8b0c03a843e6b0ea26d7a3872cde80b765c5a847ca0"
+    },
+    {
+      "url": "https://www.booster.tech/booster-k1?target=en",
+      "final_url": "https://www.booster.tech/booster-k1?target=en",
+      "ids": [
+        "booster_robotics_k1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Booster K1 | Introductory Embodied Development Platform",
+      "sha256": "8963ae7915e68378661da88c12e1e746b5f46f67ac5436c9362d15f8213691ff"
+    },
+    {
+      "url": "https://faunarobotics.com/product",
+      "final_url": "https://faunarobotics.com/product",
+      "ids": [
+        "fauna_robotics_sprout_creator_edition"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Sprout Creator Edition | Humanoid Developer Platform | Fauna",
+      "sha256": "ccd16c1380e7ba298582a59472508906c9af40734ebb2532343ed45b30cb5368"
+    },
+    {
+      "url": "https://engineeredarts.com/uk/about",
+      "final_url": "https://engineeredarts.com/uk/about",
+      "ids": [
+        "engineered_arts_robothespian"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Engineered Arts: Embodied AI Social Humanoid Robots",
+      "sha256": "703ee97de280fc49c3a4c95b9fb542c4a6d3ce01288da14226e58b4fa143905f"
+    },
+    {
+      "url": "https://robotics.hexagon.com/product/",
+      "final_url": "https://robotics.hexagon.com/product/",
+      "ids": [
+        "hexagon_robotics_aeon"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "AEON Multipurpose Industrial Humanoid Robot",
+      "sha256": "1368a377e7c9e4a4bf0382dd58fbff9c80ca1f5f1bff0bb47a2b14adb4596530"
+    },
+    {
+      "url": "https://www.noetixrobotics.com/en/mobile/detail/Bumi",
+      "final_url": "https://www.noetixrobotics.com/en/mobile/detail/Bumi",
+      "ids": [
+        "noetix_robotics_bumi"
+      ],
+      "status": 200,
+      "type": "text/html",
+      "title": "北京松延动力科技集团股份有限公司官网",
+      "sha256": "fe1ecc3830d6ce3293eebf5b4c6c7d50b492c67a341ab80f794adde6803b3382"
+    },
+    {
+      "url": "https://www.noblemachines.ai/",
+      "final_url": "https://www.noblemachines.ai/",
+      "ids": [
+        "noble_machines_industrieplattform_ohne_hier_bestatigten_modellnamen"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Home Page - Noblemachines",
+      "sha256": "ebb43d806cebb5e0817935ffd95e5c55e35d30e7b279b137848719791e0dbc16"
+    },
+    {
+      "url": "https://www.ntu.edu.sg/research/research-hub/news/detail/virtual-tool-real-impact-prof-nadia-magnenat-thalmann",
+      "final_url": "https://www.ntu.edu.sg/research/research-hub/news/detail/virtual-tool-real-impact-prof-nadia-magnenat-thalmann",
+      "ids": [
+        "ntu_singapore_und_partner_nadine"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Virtual tool, real impact: Prof Nadia Magnenat Thalmann | Research | NTU Singapore",
+      "sha256": "a847d6c77301c696ac2366b465aab99dbc21c7a9c418249a6a31dd0021899649"
+    },
+    {
+      "url": "https://ai.robotis.com/ai_sapiens/introduction_ai_sapiens.html",
+      "final_url": "https://ai.robotis.com/ai_sapiens/introduction_ai_sapiens.html",
+      "ids": [
+        "robotis_ai_sapiens_k0"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "K0 - AI Sapiens | ROBOTIS",
+      "sha256": "22c84593c7a423ee38e4d0d0b49da24a9a4b1bbdf132998f9667d4af125f6740"
+    },
+    {
+      "url": "https://thehumanoid.ai/hmnd-01-alpha-bipedal/",
+      "final_url": "https://thehumanoid.ai/hmnd-01-alpha-bipedal/",
+      "ids": [
+        "humanoid_hmnd_01_alpha_bipedal"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "HMND 01 ALPHA BIPEDAL - Humanoid",
+      "sha256": "ea9ab3edf6abf8e21e7043ee34f9214a7289691047ef12ef72df0213351554c8"
+    },
+    {
+      "url": "https://www.limxdynamics.com/en/about",
+      "ids": [
+        "limx_dynamics_cl_1"
+      ],
+      "error": "403 Client Error: Forbidden for url: https://www.limxdynamics.com/en/about"
+    },
+    {
+      "url": "https://lite.berkeley-humanoid.org/",
+      "final_url": "https://lite.berkeley-humanoid.org/",
+      "ids": [
+        "uc_berkeley_berkeley_humanoid_lite"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Berkeley Humanoid Lite: An Open-source, Accessible, and Customizable 3D-printed Humanoid Robot",
+      "sha256": "9b97089d3b29302a4dbcdca66bea52138460ecc0fc00d94bfa62dbe51cab712e"
+    },
+    {
+      "url": "https://www.softbankrobotics.com/jp/news/info/20210629b/",
+      "final_url": "https://www.softbankrobotics.com/jp/news/info/20210629b/",
+      "ids": [
+        "softbank_robotics_nao"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "「Pepper」に関する報道について | ソフトバンクロボティクス",
+      "sha256": "d95c76c83f46996553b62d44fb737c21676527f14ec520927b3e6a0d6379e53a"
+    },
+    {
+      "url": "https://www.agibot.com/products/G1",
+      "final_url": "https://www.agibot.com/products/G1",
+      "ids": [
+        "agibot_g1"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "AGIBOT Innovation (Shanghai) Technology Co., Ltd. -AGIBOT Innovation (Shanghai) Technology Co., Ltd.",
+      "sha256": "29de546030b283c61587d9b7ff5765a366f68563da9df59e81070bf0edc477a9"
+    },
+    {
+      "url": "https://www.softbank.jp/en/robot/",
+      "final_url": "https://www.softbank.jp/en/robot/",
+      "ids": [
+        "pepper_classic"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Robot | SoftBank",
+      "sha256": "c7fb48980a761057de04b854f7ea022ce62461568f0ffc0ede0effacd8af17b0"
+    },
+    {
+      "url": "https://www.agilityrobotics.com/solutions",
+      "final_url": "https://www.agilityrobotics.com/solutions",
+      "ids": [
+        "agility_robotics_digit_generation_4"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Humanoid Solutions | Agility",
+      "sha256": "0d4e2fff0668f781526f7ff4b0615d50c6482c5695755c60c7b00e57f9388747"
+    },
+    {
+      "url": "https://www.booster.tech/booster-t2?target=en",
+      "final_url": "https://www.booster.tech/booster-t2?target=en",
+      "ids": [
+        "booster_robotics_t2"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "Booster T2 | Flagship Embodied Development Platform",
+      "sha256": "cee124a90561f1d4f11eefe91bff5dfd36790d77d9e55e85f6656c5060741325"
+    },
+    {
+      "url": "https://enchanted.tools/robot/",
+      "final_url": "https://enchanted.tools/robot/",
+      "ids": [
+        "enchanted_tools_mirokai"
+      ],
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "title": "The Mirokaï robot, by Enchanted Tools",
+      "sha256": "33712b8c26115f254e9f856035dea4751c4df0e77174d9651a97dba8746c4a7f"
+    },
+    {
+      "url": "https://www.xpeng.com/technology/ai_robot_iron",
+      "final_url": "https://www.xpeng.com/technology/ai_robot_iron",
+      "ids": [
+        "xpeng_iron"
+      ],
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "title": "XPENG - Official Website | XPENG Motors – XPENG",
+      "sha256": "61b1c49d9fb58e9e92eb2568855a8c66cad5a5dd2d352d2be903d825e9d94018"
+    }
+  ]
+}
